@@ -1,7 +1,7 @@
 export const SITE = {
   name: "Jesus Festival Movement",
   shortName: "Jesus Festival",
-  url: "https://jesusfestivalmovement.com",
+  url: "https://jesus-festival-movement.vercel.app",
   email: "Hello@JesusFestival.ca",
   tagline:
     "From Hamilton, Ontario to the nations — raising up evangelistic festivals that become lasting Gospel movements.",
