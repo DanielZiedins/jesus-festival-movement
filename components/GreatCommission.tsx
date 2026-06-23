@@ -1,104 +1,67 @@
 "use client";
 
-import {
-  motion,
-  useInView,
-  useMotionValue,
-  useTransform,
-  animate,
-  useReducedMotion,
-} from "framer-motion";
-import { useEffect, useRef } from "react";
+import { motion, useReducedMotion } from "framer-motion";
+import Image from "next/image";
 import Reveal from "./ui/Reveal";
 import Eyebrow from "./ui/Eyebrow";
-import { STATS } from "@/lib/content";
+import Icon from "./ui/Icon";
 
-function StatNumber({ value }: { value: string }) {
-  // value like "8.3B" -> animate the numeric part
-  const num = parseFloat(value);
-  const suffix = value.replace(/[0-9.]/g, "");
-  const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-60px" });
-  const reduce = useReducedMotion();
-  const count = useMotionValue(0);
-  const rounded = useTransform(count, (v) => v.toFixed(1) + suffix);
-
-  useEffect(() => {
-    if (inView) {
-      if (reduce) {
-        count.set(num);
-      } else {
-        const controls = animate(count, num, { duration: 1.6, ease: "easeOut" });
-        return controls.stop;
-      }
-    }
-  }, [inView, num, count, reduce]);
-
-  return <motion.span ref={ref}>{rounded}</motion.span>;
-}
+const words = "Go and make disciples of all nations".split(" ");
 
 export default function GreatCommission() {
+  const reduceMotion = useReducedMotion();
+
   return (
-    <section
-      id="commission"
-      className="section-pad relative overflow-hidden"
-    >
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_120%,rgba(255,107,53,0.12),transparent_55%)]" />
-      <div className="container-x relative">
-        <div className="mx-auto max-w-4xl text-center">
-          <Reveal>
-            <Eyebrow>The Great Commission</Eyebrow>
-          </Reveal>
-          <Reveal delay={0.05}>
-            <h2 className="mx-auto mt-6 text-balance font-display text-4xl font-bold leading-[1.1] sm:text-6xl">
-              The Great Commission Is Still Before Us — And We Believe It Can Be{" "}
-              <span className="text-gradient-gold">
-                Fulfilled In Our Generation.
-              </span>
-            </h2>
-          </Reveal>
-        </div>
+    <section id="commission" className="commission-section section-pad relative isolate overflow-hidden">
+      <Image
+        src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?auto=format&fit=crop&w=2200&q=84"
+        alt=""
+        fill
+        sizes="100vw"
+        className="object-cover object-center opacity-30"
+      />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_42%,rgba(233,95,50,.16),transparent_32%),linear-gradient(180deg,#050812_0%,rgba(5,8,18,.64)_45%,#050812_100%)]" />
+      <div className="commission-halo absolute left-1/2 top-1/2 h-[72vw] max-h-[65rem] w-[72vw] max-w-[65rem] -translate-x-1/2 -translate-y-1/2 rounded-full border border-gold/10" />
+      <div className="grain" />
 
-        <div className="mt-16 grid gap-5 md:grid-cols-3">
-          {STATS.map((s, i) => (
-            <Reveal key={s.label} delay={i * 0.1}>
-              <div className="relative h-full overflow-hidden rounded-3xl glass-strong p-8 text-center">
-                <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-ember-500/10 blur-2xl" />
-                <p className="font-display text-6xl font-bold text-gradient-gold sm:text-7xl">
-                  <StatNumber value={s.value} />
-                </p>
-                <p className="mt-4 font-display text-lg font-bold uppercase tracking-wide text-white">
-                  {s.label}
-                </p>
-                <p className="mt-2 text-sm text-white/60">{s.detail}</p>
-              </div>
-            </Reveal>
+      <div className="container-x relative text-center">
+        <Reveal>
+          <Eyebrow>The Great Commission</Eyebrow>
+        </Reveal>
+
+        <h2 className="mx-auto mt-9 max-w-6xl text-balance font-display text-[clamp(3.1rem,8vw,7.8rem)] font-bold uppercase leading-[.82] tracking-[-.065em]">
+          {words.map((word, index) => (
+            <motion.span
+              key={`${word}-${index}`}
+              className={word === "nations" ? "mr-[.2em] inline-block text-gradient-gold" : "mr-[.2em] inline-block text-white"}
+              initial={reduceMotion ? false : { opacity: 0.18, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-12%" }}
+              transition={{ duration: 0.65, delay: index * 0.08 }}
+            >
+              {word}
+            </motion.span>
           ))}
-        </div>
+        </h2>
 
-        <Reveal delay={0.2}>
-          <div className="mx-auto mt-12 max-w-3xl text-center">
-            <p className="text-lg leading-relaxed text-white/75">
-              2.3 billion people still have no access to the Gospel. That is not
-              a number to fear — it is a frontier to cross. We believe Jesus
-              Festival events and this global movement can play a major role in{" "}
-              <span className="font-semibold text-gold">
-                awakening believers, reaching cities, and mobilizing people into
-                action.
-              </span>
-            </p>
-            <p className="mt-5 text-sm text-white/40">
-              Stats sourced from{" "}
-              <a
-                href="https://LoveOnTheWorldMap.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-gold-400 underline-offset-4 hover:underline"
-              >
-                LoveOnTheWorldMap.com
-              </a>
-            </p>
-          </div>
+        <Reveal delay={0.12}>
+          <p className="mt-6 text-xs font-bold uppercase tracking-[.32em] text-gold-400">Matthew 28:19</p>
+          <p className="mx-auto mt-10 max-w-3xl text-balance text-lg leading-relaxed text-white/68 sm:text-xl">
+            The harvest is still before us. We believe our generation can play a part — through prayer, bold witness, united churches, and ordinary believers choosing to live on mission.
+          </p>
+          <p className="mx-auto mt-5 max-w-3xl text-balance text-lg leading-relaxed text-white/68 sm:text-xl">
+            In partnership with Love on The World, this movement exists to help believers reach cities and carry the love of Jesus to the nations.
+          </p>
+
+          <a
+            href="https://LoveOnTheWorld.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group mt-9 inline-flex items-center gap-2 border-b border-gold/40 pb-2 text-sm font-bold uppercase tracking-[.16em] text-gold"
+          >
+            Explore Love on The World
+            <Icon name="arrow" className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </a>
         </Reveal>
       </div>
     </section>

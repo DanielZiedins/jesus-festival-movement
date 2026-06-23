@@ -8,7 +8,6 @@ type Props = {
   delay?: number;
   y?: number;
   className?: string;
-  as?: "div" | "span" | "li";
 };
 
 export default function Reveal({
@@ -21,8 +20,8 @@ export default function Reveal({
   return (
     <motion.div
       className={className}
-      initial={reduce ? { opacity: 0 } : { opacity: 0, y }}
-      whileInView={reduce ? { opacity: 1 } : { opacity: 1, y: 0 }}
+      initial={reduce ? false : { opacity: 0, y }}
+      whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-80px" }}
       transition={{ duration: 0.7, delay, ease: [0.22, 1, 0.36, 1] }}
     >

@@ -8,11 +8,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#05060f",
+        ink: "#050812",
         navy: {
-          950: "#060a1f",
-          900: "#0a1030",
-          800: "#101a4a",
+          950: "#070b16",
+          900: "#0b1730",
+          800: "#16284a",
         },
         gold: {
           DEFAULT: "#f5c451",
@@ -21,10 +21,10 @@ const config: Config = {
           600: "#e0a92f",
         },
         ember: {
-          DEFAULT: "#ff6b35",
-          400: "#ff8a5b",
-          500: "#ff6b35",
-          600: "#e8451c",
+          DEFAULT: "#e95f32",
+          400: "#f28b4f",
+          500: "#e95f32",
+          600: "#c94624",
         },
       },
       fontFamily: {
@@ -33,7 +33,7 @@ const config: Config = {
       },
       boxShadow: {
         glow: "0 0 40px -4px rgba(245,196,81,0.45)",
-        "glow-ember": "0 0 50px -6px rgba(255,107,53,0.5)",
+        "glow-ember": "0 0 50px -6px rgba(233,95,50,0.45)",
       },
       keyframes: {
         "pulse-marker": {

@@ -1,82 +1,58 @@
+import { TESTIMONIES } from "@/lib/content";
 import Reveal from "./ui/Reveal";
 import Eyebrow from "./ui/Eyebrow";
-import { TESTIMONIES } from "@/lib/content";
-
-const FRUIT = [
-  { value: "∞", label: "Lives changed" },
-  { value: "Many", label: "Baptisms" },
-  { value: "Real", label: "Salvations" },
-  { value: "Lasting", label: "Outreach planted" },
-];
 
 export default function Testimonies() {
   return (
-    <section
-      id="testimonies"
-      className="section-pad relative overflow-hidden border-y border-white/5 bg-navy-950/40"
-    >
+    <section id="fruit" className="section-pad relative overflow-hidden">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_90%_15%,rgba(244,196,92,.1),transparent_30%)]" />
       <div className="container-x relative">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="grid gap-8 lg:grid-cols-[.75fr_1.25fr]">
           <Reveal>
-            <Eyebrow>Testimonies &amp; Fruit</Eyebrow>
-          </Reveal>
-          <Reveal delay={0.05}>
-            <h2 className="mt-6 font-display text-4xl font-bold leading-tight sm:text-5xl">
-              The Fruit Is{" "}
-              <span className="text-gradient-gold">Real.</span>
-            </h2>
-          </Reveal>
-          <Reveal delay={0.1}>
-            <p className="mx-auto mt-6 max-w-2xl text-lg text-white/70">
-              Stories of transformation, baptisms, salvations, and outreach that
-              keeps going. This is what it&apos;s all for.
-            </p>
-          </Reveal>
-        </div>
-
-        <div className="mt-14 grid gap-5 lg:grid-cols-3">
-          {TESTIMONIES.map((t, i) => (
-            <Reveal key={i} delay={i * 0.1}>
-              <figure className="flex h-full flex-col rounded-3xl glass p-8">
-                <span className="font-display text-5xl leading-none text-gold/40">
-                  “
-                </span>
-                <blockquote className="-mt-3 flex-1 text-lg leading-relaxed text-white/85">
-                  {t.quote}
-                </blockquote>
-                <figcaption className="mt-6 border-t border-white/10 pt-4">
-                  <p className="font-display font-bold text-white">{t.name}</p>
-                  <p className="text-sm text-gold-400">{t.place}</p>
-                </figcaption>
-              </figure>
-            </Reveal>
-          ))}
-        </div>
-
-        <Reveal delay={0.15}>
-          <div className="mt-14 grid gap-4 rounded-3xl glass-strong p-8 sm:grid-cols-2 lg:grid-cols-4">
-            {FRUIT.map((f) => (
-              <div key={f.label} className="text-center">
-                <p className="font-display text-3xl font-bold text-gradient-gold sm:text-4xl">
-                  {f.value}
-                </p>
-                <p className="mt-1 text-sm uppercase tracking-wide text-white/60">
-                  {f.label}
-                </p>
+            <div className="h-full rounded-[2rem] border border-white/10 bg-white/[.025] p-7 sm:p-10">
+              <Eyebrow>The fruit</Eyebrow>
+              <h2 className="mt-6 font-display text-5xl font-bold uppercase leading-[.9] tracking-[-.055em] text-white sm:text-6xl">
+                This is why
+                <span className="block text-gradient-gold">the yes is worth it.</span>
+              </h2>
+              <p className="mt-7 text-lg leading-relaxed text-white/60">
+                Not production for production&apos;s sake. Not another date on the calendar. We are believing for lives transformed and cities awakened to the love of Jesus.
+              </p>
+              <div className="mt-10 grid grid-cols-2 gap-3">
+                {["Lives changed", "Baptisms", "Churches united", "Outreach continuing"].map((item) => (
+                  <div key={item} className="rounded-2xl border border-white/[0.08] bg-black/20 p-4">
+                    <span className="text-gold">✦</span>
+                    <p className="mt-3 text-sm font-semibold text-white/70">{item}</p>
+                  </div>
+                ))}
               </div>
+            </div>
+          </Reveal>
+
+          <div className="grid gap-5">
+            {TESTIMONIES.map((testimony, index) => (
+              <Reveal key={testimony.quote} delay={index * 0.06}>
+                <figure className={`group relative overflow-hidden rounded-[2rem] border border-white/10 p-7 transition duration-500 hover:border-gold/25 sm:p-9 ${
+                  index === 0
+                    ? "bg-[linear-gradient(115deg,rgba(233,95,50,.16),rgba(244,196,92,.04))]"
+                    : "bg-white/[.025]"
+                }`}>
+                  <span className="absolute right-7 top-3 font-display text-7xl font-bold text-gold/[.11]">“</span>
+                  <blockquote className="relative max-w-3xl text-balance font-display text-2xl font-semibold leading-tight text-white sm:text-3xl">
+                    “{testimony.quote}”
+                  </blockquote>
+                  <figcaption className="relative mt-7 flex items-center gap-4">
+                    <span className="h-px w-10 bg-gradient-to-r from-gold to-ember" />
+                    <span>
+                      <span className="block text-sm font-bold text-white">{testimony.name}</span>
+                      <span className="mt-0.5 block text-xs uppercase tracking-[.14em] text-white/40">{testimony.place}</span>
+                    </span>
+                  </figcaption>
+                </figure>
+              </Reveal>
             ))}
           </div>
-        </Reveal>
-
-        <Reveal delay={0.2}>
-          <p className="mx-auto mt-10 max-w-2xl text-center text-base text-white/55">
-            Have a testimony, photo, or outreach report from a Jesus Festival?
-            We&apos;d love to celebrate it.{" "}
-            <a href="#contact" className="font-semibold text-gold hover:underline">
-              Share your story →
-            </a>
-          </p>
-        </Reveal>
+        </div>
       </div>
     </section>
   );

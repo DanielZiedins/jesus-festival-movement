@@ -1,73 +1,68 @@
+import { SIMPLE_STEPS } from "@/lib/content";
 import Reveal from "./ui/Reveal";
 import Eyebrow from "./ui/Eyebrow";
-import { STEPS, SITE } from "@/lib/content";
+import Icon from "./ui/Icon";
 
 export default function HowToStart() {
   return (
-    <section
-      id="how-to-start"
-      className="section-pad relative overflow-hidden border-y border-white/5 bg-navy-950/50"
-    >
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,rgba(26,17,64,0.7),transparent_60%)]" />
+    <section id="how-to-start" className="section-pad relative overflow-hidden bg-[#f1e9da] text-ink">
+      <div className="absolute -right-36 -top-36 h-96 w-96 rounded-full border border-ember/20" />
+      <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full border border-ember/20" />
       <div className="container-x relative">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="grid items-start gap-14 lg:grid-cols-[.92fr_1.08fr] lg:gap-20">
           <Reveal>
-            <Eyebrow>The Main Call To Action</Eyebrow>
-          </Reveal>
-          <Reveal delay={0.05}>
-            <h2 className="mt-6 text-balance font-display text-4xl font-bold leading-tight sm:text-5xl">
-              How To Start A Jesus Festival{" "}
-              <span className="text-gradient-gold">In Your City</span>
+            <Eyebrow dark>Bring Jesus Festival to your city</Eyebrow>
+            <h2 className="mt-6 font-display text-5xl font-bold uppercase leading-[.88] tracking-[-.06em] text-ink sm:text-6xl lg:text-7xl">
+              You do not need to have it
+              <span className="block text-ember-600">all figured out.</span>
             </h2>
-          </Reveal>
-          <Reveal delay={0.1}>
-            <p className="mx-auto mt-6 max-w-2xl text-lg text-white/70">
-              Let&apos;s be honest — it can be a lot of work. It requires prayer,
-              unity, sacrifice, leadership, volunteers, permits, planning, and
-              faith. But it is <span className="font-semibold text-gold">SO worth it</span>{" "}
-              when lives are changed and Jesus is glorified.
+            <p className="mt-7 max-w-xl text-lg leading-relaxed text-ink/68">
+              If God is stirring your heart, take the first step. We would love to help you discern, plan, prepare, build local unity, and shape a Jesus Festival expression for your city.
             </p>
-          </Reveal>
-          <Reveal delay={0.15}>
-            <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <a
-                href="#contact"
-                className="w-full rounded-full bg-gradient-to-r from-gold-500 to-ember-500 px-8 py-4 text-base font-semibold text-ink shadow-glow-ember transition-transform hover:scale-105 sm:w-auto"
-              >
-                Take The Step Of Faith
-              </a>
-              <a
-                href={`mailto:${SITE.email}?subject=Starting%20a%20Jesus%20Festival%20in%20my%20city`}
-                className="w-full rounded-full glass px-8 py-4 text-base font-semibold text-white transition-colors hover:text-gold sm:w-auto"
-              >
-                Start A Jesus Festival In Your City
-              </a>
+            <div className="mt-8 rounded-[1.6rem] border border-ink/10 bg-white/55 p-6 backdrop-blur-sm">
+              <p className="font-display text-xl font-bold text-ink">What we can help you navigate</p>
+              <div className="mt-5 grid gap-3 sm:grid-cols-2">
+                {["Vision and prayer", "Local church unity", "Event planning", "Evangelism training", "Festival launch", "Ongoing outreach"].map((item) => (
+                  <span key={item} className="flex items-center gap-2.5 text-sm font-semibold text-ink/68">
+                    <span className="flex h-5 w-5 items-center justify-center rounded-full bg-ember text-[.65rem] text-white">✓</span>
+                    {item}
+                  </span>
+                ))}
+              </div>
             </div>
           </Reveal>
+
+          <div className="grid gap-4 sm:grid-cols-2">
+            {SIMPLE_STEPS.map((step, index) => (
+              <Reveal key={step.number} delay={index * 0.06}>
+                <article className={`group relative min-h-[15rem] overflow-hidden rounded-[1.8rem] border p-7 transition duration-500 hover:-translate-y-1 sm:p-8 ${
+                  index === 2
+                    ? "border-ember bg-ember text-white shadow-[0_24px_70px_rgba(233,95,50,.25)]"
+                    : "border-ink/10 bg-white/58 text-ink"
+                }`}>
+                  <span className={`font-display text-sm font-bold ${index === 2 ? "text-white/60" : "text-ember-600"}`}>{step.number}</span>
+                  <h3 className="mt-8 font-display text-2xl font-bold">{step.title}</h3>
+                  <p className={`mt-3 leading-relaxed ${index === 2 ? "text-white/75" : "text-ink/60"}`}>{step.description}</p>
+                </article>
+              </Reveal>
+            ))}
+          </div>
         </div>
 
-        {/* Roadmap */}
-        <ol className="mx-auto mt-20 max-w-4xl">
-          {STEPS.map((s, i) => (
-            <Reveal key={s.n} delay={(i % 3) * 0.05}>
-              <li className="group relative flex gap-6 pb-10 last:pb-0">
-                {/* connector line */}
-                {i !== STEPS.length - 1 && (
-                  <span className="absolute left-[27px] top-14 h-[calc(100%-2.5rem)] w-px bg-gradient-to-b from-gold/40 to-transparent" />
-                )}
-                <div className="relative z-10 flex h-14 w-14 flex-none items-center justify-center rounded-2xl border border-gold/30 bg-navy-900 font-display text-lg font-bold text-gold shadow-glow transition-colors group-hover:bg-gold group-hover:text-ink">
-                  {s.n}
-                </div>
-                <div className="flex-1 rounded-2xl glass p-6 transition-colors group-hover:border-gold/20">
-                  <h3 className="font-display text-xl font-bold text-white">
-                    {s.title}
-                  </h3>
-                  <p className="mt-2 leading-relaxed text-white/65">{s.desc}</p>
-                </div>
-              </li>
-            </Reveal>
-          ))}
-        </ol>
+        <Reveal delay={0.1}>
+          <div className="mt-16 flex flex-col items-start justify-between gap-8 border-t border-ink/15 pt-10 lg:flex-row lg:items-center">
+            <div>
+              <p className="text-xs font-bold uppercase tracking-[.24em] text-ember-600">Your next step is simple</p>
+              <p className="mt-3 max-w-3xl font-display text-3xl font-bold leading-tight text-ink sm:text-4xl">
+                Reach out to us. We will help you take the next step.
+              </p>
+            </div>
+            <a href="#contact" className="group inline-flex shrink-0 items-center gap-3 rounded-full bg-ink px-7 py-4 font-bold text-white shadow-xl transition hover:-translate-y-1 hover:bg-ember-600">
+              Start the conversation
+              <Icon name="arrow" className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </a>
+          </div>
+        </Reveal>
       </div>
     </section>
   );
