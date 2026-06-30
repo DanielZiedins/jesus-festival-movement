@@ -73,6 +73,21 @@ export default function Contact() {
               {SITE.email}
             </a>
 
+            <div className="mt-8 rounded-[1.5rem] border border-gold/20 bg-gradient-to-br from-gold/[.09] to-ember/[.05] p-5 shadow-[0_20px_60px_rgba(0,0,0,.2)] backdrop-blur-xl">
+              <div className="flex items-start gap-4">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gold text-ink shadow-glow">
+                  <Icon name="download" className="h-5 w-5" />
+                </span>
+                <div>
+                  <p className="text-[0.66rem] font-bold uppercase tracking-[.22em] text-gold">Included instantly after you submit</p>
+                  <h3 className="mt-2 font-display text-xl font-bold text-white">Basics: How to Start a Jesus Festival</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-white/55">
+                    Receive a free 10-page field guide covering prayer, permits, your core team, safety, outreach, volunteers, follow-up, and a 90-day head start.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <div className="mt-10 flex items-center gap-4 border-t border-white/10 pt-6">
               <span className="font-display text-4xl font-bold text-white/15">43°N</span>
               <p className="max-w-xs text-sm leading-relaxed text-white/40">Born in Hamilton. Believing for cities and nations.</p>

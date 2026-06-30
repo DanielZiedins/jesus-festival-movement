@@ -31,6 +31,9 @@ const paths: Record<string, React.ReactNode> = {
   ),
   spark: <path d="M12 3v6m0 6v6m9-9h-6M9 12H3m13.5-4.5L13 11m-2 2-3.5 3.5m9 0L13 13m-2-2L7.5 7.5" />,
   check: <path d="M5 13l4 4L19 7" />,
+  download: <path d="M12 3v12m0 0 5-5m-5 5-5-5M4 19h16" />,
+  calendar: <path d="M5 4v3m14-3v3M3 9h18M5 6h14a2 2 0 0 1 2 2v12H3V8a2 2 0 0 1 2-2Z" />,
+  shield: <path d="M12 3l7 3v5c0 4.5-2.7 8.2-7 10-4.3-1.8-7-5.5-7-10V6l7-3Zm-3 9 2 2 4-5" />,
 };
 
 export default function Icon({ name, className }: IconProps) {
