@@ -42,6 +42,9 @@ export const MOVEMENT_STAGES = [
       "A step of faith became a public celebration of Jesus through worship, Gospel proclamation, baptisms, outreach, and church unity.",
     link: "https://JesusFestival.ca",
     linkLabel: "JesusFestival.ca",
+    imageAlt: "A festival crowd gathering in worship",
+    imagePosition: "center",
+    imageKicker: "Where it began",
     image:
       "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1600&q=85",
   },
@@ -54,8 +57,10 @@ export const MOVEMENT_STAGES = [
       "Worship in the Wild carried the same heart into Niagara Falls — thousands gathering to lift up the name of Jesus.",
     link: "https://JesusFestivalNiagara.com",
     linkLabel: "JesusFestivalNiagara.com",
-    image:
-      "https://images.unsplash.com/photo-1488841714725-bb4c32d1ac94?auto=format&fit=crop&w=1600&q=85",
+    imageAlt: "Aerial view of Horseshoe Falls in Niagara Falls, Ontario",
+    imagePosition: "center",
+    imageKicker: "Niagara Falls, Ontario",
+    image: "/images/niagara-falls-aerial.jpg",
   },
   {
     number: "03",
@@ -66,8 +71,10 @@ export const MOVEMENT_STAGES = [
       "We are believing for local expressions in cities and nations — each rooted in prayer, local unity, clear Gospel proclamation, and lasting fruit.",
     link: "#contact",
     linkLabel: "Start the conversation",
-    image:
-      "https://images.unsplash.com/photo-1523803326055-9729b9e02e5a?auto=format&fit=crop&w=1600&q=85",
+    imageAlt: "Earth at night with city lights viewed from space",
+    imagePosition: "center",
+    imageKicker: "One name · every nation",
+    image: "/images/nations-earth-cinematic.png",
   },
 ] as const;
 

@@ -29,20 +29,28 @@ export default function Festivals() {
           <div className="space-y-7">
             {MOVEMENT_STAGES.map((stage, index) => (
               <Reveal key={stage.city} delay={index * 0.08}>
-                <article className="group relative grid overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.025] transition duration-500 hover:border-gold/25 lg:ml-16 lg:grid-cols-[.88fr_1.12fr]">
+                <article className="journey-card group relative grid overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.025] transition duration-500 hover:border-gold/35 lg:ml-16 lg:grid-cols-[.88fr_1.12fr]">
                   <span className="absolute -left-[3.12rem] top-10 z-10 hidden h-3.5 w-3.5 rounded-full border-2 border-ink bg-gold shadow-[0_0_0_7px_rgba(244,196,92,.12),0_0_24px_rgba(244,196,92,.7)] lg:block" />
                   <div
-                    className={`relative min-h-[18rem] overflow-hidden transition duration-1000 group-hover:scale-[1.035] ${
+                    className={`journey-visual relative min-h-[18rem] overflow-hidden bg-navy-950 ${
                       index % 2 === 1 ? "lg:order-2" : ""
                     }`}
                   >
                     <Image
                       src={stage.image}
-                      alt={`${stage.city}, ${stage.region}`}
+                      alt={stage.imageAlt}
                       fill
                       sizes="(max-width: 1023px) 100vw, 45vw"
-                      className="object-cover object-center"
+                      className="object-cover transition-transform duration-[1.4s] ease-out group-hover:scale-110"
+                      style={{ objectPosition: stage.imagePosition }}
                     />
+                    <div className="absolute inset-0 bg-[linear-gradient(145deg,rgba(5,8,18,.12),transparent_42%,rgba(5,8,18,.68))]" />
+                    <div className="absolute inset-x-5 bottom-5 flex items-end justify-between gap-4 sm:inset-x-7 sm:bottom-7">
+                      <span className="rounded-full border border-white/20 bg-black/35 px-3 py-2 text-[.6rem] font-bold uppercase tracking-[.2em] text-white/80 backdrop-blur-md">
+                        {stage.imageKicker}
+                      </span>
+                      <span className="hidden h-10 w-10 items-center justify-center rounded-full border border-gold/30 bg-gold/10 text-gold backdrop-blur-md sm:flex">↗</span>
+                    </div>
                   </div>
                   <div className={`relative flex flex-col justify-center p-7 sm:p-10 lg:p-12 ${index % 2 === 1 ? "lg:order-1" : ""}`}>
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,rgba(244,196,92,.09),transparent_36%)]" />
