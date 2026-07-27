@@ -56,6 +56,11 @@ export default function Hero() {
             </a>
           </div>
 
+          <a href="#city-signal" className="group mt-6 inline-flex items-center gap-3 text-sm font-semibold text-white/55 transition hover:text-gold">
+            <span className="flex h-8 w-8 items-center justify-center rounded-full border border-gold/20 bg-gold/[.06] text-gold transition group-hover:scale-110 group-hover:bg-gold group-hover:text-ink">↓</span>
+            See how one faithful yes becomes a movement
+          </a>
+
           <div className="mt-10 flex flex-wrap items-center gap-x-5 gap-y-3 text-xs font-semibold uppercase tracking-[0.18em] text-white/42">
             <span className="text-white/75">Hamilton</span>
             <span className="h-px w-8 bg-gradient-to-r from-gold to-ember" />

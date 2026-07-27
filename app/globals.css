@@ -274,6 +274,35 @@ textarea:focus-visible {
   background: #050812;
 }
 
+.city-signal::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.34;
+  background-image: linear-gradient(rgba(125, 211, 252, 0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(125, 211, 252, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: linear-gradient(90deg, transparent, black 25%, black 75%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, black 25%, black 75%, transparent);
+}
+
+.signal-radar::before {
+  content: "";
+  position: absolute;
+  inset: 22%;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(244, 196, 92, 0.36), rgba(244, 196, 92, 0.04) 56%, transparent 70%);
+  filter: blur(8px);
+}
+
+.signal-radar-ring {
+  animation: signal-pulse 4.6s ease-out infinite;
+}
+
+.signal-radar-ring-two {
+  animation-delay: 2.3s;
+}
+
 .floating-cta {
   animation: cta-arrive 0.8s 1.2s both cubic-bezier(0.22, 1, 0.36, 1);
 }
@@ -387,6 +416,11 @@ textarea:focus-visible {
 @keyframes logo-aura {
   0%, 100% { opacity: 0.38; transform: scale(0.9); }
   50% { opacity: 0.78; transform: scale(1.16); }
+}
+
+@keyframes signal-pulse {
+  0%, 100% { opacity: 0.14; transform: scale(0.88); }
+  50% { opacity: 0.68; transform: scale(1.06); }
 }
 
 @keyframes spin {

@@ -12,6 +12,8 @@ import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
+import CitySignal from "@/components/CitySignal";
+import ScrollProgress from "@/components/ScrollProgress";
 import { FAQS, SITE } from "@/lib/content";
 
 const homeStructuredData = {
@@ -47,8 +49,10 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(homeStructuredData) }}
       />
       <Nav />
+      <ScrollProgress />
       <main id="main">
         <Hero />
+        <CitySignal />
         <Story />
         <Festivals />
         <GlobalMap />
