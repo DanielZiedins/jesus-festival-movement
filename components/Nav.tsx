@@ -8,6 +8,7 @@ const LINKS = [
   { href: "#city-signal", label: "Your first step" },
   { href: "#journey", label: "The journey" },
   { href: "#festival", label: "The festival" },
+  { href: "/shop", label: "Shop" },
   { href: "#commission", label: "Why it matters" },
 ];
 
@@ -54,10 +55,10 @@ export default function Nav() {
         </div>
 
         <a
-          href="#contact"
+          href="/shop"
           className="hidden rounded-full bg-gold px-5 py-2.5 text-sm font-bold text-ink shadow-glow transition hover:-translate-y-0.5 hover:bg-gold-400 lg:inline-flex"
         >
-          Bring it to my city
+          Shop the drop
         </a>
 
         <button
@@ -100,11 +101,11 @@ export default function Nav() {
               </a>
             ))}
             <a
-              href="#contact"
+              href="/shop"
               onClick={() => setOpen(false)}
               className="mt-2 flex items-center justify-center rounded-2xl bg-gold px-5 py-3.5 font-bold text-ink"
             >
-              Bring it to my city
+              Shop the drop
             </a>
           </div>
         </div>

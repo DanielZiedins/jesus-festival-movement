@@ -321,6 +321,36 @@ textarea:focus-visible {
   -webkit-mask-image: linear-gradient(90deg, transparent, black 25%, black 75%, transparent);
 }
 
+.shop-spotlight::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(108deg, rgba(5, 8, 18, 0.72), transparent 48%, rgba(5, 8, 18, 0.58));
+}
+
+.shop-grid {
+  opacity: 0.25;
+  background-image: linear-gradient(rgba(244, 196, 92, 0.11) 1px, transparent 1px), linear-gradient(90deg, rgba(244, 196, 92, 0.11) 1px, transparent 1px);
+  background-size: 52px 52px;
+  mask-image: radial-gradient(circle at 65% 50%, black, transparent 70%);
+  -webkit-mask-image: radial-gradient(circle at 65% 50%, black, transparent 70%);
+}
+
+.shop-feature-card::after {
+  content: "";
+  position: absolute;
+  inset: -35% -55%;
+  pointer-events: none;
+  background: linear-gradient(110deg, transparent 42%, rgba(255,255,255,.2) 50%, transparent 58%);
+  transform: translateX(-44%) rotate(8deg);
+  transition: transform 1s ease;
+}
+
+.shop-feature-card:hover::after {
+  transform: translateX(44%) rotate(8deg);
+}
+
 .signal-radar::before {
   content: "";
   position: absolute;

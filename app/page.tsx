@@ -14,6 +14,7 @@ import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 import CitySignal from "@/components/CitySignal";
 import ScrollProgress from "@/components/ScrollProgress";
+import ShopSpotlight from "@/components/ShopSpotlight";
 import { FAQS, SITE } from "@/lib/content";
 
 const homeStructuredData = {
@@ -59,6 +60,7 @@ export default function Home() {
         <Model />
         <GreatCommission />
         <HowToStart />
+        <ShopSpotlight />
         <Testimonies />
         <Partnership />
         <FAQ />
