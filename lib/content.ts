@@ -32,6 +32,47 @@ export const FAQS = [
   },
 ] as const;
 
+export const MOVEMENT_FACTS = [
+  {
+    question: "What is Jesus Festival Movement?",
+    answer:
+      "Jesus Festival Movement is a Christ-centred movement that helps local churches, ministries, and believers gather their city around worship, clear Gospel proclamation, prayer, baptisms, outreach, and lasting discipleship.",
+  },
+  {
+    question: "Where did Jesus Festival Movement begin?",
+    answer:
+      "Jesus Festival Movement began in Hamilton, Ontario, Canada, and the vision expanded into Niagara with a heart to serve cities and nations.",
+  },
+  {
+    question: "What happens at a Jesus Festival?",
+    answer:
+      "Each local expression is rooted in worship, the Gospel, prayer, baptisms, practical outreach, church unity, and clear next steps into local community and discipleship.",
+  },
+  {
+    question: "How can someone start a Jesus Festival in their city?",
+    answer:
+      "Start with prayer, gather a few humble and trusted local leaders, listen to your city, and contact the Jesus Festival Movement team for a conversation about the next faithful step.",
+  },
+] as const;
+
+export const STARTER_GUIDE_FAQS = [
+  {
+    question: "Do I need a complete event plan before I reach out?",
+    answer:
+      "No. A clear burden for your city, prayer, and a few trusted people are enough to begin the conversation. The first goal is discernment, not a finished production plan.",
+  },
+  {
+    question: "What should a first Jesus Festival team focus on?",
+    answer:
+      "Focus on prayer, healthy local church relationships, a realistic location conversation, practical hospitality, and a follow-up path for every person who responds.",
+  },
+  {
+    question: "How do we make sure the festival has lasting impact?",
+    answer:
+      "Plan for the days after the gathering from the beginning: prayer, trained follow-up leaders, consent-based connection, and warm introductions to healthy local churches and discipleship.",
+  },
+] as const;
+
 export const MOVEMENT_STAGES = [
   {
     number: "01",

@@ -3,6 +3,8 @@ import Link from "next/link";
 import BrandMark from "@/components/BrandMark";
 import Footer from "@/components/Footer";
 import Icon from "@/components/ui/Icon";
+import JsonLd from "@/components/JsonLd";
+import { SITE } from "@/lib/content";
 import { KINGDOM_SHOP_URL } from "@/lib/shopify";
 
 export const metadata: Metadata = {
@@ -11,9 +13,34 @@ export const metadata: Metadata = {
   alternates: { canonical: "/stories/kingdom-shop" },
 };
 
+const articleStructuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": `${SITE.url}/stories/kingdom-shop/#article`,
+      mainEntityOfPage: `${SITE.url}/stories/kingdom-shop`,
+      headline: "Kingdom Shop is open",
+      description:
+        "The heart behind Kingdom Shop and the Jesus Festival faith-forward apparel collection.",
+      author: { "@id": `${SITE.url}/#organization` },
+      publisher: { "@id": `${SITE.url}/#organization` },
+      inLanguage: "en-CA",
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: SITE.name, item: SITE.url },
+        { "@type": "ListItem", position: 2, name: "Kingdom Shop is open", item: `${SITE.url}/stories/kingdom-shop` },
+      ],
+    },
+  ],
+};
+
 export default function KingdomShopStory() {
   return (
     <main id="main" className="min-h-screen overflow-hidden bg-[#050812]">
+      <JsonLd data={articleStructuredData} />
       <section className="relative isolate overflow-hidden bg-[radial-gradient(circle_at_75%_18%,rgba(244,196,92,.18),transparent_26%),radial-gradient(circle_at_18%_38%,rgba(233,95,50,.12),transparent_25%),#050812]">
         <div className="star-field absolute inset-0" />
         <div className="grain" />

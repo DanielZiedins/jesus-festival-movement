@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
+import JsonLd from "@/components/JsonLd";
 import { SITE } from "@/lib/content";
 import "./globals.css";
 
@@ -46,6 +47,7 @@ export const metadata: Metadata = {
   authors: [{ name: SITE.name }],
   creator: SITE.name,
   publisher: SITE.name,
+  referrer: "origin-when-cross-origin",
   alternates: { canonical: "/" },
   formatDetection: { email: false, address: false, telephone: false },
   openGraph: {
@@ -87,12 +89,17 @@ const structuredData = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": ["Organization", "ReligiousOrganization"],
       "@id": `${SITE.url}/#organization`,
       name: SITE.name,
       url: SITE.url,
       email: SITE.email,
       description: SITE.description,
+      slogan: "One name. One mission. Every nation.",
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE.url}/jesus-festival-movement-logo.png`,
+      },
       foundingLocation: {
         "@type": "Place",
         name: "Hamilton, Ontario, Canada",
@@ -108,6 +115,7 @@ const structuredData = {
         "https://JesusFestival.ca",
         "https://JesusFestivalNiagara.com",
         "https://LoveOnTheWorld.com",
+        "https://thykingdom.shop/",
       ],
     },
     {
@@ -132,10 +140,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         >
           Skip to content
         </a>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-        />
+        <JsonLd data={structuredData} />
         {children}
       </body>
     </html>

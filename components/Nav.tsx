@@ -5,7 +5,7 @@ import BrandMark from "./BrandMark";
 
 const LINKS = [
   { href: "#movement", label: "The movement" },
-  { href: "#city-signal", label: "Your first step" },
+  { href: "/start-a-jesus-festival", label: "Start a festival" },
   { href: "#journey", label: "The journey" },
   { href: "#festival", label: "The festival" },
   { href: "/shop", label: "Shop" },

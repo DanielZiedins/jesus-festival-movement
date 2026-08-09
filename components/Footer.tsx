@@ -3,6 +3,8 @@ import BrandMark from "./BrandMark";
 
 const EXPLORE = [
   ["The movement", "#movement"],
+  ["About the movement", "/about"],
+  ["Start a Jesus Festival", "/start-a-jesus-festival"],
   ["Hamilton to the nations", "#journey"],
   ["The festival", "#festival"],
   ["Jesus Festival Shop", "/shop"],

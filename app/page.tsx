@@ -15,6 +15,7 @@ import FloatingCTA from "@/components/FloatingCTA";
 import CitySignal from "@/components/CitySignal";
 import ScrollProgress from "@/components/ScrollProgress";
 import ShopSpotlight from "@/components/ShopSpotlight";
+import JsonLd from "@/components/JsonLd";
 import { FAQS, SITE } from "@/lib/content";
 
 const homeStructuredData = {
@@ -39,16 +40,25 @@ const homeStructuredData = {
         acceptedAnswer: { "@type": "Answer", text: item.answer },
       })),
     },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${SITE.url}/#breadcrumb`,
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Jesus Festival Movement",
+          item: SITE.url,
+        },
+      ],
+    },
   ],
 };
 
 export default function Home() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeStructuredData) }}
-      />
+      <JsonLd data={homeStructuredData} />
       <Nav />
       <ScrollProgress />
       <main id="main">

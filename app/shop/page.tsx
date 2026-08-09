@@ -4,6 +4,8 @@ import Link from "next/link";
 import BrandMark from "@/components/BrandMark";
 import Footer from "@/components/Footer";
 import Icon from "@/components/ui/Icon";
+import JsonLd from "@/components/JsonLd";
+import { SITE } from "@/lib/content";
 import { KINGDOM_SHOP_URL, getJesusFestivalProducts } from "@/lib/shopify";
 
 export const revalidate = 3600;
@@ -20,9 +22,48 @@ export const metadata: Metadata = {
 
 export default async function ShopPage() {
   const products = await getJesusFestivalProducts();
+  const shopStructuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": `${SITE.url}/shop/#webpage`,
+        url: `${SITE.url}/shop`,
+        name: "Jesus Festival Shop",
+        description: "The Jesus Festival faith-forward apparel collection through Kingdom Shop.",
+        isPartOf: { "@id": `${SITE.url}/#website` },
+        about: { "@id": `${SITE.url}/#organization` },
+        inLanguage: "en-CA",
+      },
+      {
+        "@type": "ItemList",
+        "@id": `${SITE.url}/shop/#collection`,
+        name: "Jesus Festival Collection",
+        itemListElement: products.map((product, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          item: {
+            "@type": "Product",
+            name: product.title,
+            url: product.url,
+            image: product.image,
+            brand: { "@type": "Brand", name: "Jesus Festival" },
+          },
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: SITE.name, item: SITE.url },
+          { "@type": "ListItem", position: 2, name: "Jesus Festival Shop", item: `${SITE.url}/shop` },
+        ],
+      },
+    ],
+  };
 
   return (
     <main id="main" className="min-h-screen overflow-hidden bg-[#050812]">
+      <JsonLd data={shopStructuredData} />
       <section className="relative isolate overflow-hidden border-b border-white/10 bg-[radial-gradient(circle_at_74%_26%,rgba(244,196,92,.2),transparent_28%),radial-gradient(circle_at_12%_20%,rgba(233,95,50,.16),transparent_26%),#050812]">
         <div className="star-field absolute inset-0" />
         <div className="hero-rays absolute inset-0" />
