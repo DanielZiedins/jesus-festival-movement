@@ -2,7 +2,8 @@ import type { MetadataRoute } from "next";
 import { SITE } from "@/lib/content";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date();
+  // Keep this tied to a real content release, rather than reporting every crawl as a new edit.
+  const lastModified = new Date("2026-08-12T00:00:00.000Z");
   return [
     { url: SITE.url, lastModified, changeFrequency: "monthly", priority: 1 },
     { url: `${SITE.url}/about`, lastModified, changeFrequency: "monthly", priority: 0.9 },

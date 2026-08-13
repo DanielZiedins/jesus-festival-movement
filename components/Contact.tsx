@@ -15,10 +15,12 @@ const fieldClass =
 export default function Contact() {
   const router = useRouter();
   const [status, setStatus] = useState<FormStatus>("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setStatus("sending");
+    setErrorMessage("");
 
     const form = event.currentTarget;
     const payload = Object.fromEntries(new FormData(form).entries());
@@ -30,11 +32,15 @@ export default function Contact() {
         body: JSON.stringify(payload),
       });
 
-      if (!response.ok) throw new Error("Unable to send form");
+      if (!response.ok) {
+        const result = (await response.json().catch(() => null)) as { error?: string } | null;
+        throw new Error(result?.error || "The form could not send just now.");
+      }
       form.reset();
       router.push("/thank-you");
-    } catch {
+    } catch (error) {
       setStatus("error");
+      setErrorMessage(error instanceof Error ? error.message : "The form could not send just now.");
     }
   }
 
@@ -162,7 +168,7 @@ export default function Contact() {
             <div aria-live="polite" className="mt-4 min-h-6 text-center text-sm">
               {status === "error" && (
                 <p className="text-rose-200">
-                  The form could not send just now. Please email{" "}
+                  {errorMessage} Please email{" "}
                   <a className="font-bold text-gold underline" href={`mailto:${SITE.email}`}>{SITE.email}</a>.
                 </p>
               )}

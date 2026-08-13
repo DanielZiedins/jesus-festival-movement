@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import BrandMark from "@/components/BrandMark";
+import CityStarter from "@/components/CityStarter";
 import Footer from "@/components/Footer";
 import Icon from "@/components/ui/Icon";
 import JsonLd from "@/components/JsonLd";
@@ -103,6 +104,8 @@ export default function StartJesusFestivalPage() {
           </div>
         </div>
       </section>
+
+      <CityStarter />
 
       <section className="border-y border-white/10 bg-[#0b1122]/75 py-20 sm:py-28"><div className="container-x grid gap-12 lg:grid-cols-[.72fr_1.28fr] lg:gap-20"><div><p className="text-xs font-bold uppercase tracking-[.28em] text-ember-400">Build with wisdom</p><h2 className="mt-5 font-display text-4xl font-bold uppercase leading-[.9] tracking-[-.055em] text-white sm:text-6xl">Four things to hold together.</h2></div><div className="grid gap-4 sm:grid-cols-2">{[["Prayer", "Ask God for His heart, timing, and the people who should carry the work."],["Local unity", "Build relationships with healthy churches and ministries already serving the city."],["Practical care", "Think through permits, accessibility, volunteers, safety, and real hospitality."],["Lasting follow-up", "Prepare a gracious connection and discipleship path before the public gathering begins."]].map(([title, text], index) => <article key={title} className="rounded-[1.6rem] border border-white/10 bg-white/[.035] p-6"><span className="font-display text-sm font-bold text-gold">0{index + 1}</span><h3 className="mt-5 font-display text-xl font-bold text-white">{title}</h3><p className="mt-3 text-sm leading-relaxed text-white/56">{text}</p></article>)}</div></div></section>
 
