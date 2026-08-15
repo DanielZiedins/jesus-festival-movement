@@ -2,15 +2,15 @@ import { SITE } from "@/lib/content";
 import BrandMark from "./BrandMark";
 
 const EXPLORE = [
-  ["The movement", "#movement"],
+  ["The movement", "/#movement"],
   ["About the movement", "/about"],
   ["Start a Jesus Festival", "/start-a-jesus-festival"],
-  ["Hamilton to the nations", "#journey"],
-  ["The festival", "#festival"],
+  ["Hamilton to the nations", "/#journey"],
+  ["The festival", "/#festival"],
   ["Jesus Festival Shop", "/shop"],
   ["Kingdom Shop story", "/stories/kingdom-shop"],
-  ["The Great Commission", "#commission"],
-  ["Bring it to your city", "#contact"],
+  ["The Great Commission", "/#commission"],
+  ["Bring it to your city", "/#contact"],
 ] as const;
 
 const FAMILY = [

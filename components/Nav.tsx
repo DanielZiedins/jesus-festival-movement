@@ -4,12 +4,12 @@ import { useEffect, useState } from "react";
 import BrandMark from "./BrandMark";
 
 const LINKS = [
-  { href: "#movement", label: "The movement" },
+  { href: "/#movement", label: "The movement" },
   { href: "/start-a-jesus-festival", label: "Start a festival" },
-  { href: "#journey", label: "The journey" },
-  { href: "#festival", label: "The festival" },
+  { href: "/#journey", label: "The journey" },
+  { href: "/#festival", label: "The festival" },
   { href: "/shop", label: "Shop" },
-  { href: "#commission", label: "Why it matters" },
+  { href: "/#commission", label: "Why it matters" },
 ];
 
 export default function Nav() {
