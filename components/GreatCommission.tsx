@@ -1,41 +1,7 @@
-"use client";
-
-import {
-  motion,
-  useInView,
-  useMotionValue,
-  useTransform,
-  animate,
-  useReducedMotion,
-} from "framer-motion";
-import { useEffect, useRef } from "react";
 import Reveal from "./ui/Reveal";
 import Eyebrow from "./ui/Eyebrow";
+import CountUp from "./ui/CountUp";
 import { STATS } from "@/lib/content";
-
-function StatNumber({ value }: { value: string }) {
-  // value like "8.3B" -> animate the numeric part
-  const num = parseFloat(value);
-  const suffix = value.replace(/[0-9.]/g, "");
-  const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-60px" });
-  const reduce = useReducedMotion();
-  const count = useMotionValue(0);
-  const rounded = useTransform(count, (v) => v.toFixed(1) + suffix);
-
-  useEffect(() => {
-    if (inView) {
-      if (reduce) {
-        count.set(num);
-      } else {
-        const controls = animate(count, num, { duration: 1.6, ease: "easeOut" });
-        return controls.stop;
-      }
-    }
-  }, [inView, num, count, reduce]);
-
-  return <motion.span ref={ref}>{rounded}</motion.span>;
-}
 
 export default function GreatCommission() {
   return (
@@ -65,7 +31,7 @@ export default function GreatCommission() {
               <div className="relative h-full overflow-hidden rounded-3xl glass-strong p-8 text-center">
                 <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-ember-500/10 blur-2xl" />
                 <p className="font-display text-6xl font-bold text-gradient-gold sm:text-7xl">
-                  <StatNumber value={s.value} />
+                  <CountUp value={s.value} />
                 </p>
                 <p className="mt-4 font-display text-lg font-bold uppercase tracking-wide text-white">
                   {s.label}

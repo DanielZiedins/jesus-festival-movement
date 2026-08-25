@@ -1,4 +1,4 @@
-type IconProps = { name: string; className?: string };
+type IconProps = { name: string; className?: string; strokeWidth?: number };
 
 const paths: Record<string, React.ReactNode> = {
   music: (
@@ -31,15 +31,31 @@ const paths: Record<string, React.ReactNode> = {
   ),
   spark: <path d="M12 3v6m0 6v6m9-9h-6M9 12H3m13.5-4.5L13 11m-2 2-3.5 3.5m9 0L13 13m-2-2L7.5 7.5" />,
   check: <path d="M5 13l4 4L19 7" />,
+  print: (
+    <path d="M7 9V3h10v6M7 19H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 15h10v6H7v-6Z" />
+  ),
+  link: (
+    <path d="M10 13a5 5 0 0 0 7 0l2-2a5 5 0 0 0-7-7l-1 1m-1 8a5 5 0 0 1-7 0 5 5 0 0 1 0-7l1-1" />
+  ),
+  whatsapp: (
+    <path d="M20 12a8 8 0 0 1-11.9 6.9L4 20l1.1-4A8 8 0 1 1 20 12Zm-11 -2.5c0 3 2.5 5.5 5.5 5.5.6 0 1-.4 1-1 0-.3-.2-.6-.5-.8l-1-.4-.9.8c-1-.5-1.8-1.3-2.3-2.3l.8-.9-.4-1c-.2-.3-.5-.5-.8-.5-.6 0-1 .4-1 1Z" />
+  ),
+  facebook: (
+    <path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v7h4v-7h3l1-4h-4V9a1 1 0 0 1 1-1Z" />
+  ),
+  x: <path d="M4 4l7.5 9.5L4.5 20h2.2l5.8-5.6L16.8 20H20l-7.7-9.8L19.4 4h-2.2l-5.4 5.2L8.2 4H4Z" />,
+  heart: (
+    <path d="M12 20s-7-4.4-7-9.3A4 4 0 0 1 12 8a4 4 0 0 1 7 2.7c0 4.9-7 9.3-7 9.3Z" />
+  ),
 };
 
-export default function Icon({ name, className }: IconProps) {
+export default function Icon({ name, className, strokeWidth = 1.6 }: IconProps) {
   return (
     <svg
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
-      strokeWidth={1.6}
+      strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       className={className}

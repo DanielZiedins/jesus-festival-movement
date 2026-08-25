@@ -1,5 +1,6 @@
 import Reveal from "./ui/Reveal";
 import Eyebrow from "./ui/Eyebrow";
+import Icon from "./ui/Icon";
 import { STEPS, SITE } from "@/lib/content";
 
 export default function HowToStart() {
@@ -31,16 +32,16 @@ export default function HowToStart() {
           <Reveal delay={0.15}>
             <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
-                href="#contact"
+                href="/start-a-festival"
                 className="w-full rounded-full bg-gradient-to-r from-gold-500 to-ember-500 px-8 py-4 text-base font-semibold text-ink shadow-glow-ember transition-transform hover:scale-105 sm:w-auto"
               >
-                Take The Step Of Faith
+                Open The Full Playbook
               </a>
               <a
                 href={`mailto:${SITE.email}?subject=Starting%20a%20Jesus%20Festival%20in%20my%20city`}
                 className="w-full rounded-full glass px-8 py-4 text-base font-semibold text-white transition-colors hover:text-gold sm:w-auto"
               >
-                Start A Jesus Festival In Your City
+                Talk To Us About Your City
               </a>
             </div>
           </Reveal>
@@ -68,6 +69,27 @@ export default function HowToStart() {
             </Reveal>
           ))}
         </ol>
+
+        <Reveal>
+          <div className="mx-auto mt-14 max-w-4xl rounded-3xl glass-strong p-8 text-center sm:p-10">
+            <p className="font-display text-xl font-bold text-white sm:text-2xl">
+              Every step above has a{" "}
+              <span className="text-gradient-gold">full checklist</span>.
+            </p>
+            <p className="mx-auto mt-4 max-w-2xl text-white/70">
+              Timelines, practical to-dos, and the mistakes to watch out for —
+              organized into four phases. Free, and printable so your team can
+              work through it on paper.
+            </p>
+            <a
+              href="/start-a-festival"
+              className="mt-7 inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-gold-500 to-ember-500 px-8 py-4 text-base font-bold text-ink shadow-glow-ember transition-transform hover:scale-105"
+            >
+              Open The Full Playbook
+              <Icon name="arrow" className="h-4 w-4" />
+            </a>
+          </div>
+        </Reveal>
       </div>
     </section>
   );

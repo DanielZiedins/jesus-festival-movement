@@ -31,8 +31,10 @@ export default function Festivals() {
             <Reveal key={f.name} delay={i * 0.1}>
               <a
                 href={f.url}
-                target="_blank"
-                rel="noopener noreferrer"
+                // Festivals with a page on this site shouldn't open a new tab.
+                {...(f.url.startsWith("http")
+                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  : {})}
                 className="group relative block h-full overflow-hidden rounded-3xl glass-strong p-8 transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 sm:p-10"
               >
                 <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-gradient-to-br from-gold-500/20 to-ember-500/10 blur-3xl transition-opacity group-hover:opacity-150" />

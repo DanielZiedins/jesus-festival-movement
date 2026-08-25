@@ -1,32 +1,48 @@
-"use client";
-
-import { motion, useReducedMotion } from "framer-motion";
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 
 type Props = {
   children: ReactNode;
+  /** Stagger, in seconds. */
   delay?: number;
+  /** Travel distance, in pixels. */
   y?: number;
   className?: string;
   as?: "div" | "span" | "li";
+  /**
+   * Animate on mount instead of on scroll-into-view. Use for content that is
+   * above the fold — it must never depend on an IntersectionObserver firing.
+   */
+  immediate?: boolean;
 };
 
+/**
+ * Server component. Emits markup only; the animation itself is CSS
+ * (see the motion system in globals.css) and scroll elements are flipped to
+ * `.is-in` by the single shared observer in RevealEngine.
+ *
+ * Nothing here ships JavaScript, so a section wrapped in Reveal stays a server
+ * component all the way down.
+ */
 export default function Reveal({
   children,
   delay = 0,
   y = 28,
   className,
+  as: Tag = "div",
+  immediate = false,
 }: Props) {
-  const reduce = useReducedMotion();
+  const style = {
+    ...(delay ? { "--reveal-d": `${delay}s` } : null),
+    ...(y !== 28 ? { "--reveal-y": `${y}px` } : null),
+  } as CSSProperties;
+
   return (
-    <motion.div
+    <Tag
+      data-reveal={immediate ? "now" : "scroll"}
       className={className}
-      initial={reduce ? { opacity: 0 } : { opacity: 0, y }}
-      whileInView={reduce ? { opacity: 1 } : { opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-80px" }}
-      transition={{ duration: 0.7, delay, ease: [0.22, 1, 0.36, 1] }}
+      style={style}
     >
       {children}
-    </motion.div>
+    </Tag>
   );
 }

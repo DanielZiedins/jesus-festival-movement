@@ -1,6 +1,7 @@
 import Reveal from "./ui/Reveal";
 import Eyebrow from "./ui/Eyebrow";
 import Icon from "./ui/Icon";
+import CityForm from "./CityForm";
 import { SITE } from "@/lib/content";
 
 export default function Contact() {
@@ -40,6 +41,10 @@ export default function Contact() {
           </Reveal>
 
           <Reveal delay={0.2}>
+            <CityForm />
+          </Reveal>
+
+          <Reveal delay={0.25}>
             <div className="mx-auto mt-14 max-w-2xl rounded-3xl glass-strong p-8 sm:p-10">
               <p className="text-balance font-display text-xl font-medium leading-relaxed text-white sm:text-2xl">
                 Be encouraged. Take the step of faith. It may be a lot of work,

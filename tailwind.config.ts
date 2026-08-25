@@ -52,12 +52,17 @@ const config: Config = {
           "0%": { backgroundPosition: "200% center" },
           "100%": { backgroundPosition: "-200% center" },
         },
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         "pulse-marker": "pulse-marker 3s ease-in-out infinite",
         float: "float 6s ease-in-out infinite",
         "ping-slow": "ping-slow 3s cubic-bezier(0,0,0.2,1) infinite",
         shimmer: "shimmer 6s linear infinite",
+        marquee: "marquee 32s linear infinite",
       },
     },
   },

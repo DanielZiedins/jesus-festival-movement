@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Grotesk, Inter } from "next/font/google";
+import RevealEngine from "@/components/ui/RevealEngine";
 import { SITE } from "@/lib/content";
 import "./globals.css";
 
@@ -49,6 +50,11 @@ export const metadata: Metadata = {
   publisher: "Jesus Festival Movement",
   alternates: {
     canonical: "/",
+    types: {
+      "application/rss+xml": [
+        { url: "/feed.xml", title: "The Journal — Jesus Festival Movement" },
+      ],
+    },
   },
   category: "Religion & Spirituality",
   openGraph: {
@@ -109,46 +115,6 @@ const jsonLd = {
       publisher: { "@id": `${SITE.url}/#organization` },
       inLanguage: "en",
     },
-    {
-      "@type": "Event",
-      name: "Jesus Festival: Hamilton",
-      description:
-        "An evangelistic Gospel festival in Hamilton, Ontario with worship, Gospel preaching, baptisms, unity, and outreach.",
-      eventStatus: "https://schema.org/EventScheduled",
-      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-      location: {
-        "@type": "Place",
-        name: "Hamilton, Ontario, Canada",
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: "Hamilton",
-          addressRegion: "ON",
-          addressCountry: "CA",
-        },
-      },
-      organizer: { "@id": `${SITE.url}/#organization` },
-      url: "https://JesusFestival.ca",
-    },
-    {
-      "@type": "Event",
-      name: "Jesus Festival: Niagara",
-      description:
-        "An evangelistic Gospel festival in the Niagara region with worship, Gospel preaching, unity, and outreach.",
-      eventStatus: "https://schema.org/EventScheduled",
-      eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-      location: {
-        "@type": "Place",
-        name: "Niagara, Ontario, Canada",
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: "Niagara",
-          addressRegion: "ON",
-          addressCountry: "CA",
-        },
-      },
-      organizer: { "@id": `${SITE.url}/#organization` },
-      url: "https://JesusFestivalNiagara.com",
-    },
   ],
 };
 
@@ -158,8 +124,25 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${display.variable} ${sans.variable}`}>
+    // suppressHydrationWarning: the head script below adds `.js` to this
+    // element before React hydrates, which is an intentional mismatch.
+    <html
+      lang="en"
+      className={`${display.variable} ${sans.variable}`}
+      suppressHydrationWarning
+    >
       <head>
+        {/*
+          Arms the CSS motion system. Runs before first paint so there's no
+          flash of un-hidden content, and is deliberately the ONLY thing that
+          adds `.js` — if scripts fail, `[data-reveal="scroll"]` is never
+          hidden and every reader still gets the content.
+        */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `document.documentElement.classList.add("js")`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -172,6 +155,8 @@ export default function RootLayout({
         >
           Skip to content
         </a>
+        {/* One shared IntersectionObserver for every <Reveal> on the page. */}
+        <RevealEngine />
         {children}
       </body>
     </html>

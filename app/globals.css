@@ -4,6 +4,7 @@
 
 :root {
   --bg: #05060f;
+  --ease-out-expo: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 * {
@@ -12,6 +13,8 @@
 
 html {
   scroll-behavior: smooth;
+  /* Anchor links land below the fixed header instead of under it. */
+  scroll-padding-top: 6rem;
 }
 
 body {
@@ -32,6 +35,13 @@ body {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
+  }
+
+  /* Ambient atmosphere is decoration only — drop it entirely. */
+  .twinkle,
+  .ember,
+  .pointer-glow {
+    display: none !important;
   }
 }
 
@@ -121,6 +131,201 @@ button:focus-visible {
   }
 }
 
+/* =========================================================================
+   Motion system — CSS only.
+   Replaces the old Framer Motion layer: the animation runs on the compositor,
+   and the only JavaScript involved is one shared IntersectionObserver
+   (components/ui/RevealEngine.tsx) that flips `.is-in` on scroll elements.
+   The `.js` gate means content is never hidden if scripts fail to run.
+   ========================================================================= */
+
+.js [data-reveal="scroll"] {
+  opacity: 0;
+  transform: translate3d(0, var(--reveal-y, 28px), 0);
+  transition:
+    opacity 0.7s var(--ease-out-expo),
+    transform 0.7s var(--ease-out-expo);
+  transition-delay: var(--reveal-d, 0s);
+}
+
+.js [data-reveal="scroll"].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* Above-the-fold content animates on load — never waits on an observer. */
+[data-reveal="now"] {
+  animation: jfm-rise 0.75s var(--ease-out-expo) var(--reveal-d, 0s) both;
+}
+
+@keyframes jfm-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, var(--reveal-y, 28px), 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes jfm-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Hero entrance — staggered purely with animation-delay. */
+.hero-in {
+  animation: jfm-rise 0.85s var(--ease-out-expo) var(--reveal-d, 0s) both;
+}
+.hero-fade {
+  animation: jfm-fade 1s ease-out var(--reveal-d, 0s) both;
+}
+
+/* Hero atmosphere: twinkling city lights and rising embers. */
+@keyframes jfm-twinkle {
+  0%,
+  100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+@keyframes jfm-ember {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+  }
+  15% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(var(--ember-x, 0), var(--ember-rise, -320px), 0);
+  }
+}
+@keyframes jfm-scroll-cue {
+  0%,
+  100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 10px);
+  }
+}
+
+.twinkle {
+  animation: jfm-twinkle var(--tw-dur, 4s) ease-in-out var(--tw-delay, 0s)
+    infinite;
+}
+.ember {
+  animation: jfm-ember var(--ember-dur, 9s) ease-out var(--ember-delay, 0s)
+    infinite;
+}
+.scroll-cue {
+  animation: jfm-scroll-cue 2s ease-in-out infinite;
+}
+
+/* Pointer-follow glow — position is written to CSS vars by PointerGlow. */
+.pointer-glow {
+  left: var(--px, 50%);
+  top: var(--py, 50%);
+}
+
+/* Reading progress. Uses a scroll-driven animation where the browser supports
+   it (zero JS), and falls back to a rAF-throttled transform write. */
+.scroll-progress {
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+}
+@supports (animation-timeline: scroll()) {
+  .scroll-progress {
+    animation: jfm-progress linear both;
+    animation-timeline: scroll(root block);
+  }
+}
+@keyframes jfm-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* Back-to-top / sticky bar reveal, driven by a class rather than a library. */
+.slide-panel {
+  opacity: 0;
+  transform: translate3d(0, 90px, 0);
+  transition:
+    opacity 0.4s var(--ease-out-expo),
+    transform 0.4s var(--ease-out-expo);
+  pointer-events: none;
+}
+.slide-panel.is-shown {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+.fab {
+  opacity: 0;
+  transform: translate3d(0, 16px, 0);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+  pointer-events: none;
+}
+.fab.is-shown {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+/* Native accordion. Content stays in the DOM at all times so crawlers and
+   answer engines always read the answers, animated where supported. */
+details.accordion {
+  interpolate-size: allow-keywords;
+}
+details.accordion summary::-webkit-details-marker {
+  display: none;
+}
+details.accordion summary {
+  list-style: none;
+  cursor: pointer;
+}
+details.accordion::details-content {
+  block-size: 0;
+  overflow: hidden;
+  transition:
+    block-size 0.35s var(--ease-out-expo),
+    content-visibility 0.35s allow-discrete;
+}
+details.accordion[open]::details-content {
+  block-size: auto;
+}
+details.accordion[open] .accordion-plus {
+  transform: rotate(45deg);
+}
+
+/* Commission arcs draw themselves once the map scrolls into view. */
+.arc {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+.is-in .arc {
+  animation: jfm-draw 1.6s ease-out var(--arc-d, 0s) forwards;
+}
+@keyframes jfm-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 /* Aurora / revival glow background */
 .aurora {
   position: absolute;
@@ -151,6 +356,75 @@ button:focus-visible {
   bottom: -15%;
   right: -8%;
   animation: float 11s ease-in-out infinite reverse;
+}
+
+/* ---- Print: turn the playbook into a clean paper checklist ---- */
+@media print {
+  .no-print,
+  .aurora,
+  .grain {
+    display: none !important;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  /* Flatten every dark/glass treatment to plain paper */
+  * {
+    background-image: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    color: #111 !important;
+  }
+
+  .glass,
+  .glass-strong {
+    background: #fff !important;
+    border: 1px solid #bbb !important;
+  }
+
+  /* Gold gradient text is invisible on paper — make it solid */
+  .text-gradient-gold,
+  .text-shimmer {
+    -webkit-text-fill-color: #111 !important;
+    color: #111 !important;
+    background: none !important;
+  }
+
+  section {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+    border: 0 !important;
+  }
+
+  /* Keep each step on one page where possible */
+  .print-block {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Real, tickable checkboxes on paper */
+  .print-block li > span:first-child {
+    border: 1.5px solid #333 !important;
+    border-radius: 3px !important;
+  }
+  .print-block li > span:first-child svg {
+    display: none !important;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  @page {
+    margin: 1.5cm;
+  }
 }
 
 .grain {
