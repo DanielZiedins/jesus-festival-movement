@@ -104,6 +104,55 @@ textarea:focus-visible {
     -webkit-text-stroke: clamp(1px, 0.13vw, 2px) #f4c45c;
     text-shadow: 0 0 48px rgba(244, 196, 92, 0.12);
   }
+
+  /* Surface treatments for the content pages (journal, answers, network,
+     festival pages). Same values the section components use inline, named
+     so long-form pages stay readable. */
+  .glass {
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    background: rgba(255, 255, 255, 0.035);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+
+  .glass-strong {
+    border: 1px solid rgba(244, 196, 92, 0.16);
+    background: rgba(7, 11, 22, 0.72);
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+  }
+}
+
+/* Soft revival glow behind page heroes. */
+.aurora {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.aurora::before,
+.aurora::after {
+  content: "";
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(120px);
+  opacity: 0.4;
+}
+.aurora::before {
+  width: 46vw;
+  height: 46vw;
+  background: radial-gradient(circle, rgba(232, 106, 43, 0.42), transparent 62%);
+  top: -12%;
+  left: -6%;
+  animation: float 9s ease-in-out infinite;
+}
+.aurora::after {
+  width: 42vw;
+  height: 42vw;
+  background: radial-gradient(circle, rgba(244, 196, 92, 0.34), transparent 62%);
+  bottom: -16%;
+  right: -8%;
+  animation: float 11s ease-in-out infinite reverse;
 }
 
 .grain {

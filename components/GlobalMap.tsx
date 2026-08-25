@@ -9,6 +9,7 @@ import Eyebrow from "./ui/Eyebrow";
 const markerCopy: Record<string, string> = {
   Hamilton: "Where a local step of faith became a movement.",
   Niagara: "The vision expanding across a region.",
+  Akuse: "Ghana — the next festival, 3-4 September 2026.",
   "Your city": "A team praying, gathering, and saying yes.",
   "The nations": "Local expressions multiplying around the world.",
 };
@@ -113,7 +114,13 @@ export default function GlobalMap() {
                   <span className="relative flex h-5 w-5 items-center justify-center">
                     <span className="absolute h-full w-full animate-ping-slow rounded-full bg-gold/70" />
                     <span className={`relative h-3 w-3 rounded-full border-2 border-white/60 ${
-                      marker.status === "origin" ? "bg-ember" : marker.status === "active" ? "bg-gold" : "bg-sky-300"
+                      marker.status === "origin"
+                        ? "bg-ember"
+                        : marker.status === "upcoming"
+                          ? "bg-emerald-400"
+                          : marker.status === "active"
+                            ? "bg-gold"
+                            : "bg-sky-300"
                     }`} />
                   </span>
                   <span className="absolute left-1/2 top-7 hidden -translate-x-1/2 whitespace-nowrap rounded-full border border-white/10 bg-ink/90 px-3 py-1.5 text-[.62rem] font-bold uppercase tracking-[.12em] text-white shadow-xl backdrop-blur-md sm:block">

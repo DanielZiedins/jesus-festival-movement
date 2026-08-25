@@ -15,6 +15,7 @@ import FloatingCTA from "@/components/FloatingCTA";
 import CitySignal from "@/components/CitySignal";
 import ScrollProgress from "@/components/ScrollProgress";
 import ShopSpotlight from "@/components/ShopSpotlight";
+import JoinMovement from "@/components/JoinMovement";
 import JsonLd from "@/components/JsonLd";
 import { FAQS, SITE } from "@/lib/content";
 
@@ -72,6 +73,7 @@ export default function Home() {
         <HowToStart />
         <ShopSpotlight />
         <Testimonies />
+        <JoinMovement />
         <Partnership />
         <FAQ />
         <Contact />

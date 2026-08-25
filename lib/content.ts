@@ -209,6 +209,7 @@ export const TESTIMONIES = [
 export const MAP_MARKERS = [
   { name: "Hamilton", x: 25.4, y: 35.5, status: "origin" },
   { name: "Niagara", x: 26.2, y: 36.6, status: "active" },
+  { name: "Akuse", x: 48.4, y: 47.4, status: "upcoming" },
   { name: "Your city", x: 49, y: 31, status: "invitation" },
   { name: "The nations", x: 70, y: 47, status: "invitation" },
 ] as const;

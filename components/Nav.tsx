@@ -8,6 +8,8 @@ const LINKS = [
   { href: "/start-a-jesus-festival", label: "Start a festival" },
   { href: "/#journey", label: "The journey" },
   { href: "/#festival", label: "The festival" },
+  { href: "/akuse", label: "Akuse 2026" },
+  { href: "/answers", label: "Answers" },
   { href: "/shop", label: "Shop" },
   { href: "/#commission", label: "Why it matters" },
 ];
