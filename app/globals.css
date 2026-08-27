@@ -569,3 +569,72 @@ textarea:focus-visible {
     transition-duration: 0.001ms !important;
   }
 }
+
+/* =========================================================================
+   Print — turns the playbook into a paper checklist a team can work through.
+   ========================================================================= */
+@media print {
+  .no-print,
+  .star-field,
+  .hero-rays,
+  .grain,
+  footer {
+    display: none !important;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  /* Flatten every dark/glass treatment to plain paper. */
+  * {
+    background-image: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    color: #111 !important;
+    background-color: transparent !important;
+  }
+
+  /* Gradient text prints invisible unless the fill is forced back. */
+  .text-gradient-gold,
+  .text-outline-gold {
+    -webkit-text-fill-color: #111 !important;
+    -webkit-text-stroke: 0 !important;
+    color: #111 !important;
+    background: none !important;
+  }
+
+  section {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+    border: 0 !important;
+  }
+
+  /* Keep each step whole on the page. */
+  .print-block {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 1px solid #bbb !important;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Real, tickable boxes rather than pre-ticked checkmarks. */
+  .print-block li > span:first-child {
+    border: 1.5px solid #333 !important;
+    border-radius: 3px !important;
+  }
+  .print-block li > span:first-child svg {
+    display: none !important;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  @page {
+    margin: 1.5cm;
+  }
+}

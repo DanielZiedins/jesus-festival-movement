@@ -293,7 +293,7 @@ export const FLOWS: Flow[] = [
         },
         {
           title: "The free playbook",
-          body: `Our 13-step guide for any leader anywhere who wants to start a festival in their own city — checklists, timelines and hard-won warnings, given away free. <a href="${SITE_URL}/start-a-jesus-festival" style="color:#f5c451;">Read it here</a>`,
+          body: `Our 13-step guide for any leader anywhere who wants to start a festival in their own city — checklists, timelines and hard-won warnings, given away free. <a href="${SITE_URL}/start-a-jesus-festival/playbook" style="color:#f5c451;">Read it here</a>`,
         },
       ],
       extra: `
@@ -340,7 +340,7 @@ export const FLOWS: Flow[] = [
         },
         {
           title: "3. Host",
-          body: `Start one in your city. The full playbook is free and we'll walk with you personally. <a href="${SITE_URL}/start-a-jesus-festival" style="color:#f5c451;">Open the playbook</a>`,
+          body: `Start one in your city. The full playbook is free and we'll walk with you personally. <a href="${SITE_URL}/start-a-jesus-festival/playbook" style="color:#f5c451;">Open the playbook</a>`,
         },
         {
           title: "4. Give",
@@ -448,7 +448,7 @@ export const FLOWS: Flow[] = [
       },
       cta: {
         label: "Open The Free Playbook",
-        url: `${SITE_URL}/start-a-jesus-festival`,
+        url: `${SITE_URL}/start-a-jesus-festival/playbook`,
       },
       ps: `<strong>P.S.</strong> Not the right season to host one? That's completely fine. Stay with us, keep praying, and forward this to the person you thought of while reading it.`,
     }),

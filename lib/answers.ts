@@ -73,7 +73,7 @@ export const ANSWERS: Answer[] = [
       "The first Jesus Festival in Hamilton, Ontario started exactly that way — no platform, no guarantee it would work, and a lot of unanswered questions.",
       "The full 13-step playbook is free and public precisely so that no one has to be credentialed to use it.",
     ],
-    links: [{ label: "Open the free playbook", href: "/start-a-jesus-festival" }],
+    links: [{ label: "Open the free playbook", href: "/start-a-jesus-festival/playbook" }],
   },
   {
     id: "denomination",
@@ -101,7 +101,7 @@ export const ANSWERS: Answer[] = [
       "That is the shape of our free 13-step playbook. Each step carries a realistic timeline, a practical checklist, and the specific mistake most teams make at that stage.",
       "The order matters more than people expect. Church unity takes far longer than logistics, so it belongs early — everything downstream leans on it.",
     ],
-    links: [{ label: "The 13-step playbook", href: "/start-a-jesus-festival" }],
+    links: [{ label: "The 13-step playbook", href: "/start-a-jesus-festival/playbook" }],
   },
   {
     id: "how-far-in-advance",
@@ -113,7 +113,7 @@ export const ANSWERS: Answer[] = [
       "Teams that compress this usually do so at the cost of church unity, which is the slowest and least compressible part.",
       "A smaller neighbourhood-scale outreach can absolutely be done in three or four months. The timeline scales with how many other organisations you need to bring with you.",
     ],
-    links: [{ label: "Timelines for every step", href: "/start-a-jesus-festival" }],
+    links: [{ label: "Timelines for every step", href: "/start-a-jesus-festival/playbook" }],
   },
   {
     id: "cost",
@@ -126,7 +126,7 @@ export const ANSWERS: Answer[] = [
       "The honest guidance: get three quotes for sound and stage, ask your municipality for the actual permit schedule rather than guessing, and never skip insurance to save money. In many cities, Kingdom-minded business owners are the reason free public Gospel events are financially possible at all.",
     ],
     links: [
-      { label: "Budget and logistics — step 7", href: "/start-a-jesus-festival" },
+      { label: "Budget and logistics — step 7", href: "/start-a-jesus-festival/playbook" },
       { label: "Kingdom work outside of Sunday", href: "/blog/kingdom-work-outside-of-sunday" },
     ],
   },
@@ -142,7 +142,7 @@ export const ANSWERS: Answer[] = [
       "Ask specifically about noise bylaws and amplification limits. In our experience that is the single most common late surprise, and it can quietly reshape your whole run sheet.",
       "You will usually also be asked for proof of public liability insurance, a site plan, and an emergency or crowd-safety plan. Preparing those in advance makes the application dramatically smoother.",
     ],
-    links: [{ label: "Permits and logistics — step 7", href: "/start-a-jesus-festival" }],
+    links: [{ label: "Permits and logistics — step 7", href: "/start-a-jesus-festival/playbook" }],
   },
   {
     id: "volunteers",
@@ -156,7 +156,7 @@ export const ANSWERS: Answer[] = [
     ],
     links: [
       { label: "Sharing the Gospel with someone you know", href: "/blog/share-the-gospel-with-someone-you-already-know" },
-      { label: "Mobilizing evangelism — step 8", href: "/start-a-jesus-festival" },
+      { label: "Mobilizing evangelism — step 8", href: "/start-a-jesus-festival/playbook" },
     ],
   },
   {
