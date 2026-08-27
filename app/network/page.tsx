@@ -80,7 +80,7 @@ export default function NetworkPage() {
                 </p>
               </Reveal>
               <Reveal immediate delay={0.15}>
-                <p className="mt-8 text-sm font-medium uppercase tracking-[0.2em] text-white/40">
+                <p className="mt-8 text-sm font-medium uppercase tracking-[0.2em] text-white/55">
                   {NETWORK.length} projects · One Kingdom
                 </p>
               </Reveal>
@@ -128,7 +128,7 @@ export default function NetworkPage() {
                           </div>
                           <Icon
                             name="arrow"
-                            className="mt-1 h-5 w-5 flex-none text-white/30 transition-all group-hover:translate-x-0.5 group-hover:text-gold"
+                            className="mt-1 h-5 w-5 flex-none text-white/55 transition-all group-hover:translate-x-0.5 group-hover:text-gold"
                           />
                         </div>
                         <p className="mt-4 flex-1 text-sm leading-relaxed text-white/65">

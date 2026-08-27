@@ -61,7 +61,7 @@ export default function Hero() {
             See how one faithful yes becomes a movement
           </a>
 
-          <div className="mt-10 flex flex-wrap items-center gap-x-5 gap-y-3 text-xs font-semibold uppercase tracking-[0.18em] text-white/42">
+          <div className="mt-10 flex flex-wrap items-center gap-x-5 gap-y-3 text-xs font-semibold uppercase tracking-[0.18em] text-white/55">
             <span className="text-white/75">Hamilton</span>
             <span className="h-px w-8 bg-gradient-to-r from-gold to-ember" />
             <span className="text-white/75">Niagara</span>
@@ -122,7 +122,7 @@ export default function Hero() {
       </div>
 
       <div className="absolute inset-x-0 bottom-0 z-20 overflow-hidden border-y border-white/[0.07] bg-black/20 py-3 backdrop-blur-sm">
-        <div className="movement-marquee flex min-w-max gap-8 text-[0.67rem] font-bold uppercase tracking-[0.26em] text-white/45">
+        <div className="movement-marquee flex min-w-max gap-8 text-[0.67rem] font-bold uppercase tracking-[0.26em] text-white/55">
           {Array.from({ length: 2 }).map((_, group) => (
             <span key={group} className="flex gap-8" aria-hidden={group === 1}>
               <span>Worship</span><span className="text-gold">✦</span>

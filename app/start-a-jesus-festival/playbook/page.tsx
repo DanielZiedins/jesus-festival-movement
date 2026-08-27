@@ -186,7 +186,7 @@ export default function PlaybookPage() {
                       </p>
 
                       <div className="mt-7">
-                        <p className="text-xs font-bold uppercase tracking-[.2em] text-white/40">
+                        <p className="text-xs font-bold uppercase tracking-[.2em] text-white/55">
                           Checklist
                         </p>
                         <ul className="mt-4 space-y-3">

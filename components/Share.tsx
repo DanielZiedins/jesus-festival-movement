@@ -44,7 +44,7 @@ export default function Share({ title = "Share this", url, text }: Props) {
 
   return (
     <div>
-      <p className="text-xs font-bold uppercase tracking-[0.2em] text-white/45">
+      <p className="text-xs font-bold uppercase tracking-[0.2em] text-white/55">
         {title}
       </p>
       <div className="mt-4 flex flex-wrap items-center justify-center gap-3">

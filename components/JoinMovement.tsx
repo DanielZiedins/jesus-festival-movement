@@ -62,7 +62,7 @@ export default function JoinMovement() {
                         <h3 className="font-display font-bold text-white">
                           {l.title}
                         </h3>
-                        <span className="text-[11px] font-semibold uppercase tracking-wider text-white/40">
+                        <span className="text-[11px] font-semibold uppercase tracking-wider text-white/55">
                           {l.when}
                         </span>
                       </div>

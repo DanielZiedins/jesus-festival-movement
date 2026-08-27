@@ -45,7 +45,7 @@ export default function Testimonies() {
                     <span className="h-px w-10 bg-gradient-to-r from-gold to-ember" />
                     <span>
                       <span className="block text-sm font-bold text-white">{testimony.name}</span>
-                      <span className="mt-0.5 block text-xs uppercase tracking-[.14em] text-white/40">{testimony.place}</span>
+                      <span className="mt-0.5 block text-xs uppercase tracking-[.14em] text-white/55">{testimony.place}</span>
                     </span>
                   </figcaption>
                 </figure>

@@ -136,7 +136,7 @@ export default function GlobalMap() {
             </div>
 
             <div className="flex flex-col items-start justify-between gap-5 px-2 pb-2 pt-5 sm:flex-row sm:items-center sm:px-3">
-              <p className="text-sm text-white/48">The map is an invitation, not a limit.</p>
+              <p className="text-sm text-white/55">The map is an invitation, not a limit.</p>
               <a href="#contact" className="group inline-flex items-center gap-2 text-sm font-bold text-gold">
                 Put your city on the journey <span className="transition-transform group-hover:translate-x-1">→</span>
               </a>

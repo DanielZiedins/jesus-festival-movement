@@ -93,7 +93,7 @@ export default function CitySignal() {
                     Take this step <Icon name="arrow" className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </a>
                 </div>
-                <p className="mt-4 border-t border-white/[.08] pt-3 text-sm font-medium italic text-white/42">“{current.detail}”</p>
+                <p className="mt-4 border-t border-white/[.08] pt-3 text-sm font-medium italic text-white/55">“{current.detail}”</p>
               </div>
             </div>
           </Reveal>

@@ -452,7 +452,7 @@ export default function AkusePage() {
                       </div>
                     ))}
                   </div>
-                  <p className="mt-5 text-sm text-white/45">
+                  <p className="mt-5 text-sm text-white/55">
                     Evening sessions begin at 6:00 PM Ghana time (GMT). Times
                     shown as published — please double-check your own local
                     conversion.

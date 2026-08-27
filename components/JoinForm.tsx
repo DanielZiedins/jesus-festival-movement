@@ -84,7 +84,7 @@ export default function JoinForm({
 
   /* ---------------- form ---------------- */
   const inputBase =
-    "w-full rounded-xl border border-white/12 bg-white/[0.05] px-4 py-3.5 text-white placeholder:text-white/40 outline-none transition-colors focus:border-gold/60 focus:bg-white/[0.07]";
+    "w-full rounded-xl border border-white/12 bg-white/[0.05] px-4 py-3.5 text-white placeholder:text-white/55 outline-none transition-colors focus:border-gold/60 focus:bg-white/[0.07]";
 
   return (
     <form onSubmit={onSubmit} className="w-full">
@@ -172,7 +172,7 @@ export default function JoinForm({
         </p>
       )}
 
-      <p className="mt-3.5 text-xs leading-relaxed text-white/45">
+      <p className="mt-3.5 text-xs leading-relaxed text-white/55">
         Nine letters, then occasional updates. No spam, ever. Unsubscribe in
         one click.
       </p>

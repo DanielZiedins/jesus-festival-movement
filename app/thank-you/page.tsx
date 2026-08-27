@@ -143,7 +143,7 @@ export default function ThankYouPage() {
                 </a>
                 <a href="#first-week" className="button-secondary">Start with this week <span aria-hidden="true">↓</span></a>
               </div>
-              <p className="mt-4 text-xs text-white/35">10 pages · practical checklists · 30/60/90-day plan · free to use with your team</p>
+              <p className="mt-4 text-xs text-white/55">10 pages · practical checklists · 30/60/90-day plan · free to use with your team</p>
             </div>
 
             <a
@@ -167,7 +167,7 @@ export default function ThankYouPage() {
                     <p className="mt-4 font-display text-2xl font-bold uppercase leading-tight text-white">How to start a</p>
                     <p className="mt-1 font-display text-4xl font-bold uppercase leading-none text-gradient-gold">Jesus Festival</p>
                   </div>
-                  <div className="flex items-center justify-between border-t border-white/10 pt-5 text-[.65rem] font-bold uppercase tracking-[.2em] text-white/42">
+                  <div className="flex items-center justify-between border-t border-white/10 pt-5 text-[.65rem] font-bold uppercase tracking-[.2em] text-white/55">
                     <span>One faithful step</span>
                     <span className="text-gold">PDF ↓</span>
                   </div>

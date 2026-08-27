@@ -96,7 +96,7 @@ export default function Contact() {
 
             <div className="mt-10 flex items-center gap-4 border-t border-white/10 pt-6">
               <span className="font-display text-4xl font-bold text-white/15">43°N</span>
-              <p className="max-w-xs text-sm leading-relaxed text-white/40">Born in Hamilton. Believing for cities and nations.</p>
+              <p className="max-w-xs text-sm leading-relaxed text-white/55">Born in Hamilton. Believing for cities and nations.</p>
             </div>
           </div>
 
@@ -172,7 +172,7 @@ export default function Contact() {
                   <a className="font-bold text-gold underline" href={`mailto:${SITE.email}`}>{SITE.email}</a>.
                 </p>
               )}
-              {status === "idle" && <p className="text-white/35">We will only use your details to respond to this conversation.</p>}
+              {status === "idle" && <p className="text-white/55">We will only use your details to respond to this conversation.</p>}
             </div>
           </form>
         </div>

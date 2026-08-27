@@ -90,7 +90,7 @@ export default function BlogIndex() {
                         Latest
                       </span>
                       <span className="text-gold-400">{lead.category}</span>
-                      <span className="text-white/35">
+                      <span className="text-white/55">
                         {fmt(lead.date)} · {lead.readMinutes} min read
                       </span>
                     </div>
@@ -122,7 +122,7 @@ export default function BlogIndex() {
                   >
                     <div className="flex flex-wrap items-center gap-x-3 text-[11px] font-bold uppercase tracking-[0.18em]">
                       <span className="text-gold-400">{p.category}</span>
-                      <span className="text-white/35">
+                      <span className="text-white/55">
                         {p.readMinutes} min read
                       </span>
                     </div>

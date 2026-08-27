@@ -103,7 +103,7 @@ export default async function ShopPage() {
               <p className="text-xs font-bold uppercase tracking-[.28em] text-gold">The Jesus Festival collection</p>
               <h2 className="mt-4 font-display text-4xl font-bold uppercase leading-[.9] tracking-[-.055em] text-white sm:text-6xl">Choose your piece.</h2>
             </div>
-            <p className="max-w-md text-sm leading-relaxed text-white/48">Live catalog, live pricing, and secure fulfillment through Kingdom Shop.</p>
+            <p className="max-w-md text-sm leading-relaxed text-white/55">Live catalog, live pricing, and secure fulfillment through Kingdom Shop.</p>
           </div>
 
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -119,7 +119,7 @@ export default async function ShopPage() {
                     <span className="shrink-0 text-lg font-bold text-gold">${product.price}</span>
                   </div>
                   <div className="mt-6 flex items-center justify-between border-t border-white/10 pt-5">
-                    <span className={`text-xs font-bold uppercase tracking-[.14em] ${product.available ? "text-sky-200" : "text-white/40"}`}>{product.available ? "Available now" : "Coming soon"}</span>
+                    <span className={`text-xs font-bold uppercase tracking-[.14em] ${product.available ? "text-sky-200" : "text-white/55"}`}>{product.available ? "Available now" : "Coming soon"}</span>
                     <a href={product.url} target="_blank" rel="noopener noreferrer" className="group/link inline-flex items-center gap-2 text-sm font-bold text-white transition hover:text-gold">View in Kingdom Shop <Icon name="arrow" className="h-4 w-4 transition-transform group-hover/link:translate-x-1" /></a>
                   </div>
                 </div>

@@ -32,12 +32,12 @@ export default function Footer() {
         <div className="grid gap-12 lg:grid-cols-[1.45fr_.8fr_.8fr]">
           <div>
             <BrandMark full className="w-40 sm:w-52" />
-            <p className="mt-6 max-w-md text-base leading-relaxed text-white/48">{SITE.tagline}</p>
+            <p className="mt-6 max-w-md text-base leading-relaxed text-white/55">{SITE.tagline}</p>
             <a href={`mailto:${SITE.email}`} className="mt-5 inline-block font-bold text-gold hover:underline">{SITE.email}</a>
           </div>
 
           <div>
-            <p className="text-xs font-bold uppercase tracking-[.22em] text-white/30">Explore</p>
+            <p className="text-xs font-bold uppercase tracking-[.22em] text-white/55">Explore</p>
             <ul className="mt-5 space-y-3">
               {EXPLORE.map(([label, href]) => (
                 <li key={href}>
@@ -48,7 +48,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="text-xs font-bold uppercase tracking-[.22em] text-white/30">The family</p>
+            <p className="text-xs font-bold uppercase tracking-[.22em] text-white/55">The family</p>
             <ul className="mt-5 space-y-3">
               {FAMILY.map(([label, href]) => (
                 <li key={href}>
@@ -59,10 +59,10 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 flex flex-col justify-between gap-5 border-t border-white/[.08] pt-7 text-xs text-white/30 sm:flex-row sm:items-end">
+        <div className="mt-14 flex flex-col justify-between gap-5 border-t border-white/[.08] pt-7 text-xs text-white/55 sm:flex-row sm:items-end">
           <div>
             <p>© {new Date().getFullYear()} Jesus Festival Movement. To the glory of Jesus Christ.</p>
-            <p className="mt-2 text-[0.68rem] text-white/32">
+            <p className="mt-2 text-[0.68rem] text-white/55">
               Made with <span aria-label="love" role="img" className="inline-block animate-pulse text-ember-400">❤️</span> by:{" "}
               <a
                 href="https://www.danielziedins.com"
@@ -74,7 +74,7 @@ export default function Footer() {
               </a>
             </p>
           </div>
-          <p className="font-medium text-white/42">From Hamilton, Ontario → to the nations.</p>
+          <p className="font-medium text-white/55">From Hamilton, Ontario → to the nations.</p>
         </div>
       </div>
     </footer>

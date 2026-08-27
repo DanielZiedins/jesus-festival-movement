@@ -57,7 +57,7 @@ export default function Festivals() {
                     <div className="relative">
                       <div className="flex items-center justify-between gap-5">
                         <span className="font-display text-sm font-bold tracking-[.18em] text-ember-400">{stage.number}</span>
-                        <span className="rounded-full border border-white/10 px-3 py-1.5 text-[.62rem] font-bold uppercase tracking-[.2em] text-white/48">
+                        <span className="rounded-full border border-white/10 px-3 py-1.5 text-[.62rem] font-bold uppercase tracking-[.2em] text-white/55">
                           {stage.label}
                         </span>
                       </div>

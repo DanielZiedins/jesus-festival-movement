@@ -119,7 +119,7 @@ export default function BlogPost({ params }: Params) {
             <div className="container-x relative">
               <div className="mx-auto max-w-3xl">
                 <Reveal immediate>
-                  <nav className="flex items-center gap-2 text-sm text-white/45">
+                  <nav className="flex items-center gap-2 text-sm text-white/55">
                     <a href="/blog" className="transition-colors hover:text-gold">
                       Journal
                     </a>
@@ -143,7 +143,7 @@ export default function BlogPost({ params }: Params) {
                   </p>
                 </Reveal>
                 <Reveal immediate delay={0.15}>
-                  <p className="mt-7 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-white/10 pt-6 text-sm text-white/45">
+                  <p className="mt-7 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-white/10 pt-6 text-sm text-white/55">
                     <span>{fmt(post.date)}</span>
                     <span>·</span>
                     <span>{post.readMinutes} min read</span>
