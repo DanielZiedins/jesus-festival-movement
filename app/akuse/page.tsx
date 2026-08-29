@@ -496,6 +496,53 @@ export default function AkusePage() {
           </div>
         </section>
 
+        {/* Questions before you come */}
+        <section className="section-pad !py-14 border-y border-white/5 bg-navy-950/40">
+          <div className="container-x">
+            <div className="mx-auto max-w-4xl">
+              <Reveal>
+                <Eyebrow>Before You Come</Eyebrow>
+              </Reveal>
+              <Reveal delay={0.05}>
+                <h2 className="mt-5 font-display text-3xl font-bold text-white sm:text-4xl">
+                  The questions{" "}
+                  <span className="text-gradient-gold">people ask us.</span>
+                </h2>
+              </Reveal>
+              <div className="mt-8 grid gap-3 sm:grid-cols-2">
+                {[
+                  { q: "Do I have to be a Christian to come?", id: "do-i-have-to-be-a-christian" },
+                  { q: "Can I bring my children?", id: "bring-children" },
+                  { q: "Will I be pressured into anything?", id: "will-i-be-pressured" },
+                  { q: "What if I can't be there in person?", id: "cant-attend-in-person" },
+                ].map((x, i) => (
+                  <Reveal key={x.id} delay={0.08 + i * 0.04}>
+                    <a
+                      href={`/answers#${x.id}`}
+                      className="group flex items-center justify-between gap-4 rounded-2xl glass p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/30"
+                    >
+                      <span className="font-medium text-white/85">{x.q}</span>
+                      <Icon
+                        name="arrow"
+                        className="h-4 w-4 flex-none text-white/55 transition-all group-hover:translate-x-0.5 group-hover:text-gold"
+                      />
+                    </a>
+                  </Reveal>
+                ))}
+              </div>
+              <Reveal delay={0.25}>
+                <a
+                  href="/answers"
+                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gold hover:underline"
+                >
+                  See all the answers
+                  <Icon name="arrow" className="h-4 w-4" />
+                </a>
+              </Reveal>
+            </div>
+          </div>
+        </section>
+
         {/* Closing */}
         <section className="section-pad relative overflow-hidden">
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_120%,rgba(255,107,53,0.2),transparent_55%)]" />
