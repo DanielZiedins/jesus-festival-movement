@@ -10,8 +10,15 @@ export function generateStaticParams() {
 
 export const alt = "Jesus Festival Movement — The Journal";
 
-export default function Og({ params }: { params: { slug: string } }) {
-  const post = POST_BY_SLUG.get(params.slug);
+// Next 15+ delivers route params as a Promise; without awaiting it every
+// post's card silently fell back to the generic "The Journal" title.
+export default async function Og({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const post = POST_BY_SLUG.get(slug);
   const title = post?.title ?? "The Journal";
   const category = post?.category ?? "Jesus Festival Movement";
   const read = post ? `${post.readMinutes} min read` : "";

@@ -829,6 +829,132 @@ export const POSTS: Post[] = [
       },
     ],
   },
+
+  /* ────────────────────────────────────────────────────────── */
+  {
+    slug: "how-to-pray-for-your-city",
+    title: "How To Pray For Your City (Without Running Out Of Words)",
+    description:
+      "Every festival we've ever held started with someone praying for their city by name. Here's a simple, sustainable way to do it — including what to pray when you don't know what to say.",
+    tldr:
+      "Pray for your city by name, on a rhythm you can sustain — five minutes daily beats an hour once. Use a simple frame: thank God for the city, pray for its people by category (leaders, churches, the hurting, the lost), pray Scripture over it, and ask God what your part is. Walking or driving a route while you pray helps it stay concrete.",
+    date: "2026-08-25",
+    readMinutes: 6,
+    category: "Prayer",
+    eyebrow: "Where Every Festival Starts",
+    keywords: [
+      "how to pray for your city",
+      "praying for your community",
+      "prayer walking guide",
+      "scriptures to pray over a city",
+      "intercession for a city",
+      "revival prayer",
+    ],
+    related: ["oikos", "seekfirst", "loh", "lom"],
+    body: [
+      {
+        t: "p",
+        text: "Every Jesus Festival that has ever happened started the same way: not with a venue, a budget or a team, but with somebody praying for their city by name.",
+      },
+      {
+        t: "p",
+        text: "That's not a sentimental origin story — it's the actual first step of the playbook, and the one everything else depends on. But 'pray for your city' is one of those instructions that sounds simple until you sit down to do it, say two sentences, and run out of words.",
+      },
+      {
+        t: "p",
+        text: "Here's what has helped us pray for years without running dry.",
+      },
+      { t: "h2", text: "Say the name" },
+      {
+        t: "p",
+        text: "Start by actually naming the place. Not 'our community' or 'this region' — <em>Hamilton</em>. <em>Akuse</em>. <em>Your city</em>. Something changes when a place stops being an abstraction and becomes a name you say to God.",
+      },
+      {
+        t: "scripture",
+        text: "Seek the welfare of the city where I have sent you into exile, and pray to the LORD on its behalf, for in its welfare you will find your welfare.",
+        ref: "Jeremiah 29:7",
+      },
+      {
+        t: "p",
+        text: "Notice the assignment in that verse. The exiles didn't choose Babylon and mostly didn't like it. They were still told to seek its good and pray for it — because God had placed them there on purpose. The same is true of where you live.",
+      },
+      { t: "h2", text: "A frame for when you run out of words" },
+      {
+        t: "steps",
+        items: [
+          {
+            title: "Thank God for the city",
+            text: "Start with gratitude, not grievance. Thank Him for specific things — the people, the parks, the churches already labouring there, the mercy the city has already received. Gratitude re-orders how you see the place before you ask for anything.",
+          },
+          {
+            title: "Pray for its people, by category",
+            text: "Leaders and officials by name where you know them (1 Timothy 2:1–2 makes this explicit). Pastors and churches — including the ones you'd never attend. The hurting: the sick, the addicted, the lonely, the grieving. And the lost — that they would encounter Jesus.",
+          },
+          {
+            title: "Pray Scripture over it",
+            text: "When your own words run out, borrow God's. Pray Jeremiah 29:7 for its welfare, Matthew 9:37–38 for labourers, Habakkuk 2:14 that the knowledge of the glory of the LORD would fill it, Psalm 127:1 over everything being built there.",
+          },
+          {
+            title: "Ask what your part is",
+            text: "End with the dangerous question: 'God, what do You want to do here — and what's my part in it?' Every movement we've seen began with someone praying that and meaning it.",
+          },
+        ],
+      },
+      { t: "h2", text: "Make it a rhythm, not a heroic effort" },
+      {
+        t: "p",
+        text: "Five minutes every day will change you more than an hour once a month. Attach it to something you already do — the commute, the school run, the kettle boiling. The goal is a habit that survives a busy week, not a mountain-top experience.",
+      },
+      {
+        t: "p",
+        text: "If you want company in it, invite two or three others to pray the same frame for the same city. You don't need a meeting — a shared commitment and an occasional message is enough to keep each other going.",
+      },
+      { t: "h2", text: "Walk while you pray" },
+      {
+        t: "p",
+        text: "Prayer walking is nothing mystical — it's simply praying with your eyes open while you move through the place you're praying for. Walk a street and pray for the homes on it. Pass the school and pray for its teachers and students. Stand outside the town hall and pray for whoever makes decisions inside.",
+      },
+      {
+        t: "list",
+        items: [
+          "Pick one route and repeat it weekly rather than covering the whole city once",
+          "Pray quietly and normally — this is not a demonstration",
+          "Let what you see set the agenda: the shuttered shop, the busy clinic, the full playground",
+          "Take note of what stirs you. Repeated burdens are often assignments in disguise",
+        ],
+      },
+      { t: "h2", text: "Pray for people, not just place" },
+      {
+        t: "p",
+        text: "A city is people. As the habit grows, narrow some of your praying to actual names — the neighbours, workmates and friends God has already put around you. <a href=\"https://OikosMap.com\">OikosMap</a> is a free tool for writing that circle down so you can pray through it deliberately; most people are surprised how many names appear.",
+      },
+      {
+        t: "p",
+        text: "And if you want to see how local, week-in week-out prayer and outreach compound over years in one city, <a href=\"https://LoveOnHamilton.com\">Love on Hamilton</a> is what that looks like where this movement began. For lifting your eyes wider, <a href=\"https://LoveOnMission.world\">Love on Mission</a> maps the parts of the world still waiting to hear at all.",
+      },
+      {
+        t: "scripture",
+        text: "The harvest is plentiful, but the laborers are few. Therefore pray earnestly to the Lord of the harvest to send out laborers into his harvest.",
+        ref: "Matthew 9:37–38",
+      },
+      { t: "h2", text: "What praying like this tends to produce" },
+      {
+        t: "p",
+        text: "We can't promise what God will do with your prayers — but we can tell you the pattern we've watched. People who pray for their city by name start noticing it differently. Noticing turns into small acts of love. Small acts of love turn into relationships, teams, and sometimes — a park, a stage, and the Gospel preached in the open air.",
+      },
+      {
+        t: "p",
+        text: "That's not a formula. It's just what seeking first the Kingdom looks like when it's aimed at an actual postcode — the heart <a href=\"https://SeekFirst.World\">Seek First</a> exists to keep in front of us.",
+      },
+      {
+        t: "callout",
+        title: "When prayer turns into a stirring",
+        text: "If you pray for your city long enough, don't be surprised if God asks you to be part of the answer. Step 1 of the playbook is exactly this — and steps 2 to 13 are what to do next.",
+        href: "/start-a-jesus-festival/playbook",
+        cta: "Open the playbook",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));

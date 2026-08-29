@@ -12,14 +12,17 @@ import { POST_BY_SLUG, POSTS, SORTED_POSTS } from "@/lib/blog/posts";
 import { SITE_BY_KEY } from "@/lib/network";
 import { SITE } from "@/lib/content";
 
-type Params = { params: { slug: string } };
+// Next 15+ delivers route params as a Promise — reading .slug synchronously
+// yields undefined and every post silently renders the 404 shell.
+type Params = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
   return POSTS.map((p) => ({ slug: p.slug }));
 }
 
-export function generateMetadata({ params }: Params): Metadata {
-  const post = POST_BY_SLUG.get(params.slug);
+export async function generateMetadata({ params }: Params): Promise<Metadata> {
+  const { slug } = await params;
+  const post = POST_BY_SLUG.get(slug);
   if (!post) return {};
   const url = `${SITE.url}/blog/${post.slug}`;
   return {
@@ -51,8 +54,9 @@ function fmt(date: string) {
   });
 }
 
-export default function BlogPost({ params }: Params) {
-  const post = POST_BY_SLUG.get(params.slug);
+export default async function BlogPost({ params }: Params) {
+  const { slug } = await params;
+  const post = POST_BY_SLUG.get(slug);
   if (!post) notFound();
 
   const url = `${SITE.url}/blog/${post.slug}`;

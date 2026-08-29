@@ -6,11 +6,22 @@ import Eyebrow from "@/components/ui/Eyebrow";
 import Icon from "@/components/ui/Icon";
 import Share from "@/components/Share";
 import JoinForm from "@/components/JoinForm";
+import EventCountdown from "@/components/EventCountdown";
 import { EVENT_BY_SLUG } from "@/lib/events";
 import { SITE } from "@/lib/content";
 
 const EV = EVENT_BY_SLUG.get("akuse")!;
 const PAGE_URL = `${SITE.url}/akuse`;
+
+// Ghana runs on GMT year-round, so these Z times are also local times.
+const EVENT_START_ISO = `${EV.startDate}T09:00:00Z`;
+const EVENT_END_ISO = `${EV.endDate}T20:00:00Z`;
+
+const GOOGLE_CAL_URL = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
+  "Jesus Festival Akuse — Jesus Christ Is Lord",
+)}&dates=${EV.startDate.replace(/-/g, "")}T090000Z/${EV.endDate.replace(/-/g, "")}T200000Z&details=${encodeURIComponent(
+  `"${EV.theme}" (${EV.scripture.ref}) with ${EV.speaker.name}. Morning 9:00 AM & evening 6:00 PM each day. Free — all are welcome. ${PAGE_URL}`,
+)}&location=${encodeURIComponent(`${EV.venue}, ${EV.city}, ${EV.country}`)}`;
 
 export const metadata: Metadata = {
   title: "Jesus Festival Akuse — 3–4 September 2026 | Jesus Christ Is Lord",
@@ -205,9 +216,45 @@ export default function AkusePage() {
                 </a>
               </div>
 
+              <div
+                className="hero-in"
+                style={{ "--reveal-d": "0.3s" } as React.CSSProperties}
+              >
+                <EventCountdown
+                  startIso={EVENT_START_ISO}
+                  endIso={EVENT_END_ISO}
+                  watchHref="#watch"
+                />
+              </div>
+
+              <div
+                className="hero-in mt-6 flex flex-wrap items-center justify-center gap-x-5 gap-y-2"
+                style={{ "--reveal-d": "0.34s" } as React.CSSProperties}
+              >
+                <a
+                  href={GOOGLE_CAL_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-white/70 transition-colors hover:text-gold"
+                >
+                  <Icon name="calendar" className="h-4 w-4" />
+                  Add to Google Calendar
+                </a>
+                <span className="text-white/25" aria-hidden="true">
+                  ·
+                </span>
+                <a
+                  href="/akuse/calendar.ics"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-white/70 transition-colors hover:text-gold"
+                >
+                  <Icon name="download" className="h-4 w-4" />
+                  Apple / Outlook (.ics)
+                </a>
+              </div>
+
               <p
                 className="hero-in mt-7 text-sm text-white/55"
-                style={{ "--reveal-d": "0.3s" } as React.CSSProperties}
+                style={{ "--reveal-d": "0.38s" } as React.CSSProperties}
               >
                 Free entry · Everyone welcome · With{" "}
                 <span className="font-semibold text-white">
