@@ -105,6 +105,21 @@ export const MOVEMENT_STAGES = [
   },
   {
     number: "03",
+    city: "Akuse",
+    region: "Eastern Region, Ghana",
+    label: "Happening next · 3–4 Sept 2026",
+    description:
+      "The movement reaches West Africa. Two days of worship, the Word and prayer at Akuse Taxi Station with Rev. Ezekiel Ashiley — free, open to all, and streaming live to the world.",
+    link: "/akuse",
+    linkLabel: "Festival details & live stream",
+    imageAlt: "An open-air festival crowd bathed in warm golden stage light",
+    imagePosition: "center",
+    imageKicker: "Akuse, Ghana · Sept 3–4",
+    image:
+      "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1600&q=85",
+  },
+  {
+    number: "04",
     city: "The Nations",
     region: "Your city could be next",
     label: "The invitation",

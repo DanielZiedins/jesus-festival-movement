@@ -152,7 +152,7 @@ export const NETWORK: NetworkSite[] = [
   {
     key: "seekfirst",
     name: "SeekFirst.World",
-    url: "https://SeekFirst.World",
+    url: "https://www.seekfirst.world",
     tagline: "Seek first the Kingdom — a movement of surrendered lives",
     why: "The heart posture underneath all of this. Read it when your motives need re-centring.",
     category: "mission",

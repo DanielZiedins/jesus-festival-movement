@@ -362,7 +362,7 @@ export const POSTS: Post[] = [
       },
       {
         t: "p",
-        text: "That's the quiet compounding return on all the awkward coffees — and it's a big part of what <a href=\"https://ThyKingdom.net\">Thy Kingdom Network</a> exists to nurture. The same instinct runs through <a href=\"https://SeekFirst.World\">Seek First</a>, and among business owners through <a href=\"https://LionsDenAlliance.com\">Lions Den Alliance</a>.",
+        text: "That's the quiet compounding return on all the awkward coffees — and it's a big part of what <a href=\"https://ThyKingdom.net\">Thy Kingdom Network</a> exists to nurture. The same instinct runs through <a href=\"https://www.seekfirst.world\">Seek First</a>, and among business owners through <a href=\"https://LionsDenAlliance.com\">Lions Den Alliance</a>.",
       },
       {
         t: "callout",
@@ -944,7 +944,7 @@ export const POSTS: Post[] = [
       },
       {
         t: "p",
-        text: "That's not a formula. It's just what seeking first the Kingdom looks like when it's aimed at an actual postcode — the heart <a href=\"https://SeekFirst.World\">Seek First</a> exists to keep in front of us.",
+        text: "That's not a formula. It's just what seeking first the Kingdom looks like when it's aimed at an actual postcode — the heart <a href=\"https://www.seekfirst.world\">Seek First</a> exists to keep in front of us.",
       },
       {
         t: "callout",

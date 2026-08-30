@@ -299,7 +299,7 @@ export const FLOWS: Flow[] = [
       extra: `
         <p style="margin:16px 0 0;font-size:16px;line-height:1.7;color:#e8ebf7;">
           All of it sits inside <a href="https://ThyKingdom.net" style="color:#f5c451;">Thy Kingdom Network</a>,
-          with the heart behind it written out at <a href="https://SeekFirst.World" style="color:#f5c451;">SeekFirst.World</a>.
+          with the heart behind it written out at <a href="https://www.seekfirst.world" style="color:#f5c451;">SeekFirst.World</a>.
           You can see everything in one place on
           <a href="${SITE_URL}/network" style="color:#f5c451;">our network page</a>.
         </p>
