@@ -7,11 +7,15 @@ import Icon from "@/components/ui/Icon";
 import Share from "@/components/Share";
 import JoinForm from "@/components/JoinForm";
 import EventCountdown from "@/components/EventCountdown";
-import { EVENT_BY_SLUG } from "@/lib/events";
+import { EVENT_BY_SLUG, eventPhase } from "@/lib/events";
 import { SITE } from "@/lib/content";
 
 const EV = EVENT_BY_SLUG.get("akuse")!;
 const PAGE_URL = `${SITE.url}/akuse`;
+
+// Re-render daily: once the festival is over, the calendar links and start
+// time table step aside for the replay without a deploy.
+export const revalidate = 86400;
 
 // Ghana runs on GMT year-round, so these Z times are also local times.
 const EVENT_START_ISO = `${EV.startDate}T09:00:00Z`;
@@ -25,8 +29,9 @@ const GOOGLE_CAL_URL = `https://calendar.google.com/calendar/render?action=TEMPL
 
 export const metadata: Metadata = {
   title: "Jesus Festival Akuse — 3–4 September 2026 | Jesus Christ Is Lord",
+  // Tense-neutral on purpose: this description is right before, during and after the festival.
   description:
-    "The Jesus Festival comes to Akuse, Ghana on 3–4 September 2026 with Rev. Ezekiel Ashiley. Akuse Taxi Station, 9AM and 6PM each day. Free, open to all, and streaming live.",
+    "The Jesus Festival in Akuse, Ghana — 3–4 September 2026 with Rev. Ezekiel Ashiley at Akuse Taxi Station, 9AM and 6PM each day. Free, open to all, streamed live as Jesus Festival Live TV.",
   keywords: [
     "Jesus Festival Akuse",
     "Jesus Festival Ghana",
@@ -123,6 +128,7 @@ export default function AkusePage() {
   const mapQuery = encodeURIComponent(
     `${EV.venue}, ${EV.city}, ${EV.country}`,
   );
+  const ended = eventPhase(EV) === "ended";
 
   return (
     <>
@@ -227,6 +233,7 @@ export default function AkusePage() {
                 />
               </div>
 
+              {!ended && (
               <div
                 className="hero-in mt-6 flex flex-wrap items-center justify-center gap-x-5 gap-y-2"
                 style={{ "--reveal-d": "0.34s" } as React.CSSProperties}
@@ -251,6 +258,7 @@ export default function AkusePage() {
                   Apple / Outlook (.ics)
                 </a>
               </div>
+              )}
 
               <p
                 className="hero-in mt-7 text-sm text-white/55"
@@ -457,25 +465,36 @@ export default function AkusePage() {
           <div className="container-x">
             <div className="mx-auto max-w-4xl">
               <Reveal>
-                <Eyebrow>Can&apos;t Be There?</Eyebrow>
+                <Eyebrow>{ended ? "Missed It?" : "Can't Be There?"}</Eyebrow>
               </Reveal>
               <Reveal delay={0.05}>
                 <h2 className="mt-5 font-display text-3xl font-bold text-white sm:text-4xl">
-                  Watch it{" "}
-                  <span className="text-gradient-gold">live.</span>
+                  {ended ? "Watch the " : "Watch it "}
+                  <span className="text-gradient-gold">{ended ? "replay." : "live."}</span>
                 </h2>
               </Reveal>
               <Reveal delay={0.08}>
                 <p className="mt-4 max-w-2xl text-lg text-white/70">
-                  Every session streams on{" "}
-                  <span className="font-semibold text-white">
-                    {EV.streaming.label}
-                  </span>{" "}
-                  — search for it on {EV.streaming.platforms.join(" or ")} when
-                  the festival begins.
+                  {ended ? (
+                    <>
+                      Every session was streamed as{" "}
+                      <span className="font-semibold text-white">{EV.streaming.label}</span>.
+                      Search for it on {EV.streaming.platforms.join(" or ")} to watch the
+                      recordings, and share them with someone who needs to hear that Jesus
+                      Christ is Lord.
+                    </>
+                  ) : (
+                    <>
+                      Every session streams on{" "}
+                      <span className="font-semibold text-white">{EV.streaming.label}</span>{" "}
+                      — search for it on {EV.streaming.platforms.join(" or ")} when the
+                      festival begins.
+                    </>
+                  )}
                 </p>
               </Reveal>
 
+              {!ended && (
               <Reveal delay={0.12}>
                 <div className="mt-8 rounded-2xl glass-strong p-7">
                   <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold-400">
@@ -506,6 +525,7 @@ export default function AkusePage() {
                   </p>
                 </div>
               </Reveal>
+              )}
             </div>
           </div>
         </section>

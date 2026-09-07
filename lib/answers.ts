@@ -283,7 +283,7 @@ export const ANSWERS: Answer[] = [
       "If distance or health keeps you away, the invitation is exactly the same — you don't need to be in a field to meet Jesus.",
     ],
     links: [
-      { label: "Watch Akuse live", href: "/akuse" },
+      { label: "Jesus Festival Akuse — stream & details", href: "/akuse" },
       { label: "The Gospel, explained simply", href: "/know-jesus" },
     ],
   },
