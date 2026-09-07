@@ -1,19 +1,27 @@
 import type { MetadataRoute } from "next";
 import { SITE } from "@/lib/content";
 import { SORTED_POSTS } from "@/lib/blog/posts";
-import { upcomingEvents } from "@/lib/events";
+import { EVENTS, eventPhase } from "@/lib/events";
+
+// Re-evaluate daily so festival priority steps down after the event without a deploy.
+export const revalidate = 86400;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Keep this tied to a real content release, rather than reporting every crawl as a new edit.
   const lastModified = new Date("2026-08-12T00:00:00.000Z");
 
-  // Upcoming festivals rank top — they're time-sensitive.
-  const festivals: MetadataRoute.Sitemap = upcomingEvents().map((e) => ({
-    url: `${SITE.url}/${e.slug}`,
-    lastModified,
-    changeFrequency: "weekly",
-    priority: 1,
-  }));
+  // Every festival page stays listed for good — "when was the Akuse festival"
+  // is a real query long after the event. Upcoming/live ones rank top and are
+  // re-crawled often; held ones settle to an evergreen record.
+  const festivals: MetadataRoute.Sitemap = EVENTS.map((e) => {
+    const ended = eventPhase(e) === "ended";
+    return {
+      url: `${SITE.url}/${e.slug}`,
+      lastModified: ended ? new Date(`${e.endDate}T20:00:00Z`) : lastModified,
+      changeFrequency: ended ? "yearly" : "daily",
+      priority: ended ? 0.8 : 1,
+    };
+  });
 
   const posts: MetadataRoute.Sitemap = SORTED_POSTS.map((p) => ({
     url: `${SITE.url}/blog/${p.slug}`,

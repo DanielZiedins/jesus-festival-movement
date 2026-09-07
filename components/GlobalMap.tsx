@@ -6,12 +6,18 @@ import { MAP_MARKERS } from "@/lib/content";
 import Reveal from "./ui/Reveal";
 import Eyebrow from "./ui/Eyebrow";
 
-const markerCopy: Record<string, string> = {
+const baseMarkerCopy: Record<string, string> = {
   Hamilton: "Where a local step of faith became a movement.",
   Niagara: "The vision expanding across a region.",
-  Akuse: "Ghana — the next festival, 3-4 September 2026.",
+  // Fallback only — the page passes date-aware copy for event pins.
+  Akuse: "Ghana — the next festival, 3–4 September 2026.",
   "Your city": "A team praying, gathering, and saying yes.",
   "The nations": "Local expressions multiplying around the world.",
+};
+
+type Props = {
+  /** Per-pin copy computed on the server (e.g. "happening now" / "held"). */
+  copyOverrides?: Record<string, string>;
 };
 
 const worldPaths = [
@@ -25,9 +31,10 @@ const worldPaths = [
   "M922 237 946 225l14 14-20 19Z",
 ];
 
-export default function GlobalMap() {
+export default function GlobalMap({ copyOverrides }: Props = {}) {
   const [active, setActive] = useState("Hamilton");
   const reduceMotion = useReducedMotion();
+  const markerCopy = { ...baseMarkerCopy, ...copyOverrides };
 
   return (
     <section id="map" className="section-pad relative overflow-hidden">

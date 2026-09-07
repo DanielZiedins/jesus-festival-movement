@@ -1,17 +1,27 @@
 import { MOVEMENT_STAGES } from "@/lib/content";
+import { EVENT_BY_SLUG, eventStageCopy } from "@/lib/events";
 import Reveal from "./ui/Reveal";
 import Eyebrow from "./ui/Eyebrow";
 import Icon from "./ui/Icon";
 import Image from "next/image";
 
+/** Stage copy, with event-backed stages resolved against today's date. */
+function resolveStage(stage: (typeof MOVEMENT_STAGES)[number]) {
+  const event = "eventSlug" in stage ? EVENT_BY_SLUG.get(stage.eventSlug) : undefined;
+  if (!event) return stage;
+  const live = eventStageCopy(event);
+  return { ...stage, label: live.label, imageKicker: live.kicker, linkLabel: live.linkLabel };
+}
+
 export default function Festivals() {
+  const stages = MOVEMENT_STAGES.map(resolveStage);
   return (
     <section id="journey" className="section-pad relative overflow-hidden bg-[#070b16]">
       <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent,rgba(244,196,92,.035),transparent)]" />
       <div className="container-x relative">
         <div className="grid items-end gap-8 lg:grid-cols-[1.1fr_.9fr]">
           <Reveal>
-            <Eyebrow>Hamilton → Niagara → Nations</Eyebrow>
+            <Eyebrow>Hamilton → Niagara → Akuse → Nations</Eyebrow>
             <h2 className="mt-6 max-w-3xl font-display text-5xl font-bold uppercase leading-[.9] tracking-[-.055em] text-white sm:text-6xl lg:text-7xl">
               A local yes can
               <span className="block text-gradient-gold">travel farther than you imagine.</span>
@@ -19,7 +29,7 @@ export default function Festivals() {
           </Reveal>
           <Reveal delay={0.08}>
             <p className="max-w-xl text-lg leading-relaxed text-white/62 lg:ml-auto">
-              What began in Hamilton moved into Niagara with the same simple heart: gather in public, lift up Jesus, preach the Gospel, and invite a region into lasting mission.
+              What began in Hamilton moved into Niagara, and now across the ocean to Akuse, Ghana, with the same simple heart: gather in public, lift up Jesus, preach the Gospel, and invite a region into lasting mission.
             </p>
           </Reveal>
         </div>
@@ -27,7 +37,7 @@ export default function Festivals() {
         <div className="relative mt-16">
           <div className="movement-line absolute left-7 top-0 hidden h-full w-px bg-gradient-to-b from-gold via-ember to-sky-300/20 lg:block" />
           <div className="space-y-7">
-            {MOVEMENT_STAGES.map((stage, index) => (
+            {stages.map((stage, index) => (
               <Reveal key={stage.city} delay={index * 0.08}>
                 <article className="journey-card group relative grid overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.025] transition duration-500 hover:border-gold/35 lg:ml-16 lg:grid-cols-[.88fr_1.12fr]">
                   <span className="absolute -left-[3.12rem] top-10 z-10 hidden h-3.5 w-3.5 rounded-full border-2 border-ink bg-gold shadow-[0_0_0_7px_rgba(244,196,92,.12),0_0_24px_rgba(244,196,92,.7)] lg:block" />

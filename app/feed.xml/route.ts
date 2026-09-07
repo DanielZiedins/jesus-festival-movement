@@ -3,6 +3,8 @@ import { SORTED_POSTS } from "@/lib/blog/posts";
 import { upcomingEvents } from "@/lib/events";
 
 export const dynamic = "force-static";
+// Re-render daily so a festival drops out of the "upcoming" list on its own.
+export const revalidate = 86400;
 
 /** Fallback for the hand-listed pages, which have no authored date. */
 const sitePagesPublishedAt = "Wed, 12 Aug 2026 00:00:00 GMT";

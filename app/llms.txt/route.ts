@@ -2,9 +2,11 @@ import { MOVEMENT_FACTS, SITE, STARTER_GUIDE_FAQS } from "@/lib/content";
 import { SORTED_POSTS } from "@/lib/blog/posts";
 import { ANSWERS } from "@/lib/answers";
 import { NETWORK } from "@/lib/network";
-import { upcomingEvents } from "@/lib/events";
+import { EVENTS, eventPhase, upcomingEvents, type FestivalEvent } from "@/lib/events";
 
 export const dynamic = "force-static";
+// Re-render daily so a festival drops out of the "upcoming" list on its own.
+export const revalidate = 86400;
 
 export function GET() {
   const u = SITE.url;
@@ -13,18 +15,24 @@ export function GET() {
 
   // Everything below is generated from the same sources the pages render, so
   // llms.txt can never drift out of date with the site.
+  const describe = (e: FestivalEvent) =>
+    `- [${e.name}](${u}/${e.slug}): ${e.dateLabel} at ${e.venue}, ${e.city}, ${e.country}. Sessions ${e.sessions
+      .map((s) => `${s.label.toLowerCase()} ${s.time}`)
+      .join(" and ")} each day, with ${e.speaker.name}. Free and open to all; streamed live on ${e.streaming.platforms.join(
+      " and ",
+    )} as "${e.streaming.label}". Theme: "${e.theme}" (${e.scripture.ref}).`;
+
   const festivals = upcomingEvents().length
     ? upcomingEvents()
-        .map(
-          (e) =>
-            `- [${e.name}](${u}/${e.slug}): ${e.dateLabel} at ${e.venue}, ${e.city}, ${e.country}. Sessions ${e.sessions
-              .map((s) => `${s.label.toLowerCase()} ${s.time}`)
-              .join(" and ")} each day, with ${e.speaker.name}. Free and open to all; streamed live on ${e.streaming.platforms.join(
-              " and ",
-            )} as "${e.streaming.label}". Theme: "${e.theme}" (${e.scripture.ref}). Enquiries: ${e.phones.join(" or ")}.`,
-        )
+        .map((e) => `${describe(e)} Enquiries: ${e.phones.join(" or ")}.`)
         .join("\n")
     : "- No festivals are currently scheduled. See the starter guide to begin one.";
+
+  // Held festivals stay on record: "when was the Akuse festival" outlives the event.
+  const held = EVENTS.filter((e) => eventPhase(e) === "ended")
+    .sort((a, b) => b.startDate.localeCompare(a.startDate))
+    .map(describe)
+    .join("\n");
 
   const answers = ANSWERS.map((a) => `- [${a.q}](${u}/answers#${a.id}): ${a.short}`).join("\n");
   const posts = SORTED_POSTS.map((p) => `- [${p.title}](${u}/blog/${p.slug}): ${p.description}`).join("\n");
@@ -53,7 +61,10 @@ ${SITE.tagline}
 
 ## Upcoming festivals
 ${festivals}
-
+${held ? `
+## Festivals held
+${held}
+` : ""}
 ## Essential facts
 ${facts}
 

@@ -107,6 +107,9 @@ export const MOVEMENT_STAGES = [
     number: "03",
     city: "Akuse",
     region: "Eastern Region, Ghana",
+    // label / imageKicker / linkLabel are fallbacks: Festivals.tsx derives the
+    // live values from lib/events so this card never goes stale.
+    eventSlug: "akuse",
     label: "Happening next · 3–4 Sept 2026",
     description:
       "The movement reaches West Africa. Two days of worship, the Word and prayer at Akuse Taxi Station with Rev. Ezekiel Ashiley — free, open to all, and streaming live to the world.",

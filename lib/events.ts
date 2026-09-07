@@ -92,3 +92,59 @@ export function upcomingEvents(now = new Date()): FestivalEvent[] {
     a.startDate.localeCompare(b.startDate),
   );
 }
+
+export type EventPhase = "upcoming" | "live" | "ended";
+
+/**
+ * Day-granular phase, compared in UTC. Every event so far is in GMT, so the
+ * calendar day lines up exactly; a future event in another zone would be at
+ * most a few hours off at the boundaries, which is acceptable for copy that
+ * says "happening now" — the countdown on the event page is second-accurate.
+ */
+export function eventPhase(e: FestivalEvent, now = new Date()): EventPhase {
+  const today = now.toISOString().slice(0, 10);
+  if (today < e.startDate) return "upcoming";
+  if (today > e.endDate) return "ended";
+  return "live";
+}
+
+/**
+ * Copy that must never go stale: every surface that mentions an event
+ * (journey card, map pin, schema) derives from this, so the day after the
+ * festival the whole site says "held", not "happening next".
+ */
+export function eventStageCopy(e: FestivalEvent, now = new Date()) {
+  const phase = eventPhase(e, now);
+  const shortDates = e.dateLabel.replace(/ (\d{4})$/, "").replace("September", "Sept");
+  const month = new Date(`${e.startDate}T12:00:00Z`).toLocaleDateString("en-CA", {
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+  });
+
+  if (phase === "live") {
+    return {
+      phase,
+      label: "Happening now",
+      kicker: `${e.city}, ${e.country} · Live now`,
+      linkLabel: "Watch the live stream",
+      mapCopy: `${e.country} — happening right now. Sessions at ${e.sessions.map((s) => s.time).join(" and ")} ${e.timezone}, streaming live.`,
+    };
+  }
+  if (phase === "ended") {
+    return {
+      phase,
+      label: `Held · ${month}`,
+      kicker: `${e.city}, ${e.country} · ${month}`,
+      linkLabel: "Relive the festival",
+      mapCopy: `${e.country} — two days of worship and the Gospel at ${e.venue}, held ${e.dateLabel}.`,
+    };
+  }
+  return {
+    phase,
+    label: `Happening next · ${shortDates} ${e.startDate.slice(0, 4)}`,
+    kicker: `${e.city}, ${e.country} · ${shortDates}`,
+    linkLabel: "Festival details & live stream",
+    mapCopy: `${e.country} — the next festival, ${e.dateLabel}.`,
+  };
+}
