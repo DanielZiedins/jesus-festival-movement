@@ -955,6 +955,196 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "how-to-follow-up-with-a-new-believer",
+    title: "The First 48 Hours: How To Follow Up With A New Believer",
+    description:
+      "Someone said yes to Jesus at your event. What you do in the next two days matters more than everything you spent nine months planning. A practical, honest guide to follow-up that actually keeps people.",
+    tldr: "Contact a new believer within 48 hours, as a person rather than an organisation. Ask how they are, answer the practical questions they actually have, help them read a Gospel for themselves, and walk them into one healthy local church in person. One real relationship outperforms any automated sequence.",
+    date: "2026-09-08",
+    readMinutes: 9,
+    category: "Discipleship",
+    eyebrow: "After the yes",
+    keywords: [
+      "how to follow up with a new believer",
+      "new Christian follow up",
+      "discipleship after evangelistic event",
+      "what to do after someone accepts Christ",
+      "church follow up process",
+      "new believer first steps",
+    ],
+    related: ["kingdom-base", "reborn", "oikos", "jf-app"],
+    body: [
+      {
+        t: "p",
+        text: "Here is the uncomfortable arithmetic of evangelism. A city-wide festival can take nine months to plan, involve a dozen churches, and cost more than most of them spend on anything else all year. And the part that decides whether any of it lasts happens in the two days afterwards, usually on a phone, usually by someone who is exhausted.",
+      },
+      {
+        t: "p",
+        text: "We are not neutral about this. We have watched good events produce almost nothing because nobody planned the Monday. We have also watched small, unimpressive gatherings produce believers who are still walking with Jesus years later, because three people took follow-up seriously. The difference is almost never the quality of the preaching.",
+      },
+      {
+        t: "scripture",
+        text: "So neither he who plants is anything, nor he who waters, but God who gives the increase.",
+        ref: "1 Corinthians 3:7",
+      },
+      {
+        t: "p",
+        text: "God gives the growth. But notice that watering is still listed as a job someone has to do.",
+      },
+
+      { t: "h2", text: "Why 48 hours" },
+      {
+        t: "p",
+        text: "Nothing magical happens at hour 49. The window matters because of what silence communicates. Someone made the most significant decision of their life in front of strangers, went home, and then heard nothing. Within a few days the most natural conclusion available to them is that it was an event moment — emotional, sincere, and not really connected to anything ongoing.",
+      },
+      {
+        t: "p",
+        text: "A short message the next morning quietly says the opposite: this was real, and you were not a number on a report. That is most of the work.",
+      },
+      {
+        t: "list",
+        items: [
+          "<strong>Day 1:</strong> a personal message from the person who actually prayed with them, if at all possible.",
+          "<strong>Day 2–3:</strong> a real conversation — phone, coffee, walk. Not a group text, not a newsletter.",
+          "<strong>Week 1:</strong> a specific invitation to something with a time, a place, and a person meeting them at the door.",
+          "<strong>Month 1:</strong> they know at least three people by name, and one of them is not you.",
+        ],
+      },
+
+      { t: "h2", text: "Be a person, not an organisation" },
+      {
+        t: "p",
+        text: "The single most common follow-up mistake is switching registers. The person who prayed with someone on Saturday, crying, was warm and human. The message that arrives on Monday sounds like it came from a communications department. \"Thank you for your response at our event. We would love to connect you with a partner church in your area.\"",
+      },
+      {
+        t: "p",
+        text: "Nobody has ever been discipled by that sentence. Write the way you spoke. \"Hey — it was really good to meet you Saturday. I've been thinking about you. How are you doing today?\" is better follow-up than anything a template will produce, because it is true.",
+      },
+      {
+        t: "quote",
+        text: "People do not need to be onboarded. They need to be known.",
+      },
+
+      { t: "h2", text: "Answer the questions they actually have" },
+      {
+        t: "p",
+        text: "New believers rarely open with theology. The questions that keep people awake in the first week are almost entirely practical, and often slightly embarrassing to ask:",
+      },
+      {
+        t: "list",
+        items: [
+          "What do I tell my partner, my family, my friends?",
+          "Do I have to stop doing the things I was doing on Friday nights?",
+          "Am I supposed to go to church every Sunday now? What happens there?",
+          "How do I pray? Do I have to say it out loud? Am I doing it wrong?",
+          "What do I do with the parts of my life that are genuinely a mess?",
+        ],
+      },
+      {
+        t: "p",
+        text: "Answer these plainly, and include the honest bits. \"I still find prayer awkward some days\" builds far more trust than a confident answer that makes following Jesus sound like a solved problem. You are not trying to look finished. You are trying to make it credible that an ordinary person can walk this out.",
+      },
+      {
+        t: "p",
+        text: "For the questions that are better read than answered on the spot, hand them something plain and unembarrassing — <a href=\"/know-jesus\">the Gospel explained simply</a>, or <a href=\"https://IAmReborn.net\">I Am Reborn</a>, which exists for exactly this moment: someone new, at home, wanting to understand what just happened to them without being handed a reading list.",
+      },
+
+      { t: "h2", text: "Get them into the Scriptures themselves, early" },
+      {
+        t: "p",
+        text: "The goal of follow-up is not dependence on you. It is a person who can feed themselves. The fastest route is a Gospel — start them in John or Mark — read at their own pace, with a standing invitation to ask you about anything confusing.",
+      },
+      {
+        t: "steps",
+        items: [
+          {
+            title: "Give them one book, not a Bible reading plan",
+            text: "A whole Bible plus a twelve-month schedule is overwhelming on day two. One Gospel, one chapter at a time, is not.",
+          },
+          {
+            title: "Ask what they noticed, not what it means",
+            text: "\"What stood out to you?\" gets a real answer. \"What do you think this teaches about atonement?\" gets silence and shame.",
+          },
+          {
+            title: "Let them find things you didn't point out",
+            text: "The moment someone brings you something they saw in the text themselves, follow-up has done its job.",
+          },
+        ],
+      },
+
+      { t: "h2", text: "Introduce, do not refer" },
+      {
+        t: "p",
+        text: "This is where most follow-up quietly fails. \"Here's a list of good churches near you\" feels helpful and almost never works. The barrier was never information. The barrier is walking alone into a room where everyone appears to know each other, the songs, and when to stand up.",
+      },
+      {
+        t: "p",
+        text: "So do not refer. Introduce. \"I'll meet you at the door at 10:15 and sit with you.\" Then actually be there, early, and stay with them afterwards through the part where people mill around and a newcomer has nobody to talk to.",
+      },
+      {
+        t: "p",
+        text: "Think in terms of their existing relationships too, not just yours. Everyone comes with an <em>oikos</em> — the household, workmates and friends already around them. Mapping that out with someone, gently, both shows them who might walk this with them and reveals who they are now praying for. <a href=\"https://OikosMap.com\">Oikos Map</a> is a free tool built for exactly that conversation.",
+      },
+
+      { t: "h2", text: "Write it down, or you will lose people to good intentions" },
+      {
+        t: "p",
+        text: "Nobody plans to drop a new believer. They get dropped because forty people responded, six volunteers each assumed someone else had that name, and by the time anyone checks it is three weeks later and too awkward to start.",
+      },
+      {
+        t: "p",
+        text: "A shared list — who responded, who is following up, what has happened, what is next — is not bureaucracy. It is the difference between a number in a report and a person being discipled. Keep it somewhere the whole team can see, keep it accurate, and review it weekly for the first month.",
+      },
+      {
+        t: "callout",
+        title: "A free tool for the list",
+        text: "Kingdom Base is a free follow-up tool built for this exact problem: who responded, who's walking with them, and what happens next — so nobody falls through the gap between volunteers.",
+        href: "https://KingdomBase.App",
+        cta: "See Kingdom Base",
+      },
+      {
+        t: "p",
+        text: "Handle it with care, though. These are people's spiritual lives, not leads. Store only what you need, tell people what you are keeping, and never pass a name to another organisation without asking them first.",
+      },
+
+      { t: "h2", text: "Expect it to be uneven" },
+      {
+        t: "p",
+        text: "Some people you follow up with will disappear. Some will come to two things and stop. Some will call you at eleven at night in a crisis you are not qualified for. Some will be walking with Jesus and leading others within the year, and you will not be able to explain why it worked for them and not for the person sitting beside them.",
+      },
+      {
+        t: "p",
+        text: "That unevenness is in the parable. Four soils, one sower, one seed. Jesus told His disciples to expect exactly this — and He never suggested that the sower's response to poor soil was to stop sowing.",
+      },
+      {
+        t: "scripture",
+        text: "But the ones that fell on the good ground are those who, having heard the word with a noble and good heart, keep it and bear fruit with patience.",
+        ref: "Luke 8:15",
+      },
+      {
+        t: "p",
+        text: "With patience. Not with a six-week onboarding funnel.",
+      },
+
+      { t: "h2", text: "The part nobody warns you about" },
+      {
+        t: "p",
+        text: "Follow-up is harder than the event, and far less rewarding in the moment. There is no crowd, no music, no visible result. It is a text message that gets no reply for two days. It is turning up to a church door at 10:15 for the third Sunday running. It is being the only person who remembered.",
+      },
+      {
+        t: "p",
+        text: "It is also, almost certainly, the most Christlike thing your team will do all year. Jesus preached to thousands and discipled twelve. Whatever the crowd is for, it is not the whole of it.",
+      },
+      {
+        t: "callout",
+        title: "Planning the event that comes before all this",
+        text: "Follow-up is step 12 of 13 — and the playbook is deliberately built backwards from it, so the day is planned around what will still be running in six months.",
+        href: "/start-a-jesus-festival/playbook",
+        cta: "Open the free playbook",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));

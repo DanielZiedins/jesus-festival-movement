@@ -1,6 +1,5 @@
 import { ImageResponse } from "next/og";
 
-export const runtime = "edge";
 export const alt =
   "Jesus Festival Akuse — 3–4 September 2026, Akuse Taxi Station, Ghana";
 export const size = { width: 1200, height: 630 };

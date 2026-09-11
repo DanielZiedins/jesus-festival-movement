@@ -18,6 +18,11 @@ const baseMarkerCopy: Record<string, string> = {
 type Props = {
   /** Per-pin copy computed on the server (e.g. "happening now" / "held"). */
   copyOverrides?: Record<string, string>;
+  /**
+   * Per-pin status computed on the server, so a festival's dot stops reading
+   * as "upcoming" the day after it is held.
+   */
+  statusOverrides?: Record<string, string>;
 };
 
 const worldPaths = [
@@ -31,7 +36,7 @@ const worldPaths = [
   "M922 237 946 225l14 14-20 19Z",
 ];
 
-export default function GlobalMap({ copyOverrides }: Props = {}) {
+export default function GlobalMap({ copyOverrides, statusOverrides }: Props = {}) {
   const [active, setActive] = useState("Hamilton");
   const reduceMotion = useReducedMotion();
   const markerCopy = { ...baseMarkerCopy, ...copyOverrides };
@@ -50,7 +55,7 @@ export default function GlobalMap({ copyOverrides }: Props = {}) {
           </Reveal>
           <Reveal delay={0.08}>
             <p className="max-w-xl text-lg leading-relaxed text-white/62 lg:ml-auto">
-              Hamilton and Niagara are real steps in the story. Every new light begins the same way: someone prays, gathers a few people, and takes a first step of faith.
+              Hamilton, Niagara and Akuse are real steps in the story. Every new light begins the same way: someone prays, gathers a few people, and takes a first step of faith.
             </p>
           </Reveal>
         </div>
@@ -106,7 +111,9 @@ export default function GlobalMap({ copyOverrides }: Props = {}) {
                 ))}
               </svg>
 
-              {MAP_MARKERS.map((marker) => (
+              {MAP_MARKERS.map((marker) => {
+                const status = statusOverrides?.[marker.name] ?? marker.status;
+                return (
                 <button
                   key={marker.name}
                   type="button"
@@ -121,11 +128,11 @@ export default function GlobalMap({ copyOverrides }: Props = {}) {
                   <span className="relative flex h-5 w-5 items-center justify-center">
                     <span className="absolute h-full w-full animate-ping-slow rounded-full bg-gold/70" />
                     <span className={`relative h-3 w-3 rounded-full border-2 border-white/60 ${
-                      marker.status === "origin"
+                      status === "origin"
                         ? "bg-ember"
-                        : marker.status === "upcoming"
+                        : status === "upcoming"
                           ? "bg-emerald-400"
-                          : marker.status === "active"
+                          : status === "active"
                             ? "bg-gold"
                             : "bg-sky-300"
                     }`} />
@@ -134,7 +141,8 @@ export default function GlobalMap({ copyOverrides }: Props = {}) {
                     {marker.name}
                   </span>
                 </button>
-              ))}
+                );
+              })}
 
               <div className="absolute inset-x-3 bottom-3 rounded-2xl border border-white/10 bg-black/55 p-4 backdrop-blur-lg sm:bottom-5 sm:left-5 sm:right-auto sm:max-w-sm sm:p-5">
                 <p className="text-[.62rem] font-bold uppercase tracking-[.22em] text-gold">{active}</p>

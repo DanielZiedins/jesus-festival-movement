@@ -375,7 +375,141 @@ export const ANSWERS: Answer[] = [
     ],
     links: [{ label: "How to follow Jesus", href: "/know-jesus" }],
   },
-
+  {
+    id: "follow-up-new-believer",
+    q: "How do you follow up with someone who just gave their life to Jesus?",
+    topic: "practical",
+    short:
+      "Make contact within 48 hours, as a person rather than an organisation. Ask how they are, answer their actual questions, help them read a first Gospel for themselves, and introduce them face-to-face to one healthy local church. One real relationship beats any automated sequence.",
+    detail: [
+      "The window matters. Someone who responded on Saturday and has heard nothing by Wednesday has usually concluded, quietly, that it did not mean much to anyone. A short message the next morning changes that.",
+      "Introduce, don't refer. \"Here's a church you could try\" mostly fails. \"I'll meet you at the door on Sunday and sit with you\" mostly works — because the barrier was never information, it was walking into a room alone.",
+      "Expect the questions to be practical, not theological: what do I do about my friends, my habits, my family, my Sunday mornings. Answer those honestly, including when the answer is that you're still working it out too.",
+      "Track it, or you will lose people to good intentions. A shared list of names, who is following up, and what happened is not bureaucracy — it is the difference between a number reported and a person discipled.",
+    ],
+    links: [
+      { label: "The first 48 hours — the full guide", href: "/blog/how-to-follow-up-with-a-new-believer" },
+      { label: "Kingdom Base — free follow-up tool", href: "https://KingdomBase.App" },
+      { label: "The Gospel, explained simply", href: "/know-jesus" },
+    ],
+  },
+  {
+    id: "small-church-host",
+    q: "Can a small church host a Jesus Festival?",
+    topic: "planning",
+    short:
+      "Yes. Festivals are built around unity rather than capacity, so a church of thirty that partners with four others is in a far stronger position than a church of three hundred going alone. Start with the size of gathering your combined volunteers can genuinely serve well.",
+    detail: [
+      "The first Jesus Festival did not begin with a large church or a budget. It began with people who were willing to ask others to join them.",
+      "A small church actually has two advantages: nobody assumes you are trying to build your own crowd, and you have to partner, which is the healthiest possible starting posture.",
+      "Scale honestly. A well-run gathering of eighty people where every visitor is welcomed and followed up does more Kingdom good than a half-empty park and an exhausted team.",
+    ],
+    links: [
+      { label: "How to get churches working together", href: "/answers#church-unity" },
+      { label: "The full 13-step playbook", href: "/start-a-jesus-festival/playbook" },
+    ],
+  },
+  {
+    id: "music-licensing",
+    q: "Do you need a music licence for a worship event?",
+    topic: "practical",
+    short:
+      "Usually yes, and it is easy to miss. Most churches hold a licence that covers their own premises only — an outdoor or public venue typically needs separate event coverage for performing copyrighted songs, and streaming the event needs its own permission again. Check before you publish a set list.",
+    detail: [
+      "The three permissions people confuse: performing songs live, reproducing lyrics on a screen, and streaming or recording them. They are not the same licence, and a streamed festival needs all three.",
+      "Requirements differ by country and by venue, so confirm with your own licensing body and with the venue itself rather than assuming your church's existing cover travels.",
+      "Public-domain hymns and originals written by your own team sidestep the issue entirely, which is worth knowing if a licence cannot be arranged in time.",
+    ],
+    links: [
+      { label: "Permits and permissions", href: "/answers#permits" },
+      { label: "The full 13-step playbook", href: "/start-a-jesus-festival/playbook" },
+    ],
+  },
+  {
+    id: "handling-opposition",
+    q: "What do you do if someone tries to disrupt the event?",
+    topic: "practical",
+    short:
+      "Decide in advance who handles it, and make sure that person is calm rather than senior. Most disruption ends when someone listens instead of arguing. Never let it happen from the stage, never surround the person, and involve venue security or police only when there is a genuine safety concern.",
+    detail: [
+      "Brief the team beforehand: nobody engages except the named person. A crowd of volunteers converging on one heckler creates the confrontation the event did not want and hands them the moral high ground.",
+      "Take them sideways, not out. Walking beside someone to the edge of the gathering and asking what has upset them de-escalates far more reliably than asking them to leave.",
+      "Some opposition is real grief about the Church, often earned. Hearing it is not a distraction from the day; occasionally it is the most Christlike thing that happens all afternoon.",
+      "Have your safety plan and venue contact written down, and know the line at which you stop handling it yourself. Public events are still your duty of care.",
+    ],
+    links: [
+      { label: "Do you need insurance?", href: "/answers#insurance" },
+      { label: "Isn't public evangelism just pushy?", href: "/answers#isnt-this-pushy" },
+    ],
+  },
+  {
+    id: "funding-a-festival",
+    q: "How do you fund a Jesus Festival, and should you take an offering?",
+    topic: "planning",
+    short:
+      "Most festivals are funded by partner churches sharing the cost, plus local businesses and individuals who want to give. Keep the event itself free with no offering taken — the moment a stranger suspects the invitation has a price, the Gospel gets heard as a pitch instead of a gift.",
+    detail: [
+      "Split the budget across partnering churches early, in writing. Money is the single most common thing that quietly damages unity between congregations afterwards.",
+      "Give people a way to give that a visitor never sees: a link, a giving page, a conversation with people already committed. Generosity is not the problem; a bucket passed in front of someone hearing about Jesus for the first time is.",
+      "Businesses in your city will often cover a specific line item — the sound system, the water, the printing — when they will not write a general cheque. Ask for the thing, not the amount.",
+      "Publish what you spent to the churches who gave. Nothing builds the confidence to do it again like an honest number.",
+    ],
+    links: [
+      { label: "How much does it cost?", href: "/answers#cost" },
+      { label: "Getting churches working together", href: "/answers#church-unity" },
+      { label: "Lions Den Alliance — Kingdom businesses", href: "https://LionsDenAlliance.com" },
+    ],
+  },
+  {
+    id: "best-time-of-year",
+    q: "What time of year is best for an outdoor Gospel event?",
+    topic: "planning",
+    short:
+      "Pick the season with the most reliable weather and the fewest competing local events, then work backwards at least six to nine months. In most temperate climates that means late spring to early autumn; near the tropics, avoid the heaviest rains. Local knowledge beats any general rule.",
+    detail: [
+      "Check the city's own calendar before you fix a date. Clashing with a major sports fixture, a civic festival or a public holiday weekend can quietly halve your attendance and your volunteer pool at the same time.",
+      "Daylight is a real constraint for evening sessions, and it is the thing teams forget when they pick a date in the dark of winter.",
+      "Weekends carry more people, but a two-day festival that includes a weekday evening can reach a completely different crowd — shift workers, students, people who are never free on Saturdays.",
+    ],
+    links: [
+      { label: "How far in advance should you plan?", href: "/answers#how-far-in-advance" },
+      { label: "What if it rains?", href: "/answers#rain-plan" },
+    ],
+  },
+  {
+    id: "measuring-success",
+    q: "How do you know if an evangelistic event actually worked?",
+    topic: "practical",
+    short:
+      "Count what you can honestly count — people who came, people who asked to be contacted, people who were connected to a church, people still walking with Jesus six months later. The last number is the only one that really matters, and it is the one almost nobody goes back to measure.",
+    detail: [
+      "Attendance is the easiest number and the least meaningful. Response cards are better. Actual church connections made in the following month are better still.",
+      "Set the six-month review before the event, and put it in someone's calendar. A team that has already agreed to look honestly at the fruit plans a very different follow-up process.",
+      "Resist inflating figures, even gently. Reported numbers travel, get repeated, and eventually someone builds a plan on them. An honest small number is worth more to the next city than an impressive vague one.",
+      "Some fruit is genuinely uncountable — a reconciled family, a believer who found their courage, a church that will now work with the church down the road. Note those too, or your review will undervalue the day.",
+    ],
+    links: [
+      { label: "What happens after the festival", href: "/blog/what-happens-after-the-festival" },
+      { label: "What should you do after an event?", href: "/answers#follow-up" },
+    ],
+  },
+  {
+    id: "what-if-nobody-responds",
+    q: "What if we do all this and nobody responds?",
+    topic: "faith",
+    short:
+      "Then you have still obeyed, and the Gospel has still been preached in your city — which is the part you were actually asked to do. Response is not the measure of faithfulness. Seed goes into ground you cannot see into, and some of it comes up years after the people who sowed it have stopped watching.",
+    detail: [
+      "Plenty of faithful gatherings have had quiet altar calls and loud fruit a decade later. You are rarely in a position to judge your own harvest on the day.",
+      "There is also a real, unglamorous benefit that shows up immediately: churches that had never spoken now know each other, and believers who had never said anything out loud have now done it once.",
+      "If it genuinely did not work, review it honestly and go again wiser. The alternative — never gathering the city because it might be disappointing — is not the safer option it feels like.",
+      "Paul planted, Apollos watered, God gave the growth. Two of those three jobs are yours, and neither of them is growth.",
+    ],
+    links: [
+      { label: "Why city-wide unity is worth it", href: "/blog/why-city-wide-church-unity-is-worth-it" },
+      { label: "I'm afraid to share my faith", href: "/answers#afraid-to-share-faith" },
+    ],
+  },
 ];
 
 export const ANSWER_BY_ID = new Map(ANSWERS.map((a) => [a.id, a]));

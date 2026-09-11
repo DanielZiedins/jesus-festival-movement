@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { MOVEMENT_STAGES } from "@/lib/content";
 import { EVENT_BY_SLUG, eventStageCopy } from "@/lib/events";
 import Reveal from "./ui/Reveal";
@@ -92,6 +93,21 @@ export default function Festivals() {
             ))}
           </div>
         </div>
+
+        <Reveal delay={0.1}>
+          <div className="mt-12 flex flex-col items-center justify-between gap-5 rounded-[1.6rem] border border-white/10 bg-white/[.025] p-7 text-center sm:flex-row sm:text-left lg:ml-16">
+            <p className="max-w-xl text-lg leading-relaxed text-white/65">
+              Every festival — where they have been held, where they are heading
+              next, and the details for each one.
+            </p>
+            <Link
+              href="/festivals"
+              className="button-secondary flex-none whitespace-nowrap"
+            >
+              See all festivals <Icon name="arrow" className="h-4 w-4" />
+            </Link>
+          </div>
+        </Reveal>
       </div>
     </section>
   );

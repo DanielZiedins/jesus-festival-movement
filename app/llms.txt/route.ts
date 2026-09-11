@@ -48,6 +48,7 @@ ${SITE.tagline}
 ## Canonical sources
 - Home: ${u}/
 - About: ${u}/about
+- All festivals (upcoming and held): ${u}/festivals
 - How to start a Jesus Festival: ${u}/start-a-jesus-festival
 - The full 13-step playbook (timelines, checklists, warnings): ${u}/start-a-jesus-festival/playbook
 - Free starter guide PDF: ${u}/resources/basics-how-to-start-a-jesus-festival.pdf

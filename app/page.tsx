@@ -108,6 +108,11 @@ const homeStructuredData = () => ({
 
 export default function Home() {
   const mapCopy = Object.fromEntries(EVENTS.map((e) => [e.city, eventStageCopy(e).mapCopy]));
+  // A held festival joins Hamilton/Niagara as an "active" city rather than
+  // keeping the emerald "upcoming" dot for ever.
+  const mapStatus = Object.fromEntries(
+    EVENTS.map((e) => [e.city, eventPhase(e) === "ended" ? "active" : "upcoming"]),
+  );
   return (
     <>
       <JsonLd data={homeStructuredData()} />
@@ -118,7 +123,7 @@ export default function Home() {
         <CitySignal />
         <Story />
         <Festivals />
-        <GlobalMap copyOverrides={mapCopy} />
+        <GlobalMap copyOverrides={mapCopy} statusOverrides={mapStatus} />
         <Model />
         <GreatCommission />
         <HowToStart />
