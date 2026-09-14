@@ -5,7 +5,8 @@ import Reveal from "@/components/ui/Reveal";
 import Eyebrow from "@/components/ui/Eyebrow";
 import Icon from "@/components/ui/Icon";
 import JoinForm from "@/components/JoinForm";
-import { ANSWERS, TOPICS, answersIn } from "@/lib/answers";
+import AnswerSearch from "@/components/AnswerSearch";
+import { ANSWERS, TOPICS, answersIn, haystack } from "@/lib/answers";
 import { SITE } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -90,6 +91,14 @@ export default function AnswersPage() {
               </Reveal>
             </div>
 
+            {/*
+              Deliberately NOT wrapped in Reveal: a framer initial={opacity:0}
+              wrapper can block hydration of its whole subtree when the frame
+              loop stalls, which would render the search box inert. Interactive
+              UI stays outside the motion system.
+            */}
+            <AnswerSearch total={ANSWERS.length} />
+
             {/* Jump nav — also gives crawlers a clean question index */}
             <Reveal immediate delay={0.15}>
               <nav
@@ -101,7 +110,7 @@ export default function AnswersPage() {
                 </p>
                 <ul className="mt-4 grid gap-x-8 gap-y-2 sm:grid-cols-2">
                   {ANSWERS.map((a) => (
-                    <li key={a.id}>
+                    <li key={a.id} data-answer-link={haystack(a)}>
                       <a
                         href={`#${a.id}`}
                         className="text-sm text-white/65 transition-colors hover:text-gold"
@@ -122,6 +131,7 @@ export default function AnswersPage() {
           return (
             <section
               key={topic.key}
+              data-answer-topic={topic.key}
               className={`section-pad !py-14 ${
                 ti % 2 === 1 ? "border-y border-white/5 bg-navy-950/40" : ""
               }`}
@@ -143,6 +153,7 @@ export default function AnswersPage() {
                         {/* itemProp markup mirrors the JSON-LD for engines that read inline */}
                         <article
                           id={a.id}
+                          data-answer={haystack(a)}
                           className="scroll-mt-28 rounded-2xl glass p-6 sm:p-8"
                           itemScope
                           itemType="https://schema.org/Question"

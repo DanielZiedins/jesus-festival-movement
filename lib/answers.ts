@@ -514,6 +514,17 @@ export const ANSWERS: Answer[] = [
 
 export const ANSWER_BY_ID = new Map(ANSWERS.map((a) => [a.id, a]));
 
+/**
+ * Lowercased text an answer should be findable by. Rendered into a data
+ * attribute so the on-page filter never has to read the DOM's own text (which
+ * would make it depend on markup) or ship a copy of the answers as JSON.
+ */
+export function haystack(a: Answer): string {
+  return [a.q, a.short, a.topic, ...(a.links?.map((l) => l.label) ?? [])]
+    .join(" ")
+    .toLowerCase();
+}
+
 export function answersIn(topic: TopicKey): Answer[] {
   return ANSWERS.filter((a) => a.topic === topic);
 }
