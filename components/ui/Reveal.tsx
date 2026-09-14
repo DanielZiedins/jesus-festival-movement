@@ -27,6 +27,9 @@ export default function Reveal({
   const to = { opacity: 1, y: 0 };
   return (
     <motion.div
+      // Marks this element for RevealGuard, which force-shows it if the
+      // entrance never plays. See components/RevealGuard.tsx.
+      data-reveal=""
       className={className}
       initial={reduce ? false : { opacity: 0, y }}
       {...(immediate

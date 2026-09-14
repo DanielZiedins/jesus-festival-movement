@@ -638,3 +638,15 @@ textarea:focus-visible {
     margin: 1.5cm;
   }
 }
+
+/* =========================================================================
+   Reveal failsafe — see components/RevealGuard.tsx.
+   Reveal ships opacity:0 in the server-rendered HTML, so without this rule a
+   reader whose JavaScript is blocked or slow to arrive gets a blank page
+   rather than an unanimated one. The inline guard marks the document
+   motion-ready, which hands control back to framer.
+   ========================================================================= */
+html:not(.motion-ready) [data-reveal] {
+  opacity: 1 !important;
+  transform: none !important;
+}
