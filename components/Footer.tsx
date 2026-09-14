@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SITE } from "@/lib/content";
 import BrandMark from "./BrandMark";
 
@@ -73,6 +74,15 @@ export default function Footer() {
               >
                 Daniel Ziedins
               </a>
+            </p>
+            {/* Deliberately quiet — for people who are sent here. */}
+            <p className="mt-2 text-[0.68rem] text-white/45">
+              <Link
+                href="/partner"
+                className="underline decoration-white/20 underline-offset-4 transition hover:text-gold"
+              >
+                Partner with Daniel &amp; Katie
+              </Link>
             </p>
           </div>
           <p className="font-medium text-white/55">From Hamilton, Ontario → to the nations.</p>
