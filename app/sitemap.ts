@@ -8,7 +8,7 @@ export const revalidate = 86400;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Keep this tied to a real content release, rather than reporting every crawl as a new edit.
-  const lastModified = new Date("2026-08-12T00:00:00.000Z");
+  const lastModified = new Date("2026-09-23T00:00:00.000Z");
 
   // Every festival page stays listed for good — "when was the Akuse festival"
   // is a real query long after the event. Upcoming/live ones rank top and are
@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/about`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/start-a-jesus-festival`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/start-a-jesus-festival/playbook`, lastModified, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE.url}/resources/prayer-walk`, lastModified, changeFrequency: "monthly", priority: 0.85 },
     { url: `${SITE.url}/shop`, lastModified, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE.url}/stories/kingdom-shop`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/answers`, lastModified, changeFrequency: "monthly", priority: 0.9 },

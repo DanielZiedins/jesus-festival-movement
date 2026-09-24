@@ -46,6 +46,12 @@ export function GET() {
 
   entries.push(
     {
+      title: "How to Prayer Walk Your City",
+      path: "/resources/prayer-walk",
+      description: "A short, practical guide for praying for your city, noticing needs with compassion, and taking one faithful next step.",
+      pubDate: "Wed, 23 Sep 2026 00:00:00 GMT",
+    },
+    {
       title: "How to Start a Jesus Festival in Your City",
       path: "/start-a-jesus-festival",
       description: "A prayerful, practical guide for gathering local believers, serving a city, and building for lasting Gospel fruit.",
