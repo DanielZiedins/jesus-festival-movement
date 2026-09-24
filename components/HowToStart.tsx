@@ -24,7 +24,7 @@ export default function HowToStart() {
               <div className="mt-5 grid gap-3 sm:grid-cols-2">
                 {["Vision and prayer", "Local church unity", "Event planning", "Evangelism training", "Festival launch", "Ongoing outreach"].map((item) => (
                   <span key={item} className="flex items-center gap-2.5 text-sm font-semibold text-ink/68">
-                    <span className="flex h-5 w-5 items-center justify-center rounded-full bg-ember text-[.65rem] text-white">✓</span>
+                    <span className="flex h-5 w-5 items-center justify-center rounded-full bg-ember-600 text-[.65rem] text-white">✓</span>
                     {item}
                   </span>
                 ))}
@@ -37,12 +37,12 @@ export default function HowToStart() {
               <Reveal key={step.number} delay={index * 0.06}>
                 <article className={`group relative min-h-[15rem] overflow-hidden rounded-[1.8rem] border p-7 transition duration-500 hover:-translate-y-1 sm:p-8 ${
                   index === 2
-                    ? "border-ember bg-ember text-white shadow-[0_24px_70px_rgba(233,95,50,.25)]"
+                    ? "border-ember-600 bg-ember-600 text-white shadow-[0_24px_70px_rgba(233,95,50,.25)]"
                     : "border-ink/10 bg-white/58 text-ink"
                 }`}>
-                  <span className={`font-display text-sm font-bold ${index === 2 ? "text-white/60" : "text-ember-600"}`}>{step.number}</span>
+                  <span className={`font-display text-sm font-bold ${index === 2 ? "text-white" : "text-ember-700"}`}>{step.number}</span>
                   <h3 className="mt-8 font-display text-2xl font-bold">{step.title}</h3>
-                  <p className={`mt-3 leading-relaxed ${index === 2 ? "text-white/75" : "text-ink/60"}`}>{step.description}</p>
+                  <p className={`mt-3 leading-relaxed ${index === 2 ? "text-white" : "text-ink/60"}`}>{step.description}</p>
                 </article>
               </Reveal>
             ))}
@@ -52,7 +52,7 @@ export default function HowToStart() {
         <Reveal delay={0.1}>
           <div className="mt-16 flex flex-col items-start justify-between gap-8 border-t border-ink/15 pt-10 lg:flex-row lg:items-center">
             <div>
-              <p className="text-xs font-bold uppercase tracking-[.24em] text-ember-600">Your next step is simple</p>
+              <p className="text-xs font-bold uppercase tracking-[.24em] text-ember-700">Your next step is simple</p>
               <p className="mt-3 max-w-3xl font-display text-3xl font-bold leading-tight text-ink sm:text-4xl">
                 Reach out to us. We will help you take the next step.
               </p>

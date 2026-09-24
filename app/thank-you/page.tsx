@@ -188,7 +188,7 @@ export default function ThankYouPage() {
           <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             {firstWeek.map(([day, action], index) => (
               <article key={day} className="group rounded-[1.6rem] border border-white/10 bg-white/[.035] p-6 transition duration-300 hover:-translate-y-1 hover:border-gold/25 hover:bg-white/[.055]">
-                <span className="font-display text-4xl font-bold text-white/12 transition group-hover:text-gold/30">0{index + 1}</span>
+                <span className="font-display text-4xl font-bold text-white/40 transition group-hover:text-gold/60">0{index + 1}</span>
                 <p className="mt-5 text-xs font-bold uppercase tracking-[.2em] text-gold">{day}</p>
                 <p className="mt-3 leading-relaxed text-white/62">{action}</p>
               </article>

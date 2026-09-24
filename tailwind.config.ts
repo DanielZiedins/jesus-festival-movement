@@ -7,6 +7,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      /**
+       * The colour-opacity modifier only accepts values present in this scale,
+       * and Tailwind ships multiples of five. The design uses in-between values
+       * (text-white/46, border-white/12, bg-white/58 …) which silently compiled
+       * to nothing, leaving that text and those borders on an inherited colour.
+       * JIT still only emits the ones actually used.
+       */
+      opacity: Object.fromEntries(
+        Array.from({ length: 101 }, (_, i) => [i, String(i / 100)]),
+      ),
       colors: {
         ink: "#050812",
         navy: {
@@ -25,6 +35,9 @@ const config: Config = {
           400: "#f28b4f",
           500: "#e95f32",
           600: "#c94624",
+          // 5.36:1 on the cream panel (#f1e9da) — ember-600 is 3.97 and only
+          // clears AA as large text, so small bold copy uses this instead.
+          700: "#a8381b",
         },
       },
       fontFamily: {

@@ -10,7 +10,7 @@ import Icon from "./ui/Icon";
 type FormStatus = "idle" | "sending" | "error";
 
 const fieldClass =
-  "mt-2 w-full rounded-2xl border border-white/10 bg-white/[0.045] px-4 py-3.5 text-base text-white outline-none transition placeholder:text-white/26 focus:border-gold/55 focus:bg-white/[0.065]";
+  "mt-2 w-full rounded-2xl border border-white/10 bg-white/[0.045] px-4 py-3.5 text-base text-white outline-none transition placeholder:text-white/55 focus:border-gold/55 focus:bg-white/[0.065]";
 
 export default function Contact() {
   const router = useRouter();

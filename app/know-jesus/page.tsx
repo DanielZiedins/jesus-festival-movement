@@ -180,8 +180,8 @@ export default function KnowJesusPage() {
 
             <ol className="mx-auto mt-14 max-w-3xl space-y-4">
               {NEXT_STEPS.map((s, i) => (
-                <Reveal key={s.title} delay={i * 0.05}>
-                  <li className="flex gap-5 rounded-2xl glass p-6">
+                <Reveal key={s.title} delay={i * 0.05} as="li" className="flex gap-5 rounded-2xl glass p-6">
+                  
                     <span className="flex h-11 w-11 flex-none items-center justify-center rounded-xl border border-gold/30 bg-navy-900 font-display font-bold text-gold">
                       {i + 1}
                     </span>
@@ -193,7 +193,7 @@ export default function KnowJesusPage() {
                         {s.text}
                       </p>
                     </div>
-                  </li>
+                  
                 </Reveal>
               ))}
             </ol>

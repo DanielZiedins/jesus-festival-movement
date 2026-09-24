@@ -52,8 +52,8 @@ export default function JoinMovement() {
             </Reveal>
             <ol className="mt-7 space-y-3">
               {LETTERS.map((l, i) => (
-                <Reveal key={l.n} delay={0.15 + i * 0.04}>
-                  <li className="group flex gap-4 rounded-2xl border border-white/8 bg-white/[0.035] p-4 transition-colors hover:border-gold/25 hover:bg-white/[0.06]">
+                <Reveal key={l.n} delay={0.15 + i * 0.04} as="li" className="group flex gap-4 rounded-2xl border border-white/8 bg-white/[0.035] p-4 transition-colors hover:border-gold/25 hover:bg-white/[0.06]">
+                  
                     <span className="flex h-10 w-10 flex-none items-center justify-center rounded-xl border border-gold/25 bg-navy-900 font-display text-sm font-bold text-gold">
                       {l.n}
                     </span>
@@ -70,7 +70,7 @@ export default function JoinMovement() {
                         {l.blurb}
                       </p>
                     </div>
-                  </li>
+                  
                 </Reveal>
               ))}
             </ol>

@@ -147,7 +147,7 @@ export default function PlaybookPage() {
           <div className="container-x">
             <div className="mx-auto max-w-4xl">
               <div className="flex flex-wrap items-baseline gap-x-5 gap-y-2 border-b border-white/10 pb-6">
-                <span className="font-display text-5xl font-bold text-gold/25 sm:text-6xl">
+                <span className="font-display text-5xl font-bold text-gold/50 sm:text-6xl">
                   0{pi + 1}
                 </span>
                 <div>

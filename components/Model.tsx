@@ -41,7 +41,7 @@ export default function Model() {
                     <span className="flex h-12 w-12 items-center justify-center rounded-2xl border border-gold/20 bg-gold/[.08] text-gold transition group-hover:bg-gold group-hover:text-ink">
                       <Icon name={item.icon} className="h-6 w-6" />
                     </span>
-                    <span className="font-display text-xs font-bold text-white/24">{String(index + 1).padStart(2, "0")}</span>
+                    <span className="font-display text-xs font-bold text-white/50">{String(index + 1).padStart(2, "0")}</span>
                   </div>
                   <div className="mt-auto pt-10">
                     <h3 className="font-display text-2xl font-bold text-white">{item.title}</h3>

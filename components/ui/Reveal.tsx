@@ -14,6 +14,12 @@ type Props = {
    * can sit invisible if the observer is starved.
    */
   immediate?: boolean;
+  /**
+   * Element to render. Use "li" inside a <ul>/<ol> — wrapping a list item in
+   * a motion.div makes the list's only children divs, which breaks the list
+   * semantics screen readers announce (axe: list / listitem).
+   */
+  as?: "div" | "li";
 };
 
 export default function Reveal({
@@ -22,11 +28,13 @@ export default function Reveal({
   y = 28,
   className,
   immediate = false,
+  as = "div",
 }: Props) {
   const reduce = useReducedMotion();
   const to = { opacity: 1, y: 0 };
+  const Tag = as === "li" ? motion.li : motion.div;
   return (
-    <motion.div
+    <Tag
       // Marks this element for RevealGuard, which force-shows it if the
       // entrance never plays. See components/RevealGuard.tsx.
       data-reveal=""
@@ -38,6 +46,6 @@ export default function Reveal({
       transition={{ duration: 0.7, delay, ease: [0.22, 1, 0.36, 1] }}
     >
       {children}
-    </motion.div>
+    </Tag>
   );
 }

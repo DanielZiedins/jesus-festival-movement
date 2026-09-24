@@ -231,8 +231,8 @@ export default function PartnerPage() {
               </Reveal>
               <ol className="mt-10 space-y-8">
                 {JOURNEY.map((j, i) => (
-                  <Reveal key={j.title} delay={i * 0.05}>
-                    <li className="relative border-l border-white/12 pl-7">
+                  <Reveal key={j.title} delay={i * 0.05} as="li" className="relative border-l border-white/12 pl-7">
+                    
                       <span
                         className="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full bg-gold shadow-[0_0_0_5px_rgba(244,196,92,.12)]"
                         aria-hidden="true"
@@ -246,7 +246,7 @@ export default function PartnerPage() {
                       <p className="mt-2 leading-relaxed text-white/65">
                         {j.body}
                       </p>
-                    </li>
+                    
                   </Reveal>
                 ))}
               </ol>

@@ -77,7 +77,7 @@ export default function Footer() {
               </a>
             </p>
             {/* Deliberately quiet — for people who are sent here. */}
-            <p className="mt-2 text-[0.68rem] text-white/45">
+            <p className="mt-2 text-[0.68rem] text-white/50">
               <Link
                 href="/partner"
                 className="underline decoration-white/20 underline-offset-4 transition hover:text-gold"

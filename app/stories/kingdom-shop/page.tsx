@@ -58,7 +58,7 @@ export default function KingdomShopStory() {
       <article className="relative pb-24 pt-16 sm:pb-32 sm:pt-24">
         <div className="container-x grid gap-12 lg:grid-cols-[.32fr_.68fr] lg:gap-20">
           <aside className="lg:sticky lg:top-32 lg:h-fit">
-            <p className="text-xs font-bold uppercase tracking-[.24em] text-white/34">In this story</p>
+            <p className="text-xs font-bold uppercase tracking-[.24em] text-white/55">In this story</p>
             <div className="mt-5 space-y-3 border-l border-gold/25 pl-5 text-sm font-semibold text-white/56"><p>The heart behind the shop</p><p>Why the Jesus Festival collection exists</p><p>How to wear the message well</p></div>
           </aside>
           <div className="max-w-3xl text-lg leading-relaxed text-white/67 sm:text-xl">
