@@ -9,8 +9,12 @@ export default function manifest(): MetadataRoute.Manifest {
     display: "standalone",
     background_color: "#050812",
     theme_color: "#050812",
+    // Standard PWA sizes, flattened onto the brand navy so the white mark
+    // stays legible on a light launcher. The 1050px source is far too heavy
+    // to hand an installer.
     icons: [
-      { src: "/jesus-festival-movement-mark.png", sizes: "1050x1050", type: "image/png" },
+      { src: "/icon-192.png", sizes: "192x192", type: "image/png", purpose: "any" },
+      { src: "/icon-512.png", sizes: "512x512", type: "image/png", purpose: "any" },
     ],
   };
 }

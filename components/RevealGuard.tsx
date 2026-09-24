@@ -33,21 +33,29 @@ const GUARD = `
     removeEventListener('resize', schedule);
     d.removeEventListener('visibilitychange', schedule);
   }
-  function sweep() {
+  // Grace period: how long a block may sit in the viewport, still invisible,
+  // before we stop waiting for framer. Without this the guard wins the race on
+  // scroll and the block appears without ever animating.
+  var GRACE = 600;
+  function sweep(ignoreGrace) {
     var nodes = d.querySelectorAll('[data-reveal]');
     if (!nodes.length) return;
     // Throttled and hidden contexts can report innerHeight 0; be generous,
     // since the worst case of over-revealing is only a skipped animation.
-    var vh = innerHeight || root.clientHeight || 800, pending = 0, i, el, r;
+    var vh = innerHeight || root.clientHeight || 800, pending = 0, i, el, r, since, now = Date.now();
     for (i = 0; i < nodes.length; i++) {
       el = nodes[i];
-      if (getComputedStyle(el).opacity !== '0') continue;
+      if (getComputedStyle(el).opacity !== '0') { el.__rvSeen = 0; continue; }
       pending++;
       r = el.getBoundingClientRect();
       if (r.top < vh && r.bottom > 0) {
+        since = el.__rvSeen || (el.__rvSeen = now);
+        if (!ignoreGrace && now - since < GRACE) continue; // framer still has time
         el.style.setProperty('opacity', '1', 'important');
         el.style.setProperty('transform', 'none', 'important');
         pending--;
+      } else {
+        el.__rvSeen = 0; // left the viewport; restart its clock next time
       }
     }
     if (!pending) stop();
@@ -59,7 +67,7 @@ const GUARD = `
     idle = setTimeout(function () { idle = 0; sweep(); }, 120);
   }
   // Give framer a fair chance to play its own entrance first.
-  setTimeout(sweep, 1200);
+  setTimeout(function () { sweep(true); }, 1200);
   poll = setInterval(sweep, 1000);
   addEventListener('scroll', schedule, { passive: true });
   addEventListener('resize', schedule);
