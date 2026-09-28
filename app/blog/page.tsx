@@ -6,7 +6,7 @@ import Reveal from "@/components/ui/Reveal";
 import Eyebrow from "@/components/ui/Eyebrow";
 import Icon from "@/components/ui/Icon";
 import JoinForm from "@/components/JoinForm";
-import { SORTED_POSTS } from "@/lib/blog/posts";
+import { SORTED_POSTS, readingMinutes } from "@/lib/blog/posts";
 import { SITE } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -91,7 +91,7 @@ export default function BlogIndex() {
                       </span>
                       <span className="text-gold-400">{lead.category}</span>
                       <span className="text-white/55">
-                        {fmt(lead.date)} · {lead.readMinutes} min read
+                        {fmt(lead.date)} · {readingMinutes(lead)} min read
                       </span>
                     </div>
                     <h2 className="mt-5 font-display text-3xl font-bold leading-tight text-white sm:text-4xl">
@@ -123,7 +123,7 @@ export default function BlogIndex() {
                     <div className="flex flex-wrap items-center gap-x-3 text-[11px] font-bold uppercase tracking-[0.18em]">
                       <span className="text-gold-400">{p.category}</span>
                       <span className="text-white/55">
-                        {p.readMinutes} min read
+                        {readingMinutes(p)} min read
                       </span>
                     </div>
                     <h2 className="mt-4 font-display text-xl font-bold leading-snug text-white sm:text-2xl">

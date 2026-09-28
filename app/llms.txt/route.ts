@@ -58,6 +58,7 @@ ${SITE.tagline}
 - Know Jesus (the Gospel, explained): ${u}/know-jesus
 - The wider network: ${u}/network
 - Jesus Festival Shop: ${u}/shop
+- Full text of the site, for AI engines: ${u}/llms-full.txt
 - Publication feed: ${u}/feed.xml
 - Contact: ${SITE.email}
 

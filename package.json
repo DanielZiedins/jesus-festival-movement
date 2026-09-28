@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "tsc --noEmit",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "audit": "node scripts/audit.mjs"
   },
   "dependencies": {
     "framer-motion": "^11.11.17",

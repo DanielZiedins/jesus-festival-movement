@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { POST_BY_SLUG, POSTS } from "@/lib/blog/posts";
+import { POST_BY_SLUG, POSTS, readingMinutes } from "@/lib/blog/posts";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
@@ -21,7 +21,7 @@ export default async function Og({
   const post = POST_BY_SLUG.get(slug);
   const title = post?.title ?? "The Journal";
   const category = post?.category ?? "Jesus Festival Movement";
-  const read = post ? `${post.readMinutes} min read` : "";
+  const read = post ? `${readingMinutes(post)} min read` : "";
 
   // Long headlines need to step down a size or they overflow the card.
   const fontSize = title.length > 62 ? 60 : title.length > 44 ? 70 : 80;

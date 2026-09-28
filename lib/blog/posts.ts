@@ -18,7 +18,6 @@ export const POSTS: Post[] = [
     tldr:
       "Most people come to faith through someone they already know. Start by writing out your relational world — family, friends, workmates, neighbours — then pray for three of them by name daily. Be genuinely interested, answer the questions actually asked, tell your own short story, and make small warm invitations rather than large cold ones.",
     date: "2026-06-02",
-    readMinutes: 7,
     category: "Evangelism",
     eyebrow: "Start Where You Are",
     keywords: [
@@ -145,7 +144,6 @@ export const POSTS: Post[] = [
     tldr:
       "Assign one person to own follow-up before the event, not after. Contact everyone who responded within 72 hours personally, record decisions and testimonies while they're fresh, hand people to a named person at a local church, then launch a sustainable weekly or monthly outreach within about six weeks.",
     date: "2026-06-18",
-    readMinutes: 8,
     category: "Festival Playbook",
     eyebrow: "The Part Nobody Photographs",
     keywords: [
@@ -267,7 +265,6 @@ export const POSTS: Post[] = [
     tldr:
       "Work in three tiers: agree on the essentials, respect differing convictions without making them the price of admission, and let go of preferences on purpose. Visit pastors in person, ask how you can serve what they're already doing, and give partners real ownership rather than a logo on a poster.",
     date: "2026-07-01",
-    readMinutes: 6,
     category: "The Church",
     eyebrow: "Better Together",
     keywords: [
@@ -383,7 +380,6 @@ export const POSTS: Post[] = [
     tldr:
       "About 2.3 billion people have essentially no access to the Gospel, while around 2.6 billion identify as Christians — so the labour force is not small, just largely dormant. Hold both scales at once: pray for one nation weekly on a rhythm, and act consistently in your own neighbourhood.",
     date: "2026-07-14",
-    readMinutes: 6,
     category: "Mission",
     eyebrow: "Zoom Out, Then Zoom In",
     keywords: [
@@ -493,7 +489,6 @@ export const POSTS: Post[] = [
     tldr:
       "A churchgoer might spend three hours a week in a church building and forty at work, among people far less likely to walk into a church. Do excellent work, be conspicuously kind, be honest when it costs you, and treat your trade, your resources and your home as Kingdom ground.",
     date: "2026-07-22",
-    readMinutes: 6,
     category: "Discipleship",
     eyebrow: "Monday Matters",
     keywords: [
@@ -599,7 +594,6 @@ export const POSTS: Post[] = [
     tldr:
       "Prepare before the crisis: introduce yourself to your municipality's emergency contact, agree in advance which church coordinates a joint response, write down what your building can genuinely offer, and keep a current volunteer list with skills noted. Then serve without strings — no evangelistic invoice attached.",
     date: "2026-07-28",
-    readMinutes: 5,
     category: "Outreach",
     eyebrow: "Ready Before It Happens",
     keywords: [
@@ -708,7 +702,6 @@ export const POSTS: Post[] = [
     tldr:
       "A Jesus Festival is a free outdoor event with live worship, real testimonies, a clear unhurried Gospel message, and trained volunteers ready to pray with anyone who responds. Nothing is expected of you — no belief, no singing, no collection. Family-friendly elements run alongside so parents can stay.",
     date: "2026-08-04",
-    readMinutes: 6,
     category: "The Festivals",
     eyebrow: "Before You Come",
     keywords: [
@@ -839,7 +832,6 @@ export const POSTS: Post[] = [
     tldr:
       "Pray for your city by name, on a rhythm you can sustain — five minutes daily beats an hour once. Use a simple frame: thank God for the city, pray for its people by category (leaders, churches, the hurting, the lost), pray Scripture over it, and ask God what your part is. Walking or driving a route while you pray helps it stay concrete.",
     date: "2026-08-25",
-    readMinutes: 6,
     category: "Prayer",
     eyebrow: "Where Every Festival Starts",
     keywords: [
@@ -962,7 +954,6 @@ export const POSTS: Post[] = [
       "Someone said yes to Jesus at your event. What you do in the next two days matters more than everything you spent nine months planning. A practical, honest guide to follow-up that actually keeps people.",
     tldr: "Contact a new believer within 48 hours, as a person rather than an organisation. Ask how they are, answer the practical questions they actually have, help them read a Gospel for themselves, and walk them into one healthy local church in person. One real relationship outperforms any automated sequence.",
     date: "2026-09-08",
-    readMinutes: 9,
     category: "Discipleship",
     eyebrow: "After the yes",
     keywords: [
@@ -1149,7 +1140,84 @@ export const POSTS: Post[] = [
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));
 
+/**
+ * Real word count of a post's readable content. The reading time and the
+ * schema's wordCount both derive from this — never the other way round.
+ * Hand-typed reading times had drifted to roughly double the truth.
+ */
+export function wordCount(p: Post): number {
+  const parts: string[] = [p.tldr ?? ""];
+  for (const b of p.body) {
+    if ("text" in b) parts.push(b.text);
+    if ("title" in b) parts.push(b.title);
+    if ("cite" in b && b.cite) parts.push(b.cite);
+    if ("items" in b)
+      for (const i of b.items as (string | { title: string; text: string })[])
+        parts.push(typeof i === "string" ? i : `${i.title} ${i.text}`);
+  }
+  return parts.join(" ").replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
+}
+
+/** Minutes at 230 wpm, a typical adult silent-reading pace. Never below 1. */
+export function readingMinutes(p: Post): number {
+  return Math.max(1, Math.round(wordCount(p) / 230));
+}
+
 /** Newest first. */
 export const SORTED_POSTS = [...POSTS].sort((a, b) =>
   b.date.localeCompare(a.date),
 );
+
+const STOP = new Set(
+  "a an and the to of in on for with your you how what why is are it be do does our we at as from after that this".split(" "),
+);
+function terms(p: Post): Set<string> {
+  const words = [p.title, p.category, p.eyebrow, ...p.keywords]
+    .join(" ")
+    .toLowerCase()
+    .split(/[^a-z]+/)
+    .filter((w) => w.length > 2 && !STOP.has(w));
+  return new Set(words);
+}
+const TERMS = new Map(POSTS.map((p) => [p.slug, terms(p)]));
+
+function relevance(a: Post, b: Post): number {
+  const ta = TERMS.get(a.slug)!, tb = TERMS.get(b.slug)!;
+  let shared = 0;
+  for (const t of ta) if (tb.has(t)) shared++;
+  return shared + (a.category === b.category ? 2 : 0);
+}
+
+/**
+ * Related posts for every article, computed once.
+ *
+ * Replaces "the two newest posts", which made every article recommend the same
+ * pair and left six of nine with no inbound links at all — and would have got
+ * worse with every post added.
+ *
+ * Relevance is term overlap across title, category, eyebrow and keywords. Each
+ * time a post is picked it pays a small penalty on later picks, so links
+ * spread across the catalogue instead of pooling on whichever post happens to
+ * share the most generic words. Order and tie-breaks are content-derived —
+ * never Date or random, which would differ between build and hydration.
+ */
+const RELATED: Map<string, Post[]> = (() => {
+  const PENALTY = 0.75;
+  const picked = new Map(POSTS.map((p) => [p.slug, 0]));
+  const out = new Map<string, Post[]>();
+  const ordered = [...POSTS].sort((a, b) => a.slug.localeCompare(b.slug));
+  for (const post of ordered) {
+    const chosen = POSTS.filter((p) => p.slug !== post.slug)
+      .map((p) => ({ p, s: relevance(post, p) - PENALTY * picked.get(p.slug)! }))
+      .sort((a, b) => b.s - a.s || a.p.slug.localeCompare(b.p.slug))
+      .slice(0, 3)
+      .map((x) => x.p);
+    for (const c of chosen) picked.set(c.slug, picked.get(c.slug)! + 1);
+    out.set(post.slug, chosen);
+  }
+  return out;
+})();
+
+export function relatedPosts(post: Post, n = 3): Post[] {
+  return (RELATED.get(post.slug) ?? []).slice(0, n);
+}

@@ -22,7 +22,6 @@ export type Post = {
   tldr?: string;
   /** ISO date. */
   date: string;
-  readMinutes: number;
   category: string;
   /** Small label above the title. */
   eyebrow: string;

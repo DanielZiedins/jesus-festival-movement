@@ -8,7 +8,7 @@ import Icon from "@/components/ui/Icon";
 import Share from "@/components/Share";
 import JoinForm from "@/components/JoinForm";
 import Blocks from "@/components/blog/Blocks";
-import { POST_BY_SLUG, POSTS, SORTED_POSTS } from "@/lib/blog/posts";
+import { POST_BY_SLUG, POSTS, readingMinutes, relatedPosts, wordCount } from "@/lib/blog/posts";
 import { SITE_BY_KEY } from "@/lib/network";
 import { SITE } from "@/lib/content";
 
@@ -64,25 +64,36 @@ export default async function BlogPost({ params }: Params) {
     .map((k) => SITE_BY_KEY.get(k))
     .filter(Boolean)
     .slice(0, 4);
-  const more = SORTED_POSTS.filter((p) => p.slug !== post.slug).slice(0, 2);
+  // Topical, and spread across the catalogue — see relatedPosts().
+  const more = relatedPosts(post, 3);
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
+    "@id": `${url}#article`,
     headline: post.title,
     description: post.description,
+    // Article rich results require an image; each post has its own card.
+    image: {
+      "@type": "ImageObject",
+      url: `${url}/opengraph-image`,
+      width: 1200,
+      height: 630,
+    },
     datePublished: post.date,
     dateModified: post.date,
-    author: { "@type": "Organization", name: SITE.name, url: SITE.url },
-    publisher: {
-      "@type": "Organization",
-      name: SITE.name,
-      url: SITE.url,
-    },
+    // Point at the Organization the layout defines on every page, so engines
+    // resolve one entity instead of an anonymous copy per article.
+    author: { "@id": `${SITE.url}/#organization` },
+    publisher: { "@id": `${SITE.url}/#organization` },
+    isPartOf: { "@id": `${SITE.url}/#website` },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     keywords: post.keywords.join(", "),
     articleSection: post.category,
-    inLanguage: "en",
+    // Counted from the content itself, not back-derived from reading time.
+    wordCount: wordCount(post),
+    timeRequired: `PT${readingMinutes(post)}M`,
+    inLanguage: "en-CA",
     // The answer-first summary, offered as the abstract engines should quote.
     ...(post.tldr ? { abstract: post.tldr } : null),
     speakable: {
@@ -150,7 +161,7 @@ export default async function BlogPost({ params }: Params) {
                   <p className="mt-7 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-white/10 pt-6 text-sm text-white/55">
                     <span>{fmt(post.date)}</span>
                     <span>·</span>
-                    <span>{post.readMinutes} min read</span>
+                    <span>{readingMinutes(post)} min read</span>
                     <span>·</span>
                     <span>Jesus Festival Movement</span>
                   </p>
@@ -261,7 +272,7 @@ export default async function BlogPost({ params }: Params) {
                   <p className="text-xs font-bold uppercase tracking-[0.22em] text-gold-400">
                     Keep reading
                   </p>
-                  <div className="mt-6 grid gap-5 sm:grid-cols-2">
+                  <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
                     {more.map((p) => (
                       <a
                         key={p.slug}
