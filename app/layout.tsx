@@ -94,7 +94,9 @@ const structuredData = {
       "@id": `${SITE.url}/#organization`,
       name: SITE.name,
       url: SITE.url,
-      email: SITE.email,
+      // Google rejects a mixed-case email in Organization schema ("Invalid value
+      // in field email"); the visible address keeps its capitals.
+      email: SITE.email.toLowerCase(),
       description: SITE.description,
       slogan: "One name. One mission. Every nation.",
       logo: {
@@ -108,7 +110,9 @@ const structuredData = {
       areaServed: "Worldwide",
       contactPoint: {
         "@type": "ContactPoint",
-        email: SITE.email,
+        // Google rejects a mixed-case email in Organization schema ("Invalid value
+        // in field email"); the visible address keeps its capitals.
+        email: SITE.email.toLowerCase(),
         contactType: "Jesus Festival city inquiries",
         availableLanguage: "English",
       },

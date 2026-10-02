@@ -494,6 +494,21 @@ export const ANSWERS: Answer[] = [
     ],
   },
   {
+    id: "how-to-share-your-testimony",
+    q: "How do I share my testimony?",
+    topic: "faith",
+    short:
+      "Tell it in three parts in about three minutes: what your life was like before, how Jesus became real to you, and what is genuinely different now. Use plain words rather than church language, be honest about what is still hard, ask permission first, and finish by asking about their story.",
+    detail: [
+      "If you grew up in church and think you have no dramatic before, you still have a testimony: the point where faith became your own. A story about being kept is as real as one about being rescued.",
+      "Write it out once, cut it in half, then say it aloud to one believer and ask them to stop you whenever they lose interest. That single conversation improves it more than any amount of rewriting.",
+    ],
+    links: [
+      { label: "The full three-minute guide", href: "/blog/how-to-share-your-testimony" },
+      { label: "I Am Reborn — real testimonies", href: "https://IAmReborn.net" },
+    ],
+  },
+  {
     id: "what-if-nobody-responds",
     q: "What if we do all this and nobody responds?",
     topic: "faith",

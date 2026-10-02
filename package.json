@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "tsc --noEmit",
     "check": "tsc --noEmit",
-    "audit": "node scripts/audit.mjs"
+    "audit": "node scripts/audit.mjs",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "framer-motion": "^11.11.17",

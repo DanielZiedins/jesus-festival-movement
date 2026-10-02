@@ -1136,6 +1136,155 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "how-to-share-your-testimony",
+    title: "How To Share Your Testimony In Three Minutes",
+    description:
+      "A simple, honest structure for telling your story of coming to Jesus — before, the turning point, and after — in about three minutes, without preaching, exaggerating or making it about you.",
+    tldr: "Share your testimony in three parts: what your life was like before, the moment or season Jesus became real to you, and what is genuinely different now. Keep it to about three minutes, use plain words instead of church language, be honest about what is still hard, and end by asking about their story.",
+    date: "2026-10-01",
+    category: "Evangelism",
+    eyebrow: "Your story, told well",
+    keywords: [
+      "how to share your testimony",
+      "how to write your testimony",
+      "christian testimony structure",
+      "personal testimony example",
+      "how to tell your faith story",
+      "sharing your testimony with friends",
+    ],
+    related: ["reborn", "oikos", "kingdom-base", "lotw"],
+    body: [
+      {
+        t: "p",
+        text: "Most believers have exactly one piece of evidence for the Gospel that nobody can argue with, and almost none of them have ever practised telling it. Your testimony is not a sermon and it is not a debate. It is a true account of what happened to you — and people who would never sit through an argument will listen to a story all the way to the end.",
+      },
+      {
+        t: "p",
+        text: "The trouble is that most testimonies are either too long, too vague, or quietly about the person telling them. The good news is that all three are fixable with a structure you can learn in an evening.",
+      },
+      {
+        t: "scripture",
+        text: "But in your hearts honour Christ the Lord as holy, always being prepared to make a defence to anyone who asks you for a reason for the hope that is in you; yet do it with gentleness and respect.",
+        ref: "1 Peter 3:15",
+      },
+      {
+        t: "p",
+        text: "Notice the order: prepared, then gentle. The preparation is what makes the gentleness possible. When you know what you are going to say, you are free to actually listen.",
+      },
+
+      { t: "h2", text: "The three-part structure" },
+      {
+        t: "steps",
+        items: [
+          {
+            title: "Before — about 45 seconds",
+            text: "What was your life actually like? Not your worst moment for effect — the honest shape of things. What were you living for, what did you assume, what was quietly not working? Be specific enough that someone could recognise themselves.",
+          },
+          {
+            title: "The turning point — about 60 seconds",
+            text: "How did Jesus become real to you? It might have been a single night or a slow two years. Say what actually happened, what you understood about Him, and what you did about it. This is the part to slow down for.",
+          },
+          {
+            title: "After — about 45 seconds",
+            text: "What is genuinely different now? Not that everything is fixed — what has changed. Where you find peace, what you are no longer carrying, how you treat people. Then stop talking and ask about them.",
+          },
+        ],
+      },
+      {
+        t: "p",
+        text: "Three minutes is not a rule, it is a kindness. It is long enough to be real and short enough that the other person still has room to respond. You can always go longer if they ask; you can rarely recover a conversation you talked over.",
+      },
+
+      { t: "h2", text: "If you grew up in church" },
+      {
+        t: "p",
+        text: "Many people quietly believe they do not have a testimony because there was no dramatic before. That is not true, and it is worth saying why. You still have a before — the point where faith was your parents' and not yet yours, or the season you believed the right things without trusting Him with anything real.",
+      },
+      {
+        t: "p",
+        text: "A testimony about being kept is every bit as much a testimony as one about being rescued. Plenty of people listening did not have a dramatic before either, and yours may be the first story that sounds like theirs.",
+      },
+
+      { t: "h2", text: "Four things that quietly ruin a good story" },
+      {
+        t: "list",
+        items: [
+          "<strong>Church language.</strong> \"I got saved and washed in the blood and now I walk in victory\" means a great deal to believers and almost nothing to anyone else. Say what you actually mean, in the words you would use with a colleague.",
+          "<strong>Exaggeration.</strong> If it was a hard year, say a hard year. People can feel when a story has been polished, and the moment they suspect one detail they stop trusting the rest.",
+          "<strong>Making it a résumé.</strong> If the after is all about what you now do — your ministry, your discipline, your growth — the hero of the story has quietly become you. Keep pointing back at what He did.",
+          "<strong>Pretending it is finished.</strong> Saying what is still hard is not a weakness in a testimony. It is usually the most believable part of it.",
+        ],
+      },
+
+      { t: "h2", text: "Write it down once" },
+      {
+        t: "p",
+        text: "You do not need to memorise a script, and you should not read one. But writing it out a single time does something useful: it shows you which parts are vague, which are too long, and where you have slipped into language nobody outside a church would use.",
+      },
+      {
+        t: "steps",
+        items: [
+          {
+            title: "Write it without editing",
+            text: "Get the whole thing down in one go, as if you were telling a friend over coffee.",
+          },
+          {
+            title: "Cut it in half",
+            text: "Almost every first draft is twice as long as it needs to be. Keep the specific details and lose the general ones.",
+          },
+          {
+            title: "Say it out loud to one believer",
+            text: "Ask them to stop you whenever they would have lost interest, or did not understand a phrase. That single conversation will improve it more than another week of writing.",
+          },
+        ],
+      },
+      {
+        t: "p",
+        text: "If you want to see how others have told theirs, <a href=\"https://IAmReborn.net\">I Am Reborn</a> exists to gather exactly these stories — ordinary people describing, in plain words, what changed when they met Jesus. It is a good place both to read and, eventually, to add your own.",
+      },
+
+      { t: "h2", text: "Who to tell first" },
+      {
+        t: "p",
+        text: "Not a stranger, usually. The people most likely to hear your story with interest are the ones who already know you — and who have probably noticed that something about you is different. Your workmates, your neighbours, the friend you have known since school.",
+      },
+      {
+        t: "p",
+        text: "If you are not sure who those people are, it is worth slowing down and writing their names. <a href=\"https://OikosMap.com\">Oikos Map</a> is a free tool for exactly that: mapping the relationships already around you and praying for them by name, so that when an opening comes you recognise it.",
+      },
+      {
+        t: "quote",
+        text: "You will never run out of people to tell. You will only run out of courage — and that comes back faster than you think once you have done it once.",
+      },
+
+      { t: "h2", text: "When the moment actually comes" },
+      {
+        t: "p",
+        text: "It will almost never be the moment you planned. Someone asks why you seem calmer, or what you did on Sunday, or how you got through a hard year. The structure is what lets you answer in the moment instead of freezing or saying nothing.",
+      },
+      {
+        t: "list",
+        items: [
+          "Ask permission first: <em>\"Can I tell you what actually happened?\"</em> Almost no one says no, and it changes the whole tone.",
+          "Keep it short and let them pull more out of you.",
+          "End with a question about them rather than a pitch: <em>\"Has anything like that ever happened to you?\"</em>",
+          "If they want to go further, the simplest next step is a short, plain explanation of the Gospel — <a href=\"/know-jesus\">there is one here</a> you can send them.",
+        ],
+      },
+      {
+        t: "p",
+        text: "And if they do not — that is fine. You have told the truth to someone who now knows a real person whose life was changed. That is rarely the end of the story.",
+      },
+      {
+        t: "callout",
+        title: "Telling it at a festival",
+        text: "Testimonies are one of the heartbeats of a Jesus Festival — real people telling what changed. The full guide to sharing the Gospel with people you already know goes deeper on the conversations that come after.",
+        href: "/blog/share-the-gospel-with-someone-you-already-know",
+        cta: "Read the guide",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));

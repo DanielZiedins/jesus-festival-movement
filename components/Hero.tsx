@@ -66,6 +66,8 @@ export default function Hero() {
             <span className="h-px w-8 bg-gradient-to-r from-gold to-ember" />
             <span className="text-white/75">Niagara</span>
             <span className="h-px w-8 bg-gradient-to-r from-gold to-ember" />
+            <span className="text-white/75">Akuse</span>
+            <span className="h-px w-8 bg-gradient-to-r from-gold to-ember" />
             <span className="text-gold">The nations</span>
           </div>
         </motion.div>
