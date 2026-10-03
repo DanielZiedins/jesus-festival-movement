@@ -650,3 +650,29 @@ html:not(.motion-ready) [data-reveal] {
   opacity: 1 !important;
   transform: none !important;
 }
+
+/* Long-form policy copy: Tailwind's preflight strips list bullets and link
+   styling, which a privacy policy genuinely needs. */
+.policy-prose ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+.policy-prose li + li {
+  margin-top: 0.6rem;
+}
+.policy-prose li::marker {
+  color: theme("colors.gold.DEFAULT");
+}
+.policy-prose strong {
+  color: #fff;
+  font-weight: 600;
+}
+.policy-prose a {
+  color: theme("colors.gold.400");
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: rgba(244, 196, 92, 0.45);
+}
+.policy-prose a:hover {
+  text-decoration-color: currentColor;
+}

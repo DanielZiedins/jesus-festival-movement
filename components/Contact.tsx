@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { track } from "@/lib/track";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { SITE } from "@/lib/content";
@@ -37,6 +38,7 @@ export default function Contact() {
         throw new Error(result?.error || "The form could not send just now.");
       }
       form.reset();
+      track("inquiry", {});
       router.push("/thank-you");
     } catch (error) {
       setStatus("error");
@@ -172,7 +174,14 @@ export default function Contact() {
                   <a className="font-bold text-gold underline" href={`mailto:${SITE.email}`}>{SITE.email}</a>.
                 </p>
               )}
-              {status === "idle" && <p className="text-white/55">We will only use your details to respond to this conversation.</p>}
+              {status === "idle" && (
+                <p className="text-white/55">
+                  We will only use your details to respond to this conversation.{" "}
+                  <a href="/privacy" className="underline decoration-white/25 underline-offset-4 transition hover:text-gold">
+                    Privacy policy
+                  </a>
+                </p>
+              )}
             </div>
           </form>
         </div>

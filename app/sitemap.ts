@@ -44,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/know-jesus`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/blog`, lastModified, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE.url}/network`, lastModified, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${SITE.url}/privacy`, lastModified: new Date("2026-10-02T00:00:00.000Z"), changeFrequency: "yearly", priority: 0.3 },
     ...posts,
   ];
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { track } from "@/lib/track";
 import Icon from "./ui/Icon";
 
 type Variant = "panel" | "inline";
@@ -48,6 +49,7 @@ export default function JoinForm({
         return;
       }
       setState("done");
+      track("signup", { source });
     } catch {
       setState("error");
       setMessage("Network error. Please check your connection and try again.");
@@ -174,7 +176,10 @@ export default function JoinForm({
 
       <p className="mt-3.5 text-xs leading-relaxed text-white/55">
         Nine letters, then occasional updates. No spam, ever. Unsubscribe in
-        one click.
+        one click.{" "}
+        <a href="/privacy" className="underline decoration-white/25 underline-offset-4 transition hover:text-gold">
+          How we handle your details
+        </a>
       </p>
     </form>
   );

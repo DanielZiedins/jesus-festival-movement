@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import JsonLd from "@/components/JsonLd";
 import RevealGuard from "@/components/RevealGuard";
+import Measure from "@/components/Measure";
 import { SITE } from "@/lib/content";
 import "./globals.css";
 
@@ -148,6 +149,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         <JsonLd data={structuredData} />
         {children}
+        <Measure />
       </body>
     </html>
   );

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { track } from "@/lib/track";
 import Icon from "./ui/Icon";
 
 /**
@@ -20,6 +21,8 @@ export default function AnswerSearch({ total }: { total: number }) {
   const [query, setQuery] = useState("");
   const [count, setCount] = useState(total);
   const inputRef = useRef<HTMLInputElement>(null);
+  // Report that search was used once per visit, never what was typed.
+  const reported = useRef(false);
 
   useEffect(() => {
     const q = query.trim().toLowerCase();
@@ -55,6 +58,10 @@ export default function AnswerSearch({ total }: { total: number }) {
       section.classList.toggle("hidden", !anyVisible);
     }
     setCount(visible);
+    if (terms.length && !reported.current) {
+      reported.current = true;
+      track("answers_search", { results: visible === 0 ? "none" : visible <= 3 ? "some" : "many" });
+    }
   }, [query]);
 
   // Let anyone press "/" to jump to the box, the way search boxes behave.
