@@ -600,7 +600,7 @@ export default function AkusePage() {
               <Reveal delay={0.25}>
                 <a
                   href="/answers"
-                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gold hover:underline"
+                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
                 >
                   See all the answers
                   <Icon name="arrow" className="h-4 w-4" />
@@ -645,7 +645,7 @@ export default function AkusePage() {
                         Read{" "}
                         <a
                           href="/blog/what-actually-happens-at-a-jesus-festival"
-                          className="font-semibold text-gold hover:underline"
+                          className="font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
                         >
                           what actually happens at a Jesus Festival
                         </a>

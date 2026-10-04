@@ -181,7 +181,7 @@ export default function AnswersPage() {
                             {a.detail.map((d, j) => (
                               <p
                                 key={j}
-                                className="mt-4 leading-relaxed text-white/65"
+                                className="rich mt-4 leading-relaxed text-white/65"
                                 dangerouslySetInnerHTML={{ __html: d }}
                               />
                             ))}
@@ -193,7 +193,7 @@ export default function AnswersPage() {
                                 <a
                                   key={l.href}
                                   href={l.href}
-                                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-gold hover:underline"
+                                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
                                 >
                                   {l.label}
                                   <Icon name="arrow" className="h-3.5 w-3.5" />
@@ -225,7 +225,7 @@ export default function AnswersPage() {
                       Ask us anything at{" "}
                       <a
                         href={`mailto:${SITE.email}`}
-                        className="font-semibold text-gold hover:underline"
+                        className="font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
                       >
                         {SITE.email}
                       </a>

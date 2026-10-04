@@ -36,7 +36,7 @@ export default function Footer() {
           <div>
             <BrandMark full className="w-40 sm:w-52" />
             <p className="mt-6 max-w-md text-base leading-relaxed text-white/55">{SITE.tagline}</p>
-            <a href={`mailto:${SITE.email}`} className="mt-5 inline-block font-bold text-gold hover:underline">{SITE.email}</a>
+            <a href={`mailto:${SITE.email}`} className="mt-5 inline-block font-bold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold">{SITE.email}</a>
           </div>
 
           <div>

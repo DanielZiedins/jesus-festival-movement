@@ -49,6 +49,11 @@ export const MOVEMENT_FACTS = [
       "Each local expression is rooted in worship, the Gospel, prayer, baptisms, practical outreach, church unity, and clear next steps into local community and discipleship.",
   },
   {
+    question: "Who started Jesus Festival Movement?",
+    answer:
+      "Jesus Festival Movement grew out of the ministry of Daniel and Katie Ziedins in Hamilton, Ontario, who began weekly street evangelism there in 2014 through Love on Hamilton. They serve with e3 Canada and I Am Second.",
+  },
+  {
     question: "How can someone start a Jesus Festival in their city?",
     answer:
       "Start with prayer, gather a few humble and trusted local leaders, listen to your city, and contact the Jesus Festival Movement team for a conversation about the next faithful step.",
@@ -230,4 +235,28 @@ export const MAP_MARKERS = [
   { name: "Akuse", x: 48.4, y: 47.4, status: "upcoming" },
   { name: "Your city", x: 49, y: 31, status: "invitation" },
   { name: "The nations", x: 70, y: 47, status: "invitation" },
+] as const;
+
+/**
+ * The people behind the movement — one definition for both the /about section
+ * and the Organization schema's `founder`, so the two can never disagree.
+ * Everything here comes from kd-ziedins.com, their own public site.
+ */
+export const FOUNDERS = [
+  {
+    id: "daniel-ziedins",
+    name: "Daniel Ziedins",
+    role: "Kingdom builder & evangelist",
+    bio: "A husband, dad and evangelist from Hamilton who has been building things since he was twelve. Alongside the Jesus Festival he started Love on The World, Thy Kingdom Network and Seek First — all aimed at helping people encounter Jesus and live a life that counts.",
+    url: "https://www.danielziedins.com",
+    sameAs: ["https://www.danielziedins.com", "https://www.kd-ziedins.com"],
+  },
+  {
+    id: "katie-ziedins",
+    name: "Katie Ziedins",
+    role: "Photographer, evangelist & mama",
+    bio: "A wife, mama and photographer who runs Katie Nicolle Photography and is as at home praying with someone on the street as behind a camera. Her heart is evangelism, prayer, and helping others walk boldly in who God made them to be.",
+    url: "https://www.kd-ziedins.com",
+    sameAs: ["https://www.kd-ziedins.com", "https://www.instagram.com/katienicollephotography/"],
+  },
 ] as const;

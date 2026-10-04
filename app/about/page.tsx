@@ -4,7 +4,7 @@ import BrandMark from "@/components/BrandMark";
 import Footer from "@/components/Footer";
 import Icon from "@/components/ui/Icon";
 import JsonLd from "@/components/JsonLd";
-import { MOVEMENT_FACTS, SITE } from "@/lib/content";
+import { FOUNDERS, MOVEMENT_FACTS, SITE } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "About Jesus Festival Movement",
@@ -88,6 +88,57 @@ export default function AboutPage() {
             <p className="mt-7">A Jesus Festival is more than a one-day moment. Worship, clear Gospel proclamation, prayer, baptisms, practical outreach, and church unity are designed to open a door. The ongoing work is local relationship, discipleship, and love that remains after the stage comes down.</p>
             <p className="mt-7">Every city has its own story. That is why the approach begins with prayer, listening, humble local leadership, and partnership with churches already serving their neighbours.</p>
           </div>
+        </div>
+      </section>
+
+      {/* Who's behind it — entity clarity for readers and answer engines alike. */}
+      <section id="who" className="section-pad !pt-0 scroll-mt-28">
+        <div className="container-x">
+          <div className="max-w-3xl">
+            <p className="text-xs font-bold uppercase tracking-[.28em] text-gold">Who is behind it</p>
+            <h2 className="mt-5 font-display text-4xl font-bold uppercase leading-[.92] tracking-[-.05em] text-white sm:text-6xl">
+              A family that said yes.
+            </h2>
+            <p className="mt-6 text-lg leading-relaxed text-white/70">
+              Jesus Festival Movement grew out of the ministry of Daniel and Katie Ziedins in Hamilton, Ontario. In 2014 they began Love on Hamilton — weekly street evangelism and practical care for the city&apos;s homeless community. That outreach grew into Love on The World, the Overflow gatherings, and the Jesus Festival in Hamilton. Today they serve with e3 Canada and I Am Second, equipping believers to share Jesus and helping establish multiplying churches.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-5 md:grid-cols-2">
+            {FOUNDERS.map((f) => (
+              <article
+                key={f.id}
+                id={f.id}
+                className="flex flex-col rounded-[1.8rem] border border-white/10 bg-white/[.035] p-7 sm:p-8"
+              >
+                <p className="text-[.68rem] font-bold uppercase tracking-[.2em] text-gold-400">{f.role}</p>
+                <h3 className="mt-3 font-display text-3xl font-bold text-white">{f.name}</h3>
+                <p className="mt-4 flex-1 leading-relaxed text-white/68">{f.bio}</p>
+                <a
+                  href={f.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-flex items-center gap-2 self-start font-bold text-white/85 transition hover:text-gold"
+                >
+                  {f.url.replace(/^https:\/\/(www\.)?/, "")}
+                  <Icon name="link" className="h-4 w-4" />
+                </a>
+              </article>
+            ))}
+          </div>
+
+          <p className="mt-8 max-w-3xl text-white/60">
+            Their own story, updates and the full history of the ministry live at{" "}
+            <a
+              href="https://www.kd-ziedins.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-gold underline decoration-gold/40 underline-offset-4 hover:decoration-gold"
+            >
+              KD-Ziedins.com
+            </a>
+            .
+          </p>
         </div>
       </section>
 

@@ -10,7 +10,10 @@ import type { Block } from "@/lib/blog/types";
  */
 
 function Html({ html, className }: { html: string; className?: string }) {
-  return <span className={className} dangerouslySetInnerHTML={{ __html: html }} />;
+  // `rich` styles links inside authored copy (see globals.css). Without it an
+  // inline link is the same colour and weight as the sentence around it —
+  // invisible as a link, and a WCAG 1.4.1 failure.
+  return <span className={className ? `rich ${className}` : "rich"} dangerouslySetInnerHTML={{ __html: html }} />;
 }
 
 export default function Blocks({ blocks }: { blocks: Block[] }) {

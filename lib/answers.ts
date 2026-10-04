@@ -394,6 +394,21 @@ export const ANSWERS: Answer[] = [
     ],
   },
   {
+    id: "church-outreach-ideas",
+    q: "What are good outreach ideas for a church?",
+    topic: "planning",
+    short:
+      "The outreach that reaches people is repeatable, relational and has a clear next step. Start with things anyone can do this week — prayer walking, praying by name for the people you already know, learning to share your story — then build something weekly as a small team, and gather across churches once a year. Plan follow-up before any of it.",
+    detail: [
+      "Weekly street outreach with practical care, testimony nights people can bring friends to, and serving alongside ministries already working in your city all tend to out-reach one-off events.",
+      "Whatever you choose, decide in advance who follows up with anyone who responds, and how quickly.",
+    ],
+    links: [
+      { label: "Eleven outreach ideas, by effort", href: "/blog/church-outreach-ideas" },
+      { label: "How to prayer walk your city", href: "/resources/prayer-walk" },
+    ],
+  },
+  {
     id: "small-church-host",
     q: "Can a small church host a Jesus Festival?",
     topic: "planning",

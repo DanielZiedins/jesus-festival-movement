@@ -3,7 +3,7 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import JsonLd from "@/components/JsonLd";
 import RevealGuard from "@/components/RevealGuard";
 import Measure from "@/components/Measure";
-import { SITE } from "@/lib/content";
+import { FOUNDERS, SITE } from "@/lib/content";
 import "./globals.css";
 
 const display = Space_Grotesk({
@@ -109,6 +109,15 @@ const structuredData = {
         name: "Hamilton, Ontario, Canada",
       },
       areaServed: "Worldwide",
+      // Defined here, in the layout, so every page resolves the same people.
+      founder: FOUNDERS.map((f) => ({
+        "@type": "Person",
+        "@id": `${SITE.url}/#${f.id}`,
+        name: f.name,
+        jobTitle: f.role,
+        url: f.url,
+        sameAs: [...f.sameAs],
+      })),
       contactPoint: {
         "@type": "ContactPoint",
         // Google rejects a mixed-case email in Organization schema ("Invalid value

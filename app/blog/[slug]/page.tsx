@@ -237,7 +237,7 @@ export default async function BlogPost({ params }: Params) {
                 </div>
                 <a
                   href="/network"
-                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gold hover:underline"
+                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
                 >
                   See the whole network
                   <Icon name="arrow" className="h-4 w-4" />

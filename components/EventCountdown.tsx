@@ -132,7 +132,7 @@ tick();var t=setInterval(tick,1000);
           </p>
           <p className="mt-2 text-sm text-white/65">
             Testimonies and what happens next will be shared with{" "}
-            <a href="/#join" className="font-semibold text-gold hover:underline">
+            <a href="/#join" className="font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold">
               the movement letters
             </a>
             .

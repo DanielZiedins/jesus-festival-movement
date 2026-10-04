@@ -1285,6 +1285,142 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "church-outreach-ideas",
+    title: "Church Outreach Ideas That Actually Reach People",
+    description:
+      "Eleven church outreach ideas arranged by how much they ask of you — this week, this season, this year — with why each one works, how it usually goes wrong, and the follow-up step most lists leave out.",
+    tldr: "The outreach that reaches people is repeatable, relational and has a clear next step. Start this week with no budget — prayer walking, mapping the people you already know, sharing your story. Build to something weekly as a small team. Then gather across churches once a year. Plan the follow-up before any of it.",
+    date: "2026-10-04",
+    category: "Outreach",
+    eyebrow: "Ideas worth doing",
+    keywords: [
+      "church outreach ideas",
+      "evangelism ideas for churches",
+      "community outreach ideas for churches",
+      "outreach ideas for small churches",
+      "how to reach your community for Jesus",
+      "church evangelism strategy",
+    ],
+    related: ["oikos", "loh", "lotw", "kingdom-base"],
+    body: [
+      {
+        t: "p",
+        text: "Most lists of outreach ideas are lists of events. A barbecue, a concert, a carnival, a free car wash. Some of those are good. But a list of events quietly teaches a church that outreach is something you put on, rather than something you are — and the result is a busy weekend, a tired team, and a handful of names nobody calls on Monday.",
+      },
+      {
+        t: "p",
+        text: "So the ideas below are arranged differently: by how much they ask of you. Some you can start this week alone. Some need a small team and a season. A few need churches across a city. Each comes with why it works and the way it most often goes wrong.",
+      },
+      {
+        t: "scripture",
+        text: "Then he said to his disciples, \"The harvest is plentiful but the workers are few. Ask the Lord of the harvest, therefore, to send out workers into his harvest field.\"",
+        ref: "Matthew 9:37–38",
+      },
+
+      { t: "h2", text: "Three tests for any outreach idea" },
+      {
+        t: "list",
+        items: [
+          "<strong>Is it repeatable?</strong> Something you can do every week will out-reach something you can only manage once a year, almost every time.",
+          "<strong>Is it relational?</strong> People come to faith through people. An idea that never puts a believer in a real conversation is publicity, not outreach.",
+          "<strong>Is there a next step?</strong> If someone is moved, where do they go on Tuesday? Decide that before you start, not after.",
+        ],
+      },
+
+      { t: "h2", text: "This week — no budget, no permission needed" },
+      { t: "h3", text: "1. Prayer walk the streets you already live on" },
+      {
+        t: "p",
+        text: "Walk slowly, pray for what you see, and write down one thing to do about it. It costs nothing, and it changes how you notice your own neighbourhood. <strong>Where it goes wrong:</strong> treating it as a performance. Nobody needs to know you are doing it. The <a href=\"/resources/prayer-walk\">prayer walk guide</a> keeps it simple.",
+      },
+      { t: "h3", text: "2. Write down the people already in your life" },
+      {
+        t: "p",
+        text: "Most people who come to faith do so through someone they already know. Name your household, workmates, neighbours and friends, and start praying for them by name. <a href=\"https://OikosMap.com\">Oikos Map</a> is a free tool built for exactly this. <strong>Where it goes wrong:</strong> turning friends into projects. You are praying for people you love, not working a list.",
+      },
+      { t: "h3", text: "3. Get ready to tell your own story" },
+      {
+        t: "p",
+        text: "You have one piece of evidence nobody can argue with. Learn to tell it in three minutes — before, the turning point, after — so you can when someone asks. <a href=\"/blog/how-to-share-your-testimony\">Here is how</a>. <strong>Where it goes wrong:</strong> waiting until it is polished. It never will be, and that is fine.",
+      },
+      { t: "h3", text: "4. Meet one practical need, unannounced" },
+      {
+        t: "p",
+        text: "A meal for a neighbour who has just had a baby, groceries for someone between jobs, a lift to an appointment. <strong>Why it works:</strong> love that costs something is noticed, and it opens conversations that a leaflet never could. <strong>Where it goes wrong:</strong> attaching a pitch. Let the kindness be kind.",
+      },
+
+      { t: "h2", text: "This season — a small team, every week" },
+      { t: "h3", text: "5. Weekly street outreach with practical care" },
+      {
+        t: "p",
+        text: "This is where the Jesus Festival Movement itself began. In 2014 <a href=\"https://www.loveonhamilton.com\">Love on Hamilton</a> started going out every week — sharing the Gospel with whoever would listen and bringing practical care to people living on the street — and it has kept going since. <strong>Why it works:</strong> consistency. The same faces, the same corner, week after week, builds a trust that one big event cannot. <strong>Where it goes wrong:</strong> going without training, or going once. Train first, then commit to a season.",
+      },
+      { t: "h3", text: "6. A testimony night people can bring friends to" },
+      {
+        t: "p",
+        text: "Ordinary people telling, plainly, what changed when they met Jesus — with food, and without a sermon the guest has to sit through first. <strong>Why it works:</strong> it gives believers something easy to invite a friend to. <strong>Where it goes wrong:</strong> stacking it with the most dramatic stories. Quieter ones are often the ones that sound like the guest's life.",
+      },
+      { t: "h3", text: "7. Serve alongside something already working" },
+      {
+        t: "p",
+        text: "Before inventing a new ministry, ask who in your city is already feeding people, mentoring kids or visiting the lonely — and offer to help. <strong>Why it works:</strong> the need is real and the relationships exist already. <strong>Where it goes wrong:</strong> showing up to be seen. Serve under their leadership, on their terms.",
+      },
+      { t: "h3", text: "8. Be ready before the crisis comes" },
+      {
+        t: "p",
+        text: "Floods, fires, cold snaps and sudden closures find out which churches were prepared. A list of who can house, feed, drive or sit with people is outreach you build now and use later. <a href=\"/blog/serving-your-city-when-crisis-hits\">How churches can serve a city in crisis</a> covers the practical side.",
+      },
+
+      { t: "h2", text: "This year — across churches in a city" },
+      { t: "h3", text: "9. Pray together as a city before you plan together" },
+      {
+        t: "p",
+        text: "Churches that have prayed together for a season find it far easier to work together afterwards. <strong>Where it goes wrong:</strong> skipping straight to logistics, where most unity quietly breaks. <a href=\"/blog/why-city-wide-church-unity-is-worth-it\">Why it is worth the effort</a>.",
+      },
+      { t: "h3", text: "10. A public gathering in the heart of the city" },
+      {
+        t: "p",
+        text: "Worship, real stories, the Gospel preached clearly, prayer for anyone who wants it, and baptisms where a venue allows — free, outdoors and open to everyone. That is what a Jesus Festival is. <strong>Why it works:</strong> it gives a whole city one visible, unthreatening reason to hear about Jesus, and it gives churches a shared goal. <strong>Where it goes wrong:</strong> treating the day as the point. <a href=\"/blog/what-actually-happens-at-a-jesus-festival\">See what actually happens at one</a>, and use the <a href=\"/start-a-jesus-festival/playbook\">13-step playbook</a> to plan backwards from what should still be running six months later.",
+      },
+      { t: "h3", text: "11. Start a group that multiplies" },
+      {
+        t: "p",
+        text: "The longest-lasting outreach is a small group of ordinary believers, equipped and sent, who in time train others to do the same. <a href=\"https://www.evangelize.world\">Evangelize.World</a> is working to see 100 such outreach groups established anywhere and everywhere. <strong>Where it goes wrong:</strong> building around one gifted leader. Design it to hand on from day one.",
+      },
+
+      { t: "h2", text: "The part most outreach lists leave out" },
+      {
+        t: "p",
+        text: "Every idea above can produce the moment where someone says <em>I want to know more</em> — and every one of them can waste it. The most important outreach decision is made before you start: who follows up, how quickly, and where that person goes next.",
+      },
+      {
+        t: "list",
+        items: [
+          "Contact within 48 hours, as a person rather than an organisation.",
+          "Introduce them to a church in person, rather than handing over a list.",
+          "Keep one shared record of who is following up with whom, so nobody falls between volunteers.",
+        ],
+      },
+      {
+        t: "p",
+        text: "<a href=\"/blog/how-to-follow-up-with-a-new-believer\">The first 48 hours</a> goes through it in detail, and <a href=\"https://KingdomBase.App\">Kingdom Base</a> is a free tool for keeping that record.",
+      },
+
+      { t: "h2", text: "How to choose" },
+      {
+        t: "p",
+        text: "Pick one idea from each tier. Start the personal one this week, build the weekly one over a season, and pray about the city-wide one. A church doing three of these faithfully will reach more people than one attempting all eleven once.",
+      },
+      {
+        t: "callout",
+        title: "When your church is ready for the city-wide one",
+        text: "The full playbook walks through all 13 steps of a Jesus Festival — timelines, checklists and the mistake most teams make at each stage. It is free.",
+        href: "/start-a-jesus-festival/playbook",
+        cta: "Open the playbook",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));

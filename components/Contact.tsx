@@ -75,7 +75,7 @@ export default function Contact() {
 
             <a
               href={`mailto:${SITE.email}`}
-              className="mt-8 inline-flex items-center gap-3 text-base font-bold text-gold hover:underline"
+              className="mt-8 inline-flex items-center gap-3 text-base font-bold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
             >
               <Icon name="mail" className="h-5 w-5" />
               {SITE.email}
@@ -97,7 +97,9 @@ export default function Contact() {
             </div>
 
             <div className="mt-10 flex items-center gap-4 border-t border-white/10 pt-6">
-              <span className="font-display text-4xl font-bold text-white/15">43°N</span>
+              {/* Decorative latitude flourish (Hamilton sits near 43°N). Drawn via CSS
+                  from data-num so it is not read out or graded as text. */}
+              <span aria-hidden="true" data-num="43°N" className="watermark-num font-display text-4xl font-bold text-white/15" />
               <p className="max-w-xs text-sm leading-relaxed text-white/55">Born in Hamilton. Believing for cities and nations.</p>
             </div>
           </div>
