@@ -394,6 +394,22 @@ export const ANSWERS: Answer[] = [
     ],
   },
   {
+    id: "support-the-work",
+    q: "How can I support the work of Jesus Festival Movement?",
+    topic: "basics",
+    short:
+      "Pray first — for boldness, for the people being reached, and for the outreach groups being raised up. If the Lord prompts you, give: Daniel and Katie Ziedins, who lead the work, are supported through e3 Canada's own secure giving page. And go yourself — learn to share your faith and start where you live.",
+    detail: [
+      "Daniel and Katie began weekly street evangelism in Hamilton in 2014 and now serve with e3 Canada and I Am Second, equipping believers to evangelize and helping establish multiplying churches.",
+      "Their own updates and the full story of the ministry are at KD-Ziedins.com.",
+    ],
+    links: [
+      { label: "The invitation to partner", href: "/blog/plunder-hell-populate-heaven" },
+      { label: "Give through e3 Canada", href: "https://e3ministry.ca/staff/katie-daniel-ziedins" },
+      { label: "KD-Ziedins.com", href: "https://www.kd-ziedins.com" },
+    ],
+  },
+  {
     id: "church-outreach-ideas",
     q: "What are good outreach ideas for a church?",
     topic: "planning",

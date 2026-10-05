@@ -344,7 +344,7 @@ export const FLOWS: Flow[] = [
         },
         {
           title: "4. Give",
-          body: "Stages, sound, permits, insurance and printed materials all cost money. Partnership makes free public Gospel proclamation possible.",
+          body: `Stages, sound, permits, insurance and printed materials all cost money. Partnership makes free public Gospel proclamation possible. The work is led by Daniel and Katie Ziedins, who are supported through e3 Canada. <a href="${SITE_URL}/blog/plunder-hell-populate-heaven" style="color:#f5c451;">Read the invitation to partner</a>`,
         },
         {
           title: "5. Share",

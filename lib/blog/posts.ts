@@ -1421,6 +1421,186 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "plunder-hell-populate-heaven",
+    title: "Plunder Hell, Populate Heaven: An Invitation To Partner",
+    description:
+      "Daniel and Katie Ziedins have spent twelve years taking the Gospel to the streets of Hamilton and beyond. Now they serve with e3 Canada and I Am Second, and the vision is bigger than ever. Here is what it is, why it matters eternally, and how you can stand with it.",
+    tldr: "Daniel and Katie Ziedins began Love on Hamilton in 2014 and have spent twelve years taking the Gospel to the streets. Today they serve with e3 Canada and I Am Second, equipping believers to evangelize and helping establish multiplying churches — with a goal of 100 outreach groups worldwide. You can stand with them by praying, by giving through e3 Canada, and by going yourself.",
+    date: "2026-10-05",
+    category: "Mission",
+    eyebrow: "An invitation",
+    keywords: [
+      "plunder hell populate heaven",
+      "partner with evangelists in Canada",
+      "support missionaries e3 Canada",
+      "support street evangelism Hamilton",
+      "how to partner with a ministry",
+      "Daniel and Katie Ziedins",
+    ],
+    related: ["kd", "loh", "lotw", "oikos"],
+    body: [
+      {
+        t: "p",
+        text: "There is a phrase the evangelist Reinhard Bonnke made famous, and it has never lost its edge: <strong>plunder hell, populate heaven</strong>. It sounds dramatic. It is meant to. Because underneath it is the most serious thing in the world — that every person you will pass today is eternal, that Jesus died and rose to bring them home, and that most of them have never once heard that clearly.",
+      },
+      {
+        t: "p",
+        text: "This post is an invitation. Not to admire someone else's ministry from a distance, but to step into the work with them.",
+      },
+      {
+        t: "scripture",
+        text: "And I tell you, you are Peter, and on this rock I will build my church, and the gates of hell shall not prevail against it.",
+        ref: "Matthew 16:18",
+      },
+
+      { t: "h2", text: "Gates are defensive" },
+      {
+        t: "p",
+        text: "Notice what Jesus actually said. Gates do not attack anyone. A gate is what a city hides behind. In Jesus' picture, it is not the Church that is under siege — it is the darkness, and it cannot hold. The Church is meant to be advancing.",
+      },
+      {
+        t: "p",
+        text: "That is the whole meaning of the phrase. Jesus did not come to help us survive until the end. He came, as John puts it, to destroy the works of the devil — and He has already done the decisive part.",
+      },
+      {
+        t: "scripture",
+        text: "He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son.",
+        ref: "Colossians 1:13",
+      },
+      {
+        t: "p",
+        text: "Every person who comes to Jesus is a rescue like that. Every one is a life plundered out of the enemy's hands and carried into the Kingdom. And heaven does not treat it as a statistic.",
+      },
+      {
+        t: "scripture",
+        text: "Just so, I tell you, there will be more joy in heaven over one sinner who repents than over ninety-nine righteous persons who need no repentance.",
+        ref: "Luke 15:7",
+      },
+
+      { t: "h2", text: "Twelve years on the street" },
+      {
+        t: "p",
+        text: "In 2014 Daniel and Katie Ziedins started <a href=\"https://www.loveonhamilton.com\">Love on Hamilton</a> with a simple, stubborn idea: go out every week, share the Gospel with whoever will listen, and bring practical care to the people living on Hamilton's streets.",
+      },
+      {
+        t: "p",
+        text: "What God did with that is the reason this post exists. Lives healed. Addictions broken. People set free. Salvations and baptisms often enough that they stopped being surprising. A small outreach grew into more than fifty people gathering every week to evangelize, and then into <a href=\"https://www.loveontheworld.com\">Love on The World</a>, carrying the same mission into other cities.",
+      },
+      {
+        t: "p",
+        text: "From there came the Overflow gatherings, the Jesus Festival — <a href=\"/festivals\">now reaching as far as Akuse, Ghana</a> — and years of training ordinary believers and whole churches to make evangelism a way of life rather than an event.",
+      },
+      {
+        t: "quote",
+        text: "It isn't an event. It's a way of life.",
+        cite: "Daniel & Katie Ziedins, on evangelism",
+      },
+
+      { t: "h2", text: "Why e3 Canada and I Am Second" },
+      {
+        t: "p",
+        text: "Today Daniel and Katie serve with <strong>e3 Canada</strong> and <strong>I Am Second</strong>, joining a work dedicated to equipping believers to evangelize and to establishing multiplying, life-changing churches around the world. It is a family of people who share the same five convictions:",
+      },
+      {
+        t: "steps",
+        items: [
+          { title: "Equipping God's people", text: "Ordinary believers trained, confident, and sent — not spectators of someone else's ministry." },
+          { title: "Evangelize His world", text: "Streets, campuses, hospitals, festivals: no place is off the map for the Gospel." },
+          { title: "Establishing multiplying churches", text: "Disciples who make disciples, and churches that plant churches." },
+          { title: "Love God", text: "Obedience to our King, before strategy and before results." },
+          { title: "Love others", text: "Practical love that goes with the message and makes it believable." },
+        ],
+      },
+
+      { t: "h2", text: "The vision ahead is bigger" },
+      {
+        t: "p",
+        text: "The goal now is not one more outreach in one more city. It is <strong>100 multiplying outreach groups</strong> around the world through <a href=\"https://www.evangelize.world\">Evangelize.World</a> — ordinary believers, equipped and sent to bring the Gospel and practical love into their own communities. Groups that train the next group. Work that keeps going long after any one person has moved on.",
+      },
+      {
+        t: "p",
+        text: "And it rests on a conviction Daniel and Katie say plainly: that Canada is on the brink of its greatest revival, and that every one of us has a part to play in it.",
+      },
+      {
+        t: "scripture",
+        text: "After this I looked, and behold, a great multitude that no one could number, from every nation, from all tribes and peoples and languages, standing before the throne and before the Lamb.",
+        ref: "Revelation 7:9",
+      },
+      {
+        t: "p",
+        text: "That is where this is all going. Every name added to that multitude is someone who was reached, here, by someone who went.",
+      },
+
+      { t: "h2", text: "Somebody has to be sent — and somebody has to send" },
+      {
+        t: "scripture",
+        text: "How then will they call on him in whom they have not believed? And how are they to believe in him of whom they have never heard? And how are they to hear without someone preaching? And how are they to preach unless they are sent?",
+        ref: "Romans 10:14–15",
+      },
+      {
+        t: "p",
+        text: "Paul's chain only works if every link holds. Someone preaches. Someone is sent. And behind every person who goes, there are people who make the going possible — people who pray when it is hard, who give so that the work can be full-time, who keep showing up.",
+      },
+      {
+        t: "p",
+        text: "Paul did not treat those people as donors. He called them partners, and he told them the fruit was theirs as much as his.",
+      },
+      {
+        t: "scripture",
+        text: "I thank my God in all my remembrance of you … because of your partnership in the gospel from the first day until now.",
+        ref: "Philippians 1:3–5",
+      },
+
+      { t: "h2", text: "Three ways to stand with them" },
+      {
+        t: "steps",
+        items: [
+          {
+            title: "Pray — first, and most",
+            text: "For boldness on the streets. For the people they will meet this week whose names nobody knows yet. For their family. For the outreach groups being raised up. Prayer is not the lesser option; every rescue begins there.",
+          },
+          {
+            title: "Give — if the Lord puts it on your heart",
+            text: "Daniel and Katie are supported through e3 Canada. A monthly or one-time gift goes through e3 Canada's own secure giving page and funds the work directly: weekly outreach, training churches, and the freedom to say yes when God opens a door.",
+          },
+          {
+            title: "Go — the invitation that costs most",
+            text: "Learn to share your faith. Start where you live. Bring your church into training. The best partnership has never been a transaction — it is more people doing the same thing in their own city.",
+          },
+        ],
+      },
+      {
+        t: "callout",
+        title: "Partner with Daniel & Katie through e3 Canada",
+        text: "Gifts are handled entirely on e3 Canada's own secure page. Every one helps put more of the Gospel on more streets.",
+        href: "https://e3ministry.ca/staff/katie-daniel-ziedins",
+        cta: "Give through e3 Canada",
+      },
+      {
+        t: "p",
+        text: "If you want to start going yourself, begin with <a href=\"/blog/how-to-share-your-testimony\">telling your own story well</a>, then pick one of these <a href=\"/blog/church-outreach-ideas\">outreach ideas</a> and do it this week. And if you have never settled the question for yourself, <a href=\"/know-jesus\">start here</a> — that is where every one of these stories begins.",
+      },
+
+      { t: "h2", text: "God gives the growth" },
+      {
+        t: "p",
+        text: "None of this is about a ministry's name, and none of it is ours to engineer. Paul said it best: one plants, another waters, God gives the growth — and all of us are simply His fellow workers. The invitation is to be one of them.",
+      },
+      {
+        t: "scripture",
+        text: "For we are God's fellow workers.",
+        ref: "1 Corinthians 3:9",
+      },
+      {
+        t: "callout",
+        title: "Follow the journey",
+        text: "Daniel and Katie's story, ministry updates, and everything the Lord is doing through their work live at KD-Ziedins.com. All for God's glory.",
+        href: "https://www.kd-ziedins.com",
+        cta: "Visit KD-Ziedins.com",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));

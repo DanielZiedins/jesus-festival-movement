@@ -137,6 +137,13 @@ export default function AboutPage() {
             >
               KD-Ziedins.com
             </a>
+            . If the Lord is stirring you to stand with them,{" "}
+            <Link
+              href="/blog/plunder-hell-populate-heaven"
+              className="font-semibold text-gold underline decoration-gold/40 underline-offset-4 hover:decoration-gold"
+            >
+              read the invitation to partner
+            </Link>
             .
           </p>
         </div>
