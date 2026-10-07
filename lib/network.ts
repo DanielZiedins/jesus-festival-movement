@@ -202,6 +202,14 @@ export const NETWORK: NetworkSite[] = [
     category: "marketplace",
   },
   {
+    key: "six33-world",
+    name: "SIX33.World",
+    url: "https://www.six33.world",
+    tagline: "Seek first. Live different. A Christian culture brand, coming soon",
+    why: "Built on Matthew 6:33 to impact culture, and a big part of its heart is funding Love on The World's street outreach.",
+    category: "marketplace",
+  },
+  {
     key: "six33",
     name: "SIX33Outpost.com",
     url: "https://SIX33Outpost.com",

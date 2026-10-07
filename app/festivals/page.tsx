@@ -370,6 +370,8 @@ export default function FestivalsPage() {
                     "The first Jesus Festival. A step of faith became a public celebration of Jesus — worship, the Gospel preached plainly, baptisms in the middle of the city, and churches standing together.",
                   href: "https://JesusFestival.ca",
                   label: "JesusFestival.ca",
+                  fruit:
+                    "2026, early reports from JesusFestival.ca: 70+ people gave their lives to Jesus and 50+ were baptized in the park.",
                 },
                 {
                   city: "Niagara",
@@ -378,6 +380,8 @@ export default function FestivalsPage() {
                     "Worship in the Wild carried the same heart into Niagara Falls — thousands gathering outdoors to lift up the name of Jesus in one of the most visited places on earth.",
                   href: "https://JesusFestivalNiagara.com",
                   label: "JesusFestivalNiagara.com",
+                  fruit:
+                    "2026: the first Jesus Festival Niagara, and the City of Niagara Falls lit the Falls yellow in recognition.",
                 },
               ].map((c, i) => (
                 <Reveal key={c.city} delay={i * 0.06}>
@@ -390,6 +394,15 @@ export default function FestivalsPage() {
                     </p>
                     <p className="mt-5 flex-1 leading-relaxed text-white/65">
                       {c.blurb}
+                    </p>
+                    <p className="mt-5 border-l-2 border-gold/60 pl-4 text-sm leading-relaxed text-white/80">
+                      {c.fruit}{" "}
+                      <Link
+                        href="/blog/the-harvest-is-real-kingdom-impact"
+                        className="font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
+                      >
+                        Read the story
+                      </Link>
                     </p>
                     <a
                       href={c.href}

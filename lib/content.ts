@@ -85,7 +85,7 @@ export const MOVEMENT_STAGES = [
     region: "Ontario, Canada",
     label: "Where it began",
     description:
-      "A step of faith became a public celebration of Jesus through worship, Gospel proclamation, baptisms, outreach, and church unity.",
+      "A step of faith became a public celebration of Jesus through worship, Gospel proclamation, baptisms, outreach, and church unity. In 2026, early reports counted 70+ people giving their lives to Jesus and 50+ baptisms in the park.",
     link: "https://JesusFestival.ca",
     linkLabel: "JesusFestival.ca",
     imageAlt: "A festival crowd gathering in worship",

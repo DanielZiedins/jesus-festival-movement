@@ -394,6 +394,21 @@ export const ANSWERS: Answer[] = [
     ],
   },
   {
+    id: "jesus-festival-hamilton-2026-results",
+    q: "What happened at Jesus Festival Hamilton 2026?",
+    topic: "basics",
+    short:
+      "Jesus Festival Hamilton 2026 ran September 4–5, 2026 at Gage Park with a record turnout. Early reports published by JesusFestival.ca count 70+ people giving their lives to Jesus, 50+ baptisms in the park, 3,000+ free hot dogs and drinks served, many reported healings and deliverances, and altar calls on both nights.",
+    detail: [
+      "The same year saw the first <a href=\"https://JesusFestivalNiagara.com\">Jesus Festival Niagara</a>, where the City of Niagara Falls lit the Falls yellow in recognition of the festival, and <a href=\"/akuse\">the Jesus Festival in Akuse, Ghana</a>.",
+      "The figures are early reports from the organisers, not an audited count. Dates for 2027 have not been announced; <a href=\"https://www.jesusfestival.ca\">JesusFestival.ca</a> is the official source for Hamilton.",
+    ],
+    links: [
+      { label: "The Harvest Is Real", href: "/blog/the-harvest-is-real-kingdom-impact" },
+      { label: "Hamilton recap on JesusFestival.ca", href: "https://www.jesusfestival.ca/news/thank-you-hamilton-jesus-festival-2026" },
+    ],
+  },
+  {
     id: "support-the-work",
     q: "How can I support the work of Jesus Festival Movement?",
     topic: "basics",
@@ -405,6 +420,7 @@ export const ANSWERS: Answer[] = [
     ],
     links: [
       { label: "The invitation to partner", href: "/blog/plunder-hell-populate-heaven" },
+      { label: "The fruit so far", href: "/blog/the-harvest-is-real-kingdom-impact" },
       { label: "Give through e3 Canada", href: "https://e3ministry.ca/staff/katie-daniel-ziedins" },
       { label: "KD-Ziedins.com", href: "https://www.kd-ziedins.com" },
     ],

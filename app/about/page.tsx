@@ -144,6 +144,13 @@ export default function AboutPage() {
             >
               read the invitation to partner
             </Link>
+            , then{" "}
+            <Link
+              href="/blog/the-harvest-is-real-kingdom-impact"
+              className="font-semibold text-gold underline decoration-gold/40 underline-offset-4 hover:decoration-gold"
+            >
+              see the fruit it is already producing
+            </Link>
             .
           </p>
         </div>

@@ -1579,6 +1579,10 @@ export const POSTS: Post[] = [
       },
       {
         t: "p",
+        text: "Want to see what partnership produces? Read <a href=\"/blog/the-harvest-is-real-kingdom-impact\">The Harvest Is Real</a>: the fruit from Jesus Festival Hamilton 2026, Love on The World and the road ahead.",
+      },
+      {
+        t: "p",
         text: "If you want to start going yourself, begin with <a href=\"/blog/how-to-share-your-testimony\">telling your own story well</a>, then pick one of these <a href=\"/blog/church-outreach-ideas\">outreach ideas</a> and do it this week. And if you have never settled the question for yourself, <a href=\"/know-jesus\">start here</a> — that is where every one of these stories begins.",
       },
 
@@ -1596,6 +1600,210 @@ export const POSTS: Post[] = [
         t: "callout",
         title: "Follow the journey",
         text: "Daniel and Katie's story, ministry updates, and everything the Lord is doing through their work live at KD-Ziedins.com. All for God's glory.",
+        href: "https://www.kd-ziedins.com",
+        cta: "Visit KD-Ziedins.com",
+      },
+    ],
+  },  {
+    slug: "the-harvest-is-real-kingdom-impact",
+    title: "The Harvest Is Real: Kingdom Impact From Hamilton To The Nations",
+    description:
+      "70+ people gave their lives to Jesus and 50+ were baptized at Jesus Festival Hamilton 2026. Here is the fruit behind it — twelve years of street evangelism, Love on The World, SIX33 — and how you can partner with Daniel and Katie Ziedins through e3 Canada to plunder hell and populate heaven.",
+    tldr: "Early reports from Jesus Festival Hamilton 2026 count 70+ people giving their lives to Jesus and 50+ baptisms in a city park. That fruit grew from twelve years of weekly street evangelism that began with Love on Hamilton in 2014, became Love on The World, and is now reaching Niagara and Akuse, Ghana. SIX33, a Christian culture brand coming soon, is being built to fund the same street outreach. You can stand with it by praying, by giving to Daniel and Katie Ziedins through e3 Canada, and by going yourself.",
+    date: "2026-10-06",
+    category: "Mission",
+    eyebrow: "The fruit",
+    keywords: [
+      "Jesus Festival Hamilton 2026 results",
+      "impact of evangelism",
+      "support evangelism ministry Canada",
+      "partner with missionaries e3 Canada",
+      "plunder hell populate heaven",
+      "Love on The World",
+      "SIX33 Christian brand",
+      "Daniel and Katie Ziedins",
+    ],
+    related: ["kd", "lotw", "jf-ca", "six33-world"],
+    body: [
+      {
+        t: "p",
+        text: "We have written <a href=\"/blog/plunder-hell-populate-heaven\">an invitation to partner</a>. This is the other half of it: what the partnership actually produces. Not theory. Not a vision deck. Names, baptisms, and a city park full of people hearing the Gospel for free.",
+      },
+      {
+        t: "scripture",
+        text: "Do you not say, 'There are yet four months, then comes the harvest'? Look, I tell you, lift up your eyes, and see that the fields are white for harvest.",
+        ref: "John 4:35",
+      },
+      {
+        t: "p",
+        text: "Jesus told His disciples to look up. The harvest was not coming someday. It was standing in front of them. Here is some of what it looks like right now.",
+      },
+
+      { t: "h2", text: "Labour Day weekend at Gage Park" },
+      {
+        t: "p",
+        text: "On September 4–5, 2026, Jesus Festival Hamilton filled Gage Park with free worship, testimony, prayer, food and families, with a record turnout. These are the early reports published by <a href=\"https://www.jesusfestival.ca/news/thank-you-hamilton-jesus-festival-2026\">JesusFestival.ca</a>:",
+      },
+      {
+        t: "list",
+        items: [
+          "<strong>70+ people</strong> gave their lives to Jesus",
+          "<strong>50+ baptisms</strong>, held right in the middle of the park",
+          "<strong>3,000+</strong> free hot dogs and drinks served to the city",
+          "Many reported healings and deliverances",
+          "Altar calls on both Friday night and Saturday",
+        ],
+      },
+      {
+        t: "quote",
+        text: "I was lost — who would have thought Jesus led me here!",
+        cite: "Shared at the baptism tank, Jesus Festival Hamilton 2026",
+      },
+      {
+        t: "p",
+        text: "Behind each of those numbers is a person, someone's son or neighbour or coworker, who walked into a park on a holiday weekend and walked out with a new life. That is what <em>populate heaven</em> means, and it is why every number matters more than it looks.",
+      },
+      {
+        t: "scripture",
+        text: "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
+        ref: "2 Corinthians 5:17",
+      },
+
+      { t: "h2", text: "Three cities, two continents, one year" },
+      {
+        t: "p",
+        text: "Hamilton was not alone. The same week, <a href=\"/akuse\">the Jesus Festival in Akuse, Ghana</a> lifted up the name of Jesus on another continent. And 2026 was the very first <a href=\"https://JesusFestivalNiagara.com\">Jesus Festival Niagara</a>, where the City of Niagara Falls lit the Falls yellow, the Jesus Festival colour, in recognition of the festival.",
+      },
+      {
+        t: "p",
+        text: "A movement that began as one free festival in one park is now an idea any city can carry. That is the point of everything on this site: <a href=\"/start-a-jesus-festival\">the playbook is free</a>, and <a href=\"/festivals\">every festival so far</a> is proof it can be done.",
+      },
+      {
+        t: "scripture",
+        text: "For the earth will be filled with the knowledge of the glory of the LORD as the waters cover the sea.",
+        ref: "Habakkuk 2:14",
+      },
+
+      { t: "h2", text: "The fruit grew from a weekly root" },
+      {
+        t: "p",
+        text: "Festivals are the visible harvest. The roots are weekly, unglamorous and slow. In 2014 Daniel and Katie Ziedins started <a href=\"https://www.loveonhamilton.com\">Love on Hamilton</a>: street evangelism and practical care for Hamilton's homeless community, every single week. As <a href=\"https://www.kd-ziedins.com/blog/twelve-years-on-the-streets\">they tell it on KD-Ziedins.com</a>, it began with two people, coffee and a question, and grew into 20+ weekly outreach teams.",
+      },
+      {
+        t: "p",
+        text: "That rhythm became <a href=\"https://www.loveontheworld.com\">Love on The World</a>, a Great Commission movement making disciples who make disciples. Today it lists twelve city outreach groups across Ontario and New Brunswick, most meeting every week, and prays by name for 36 nations. <a href=\"https://www.loveontheworld.com/impact\">Its impact page</a> tells the whole story.",
+      },
+      {
+        t: "scripture",
+        text: "And the Lord added to their number day by day those who were being saved.",
+        ref: "Acts 2:47",
+      },
+      {
+        t: "p",
+        text: "Notice the order in Acts: day by day. Not once a year. The festival weekend works because there are people on the streets every other weekend of the year, and churches ready to <a href=\"/blog/how-to-follow-up-with-a-new-believer\">follow up with every new believer</a> when the stage comes down.",
+      },
+
+      { t: "h2", text: "Impacting culture: SIX33" },
+      {
+        t: "p",
+        text: "The Gospel was never meant to stay inside church walls, or inside a festival fence. That is the heart of <a href=\"https://www.six33.world\">SIX33</a>, coming really soon: a Christian lifestyle and performance culture brand for people who refuse to waste their potential. It started in 2014 as Seek First Brand and is being rebuilt in 2026 as SIX33, with its whole operating order taken from one verse.",
+      },
+      {
+        t: "scripture",
+        text: "But seek first the kingdom of God and his righteousness, and all these things will be added to you.",
+        ref: "Matthew 6:33",
+      },
+      {
+        t: "p",
+        text: "Purpose, performance, culture and impact, with Jesus first and everyone welcome. And here is the part that ties it all together: a major part of SIX33's heart is raising funds for Love on The World's street-level outreach. The culture work pays for the street work. Every drop, every athlete, every story points back to the same mission.",
+      },
+      {
+        t: "scripture",
+        text: "In the same way, let your light shine before others, so that they may see your good works and give glory to your Father who is in heaven.",
+        ref: "Matthew 5:16",
+      },
+      {
+        t: "callout",
+        title: "SIX33 is coming soon",
+        text: "Seek first. Live different. The Inner Circle gets first access and the first drop. Be early.",
+        href: "https://www.six33.world",
+        cta: "Visit SIX33.World",
+      },
+
+      { t: "h2", text: "Numbers are never the point — people are" },
+      {
+        t: "p",
+        text: "We share these figures carefully, because they are early reports and because heaven counts differently than we do. Jesus left ninety-nine sheep for one. A festival can feel huge, and a single conversation on a Tuesday night can matter just as much.",
+      },
+      {
+        t: "scripture",
+        text: "I planted, Apollos watered, but God gave the growth. So neither he who plants nor he who waters is anything, but only God who gives the growth.",
+        ref: "1 Corinthians 3:6–7",
+      },
+      {
+        t: "p",
+        text: "So the numbers are not trophies. They are reasons to keep going, and receipts for everyone who prayed and gave. All the glory goes to Jesus.",
+      },
+
+      { t: "h2", text: "Your share of the fruit" },
+      {
+        t: "p",
+        text: "Today Daniel and Katie serve full-time with <strong>e3 Canada</strong> and <strong>I Am Second</strong>, equipping believers to evangelize and helping establish multiplying churches, with a goal of <strong>100 multiplying outreach groups</strong> around the world through <a href=\"https://www.evangelize.world\">Evangelize.World</a>. That kind of work runs on partners.",
+      },
+      {
+        t: "p",
+        text: "Paul said something remarkable to the church in Philippi, who supported him while he travelled. He was not after their money. He wanted the fruit of the mission credited to <em>them</em>.",
+      },
+      {
+        t: "scripture",
+        text: "Not that I seek the gift, but I seek the fruit that increases to your credit.",
+        ref: "Philippians 4:17",
+      },
+      {
+        t: "p",
+        text: "That is what partnership is. When someone is baptized in a park in Hamilton, or a new outreach group starts in a city that had none, the people who prayed and gave share in that harvest. To plunder hell and populate heaven is a team sport.",
+      },
+      {
+        t: "steps",
+        items: [
+          {
+            title: "Pray",
+            text: "For the 70+ who said yes at Gage Park to be rooted in local churches. For the outreach teams on the streets this week. For Daniel, Katie and their family. For Canada to see revival.",
+          },
+          {
+            title: "Give",
+            text: "If the Lord puts it on your heart, partner monthly or once with Daniel and Katie through e3 Canada's own secure giving page. Every gift funds weekly outreach, training churches and saying yes to the next open door.",
+          },
+          {
+            title: "Go",
+            text: "Learn to share your story, join or start an outreach group, or bring a Jesus Festival to your own city. The best partners end up doing the same thing where they live.",
+          },
+          {
+            title: "Share",
+            text: "Send this to someone who would want to know what God is doing. Testimony is fuel.",
+          },
+        ],
+      },
+      {
+        t: "callout",
+        title: "Partner with Daniel & Katie through e3 Canada",
+        text: "Gifts are handled entirely on e3 Canada's secure page and go straight to the work. Thank you for sending.",
+        href: "https://e3ministry.ca/staff/katie-daniel-ziedins",
+        cta: "Give through e3 Canada",
+      },
+      {
+        t: "p",
+        text: "Ready to go yourself? Start with <a href=\"/blog/how-to-share-your-testimony\">how to share your testimony</a>, pick one of these <a href=\"/blog/church-outreach-ideas\">church outreach ideas</a>, or <a href=\"/start-a-jesus-festival\">bring a Jesus Festival to your city</a>. And if you have never settled the question for yourself, <a href=\"/know-jesus\">start here</a>. Every story in this post began exactly there.",
+      },
+      {
+        t: "scripture",
+        text: "Let us not grow weary of doing good, for in due season we will reap, if we do not give up.",
+        ref: "Galatians 6:9",
+      },
+      {
+        t: "callout",
+        title: "Follow the whole journey",
+        text: "Daniel and Katie's story, ministry updates and every new door the Lord opens live at KD-Ziedins.com. To God be the glory.",
         href: "https://www.kd-ziedins.com",
         cta: "Visit KD-Ziedins.com",
       },
