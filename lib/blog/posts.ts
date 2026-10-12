@@ -1809,6 +1809,186 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "how-to-plan-baptisms-at-an-outdoor-festival",
+    title: "How To Plan Baptisms At An Outdoor Festival",
+    description:
+      "A practical, biblical guide to public baptisms at an outreach event: permission, the tank, water and safety, who baptizes, preparing each person, the day-of flow, and following up so a baptism becomes a beginning.",
+    tldr: "Plan baptisms months ahead, not on the morning. Get written permission from the venue for the tank, the water source and where it drains. Agree with your partner churches on who baptizes and how. Have a trained person talk with every candidate first, get a parent or guardian's consent for anyone under 18, and keep a first-aider beside the water. Bring towels, dark T-shirts, a private changing tent and follow-up cards, and connect every person to a local church within the week.",
+    date: "2026-10-12",
+    category: "Festival Playbook",
+    eyebrow: "Playbook",
+    keywords: [
+      "how to plan baptisms at an outreach event",
+      "outdoor baptism",
+      "public baptism checklist",
+      "baptism tank for events",
+      "festival baptisms",
+      "water baptism safety",
+    ],
+    related: ["jf-ca", "lotw", "kd"],
+    body: [
+      {
+        t: "p",
+        text: "Some of the most moving moments at a Jesus Festival happen at the water. At Jesus Festival Hamilton 2026, <a href=\"/blog/the-harvest-is-real-kingdom-impact\">early reports counted 50+ baptisms</a> in the middle of a city park. That does not happen by accident. It takes months of quiet preparation so that, on the day, all anyone notices is joy.",
+      },
+      {
+        t: "p",
+        text: "This guide is the preparation. It is for festival organisers and church teams who want baptisms to be safe, dignified, theologically careful and followed up well.",
+      },
+      {
+        t: "scripture",
+        text: "So those who received his word were baptized, and there were added that day about three thousand souls.",
+        ref: "Acts 2:41",
+      },
+
+      { t: "h2", text: "Why baptize in public at all?" },
+      {
+        t: "p",
+        text: "Baptism in the New Testament was rarely private and almost never delayed. Three thousand at Pentecost. A jailer and his household <em>the same hour of the night</em>. An Ethiopian official on a desert road who saw water and asked the obvious question.",
+      },
+      {
+        t: "scripture",
+        text: "And as they were going along the road they came to some water, and the eunuch said, \"See, here is water! What prevents me from being baptized?\"",
+        ref: "Acts 8:36",
+      },
+      {
+        t: "p",
+        text: "A public baptism is a sermon without words. Everyone watching sees what the Gospel does: an old life buried, a new one raised. For many people in the crowd it is the moment the message becomes real. For the person in the water it is a declaration they will never forget.",
+      },
+      {
+        t: "scripture",
+        text: "We were buried therefore with him by baptism into death, in order that, just as Christ was raised from the dead by the glory of the Father, we too might walk in newness of life.",
+        ref: "Romans 6:4",
+      },
+
+      { t: "h2", text: "1. Agree on it with your churches first" },
+      {
+        t: "p",
+        text: "Churches practise baptism differently, and a city-wide festival is no place to <a href=\"/blog/why-city-wide-church-unity-is-worth-it\">paper over that</a>. Settle it in planning, not at the tank:",
+      },
+      {
+        t: "list",
+        items: [
+          "<strong>Who baptizes.</strong> Pastors from partner churches, or trusted leaders they appoint. Many festivals invite a candidate's own pastor to do it when they are present.",
+          "<strong>How.</strong> Most outdoor festival baptisms are by immersion. Decide together, and have a plan for anyone who cannot be immersed for health or mobility reasons.",
+          "<strong>Who can be baptized.</strong> Someone who has put their faith in Jesus and understands what they are doing. Decide how you will handle people who are already baptized and want to recommit.",
+          "<strong>Where they belong afterwards.</strong> Every partner church should be ready to receive new believers that week.",
+        ],
+      },
+
+      { t: "h2", text: "2. Get permission in writing" },
+      {
+        t: "p",
+        text: "Baptisms are one of the things to <a href=\"/answers#permits\">raise explicitly with your city or venue</a>, alongside amplified sound and structures. Ask specifically about:",
+      },
+      {
+        t: "list",
+        items: [
+          "Placing a water tank or pool on the site, and its weight on the ground",
+          "Where the water comes from (hydrant, hose bib or delivered water) and whether you need a permit to use it",
+          "Where you are allowed to drain it afterwards. Never assume a storm drain is acceptable",
+          "Power for pumps or heaters, if any",
+        ],
+      },
+      {
+        t: "p",
+        text: "Then call your insurer. <a href=\"/answers#insurance\">Water baptisms are one of the activities</a> to name specifically on your event coverage. Requirements vary by city and country, so treat your own municipality and insurer as the final word.",
+      },
+
+      { t: "h2", text: "3. The water, the tank and safety" },
+      {
+        t: "list",
+        items: [
+          "<strong>Depth:</strong> enough to lower an adult back and under, and no deeper. Waist height on the baptizer is plenty.",
+          "<strong>Steps:</strong> stable, non-slip steps in and out, with a handrail or a person on each side.",
+          "<strong>Temperature:</strong> outdoor water in spring or autumn can be cold enough to shock. Fill early so the sun takes the edge off, or plan for heating.",
+          "<strong>Electricity:</strong> keep sound gear and cables well away from the water. Any pump or heater must be on a ground-fault (GFCI) protected circuit, set up by someone qualified.",
+          "<strong>Cleanliness:</strong> fresh water each day, a cover overnight, and a plan to top up as people get in and out.",
+          "<strong>A first-aider</strong> at the tank the whole time it is in use, separate from the people baptizing.",
+          "<strong>Never one person alone:</strong> two people in the water for every baptism, and more for a large or nervous candidate.",
+        ],
+      },
+
+      { t: "h2", text: "4. Prepare every person before they go in" },
+      {
+        t: "p",
+        text: "The most important part of the tank is the tent beside it. Before anyone steps into the water, a trained counsellor should sit with them for a few minutes:",
+      },
+      {
+        t: "steps",
+        items: [
+          { title: "Hear their story", text: "Ask what Jesus has done for them and why they want to be baptized today. You are listening for faith in Christ, not a perfect explanation." },
+          { title: "Explain what will happen", text: "Who will baptize them, what will be said, how they will be lowered and lifted, and where to change afterwards. Nerves fade when people know the steps." },
+          { title: "Check consent", text: "Anyone under 18 needs a parent or guardian's consent. Ask every person whether they are happy to be photographed or filmed, and honour a no." },
+          { title: "Take their details", text: "Name, phone or email, and their church if they have one. This card is what makes follow-up possible." },
+          { title: "Pray with them", text: "Then walk them to the water." },
+        ],
+      },
+
+      { t: "h2", text: "5. Dignity: what to have ready" },
+      {
+        t: "list",
+        items: [
+          "Dark-coloured T-shirts in every size, so nobody is embarrassed by wet clothes",
+          "Plenty of towels, more than you think, and a bag for wet ones",
+          "A private changing tent with a volunteer outside it, separate spaces where possible",
+          "Bags for wet clothes and a table to store belongings",
+          "Water to drink and somewhere warm to sit afterwards",
+        ],
+      },
+
+      { t: "h2", text: "6. The moment itself" },
+      {
+        t: "p",
+        text: "Keep it simple and keep it about Jesus. Many baptizers ask one or two short questions (<em>Have you turned from your sin and put your trust in Jesus? Will you follow Him?</em>) and then baptize in the name of the Father, the Son and the Holy Spirit, as Jesus commanded.",
+      },
+      {
+        t: "scripture",
+        text: "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you.",
+        ref: "Matthew 28:19–20",
+      },
+      {
+        t: "p",
+        text: "Let the crowd celebrate. Give the person a moment to share a sentence of their story if they want to. Testimonies at the water are often the most powerful words spoken all day. One person at Hamilton came out of the water saying their back was healed. Another said: \"I was lost, who would have thought Jesus led me here!\"",
+      },
+
+      { t: "h2", text: "7. Baptism is a beginning: follow up" },
+      {
+        t: "p",
+        text: "The goal of the Great Commission is not baptisms. It is disciples, <em>teaching them to observe all that I have commanded you</em>. The card filled in at the tent is the start of that.",
+      },
+      {
+        t: "list",
+        items: [
+          "Contact every person within 48 hours, by the church closest to them",
+          "Give them a Bible and a simple first step, like reading the Gospel of John",
+          "Invite them personally to a church service and a small group that week",
+          "Pray for them by name as a team after the festival",
+        ],
+      },
+      {
+        t: "p",
+        text: "We have written a full guide to <a href=\"/blog/how-to-follow-up-with-a-new-believer\">following up with a new believer</a>. Use it, and put it in every counsellor's hands before the festival.",
+      },
+      {
+        t: "callout",
+        title: "Add baptisms to your festival plan",
+        text: "The free playbook walks through every stage of a Jesus Festival, from permits and partners to the day itself and the follow-up after.",
+        href: "/start-a-jesus-festival/playbook",
+        cta: "Open the playbook",
+      },
+      {
+        t: "p",
+        text: "If you are reading this and have never been baptized yourself, start with <a href=\"/answers#what-is-baptism\">what baptism is</a>, read <a href=\"https://www.jesusfestival.ca/news/baptized-in-a-city-park\">Baptized in a City Park</a> on JesusFestival.ca, or <a href=\"/know-jesus\">begin with Jesus</a>. Any local church will gladly help you take the step.",
+      },
+      {
+        t: "scripture",
+        text: "And now why do you wait? Rise and be baptized and wash away your sins, calling on his name.",
+        ref: "Acts 22:16",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));

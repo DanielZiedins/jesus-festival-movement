@@ -373,7 +373,25 @@ export const ANSWERS: Answer[] = [
       "Festivals sometimes include baptisms on the day where a venue allows it. If not, any local church will gladly help you.",
       "You don't need to have your life sorted out first. Baptism marks a beginning, not a graduation.",
     ],
-    links: [{ label: "How to follow Jesus", href: "/know-jesus" }],
+    links: [
+      { label: "How to follow Jesus", href: "/know-jesus" },
+      { label: "Baptized in a City Park", href: "https://www.jesusfestival.ca/news/baptized-in-a-city-park" },
+    ],
+  },
+  {
+    id: "baptisms-at-a-festival",
+    q: "How do you do baptisms at an outdoor festival?",
+    topic: "planning",
+    short:
+      "Plan them months ahead: agree with partner churches on who baptizes and how, get written permission from the venue for the tank, water source and drainage, and tell your insurer. On the day, a counsellor talks with every candidate first, anyone under 18 needs a parent or guardian's consent, two people are in the water for every baptism, and a first-aider stays at the tank.",
+    detail: [
+      "Have dark T-shirts, plenty of towels and a private changing tent ready, keep electrics away from the water (any pump or heater on a GFCI-protected circuit), and take a follow-up card from every person so a local church can contact them within 48 hours.",
+      "Requirements for water use, drainage and insurance vary by city and country; your own municipality and insurer are the final word.",
+    ],
+    links: [
+      { label: "The full baptism guide", href: "/blog/how-to-plan-baptisms-at-an-outdoor-festival" },
+      { label: "Following up with new believers", href: "/blog/how-to-follow-up-with-a-new-believer" },
+    ],
   },
   {
     id: "follow-up-new-believer",
