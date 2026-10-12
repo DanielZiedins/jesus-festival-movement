@@ -137,7 +137,7 @@ export default function GlobalMap({ copyOverrides, statusOverrides }: Props = {}
                             : "bg-sky-300"
                     }`} />
                   </span>
-                  <span className="absolute left-1/2 top-7 hidden -translate-x-1/2 whitespace-nowrap rounded-full border border-white/10 bg-ink/90 px-3 py-1.5 text-[.62rem] font-bold uppercase tracking-[.12em] text-white shadow-xl backdrop-blur-md sm:block">
+                  <span className="absolute left-1/2 top-7 hidden -translate-x-1/2 whitespace-nowrap rounded-full border border-white/10 bg-ink/90 px-3 py-1.5 text-[0.72rem] font-bold uppercase tracking-[.12em] text-white shadow-xl backdrop-blur-md sm:block">
                     {marker.name}
                   </span>
                 </button>
@@ -145,7 +145,7 @@ export default function GlobalMap({ copyOverrides, statusOverrides }: Props = {}
               })}
 
               <div className="absolute inset-x-3 bottom-3 rounded-2xl border border-white/10 bg-black/55 p-4 backdrop-blur-lg sm:bottom-5 sm:left-5 sm:right-auto sm:max-w-sm sm:p-5">
-                <p className="text-[.62rem] font-bold uppercase tracking-[.22em] text-gold">{active}</p>
+                <p className="text-[0.72rem] font-bold uppercase tracking-[.22em] text-gold">{active}</p>
                 <p className="mt-2 text-sm leading-relaxed text-white/70 sm:text-base">{markerCopy[active]}</p>
               </div>
             </div>

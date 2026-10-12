@@ -85,7 +85,7 @@ tick();var t=setInterval(tick,1000);
                 </p>
                 <p
                   {...(labelKey ? { "data-cd": labelKey } : {})}
-                  className="mt-1 text-[10px] font-bold uppercase tracking-[0.2em] text-white/55"
+                  className="mt-1 text-[0.72rem] font-bold uppercase tracking-[0.2em] text-white/55"
                 >
                   {label}
                 </p>

@@ -24,7 +24,7 @@ export default function HowToStart() {
               <div className="mt-5 grid gap-3 sm:grid-cols-2">
                 {["Vision and prayer", "Local church unity", "Event planning", "Evangelism training", "Festival launch", "Ongoing outreach"].map((item) => (
                   <span key={item} className="flex items-center gap-2.5 text-sm font-semibold text-ink/68">
-                    <span className="flex h-5 w-5 items-center justify-center rounded-full bg-ember-600 text-[.65rem] text-white">✓</span>
+                    <span className="flex h-5 w-5 items-center justify-center rounded-full bg-ember-600 text-[0.72rem] text-white">✓</span>
                     {item}
                   </span>
                 ))}

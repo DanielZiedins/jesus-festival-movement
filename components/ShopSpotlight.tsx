@@ -50,7 +50,7 @@ export default async function ShopSpotlight() {
                   className="object-contain p-5 transition duration-700 group-hover:scale-[1.06] group-hover:rotate-1 sm:p-8"
                 />
                 <div className="absolute inset-x-5 bottom-5 flex items-end justify-between gap-3 sm:inset-x-7 sm:bottom-7">
-                  <span className="rounded-full border border-white/15 bg-ink/75 px-3 py-2 text-[.62rem] font-bold uppercase tracking-[.18em] text-white/82 backdrop-blur-xl">Featured drop</span>
+                  <span className="rounded-full border border-white/15 bg-ink/75 px-3 py-2 text-[0.72rem] font-bold uppercase tracking-[.18em] text-white/82 backdrop-blur-xl">Featured drop</span>
                   <span className="flex h-11 w-11 items-center justify-center rounded-full bg-gold text-ink shadow-glow transition group-hover:scale-110">↗</span>
                 </div>
               </Link>

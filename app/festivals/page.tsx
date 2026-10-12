@@ -88,7 +88,7 @@ function FestivalCard({ e, held }: { e: FestivalEvent; held: boolean }) {
           {e.flag}
         </span>
         <span
-          className={`rounded-full border px-3 py-1.5 text-[.62rem] font-bold uppercase tracking-[.18em] ${
+          className={`rounded-full border px-3 py-1.5 text-[0.72rem] font-bold uppercase tracking-[.18em] ${
             held
               ? "border-white/15 text-white/60"
               : "border-gold/40 bg-gold/10 text-gold"

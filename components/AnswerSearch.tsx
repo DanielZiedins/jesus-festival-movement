@@ -114,7 +114,7 @@ export default function AnswerSearch({ total }: { total: number }) {
             Clear
           </button>
         ) : (
-          <kbd className="pointer-events-none absolute right-5 top-1/2 hidden -translate-y-1/2 rounded-md border border-white/15 px-2 py-1 text-[.65rem] font-semibold text-white/40 sm:block">
+          <kbd className="pointer-events-none absolute right-5 top-1/2 hidden -translate-y-1/2 rounded-md border border-white/15 px-2 py-1 text-[0.72rem] font-semibold text-white/40 sm:block">
             /
           </kbd>
         )}

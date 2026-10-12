@@ -75,7 +75,7 @@ export default function CitySignal() {
                       role="tab"
                       aria-selected={active === index}
                       onClick={() => setActive(index)}
-                      className={`rounded-full px-3 py-2 text-[.65rem] font-bold uppercase tracking-[.16em] transition sm:px-4 ${
+                      className={`rounded-full px-3 py-2 text-[0.72rem] font-bold uppercase tracking-[.16em] transition sm:px-4 ${
                         active === index ? "bg-gold text-ink shadow-glow" : "bg-white/[.045] text-white/50 hover:bg-white/[.09] hover:text-white"
                       }`}
                     >
@@ -85,7 +85,7 @@ export default function CitySignal() {
                 </div>
                 <div className="mt-5 grid gap-3 sm:grid-cols-[1fr_auto] sm:items-end">
                   <div role="tabpanel">
-                    <p className="text-[.66rem] font-bold uppercase tracking-[.22em] text-gold">{current.eyebrow}</p>
+                    <p className="text-[0.72rem] font-bold uppercase tracking-[.22em] text-gold">{current.eyebrow}</p>
                     <h3 className="mt-2 font-display text-2xl font-bold text-white sm:text-3xl">{current.title}</h3>
                     <p className="mt-2 max-w-2xl leading-relaxed text-white/58">{current.description}</p>
                   </div>

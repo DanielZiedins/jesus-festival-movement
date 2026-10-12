@@ -57,7 +57,7 @@ export default function Festivals() {
                     />
                     <div className="absolute inset-0 bg-[linear-gradient(145deg,rgba(5,8,18,.12),transparent_42%,rgba(5,8,18,.68))]" />
                     <div className="absolute inset-x-5 bottom-5 flex items-end justify-between gap-4 sm:inset-x-7 sm:bottom-7">
-                      <span className="rounded-full border border-white/20 bg-black/35 px-3 py-2 text-[.6rem] font-bold uppercase tracking-[.2em] text-white/80 backdrop-blur-md">
+                      <span className="rounded-full border border-white/20 bg-black/35 px-3 py-2 text-[0.72rem] font-bold uppercase tracking-[.2em] text-white/80 backdrop-blur-md">
                         {stage.imageKicker}
                       </span>
                       <span className="hidden h-10 w-10 items-center justify-center rounded-full border border-gold/30 bg-gold/10 text-gold backdrop-blur-md sm:flex">↗</span>
@@ -68,7 +68,7 @@ export default function Festivals() {
                     <div className="relative">
                       <div className="flex items-center justify-between gap-5">
                         <span className="font-display text-sm font-bold tracking-[.18em] text-ember-400">{stage.number}</span>
-                        <span className="rounded-full border border-white/10 px-3 py-1.5 text-[.62rem] font-bold uppercase tracking-[.2em] text-white/55">
+                        <span className="rounded-full border border-white/10 px-3 py-1.5 text-[0.72rem] font-bold uppercase tracking-[.2em] text-white/55">
                           {stage.label}
                         </span>
                       </div>

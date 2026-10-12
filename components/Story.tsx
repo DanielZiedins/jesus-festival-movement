@@ -51,7 +51,7 @@ export default function Story() {
                   className="object-cover object-center"
                 />
                 <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(4,7,16,.12),rgba(4,7,16,.45)_45%,rgba(4,7,16,.95))]" />
-                <div className="absolute left-6 top-6 rounded-full border border-white/15 bg-black/35 px-4 py-2 text-[.66rem] font-bold uppercase tracking-[.22em] text-white/75 backdrop-blur-md sm:left-8 sm:top-8">
+                <div className="absolute left-6 top-6 rounded-full border border-white/15 bg-black/35 px-4 py-2 text-[0.72rem] font-bold uppercase tracking-[.22em] text-white/75 backdrop-blur-md sm:left-8 sm:top-8">
                   Hamilton, Ontario
                 </div>
 

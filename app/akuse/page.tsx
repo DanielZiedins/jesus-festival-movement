@@ -192,7 +192,7 @@ export default function AkusePage() {
                     key={f.k}
                     className="rounded-2xl glass-strong px-5 py-4 text-center"
                   >
-                    <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-gold-400">
+                    <p className="text-[0.72rem] font-bold uppercase tracking-[0.2em] text-gold-400">
                       {f.k}
                     </p>
                     <p className="mt-1.5 font-display font-bold leading-snug text-white">

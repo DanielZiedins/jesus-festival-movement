@@ -276,7 +276,7 @@ export default function PartnerPage() {
                 <Reveal key={w.title} delay={i * 0.06}>
                   <article className="flex h-full flex-col rounded-2xl glass p-7">
                     <Icon name={w.icon} className="h-8 w-8 text-gold" />
-                    <p className="mt-5 text-[.62rem] font-bold uppercase tracking-[.2em] text-white/45">
+                    <p className="mt-5 text-[0.72rem] font-bold uppercase tracking-[.2em] text-white/45">
                       {w.kicker}
                     </p>
                     <h3 className="mt-2 font-display text-2xl font-bold uppercase text-white">

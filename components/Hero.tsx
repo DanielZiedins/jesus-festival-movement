@@ -30,7 +30,7 @@ export default function Hero() {
               <span className="absolute inline-flex h-full w-full animate-ping-slow rounded-full bg-gold" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-ember" />
             </span>
-            <span className="text-[0.68rem] font-bold uppercase tracking-[0.26em] text-gold-400">
+            <span className="text-[0.72rem] font-bold uppercase tracking-[0.26em] text-gold-400">
               Jesus Festival Movement
             </span>
           </div>
@@ -91,12 +91,12 @@ export default function Hero() {
             <div className="light-beam left-[25%]" />
             <div className="light-beam right-[18%] rotate-[9deg]" />
 
-            <div className="absolute left-5 top-5 rounded-full border border-white/15 bg-black/35 px-3 py-2 text-[0.62rem] font-bold uppercase tracking-[0.22em] text-white/75 backdrop-blur-md">
+            <div className="absolute left-5 top-5 rounded-full border border-white/15 bg-black/35 px-3 py-2 text-[0.72rem] font-bold uppercase tracking-[0.22em] text-white/75 backdrop-blur-md">
               Worship in the wild
             </div>
 
             <div className="absolute inset-x-0 bottom-0 p-6 sm:p-8">
-              <p className="text-[0.68rem] font-bold uppercase tracking-[0.26em] text-gold-400">
+              <p className="text-[0.72rem] font-bold uppercase tracking-[0.26em] text-gold-400">
                 A holy invitation
               </p>
               <p className="mt-3 max-w-md font-display text-3xl font-bold leading-[1.02] text-white sm:text-4xl">
@@ -116,7 +116,7 @@ export default function Hero() {
 
           <div className="absolute -bottom-7 -left-4 hidden rounded-2xl border border-gold/25 bg-ink/90 p-4 shadow-2xl backdrop-blur-xl sm:block">
             <p className="font-display text-3xl font-bold text-gold">ONE</p>
-            <p className="mt-0.5 text-[0.62rem] font-bold uppercase tracking-[0.22em] text-white/50">
+            <p className="mt-0.5 text-[0.72rem] font-bold uppercase tracking-[0.22em] text-white/50">
               name above all
             </p>
           </div>
@@ -124,7 +124,7 @@ export default function Hero() {
       </div>
 
       <div className="absolute inset-x-0 bottom-0 z-20 overflow-hidden border-y border-white/[0.07] bg-black/20 py-3 backdrop-blur-sm">
-        <div className="movement-marquee flex min-w-max gap-8 text-[0.67rem] font-bold uppercase tracking-[0.26em] text-white/55">
+        <div className="movement-marquee flex min-w-max gap-8 text-[0.72rem] font-bold uppercase tracking-[0.26em] text-white/55">
           {Array.from({ length: 2 }).map((_, group) => (
             <span key={group} className="flex gap-8" aria-hidden={group === 1}>
               <span>Worship</span><span className="text-gold">✦</span>

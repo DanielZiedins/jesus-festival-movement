@@ -88,7 +88,7 @@ export default async function ShopPage() {
               {products.slice(0, 2).map((product, index) => (
                 <a key={product.handle} href={product.url} target="_blank" rel="noopener noreferrer" className={`group relative aspect-[.78] overflow-hidden rounded-[2rem] border border-white/12 bg-[#0a0f1d] p-4 shadow-[0_28px_80px_rgba(0,0,0,.38)] transition hover:-translate-y-2 hover:border-gold/45 ${index === 1 ? "mt-10" : ""}`}>
                   <Image src={product.image} alt={product.title} fill sizes="(max-width: 1023px) 45vw, 22vw" className="object-contain p-4 transition duration-700 group-hover:scale-110" />
-                  <span className="absolute inset-x-4 bottom-4 rounded-full border border-white/12 bg-ink/80 px-3 py-2 text-center text-[.58rem] font-bold uppercase tracking-[.15em] text-white/80 backdrop-blur-xl">{index === 0 ? "Fresh drop" : "Jesus Festival"}</span>
+                  <span className="absolute inset-x-4 bottom-4 rounded-full border border-white/12 bg-ink/80 px-3 py-2 text-center text-[0.72rem] font-bold uppercase tracking-[.15em] text-white/80 backdrop-blur-xl">{index === 0 ? "Fresh drop" : "Jesus Festival"}</span>
                 </a>
               ))}
             </div>
@@ -111,7 +111,7 @@ export default async function ShopPage() {
               <article key={product.handle} className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.025] transition duration-500 hover:-translate-y-1 hover:border-gold/35 hover:bg-white/[.045]">
                 <a href={product.url} target="_blank" rel="noopener noreferrer" className="relative block aspect-square overflow-hidden bg-[radial-gradient(circle_at_50%_30%,rgba(244,196,92,.12),transparent_46%),#0a0f1d]">
                   <Image src={product.image} alt={product.title} fill sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 33vw" className="object-contain p-7 transition duration-700 group-hover:scale-110 group-hover:rotate-1 sm:p-10" />
-                  <span className="absolute left-5 top-5 rounded-full border border-white/12 bg-ink/72 px-3 py-2 text-[.58rem] font-bold uppercase tracking-[.18em] text-gold backdrop-blur-xl">0{index + 1}</span>
+                  <span className="absolute left-5 top-5 rounded-full border border-white/12 bg-ink/72 px-3 py-2 text-[0.72rem] font-bold uppercase tracking-[.18em] text-gold backdrop-blur-xl">0{index + 1}</span>
                 </a>
                 <div className="p-6 sm:p-7">
                   <div className="flex items-start justify-between gap-4">

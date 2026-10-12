@@ -111,7 +111,7 @@ export default function AboutPage() {
                 id={f.id}
                 className="flex flex-col rounded-[1.8rem] border border-white/10 bg-white/[.035] p-7 sm:p-8"
               >
-                <p className="text-[.68rem] font-bold uppercase tracking-[.2em] text-gold-400">{f.role}</p>
+                <p className="text-[0.72rem] font-bold uppercase tracking-[.2em] text-gold-400">{f.role}</p>
                 <h3 className="mt-3 font-display text-3xl font-bold text-white">{f.name}</h3>
                 <p className="mt-4 flex-1 leading-relaxed text-white/68">{f.bio}</p>
                 <a

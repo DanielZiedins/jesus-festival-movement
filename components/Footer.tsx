@@ -71,7 +71,7 @@ export default function Footer() {
                 Privacy
               </Link>
             </p>
-            <p className="mt-2 text-[0.68rem] text-white/55">
+            <p className="mt-2 text-[0.72rem] text-white/55">
               Made with <span aria-label="love" role="img" className="inline-block animate-pulse text-ember-400">❤️</span> by:{" "}
               <a
                 href="https://www.danielziedins.com"
@@ -83,7 +83,7 @@ export default function Footer() {
               </a>
             </p>
             {/* Deliberately quiet — for people who are sent here. */}
-            <p className="mt-2 text-[0.68rem] text-white/50">
+            <p className="mt-2 text-[0.72rem] text-white/50">
               <Link
                 href="/partner"
                 className="underline decoration-white/20 underline-offset-4 transition hover:text-gold"

@@ -159,7 +159,7 @@ export default function ThankYouPage() {
                 <div className="relative flex h-full flex-col">
                   <div className="flex items-center gap-3">
                     <Image src="/jesus-festival-movement-mark.png" alt="" width={1050} height={1050} className="h-16 w-16 object-contain" />
-                    <span className="font-display text-sm font-bold leading-tight text-white">Jesus Festival<span className="mt-1 block text-[.58rem] uppercase tracking-[.22em] text-gold">Movement</span></span>
+                    <span className="font-display text-sm font-bold leading-tight text-white">Jesus Festival<span className="mt-1 block text-[0.72rem] uppercase tracking-[.22em] text-gold">Movement</span></span>
                   </div>
                   <div className="my-auto">
                     <p className="text-xs font-bold uppercase tracking-[.28em] text-gold">Practical field guide</p>
@@ -167,7 +167,7 @@ export default function ThankYouPage() {
                     <p className="mt-4 font-display text-2xl font-bold uppercase leading-tight text-white">How to start a</p>
                     <p className="mt-1 font-display text-4xl font-bold uppercase leading-none text-gradient-gold">Jesus Festival</p>
                   </div>
-                  <div className="flex items-center justify-between border-t border-white/10 pt-5 text-[.65rem] font-bold uppercase tracking-[.2em] text-white/55">
+                  <div className="flex items-center justify-between border-t border-white/10 pt-5 text-[0.72rem] font-bold uppercase tracking-[.2em] text-white/55">
                     <span>One faithful step</span>
                     <span className="text-gold">PDF ↓</span>
                   </div>

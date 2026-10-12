@@ -88,7 +88,7 @@ export default function StartJesusFestivalPage() {
                 <div className="relative flex h-full flex-col">
                   <Image src="/jesus-festival-movement-mark.png" alt="Jesus Festival Movement mark" width={1050} height={1050} className="h-16 w-16 object-contain" />
                   <div className="my-auto"><p className="text-xs font-bold uppercase tracking-[.28em] text-gold">Practical field guide</p><p className="mt-5 font-display text-5xl font-bold uppercase leading-[.83] tracking-[-.06em] text-white">Basics</p><p className="mt-4 font-display text-2xl font-bold uppercase leading-tight text-white">How to start a</p><p className="mt-1 font-display text-4xl font-bold uppercase leading-none text-gradient-gold">Jesus Festival</p></div>
-                  <div className="border-t border-white/10 pt-5 text-[.65rem] font-bold uppercase tracking-[.2em] text-gold">Free PDF download</div>
+                  <div className="border-t border-white/10 pt-5 text-[0.72rem] font-bold uppercase tracking-[.2em] text-gold">Free PDF download</div>
                 </div>
               </div>
             </a>

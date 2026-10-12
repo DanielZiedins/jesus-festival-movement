@@ -87,7 +87,7 @@ export default function Contact() {
                   <Icon name="download" className="h-5 w-5" />
                 </span>
                 <div>
-                  <p className="text-[0.66rem] font-bold uppercase tracking-[.22em] text-gold">Included instantly after you submit</p>
+                  <p className="text-[0.72rem] font-bold uppercase tracking-[.22em] text-gold">Included instantly after you submit</p>
                   <h3 className="mt-2 font-display text-xl font-bold text-white">Basics: How to Start a Jesus Festival</h3>
                   <p className="mt-2 text-sm leading-relaxed text-white/55">
                     Receive a free 10-page field guide covering prayer, permits, your core team, safety, outreach, volunteers, follow-up, and a 90-day head start.

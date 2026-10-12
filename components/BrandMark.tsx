@@ -49,7 +49,7 @@ export default function BrandMark({ full = false, priority = false, className = 
       </span>
       <span className="font-display text-[0.94rem] font-bold leading-[1.02] tracking-[-0.02em] text-white sm:text-base">
           Jesus Festival
-          <span className="mt-1 block text-[0.62rem] font-semibold uppercase tracking-[0.25em] text-gold-400 sm:text-[0.68rem]">
+          <span className="mt-1 block text-[0.72rem] font-semibold uppercase tracking-[0.25em] text-gold-400 sm:text-[0.72rem]">
             Movement
           </span>
       </span>
