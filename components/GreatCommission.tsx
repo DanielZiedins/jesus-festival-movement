@@ -1,6 +1,4 @@
-"use client";
-
-import { motion, useReducedMotion } from "framer-motion";
+import type { CSSProperties } from "react";
 import Image from "next/image";
 import Reveal from "./ui/Reveal";
 import Eyebrow from "./ui/Eyebrow";
@@ -9,8 +7,6 @@ import Icon from "./ui/Icon";
 const words = "Go and make disciples of all nations".split(" ");
 
 export default function GreatCommission() {
-  const reduceMotion = useReducedMotion();
-
   return (
     <section id="commission" className="commission-section section-pad relative isolate overflow-hidden">
       <Image
@@ -31,16 +27,14 @@ export default function GreatCommission() {
 
         <h2 className="mx-auto mt-9 max-w-6xl text-balance font-display text-[clamp(3.1rem,8vw,7.8rem)] font-bold uppercase leading-[.82] tracking-[-.065em]">
           {words.map((word, index) => (
-            <motion.span
+            <span
               key={`${word}-${index}`}
+              data-reveal="dim"
+              style={{ "--rv-d": `${index * 0.08}s`, "--rv-y": "24px" } as CSSProperties}
               className={word === "nations" ? "mr-[.2em] inline-block text-gradient-gold" : "mr-[.2em] inline-block text-white"}
-              initial={reduceMotion ? false : { opacity: 0.18, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-12%" }}
-              transition={{ duration: 0.65, delay: index * 0.08 }}
             >
               {word}
-            </motion.span>
+            </span>
           ))}
         </h2>
 

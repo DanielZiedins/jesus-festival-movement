@@ -640,15 +640,72 @@ textarea:focus-visible {
 }
 
 /* =========================================================================
-   Reveal failsafe — see components/RevealGuard.tsx.
-   Reveal ships opacity:0 in the server-rendered HTML, so without this rule a
-   reader whose JavaScript is blocked or slow to arrive gets a blank page
-   rather than an unanimated one. The inline guard marks the document
-   motion-ready, which hands control back to framer.
+   Entrances — see components/RevealGuard.tsx (the driver) and Reveal.tsx.
+   Content is visible by default; the hidden "before" state exists only under
+   html.motion-ready, which the inline guard adds. No JS → a complete page.
    ========================================================================= */
-html:not(.motion-ready) [data-reveal] {
-  opacity: 1 !important;
-  transform: none !important;
+[data-reveal] {
+  --rv-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  transition:
+    opacity 0.7s var(--rv-ease) var(--rv-d, 0s),
+    transform 0.7s var(--rv-ease) var(--rv-d, 0s);
+}
+/* Great Commission words: start dimmed, not hidden, so the verse is readable
+   at a glance even before it animates. */
+[data-reveal="dim"] {
+  transition-duration: 0.65s;
+}
+/* Map routes draw themselves in (path has pathLength="1"). */
+[data-reveal="draw"] {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+  transition:
+    stroke-dashoffset 1.8s ease var(--rv-d, 0s),
+    opacity 1.8s ease var(--rv-d, 0s);
+}
+
+/* The hidden "before" states. Reduced-motion readers never get one, so
+   nothing waits on a transition they asked not to see. */
+@media (prefers-reduced-motion: no-preference) {
+  html.motion-ready [data-reveal]:not([data-rv-in]) {
+    opacity: 0;
+    transform: translate3d(0, var(--rv-y, 28px), 0);
+  }
+  html.motion-ready [data-reveal="dim"]:not([data-rv-in]) {
+    opacity: 0.18;
+  }
+  html.motion-ready [data-reveal="draw"]:not([data-rv-in]) {
+    stroke-dashoffset: 1;
+    opacity: 0;
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    transition: none;
+  }
+}
+
+/* Hero parallax, as a CSS scroll-driven animation (no JS, runs off the main
+   thread). Browsers without scroll timelines simply keep the hero still. */
+@keyframes hero-copy-drift {
+  to { transform: translate3d(0, 48px, 0); }
+}
+@keyframes hero-image-drift {
+  to { transform: translate3d(0, 110px, 0); }
+}
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .hero-drift-copy,
+    .hero-drift-image {
+      animation: hero-copy-drift linear both;
+      animation-timeline: scroll(root);
+      animation-range: 0px 900px;
+    }
+    .hero-drift-image {
+      animation-name: hero-image-drift;
+    }
+  }
 }
 
 /* Long-form policy copy: Tailwind's preflight strips list bullets and link

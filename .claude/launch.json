@@ -4,8 +4,26 @@
     {
       "name": "jfm-dev",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev", "--", "-p", "3247"],
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--",
+        "-p",
+        "3247"
+      ],
       "port": 3247
+    },
+    {
+      "name": "jfm-prod",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "start",
+        "--",
+        "-p",
+        "3248"
+      ],
+      "port": 3248
     }
   ]
 }

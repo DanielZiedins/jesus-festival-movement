@@ -1,6 +1,5 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
 import { useState } from "react";
 import Eyebrow from "./ui/Eyebrow";
 import Icon from "./ui/Icon";
@@ -35,7 +34,6 @@ const signals = [
 
 export default function CitySignal() {
   const [active, setActive] = useState(0);
-  const reduceMotion = useReducedMotion();
   const current = signals[active];
 
   return (
@@ -56,10 +54,8 @@ export default function CitySignal() {
               <div className="signal-radar relative mx-auto flex h-28 w-28 shrink-0 items-center justify-center rounded-full border border-gold/25 bg-ink/80 shadow-[0_0_70px_rgba(244,196,92,.14)] sm:h-32 sm:w-32" aria-hidden="true">
                 <span className="signal-radar-ring absolute inset-3 rounded-full border border-gold/20" />
                 <span className="signal-radar-ring signal-radar-ring-two absolute inset-[-.85rem] rounded-full border border-sky-300/10" />
-                <motion.span
-                  animate={reduceMotion ? undefined : { rotate: 360 }}
-                  transition={{ duration: 16, repeat: Infinity, ease: "linear" }}
-                  className="absolute inset-0 rounded-full bg-[conic-gradient(from_25deg,transparent_0deg,rgba(244,196,92,.25)_36deg,transparent_84deg)]"
+                <span
+                  className="absolute inset-0 animate-[spin_16s_linear_infinite] rounded-full motion-reduce:animate-none bg-[conic-gradient(from_25deg,transparent_0deg,rgba(244,196,92,.25)_36deg,transparent_84deg)]"
                 />
                 <span className="relative flex h-12 w-12 items-center justify-center rounded-full bg-gold text-ink shadow-glow">
                   <Icon name={current.icon} className="h-6 w-6" />

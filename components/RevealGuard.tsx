@@ -1,74 +1,81 @@
 /**
- * Makes the scroll entrances fail visible.
+ * Drives every scroll entrance on the site (Reveal, the Great Commission
+ * words, the map routes) and makes them fail visible.
  *
- * Reveal renders framer-motion's `initial={{opacity:0}}`, which means the
- * server-rendered HTML ships `style="opacity:0"` on every revealed block. If
- * JavaScript is blocked, the bundle fails to load, or React simply never
- * hydrates, that content stays invisible — not "unanimated", *gone*. Verified
- * on /festivals: 13 of 13 blocks at computed opacity 0, including the primary
- * CTA and the email capture.
+ * Entrances used to be framer-motion, which shipped `style="opacity:0"` in the
+ * server HTML and needed React to hydrate before anything appeared — a 37KB
+ * library on every page whose failure mode was a blank page. Now:
  *
- * Two layers, neither of which depends on React:
+ *  - The markup is visible by default. The hidden "before" state lives in CSS
+ *    (globals.css) under `html.motion-ready`, a class only this script adds —
+ *    so no JavaScript, or no IntersectionObserver, means a complete page that
+ *    simply doesn't animate.
+ *  - One IntersectionObserver marks blocks `data-rv-in` as they scroll in;
+ *    CSS transitions do the animating. `data-rv-now` blocks (above the fold)
+ *    are shown straight away.
+ *  - A timer sweep shows anything that has sat in the viewport, still hidden,
+ *    for longer than GRACE. It covers a starved observer (throttled or hidden
+ *    tabs stop delivering IO callbacks and rAF), and uses setTimeout, never
+ *    rAF, for the same reason.
+ *  - A MutationObserver picks up blocks added by client-side navigation.
  *
- *  1. A CSS rule (globals.css) force-shows `[data-reveal]` until the inline
- *     script below marks the document `motion-ready`. No JS at all → the page
- *     renders in full, just without entrances.
- *  2. The script also sweeps for blocks that are in the viewport yet still
- *     invisible, which covers JS running but framer never taking over. It
- *     leaves below-fold blocks alone, so a healthy page animates as designed.
- *
- * It is an inline script rather than an effect on purpose: an effect would
- * need the hydration that is exactly what fails here. Same reasoning as
- * EventCountdown.
+ * It is an inline script rather than an effect on purpose: it must run
+ * without waiting for hydration. Same reasoning as EventCountdown.
  */
 const GUARD = `
 (function () {
-  var d = document, root = d.documentElement;
+  var d = document, root = d.documentElement, w = window;
+  if (!('IntersectionObserver' in w)) return;
   root.classList.add('motion-ready');
 
-  var poll, idle;
-  function stop() {
-    clearInterval(poll);
-    removeEventListener('scroll', schedule);
-    removeEventListener('resize', schedule);
-    d.removeEventListener('visibilitychange', schedule);
+  var GRACE = 600, watched = new WeakSet(), seen = new WeakMap(), poll = 0, idle = 0;
+  var io = new IntersectionObserver(function (entries) {
+    for (var i = 0; i < entries.length; i++) if (entries[i].isIntersecting) show(entries[i].target);
+  }, { rootMargin: '0px 0px -80px 0px' });
+
+  function show(el) {
+    el.setAttribute('data-rv-in', '');
+    io.unobserve(el);
   }
-  // Grace period: how long a block may sit in the viewport, still invisible,
-  // before we stop waiting for framer. Without this the guard wins the race on
-  // scroll and the block appears without ever animating.
-  var GRACE = 600;
-  function sweep(ignoreGrace) {
-    var nodes = d.querySelectorAll('[data-reveal]');
-    if (!nodes.length) return;
-    // Throttled and hidden contexts can report innerHeight 0; be generous,
-    // since the worst case of over-revealing is only a skipped animation.
-    var vh = innerHeight || root.clientHeight || 800, pending = 0, i, el, r, since, now = Date.now();
+  function pending() {
+    return d.querySelectorAll('[data-reveal]:not([data-rv-in])');
+  }
+  function scan() {
+    var nodes = pending(), i, el;
     for (i = 0; i < nodes.length; i++) {
       el = nodes[i];
-      if (getComputedStyle(el).opacity !== '0') { el.__rvSeen = 0; continue; }
-      pending++;
+      if (watched.has(el)) continue;
+      watched.add(el);
+      if (el.hasAttribute('data-rv-now')) setTimeout(show.bind(null, el), 30);
+      else io.observe(el);
+    }
+    if (nodes.length && !poll) poll = setInterval(sweep, 1000);
+  }
+  function sweep() {
+    var nodes = pending(), now = Date.now(), i, el, r;
+    // Throttled and hidden contexts can report innerHeight 0; be generous,
+    // since the worst case of over-revealing is only a skipped animation.
+    var vh = w.innerHeight || root.clientHeight || 800;
+    for (i = 0; i < nodes.length; i++) {
+      el = nodes[i];
       r = el.getBoundingClientRect();
       if (r.top < vh && r.bottom > 0) {
-        since = el.__rvSeen || (el.__rvSeen = now);
-        if (!ignoreGrace && now - since < GRACE) continue; // framer still has time
-        el.style.setProperty('opacity', '1', 'important');
-        el.style.setProperty('transform', 'none', 'important');
-        pending--;
+        if (!seen.has(el)) seen.set(el, now);
+        else if (now - seen.get(el) >= GRACE) show(el);
       } else {
-        el.__rvSeen = 0; // left the viewport; restart its clock next time
+        seen.delete(el); // left the viewport; restart its clock next time
       }
     }
-    if (!pending) stop();
+    if (!nodes.length) { clearInterval(poll); poll = 0; }
   }
-  // Coalesce with setTimeout, never rAF: rAF belongs to the same rendering
-  // pipeline that stalls in the cases this guard exists for.
   function schedule() {
     if (idle) return;
-    idle = setTimeout(function () { idle = 0; sweep(); }, 120);
+    idle = setTimeout(function () { idle = 0; scan(); sweep(); }, 120);
   }
-  // Give framer a fair chance to play its own entrance first.
-  setTimeout(function () { sweep(true); }, 1200);
-  poll = setInterval(sweep, 1000);
+
+  if (d.readyState === 'loading') d.addEventListener('DOMContentLoaded', scan);
+  else scan();
+  new MutationObserver(schedule).observe(root, { childList: true, subtree: true });
   addEventListener('scroll', schedule, { passive: true });
   addEventListener('resize', schedule);
   d.addEventListener('visibilitychange', schedule);

@@ -1,7 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "framer-motion";
-import { useState } from "react";
+import { useState, type CSSProperties } from "react";
 import { MAP_MARKERS } from "@/lib/content";
 import Reveal from "./ui/Reveal";
 import Eyebrow from "./ui/Eyebrow";
@@ -38,7 +37,6 @@ const worldPaths = [
 
 export default function GlobalMap({ copyOverrides, statusOverrides }: Props = {}) {
   const [active, setActive] = useState("Hamilton");
-  const reduceMotion = useReducedMotion();
   const markerCopy = { ...baseMarkerCopy, ...copyOverrides };
 
   return (
@@ -94,19 +92,17 @@ export default function GlobalMap({ copyOverrides, statusOverrides }: Props = {}
                   "M254 178 Q460 38 700 235",
                   "M254 178 Q510 450 865 375",
                 ].map((path, index) => (
-                  <motion.path
+                  <path
                     key={path}
                     d={path}
+                    pathLength={1}
+                    data-reveal="draw"
+                    style={{ "--rv-d": `${index * 0.2}s` } as CSSProperties}
                     fill="none"
                     stroke="url(#route)"
                     strokeWidth="1.7"
-                    strokeDasharray="5 7"
                     opacity=".7"
                     filter="url(#route-glow)"
-                    initial={reduceMotion ? false : { pathLength: 0, opacity: 0 }}
-                    whileInView={{ pathLength: 1, opacity: 0.7 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 1.8, delay: index * 0.2 }}
                   />
                 ))}
               </svg>

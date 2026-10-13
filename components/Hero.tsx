@@ -1,6 +1,3 @@
-"use client";
-
-import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Icon from "./ui/Icon";
 
@@ -8,11 +5,6 @@ const HERO_IMAGE =
   "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=2000&q=88";
 
 export default function Hero() {
-  const reduceMotion = useReducedMotion();
-  const { scrollY } = useScroll();
-  const imageY = useTransform(scrollY, [0, 900], [0, 110]);
-  const copyY = useTransform(scrollY, [0, 900], [0, 48]);
-
   return (
     <section
       id="top"
@@ -24,7 +16,8 @@ export default function Hero() {
       <div className="grain" />
 
       <div className="container-x relative z-10 grid items-center gap-14 lg:grid-cols-[1.02fr_.98fr] lg:gap-10">
-        <motion.div style={reduceMotion ? undefined : { y: copyY }}>
+        {/* Parallax drift is a CSS scroll-driven animation — see globals.css. */}
+        <div className="hero-drift-copy">
           <div className="inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/[0.045] px-4 py-2 backdrop-blur-xl">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping-slow rounded-full bg-gold" />
@@ -70,12 +63,9 @@ export default function Hero() {
             <span className="h-px w-8 bg-gradient-to-r from-gold to-ember" />
             <span className="text-gold">The nations</span>
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
-          className="relative mx-auto w-full max-w-[39rem] lg:mr-[-4.5rem]"
-          style={reduceMotion ? undefined : { y: imageY }}
-        >
+        <div className="hero-drift-image relative mx-auto w-full max-w-[39rem] lg:mr-[-4.5rem]">
           <div className="hero-orbit absolute -inset-10 rounded-full border border-gold/10" aria-hidden="true" />
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2.5rem] border border-white/12 bg-navy-950 shadow-[0_40px_120px_rgba(0,0,0,.6)] sm:aspect-[5/6]">
             <Image
@@ -120,7 +110,7 @@ export default function Hero() {
               name above all
             </p>
           </div>
-        </motion.div>
+        </div>
       </div>
 
       <div className="absolute inset-x-0 bottom-0 z-20 overflow-hidden border-y border-white/[0.07] bg-black/20 py-3 backdrop-blur-sm">
