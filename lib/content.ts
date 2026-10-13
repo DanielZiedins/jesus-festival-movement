@@ -100,7 +100,7 @@ export const MOVEMENT_STAGES = [
     region: "Ontario, Canada",
     label: "The vision expands",
     description:
-      "Worship in the Wild carried the same heart into Niagara Falls — thousands gathering to lift up the name of Jesus.",
+      "Worship in the Wild carried the same heart into Niagara Falls — two free days of worship, the Gospel and church unity at the Fallsview Event Grounds, June 19–20, 2026.",
     link: "https://JesusFestivalNiagara.com",
     linkLabel: "JesusFestivalNiagara.com",
     imageAlt: "Aerial view of Horseshoe Falls in Niagara Falls, Ontario",
@@ -208,26 +208,42 @@ export const SIMPLE_STEPS = [
   },
 ] as const;
 
+/**
+ * Real, published testimonies only — verbatim from JesusFestival.ca's own
+ * Jesus Festival Hamilton 2026 report (FRUIT_SOURCE). Never paraphrase these
+ * or add anonymous "a new believer said" quotes: an invented testimony on a
+ * Gospel site undermines every true one next to it.
+ */
 export const TESTIMONIES = [
   {
-    quote:
-      "I came not knowing Jesus. I left forgiven, baptized, and full of joy. My whole life is different now.",
-    name: "A new believer",
-    place: "Hamilton, Ontario",
+    quote: "I was lost — who would have thought Jesus led me here!",
+    name: "Shared at the baptism tank",
+    place: "Jesus Festival Hamilton 2026",
   },
   {
-    quote:
-      "Watching churches stand together to lift up Jesus was a picture of what unity can look like across a city.",
-    name: "A local pastor",
-    place: "Ontario, Canada",
+    quote: "My back is healed!",
+    name: "Said coming up out of the water",
+    place: "Jesus Festival Hamilton 2026",
   },
   {
-    quote:
-      "The outreach did not stop with the festival. Believers kept going — sharing the Gospel and serving people week after week.",
-    name: "An outreach leader",
-    place: "Jesus Festival Movement",
+    quote: "I have no desire for my vape anymore and threw it away.",
+    name: "Shared at the baptism tank",
+    place: "Jesus Festival Hamilton 2026",
   },
 ] as const;
+
+/** Early reports published by the organisers — always label them as such. */
+export const FRUIT = [
+  { value: "70+", label: "gave their lives to Jesus" },
+  { value: "50+", label: "baptized in the park" },
+  { value: "3,000+", label: "free hot dogs & drinks" },
+  { value: "2", label: "nights of altar calls" },
+] as const;
+
+export const FRUIT_SOURCE = {
+  label: "Early reports, Jesus Festival Hamilton 2026 · JesusFestival.ca",
+  href: "https://www.jesusfestival.ca/news/thank-you-hamilton-jesus-festival-2026",
+} as const;
 
 export const MAP_MARKERS = [
   { name: "Hamilton", x: 25.4, y: 35.5, status: "origin" },

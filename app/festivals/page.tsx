@@ -377,7 +377,7 @@ export default function FestivalsPage() {
                   city: "Niagara",
                   region: "Ontario, Canada",
                   blurb:
-                    "Worship in the Wild carried the same heart into Niagara Falls — thousands gathering outdoors to lift up the name of Jesus in one of the most visited places on earth.",
+                    "Worship in the Wild carried the same heart into Niagara Falls — two free days of worship, Gospel proclamation, testimony and church unity at the Fallsview Event Grounds on June 19–20, 2026, in one of the most visited places on earth.",
                   href: "https://JesusFestivalNiagara.com",
                   label: "JesusFestivalNiagara.com",
                   fruit:

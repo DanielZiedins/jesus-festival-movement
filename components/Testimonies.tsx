@@ -1,4 +1,5 @@
-import { TESTIMONIES } from "@/lib/content";
+import Link from "next/link";
+import { FRUIT, FRUIT_SOURCE, TESTIMONIES } from "@/lib/content";
 import Reveal from "./ui/Reveal";
 import Eyebrow from "./ui/Eyebrow";
 
@@ -19,13 +20,30 @@ export default function Testimonies() {
                 Not production for production&apos;s sake. Not another date on the calendar. We are believing for lives transformed and cities awakened to the love of Jesus.
               </p>
               <div className="mt-10 grid grid-cols-2 gap-3">
-                {["Lives changed", "Baptisms", "Churches united", "Outreach continuing"].map((item) => (
-                  <div key={item} className="rounded-2xl border border-white/[0.08] bg-black/20 p-4">
-                    <span className="text-gold">✦</span>
-                    <p className="mt-3 text-sm font-semibold text-white/70">{item}</p>
+                {FRUIT.map((item) => (
+                  <div key={item.label} className="rounded-2xl border border-white/[0.08] bg-black/20 p-4">
+                    <p className="font-display text-3xl font-bold text-gradient-gold">{item.value}</p>
+                    <p className="mt-1.5 text-sm font-semibold leading-snug text-white/70">{item.label}</p>
                   </div>
                 ))}
               </div>
+              <p className="mt-5 text-xs leading-relaxed text-white/55">
+                <a
+                  href={FRUIT_SOURCE.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-white/30 underline-offset-4 transition hover:text-gold"
+                >
+                  {FRUIT_SOURCE.label}
+                </a>
+                . Every number is a name.{" "}
+                <Link
+                  href="/blog/the-harvest-is-real-kingdom-impact"
+                  className="font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
+                >
+                  Read the story
+                </Link>
+              </p>
             </div>
           </Reveal>
 
