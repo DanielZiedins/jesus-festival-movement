@@ -394,6 +394,21 @@ export const ANSWERS: Answer[] = [
     ],
   },
   {
+    id: "altar-call-at-a-festival",
+    q: "How do you give an altar call at an outdoor festival?",
+    topic: "planning",
+    short:
+      "Preach the Gospel clearly first, then invite people plainly and without pressure, telling them exactly what will happen if they come forward. Have a trained response team from your partner churches waiting at the front or a signed prayer tent: in pairs, wearing lanyards, never alone with a child. They listen, explain the Gospel simply, pray with each person, offer an optional connect card, and a local church follows up within 48 hours.",
+    detail: [
+      "Name more than one response — giving your life to Jesus, coming back to Him, prayer for healing, or asking about baptism — and give people time to come. No tricks such as asking for raised hands with every head bowed and then asking those people to stand.",
+      "When praying for healing, ask before touching anyone, make no promises God hasn't made, and never tell anyone to stop medication or medical care.",
+    ],
+    links: [
+      { label: "The full altar call guide", href: "/blog/how-to-give-an-altar-call-at-an-outdoor-event" },
+      { label: "Following up with new believers", href: "/blog/how-to-follow-up-with-a-new-believer" },
+    ],
+  },
+  {
     id: "follow-up-new-believer",
     q: "How do you follow up with someone who just gave their life to Jesus?",
     topic: "practical",
@@ -588,6 +603,7 @@ export const ANSWERS: Answer[] = [
     links: [
       { label: "Why city-wide unity is worth it", href: "/blog/why-city-wide-church-unity-is-worth-it" },
       { label: "I'm afraid to share my faith", href: "/answers#afraid-to-share-faith" },
+      { label: "How to give an altar call", href: "/blog/how-to-give-an-altar-call-at-an-outdoor-event" },
     ],
   },
 ];

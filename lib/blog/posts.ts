@@ -1989,6 +1989,182 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "how-to-give-an-altar-call-at-an-outdoor-event",
+    title: "How To Give An Altar Call At An Outdoor Event — And Care For Everyone Who Responds",
+    description:
+      "A biblical, practical guide to the Gospel invitation at a festival or outreach: preaching for a response, inviting without pressure, training a response team, praying for healing with care, connect cards and consent, and what happens in the first 48 hours.",
+    tldr: "Preach the Gospel clearly enough that people know what they are responding to, then invite them plainly and without pressure, telling them exactly what will happen when they come forward. Have a trained response team from your partner churches waiting: in pairs, identifiable, never alone with a minor. Listen first, explain the Gospel simply, pray with people rather than for them, take a connect card only with consent, and make sure a local church contacts every person within 48 hours.",
+    date: "2026-10-14",
+    category: "Evangelism",
+    eyebrow: "The invitation",
+    keywords: [
+      "how to give an altar call",
+      "altar call at an outreach event",
+      "gospel invitation",
+      "prayer ministry team training",
+      "response team evangelistic event",
+      "how to lead someone to Christ at an event",
+    ],
+    related: ["jf-ca", "lotw", "kingdom-base"],
+    body: [
+      {
+        t: "p",
+        text: "At Jesus Festival Hamilton 2026 there were altar calls on both Friday night and Saturday, and <a href=\"/blog/the-harvest-is-real-kingdom-impact\">early reports counted 70+ people</a> giving their lives to Jesus. Behind a moment like that is a short invitation, a lot of prayer, and a team of ordinary believers who knew exactly what to do when someone walked forward.",
+      },
+      {
+        t: "p",
+        text: "This guide is for whoever is preaching and whoever is waiting at the front. It covers the invitation itself, and the far more important work of caring for each person who says yes.",
+      },
+      {
+        t: "scripture",
+        text: "Now when they heard this they were cut to the heart, and said to Peter and the rest of the apostles, \"Brothers, what shall we do?\" And Peter said to them, \"Repent and be baptized every one of you in the name of Jesus Christ for the forgiveness of your sins.\"",
+        ref: "Acts 2:37–38",
+      },
+
+      { t: "h2", text: "Why invite a response at all?" },
+      {
+        t: "p",
+        text: "Peter did not finish the first Christian sermon and walk off the stage. He answered the crowd's question with a clear next step. Paul described the whole of his ministry the same way: an appeal.",
+      },
+      {
+        t: "scripture",
+        text: "Therefore, we are ambassadors for Christ, God making his appeal through us. We implore you on behalf of Christ, be reconciled to God.",
+        ref: "2 Corinthians 5:20",
+      },
+      {
+        t: "p",
+        text: "An invitation does not save anyone. Faith in Jesus does. But many people at a festival have been carried a long way toward Him by the worship, the testimonies and the preaching, and they need someone to say plainly: <em>you can respond, right now, and here is how.</em>",
+      },
+
+      { t: "h2", text: "1. Preach so people know what they are saying yes to" },
+      {
+        t: "p",
+        text: "The quality of an altar call is decided before it starts. If the message was vague, the response will be too. Before you invite anyone, make sure you have said, in plain words:",
+      },
+      {
+        t: "list",
+        items: [
+          "<strong>Who Jesus is:</strong> the Son of God, not just a good teacher",
+          "<strong>Why we need Him:</strong> we have all sinned and are separated from God",
+          "<strong>What He did:</strong> He died in our place and rose again",
+          "<strong>What it means to respond:</strong> turning from sin and trusting Him as Lord, not joining an event or a church brand",
+        ],
+      },
+      {
+        t: "p",
+        text: "If you want a model, <a href=\"/know-jesus\">our Know Jesus page</a> lays the Gospel out simply. Short, clear and warm beats long and clever every time, especially outdoors with children running past.",
+      },
+      {
+        t: "scripture",
+        text: "Because, if you confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved.",
+        ref: "Romans 10:9",
+      },
+
+      { t: "h2", text: "2. Invite plainly, without pressure" },
+      {
+        t: "p",
+        text: "A festival crowd includes people who wandered in for the food. Honour them. We tell every guest that <a href=\"/answers#will-i-be-pressured\">there is no pressure to come forward</a>, and the invitation has to live up to that promise. Pressure produces responses that do not last; clarity produces ones that do.",
+      },
+      {
+        t: "list",
+        items: [
+          "<strong>Say exactly what will happen.</strong> \"If you want to give your life to Jesus today, come to the front. Someone with a lanyard will meet you, talk with you and pray with you. That is all.\"",
+          "<strong>No tricks.</strong> No \"every head bowed\" followed by \"now stand up\". No counting hands you then announce. If you would not want it done to your own child, don't do it.",
+          "<strong>Give people time.</strong> Let the music play softly and repeat the invitation once or twice. Some people need a minute to find the courage.",
+          "<strong>Name more than one response.</strong> Giving your life to Jesus for the first time, coming back to Him, asking for prayer for healing, or asking about baptism. People will come for any of them.",
+          "<strong>Make the place obvious.</strong> At the front of the stage, or at a clearly signed prayer tent if the crowd is spread across a park.",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "All that the Father gives me will come to me, and whoever comes to me I will never cast out.",
+        ref: "John 6:37",
+      },
+
+      { t: "h2", text: "3. Build and train a response team" },
+      {
+        t: "p",
+        text: "Recruit your response team from your partner churches, people their own pastors would trust to sit with a stranger at the most important moment of their life. Then train them together before the festival. An hour is enough to cover the essentials:",
+      },
+      {
+        t: "steps",
+        items: [
+          { title: "Work in pairs", text: "Two people with each person who responds, so nobody is ever alone with a stranger. Where you can, pair men with men and women with women." },
+          { title: "Be identifiable", text: "Lanyards or matching shirts, so people know who to walk toward and the safeguarding team knows who is who." },
+          { title: "Protect children", text: "Never take a minor aside. Talk with children with their parent or guardian present, or in full view with your safeguarding lead nearby." },
+          { title: "Listen first", text: "Ask their name and why they came forward. You cannot help someone whose question you never heard." },
+          { title: "Explain simply, then pray together", text: "Go over the Gospel in a sentence or two, check they understand, and invite them to pray in their own words, or to repeat a simple prayer after you if they would like. Pray with them, not at them." },
+          { title: "Give them something to take home", text: "A Bible or a Gospel of John, and one clear first step, like reading a chapter a day." },
+          { title: "Ask, don't assume, for details", text: "Offer a connect card and explain why: so a local church can help them take their next steps. Make it clearly optional." },
+        ],
+      },
+      {
+        t: "p",
+        text: "Our guide to <a href=\"/blog/how-to-share-your-testimony\">sharing your testimony</a> is worth giving the team too. A thirty-second story of what Jesus did for you often helps someone more than any explanation.",
+      },
+
+      { t: "h2", text: "4. Praying for healing and freedom, with care" },
+      {
+        t: "p",
+        text: "When people respond, many come for prayer for their bodies, addictions and minds, and God does heal. At Hamilton, one person came up out of the baptism tank saying their back was healed. Pray boldly, and pray wisely:",
+      },
+      {
+        t: "list",
+        items: [
+          "Ask permission before laying a hand on anyone, and keep it to a shoulder or a hand",
+          "Pray in faith without making promises God has not made",
+          "Never tell anyone to stop taking medication or stop seeing a doctor. Encourage them to have any healing confirmed by their doctor",
+          "Never pressure someone to say they feel better",
+          "If someone is in crisis, bring in your first-aider or pastoral lead straight away",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "Is anyone among you sick? Let him call for the elders of the church, and let them pray over him… and the prayer of faith will save the one who is sick, and the Lord will raise him up.",
+        ref: "James 5:14–15",
+      },
+
+      { t: "h2", text: "5. Connect cards: consent and care with people's details" },
+      {
+        t: "list",
+        items: [
+          "Ask only for what follow-up needs: name, a way to contact them, their area, what they responded for, and any church they already attend",
+          "Tell them who will contact them and why, and get their consent",
+          "Keep the cards with a named person, not loose on a table, and enter them somewhere secure that night",
+          "Share each person's details only with the church that will follow them up, never as a list",
+        ],
+      },
+
+      { t: "h2", text: "6. The first 48 hours" },
+      {
+        t: "p",
+        text: "The altar call is the beginning of the story, not the end. Divide the cards among partner churches by area before the team goes home, and make sure every person hears from a real person within two days: a call or message, a personal invitation to church that week, and a simple plan for reading the Bible. Some will want to <a href=\"/blog/how-to-plan-baptisms-at-an-outdoor-festival\">be baptized</a>; have that conversation too.",
+      },
+      {
+        t: "p",
+        text: "We have written a full guide to <a href=\"/blog/how-to-follow-up-with-a-new-believer\">following up with a new believer</a>. Put it in every team member's hands.",
+      },
+
+      { t: "h2", text: "If nobody comes forward" },
+      {
+        t: "p",
+        text: "It happens. The invitation was still faithful, and seeds are still in the ground. Read <a href=\"/answers#what-if-nobody-responds\">what to do when nobody responds</a>, thank your team, and keep going.",
+      },
+      {
+        t: "scripture",
+        text: "Just so, I tell you, there is joy before the angels of God over one sinner who repents.",
+        ref: "Luke 15:10",
+      },
+      {
+        t: "callout",
+        title: "Planning a Jesus Festival?",
+        text: "The free playbook walks through every stage: partners, permits, the program, prayer teams on the day, and the follow-up after.",
+        href: "/start-a-jesus-festival/playbook",
+        cta: "Open the playbook",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));
