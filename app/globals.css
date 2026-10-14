@@ -674,6 +674,12 @@ textarea:focus-visible {
   html.motion-ready [data-reveal="dim"]:not([data-rv-in]) {
     opacity: 0.18;
   }
+  /* Above-the-fold blocks (Reveal immediate) rise but never fade: text faded
+     up from opacity 0 isn't "painted" until the fade ends, which pushed LCP
+     on /answers from 0.8s to 1.8s. Readable on first paint, still moving. */
+  html.motion-ready [data-reveal][data-rv-now]:not([data-rv-in]) {
+    opacity: 1;
+  }
   html.motion-ready [data-reveal="draw"]:not([data-rv-in]) {
     stroke-dashoffset: 1;
     opacity: 0;

@@ -2146,6 +2146,14 @@ export const POSTS: Post[] = [
         text: "We have written a full guide to <a href=\"/blog/how-to-follow-up-with-a-new-believer\">following up with a new believer</a>. Put it in every team member's hands.",
       },
 
+      {
+        t: "callout",
+        title: "Print the response team card",
+        text: "Everything in this guide your team needs on the day, on one printable page: the seven steps, a simple prayer, safeguarding, healing prayer and connect cards.",
+        href: "/resources/response-team",
+        cta: "Get the training card",
+      },
+
       { t: "h2", text: "If nobody comes forward" },
       {
         t: "p",

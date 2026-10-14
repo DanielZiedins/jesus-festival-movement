@@ -405,6 +405,7 @@ export const ANSWERS: Answer[] = [
     ],
     links: [
       { label: "The full altar call guide", href: "/blog/how-to-give-an-altar-call-at-an-outdoor-event" },
+      { label: "Printable response team card", href: "/resources/response-team" },
       { label: "Following up with new believers", href: "/blog/how-to-follow-up-with-a-new-believer" },
     ],
   },

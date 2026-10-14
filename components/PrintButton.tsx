@@ -2,7 +2,7 @@
 
 import Icon from "./ui/Icon";
 
-export default function PrintButton() {
+export default function PrintButton({ label = "Print The Checklist" }: { label?: string }) {
   return (
     <button
       onClick={() => window.print()}
@@ -10,7 +10,7 @@ export default function PrintButton() {
     >
       <span className="inline-flex items-center gap-2.5">
         <Icon name="print" className="h-5 w-5" />
-        Print The Checklist
+        {label}
       </span>
     </button>
   );

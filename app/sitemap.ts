@@ -38,6 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/start-a-jesus-festival`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/start-a-jesus-festival/playbook`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/resources/prayer-walk`, lastModified, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${SITE.url}/resources/response-team`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/shop`, lastModified, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE.url}/stories/kingdom-shop`, lastModified, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/answers`, lastModified, changeFrequency: "monthly", priority: 0.9 },
