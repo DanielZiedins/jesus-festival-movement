@@ -39,11 +39,41 @@ function fmt(date: string) {
   });
 }
 
+const slugify = (c: string) => c.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+
+/** Posts grouped by category, largest topic first — a crawlable second index. */
+const TOPICS = Object.entries(
+  SORTED_POSTS.reduce<Record<string, typeof SORTED_POSTS>>((acc, p) => {
+    (acc[p.category] ??= []).push(p);
+    return acc;
+  }, {}),
+).sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+
 export default function BlogIndex() {
   const [lead, ...rest] = SORTED_POSTS;
 
+  const blogLd = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": `${SITE.url}/blog#blog`,
+    name: "The Journal — Jesus Festival Movement",
+    url: `${SITE.url}/blog`,
+    publisher: { "@id": `${SITE.url}/#organization` },
+    blogPost: SORTED_POSTS.map((p) => ({
+      "@type": "BlogPosting",
+      headline: p.title,
+      url: `${SITE.url}/blog/${p.slug}`,
+      datePublished: p.date,
+      articleSection: p.category,
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogLd) }}
+      />
       <ScrollProgress />
       <Nav />
       <main id="main">
@@ -143,6 +173,46 @@ export default function BlogIndex() {
                 </Reveal>
               ))}
             </div>
+
+            {/* Browse by topic — every post again, grouped, for readers and crawlers */}
+            <section aria-labelledby="topics-heading" className="mt-16 rounded-3xl border border-white/10 bg-white/[.025] p-7 sm:p-10">
+              <h2 id="topics-heading" className="font-display text-2xl font-bold text-white sm:text-3xl">
+                Browse by topic
+              </h2>
+              <ul className="mt-5 flex flex-wrap gap-2">
+                {TOPICS.map(([cat, posts]) => (
+                  <li key={cat}>
+                    <a
+                      href={`#topic-${slugify(cat)}`}
+                      className="inline-flex min-h-9 items-center gap-2 rounded-full border border-white/12 px-4 text-sm font-semibold text-white/80 transition hover:border-gold/40 hover:text-gold"
+                    >
+                      {cat}
+                      <span className="text-white/55">{posts.length}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-8 grid gap-x-10 gap-y-8 md:grid-cols-2">
+                {TOPICS.map(([cat, posts]) => (
+                  <div key={cat} id={`topic-${slugify(cat)}`} className="scroll-mt-28">
+                    <h3 className="text-xs font-bold uppercase tracking-[0.2em] text-gold-400">{cat}</h3>
+                    <ul className="mt-3 space-y-1">
+                      {posts.map((p) => (
+                        <li key={p.slug}>
+                          <a
+                            href={`/blog/${p.slug}`}
+                            className="flex min-h-6 items-baseline justify-between gap-4 py-1 text-white/75 transition hover:text-gold"
+                          >
+                            <span className="font-medium leading-snug">{p.title}</span>
+                            <span className="shrink-0 text-xs text-white/55">{readingMinutes(p)} min</span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </section>
 
             {/* Subscribe */}
             <Reveal>
