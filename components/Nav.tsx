@@ -36,7 +36,7 @@ export default function Nav() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
+      className={`no-print fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
         scrolled || open
           ? "border-b border-white/10 bg-ink/88 py-3 shadow-2xl shadow-black/30 backdrop-blur-2xl"
           : "py-5"

@@ -118,7 +118,7 @@ export default function ResponseTeamPage() {
       <JsonLd data={structuredData} />
       <Nav />
       <main id="main" className="bg-[#050812]">
-        <section className="relative isolate overflow-hidden border-b border-white/10 bg-[radial-gradient(circle_at_76%_18%,rgba(244,196,92,.18),transparent_28%),radial-gradient(circle_at_10%_45%,rgba(233,95,50,.12),transparent_26%),#050812] pb-16 pt-36 sm:pb-20 sm:pt-44">
+        <section className="relative isolate overflow-hidden border-b border-white/10 bg-[radial-gradient(circle_at_76%_18%,rgba(244,196,92,.18),transparent_28%),radial-gradient(circle_at_10%_45%,rgba(233,95,50,.12),transparent_26%),#050812] pb-16 pt-36 sm:pb-20 sm:pt-44 print:pb-2 print:pt-0">
           <div className="star-field absolute inset-0" aria-hidden="true" />
           <div className="grain" />
           <div className="container-x relative z-10">
@@ -142,7 +142,7 @@ export default function ResponseTeamPage() {
 
         <section className="section-pad !pt-14">
           <div className="container-x">
-            <div className="mx-auto grid max-w-5xl gap-6 lg:grid-cols-2">
+            <div className="mx-auto grid max-w-5xl gap-6 lg:grid-cols-2 print:block print:space-y-3">
               <div className="print-block rounded-[1.8rem] border border-white/10 bg-white/[.035] p-7 sm:p-8">
                 <h2 className="font-display text-2xl font-bold uppercase tracking-[-.03em] text-white">Before you serve</h2>
                 <ul className="mt-5 space-y-3">{BEFORE.map((t) => <Check key={t}>{t}</Check>)}</ul>
@@ -165,7 +165,7 @@ export default function ResponseTeamPage() {
                 <ol className="mt-6 grid gap-x-8 gap-y-5 md:grid-cols-2">
                   {STEPS.map(([title, text], i) => (
                     <li key={title} className="flex gap-4">
-                      <span className="font-display text-xl font-bold text-gold">{String(i + 1).padStart(2, "0")}</span>
+                      <strong className="font-display text-xl font-bold text-gold">{String(i + 1).padStart(2, "0")}</strong>
                       <span>
                         <span className="block font-bold text-white">{title}</span>
                         <span className="mt-1 block leading-relaxed text-white/70">{text}</span>
