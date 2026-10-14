@@ -117,7 +117,7 @@ export default function ResponseTeamPage() {
     <>
       <JsonLd data={structuredData} />
       <Nav />
-      <main id="main" className="bg-[#050812]">
+      <main id="main" className="print-compact bg-[#050812]">
         <section className="relative isolate overflow-hidden border-b border-white/10 bg-[radial-gradient(circle_at_76%_18%,rgba(244,196,92,.18),transparent_28%),radial-gradient(circle_at_10%_45%,rgba(233,95,50,.12),transparent_26%),#050812] pb-16 pt-36 sm:pb-20 sm:pt-44 print:pb-2 print:pt-0">
           <div className="star-field absolute inset-0" aria-hidden="true" />
           <div className="grain" />

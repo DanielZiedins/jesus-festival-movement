@@ -573,6 +573,29 @@ textarea:focus-visible {
 /* =========================================================================
    Print — turns the playbook into a paper checklist a team can work through.
    ========================================================================= */
+/* Compact print for one-page resources (e.g. /resources/response-team):
+   screen-sized type spread the card over five mostly-empty pages. */
+@media print {
+  html:has(.print-compact) {
+    font-size: 10.5px;
+  }
+  .print-compact .print-block {
+    padding: 0.9rem 1.2rem !important;
+    border-radius: 0.6rem !important;
+    margin-bottom: 0.5rem;
+  }
+  .print-compact .print-block ul,
+  .print-compact .print-block ol {
+    margin-top: 0.6rem !important;
+  }
+  .print-compact h1 {
+    font-size: 3.2rem !important;
+  }
+  .print-compact p {
+    margin-top: 0.5rem;
+  }
+}
+
 @media print {
   .no-print,
   .star-field,
