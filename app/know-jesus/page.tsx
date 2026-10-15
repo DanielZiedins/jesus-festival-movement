@@ -32,28 +32,81 @@ export const metadata: Metadata = {
   },
 };
 
-const NEXT_STEPS = [
+type Step = { title: string; text: string; href?: string; cta?: string };
+
+const NEXT_STEPS: Step[] = [
   {
     title: "Tell someone",
     text: "Faith grows when it's spoken. Tell a Christian friend, a pastor, or tell us — we would love to celebrate with you.",
+    href: `mailto:${SITE.email}?subject=I%20just%20decided%20to%20follow%20Jesus`,
+    cta: "Tell us",
   },
   {
     title: "Read the Gospel of John",
     text: "Start there rather than at page one of the Bible. It was written so you would believe and have life in His name.",
+    href: "https://www.biblegateway.com/passage/?search=John+1&version=NIV",
+    cta: "Read John 1 free online",
   },
   {
     title: "Find a church family",
-    text: "You were never meant to follow Jesus alone. Find a local church that loves Jesus and teaches the Bible.",
+    text: "You were never meant to follow Jesus alone. Find a local church that loves Jesus and teaches the Bible — and if you're not sure where to start, ask us and we'll help.",
+    href: "https://www.loveontheworld.com/cities",
+    cta: "Find a Love on The World group near you",
   },
   {
     title: "Get baptized",
     text: "Jesus asked His followers to be baptized as a public declaration of new life. Ask a local church to help you.",
+    href: "/answers#what-is-baptism",
+    cta: "What baptism is",
   },
   {
     title: "Talk to God daily",
     text: "Prayer isn't a performance. Just talk to Him honestly, and read a little of His Word each day.",
   },
 ];
+
+/**
+ * The doubts that actually hold people back, answered briefly and honestly.
+ * Rendered as visible text and mirrored in FAQPage schema below.
+ */
+const QUESTIONS = [
+  {
+    q: "I've done too much. Could God really forgive me?",
+    a: "Yes. No sin is bigger than the cross. The apostle Paul called himself the worst of sinners, and he was forgiven completely. If you come to Jesus honestly, He does not hold back.",
+    ref: "1 John 1:9",
+    verse: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.",
+  },
+  {
+    q: "Do I need to clean up my life first?",
+    a: "No. You come as you are, and He does the changing. Jesus didn't wait for anyone to become good enough before He died for them — and He isn't waiting for you to either.",
+    ref: "Romans 5:8",
+    verse: "But God shows his love for us in that while we were still sinners, Christ died for us.",
+  },
+  {
+    q: "Isn't Jesus just one way among many?",
+    a: "Jesus didn't leave that option open. He claimed to be the only way to God, which means He was either telling the truth or He wasn't. Don't take our word for it — read His own words in the Gospel of John and decide for yourself.",
+    ref: "John 14:6",
+    verse: "Jesus said to him, \"I am the way, and the truth, and the life. No one comes to the Father except through me.\"",
+  },
+  {
+    q: "If God is good, why is there so much suffering?",
+    a: "There's no tidy answer, and we won't pretend there is. But God is not distant from pain. In Jesus He stepped into it — rejected, beaten and crucified — and He promises a day when every tear is wiped away.",
+    ref: "Revelation 21:4",
+    verse: "He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore.",
+  },
+  {
+    q: "What if I prayed and didn't feel anything?",
+    a: "Your salvation rests on Jesus' promise, not on your feelings. Feelings come and go; His word doesn't. If you called on Him honestly, He heard you.",
+    ref: "Romans 10:13",
+    verse: "For everyone who calls on the name of the Lord will be saved.",
+  },
+  {
+    q: "Do I have to go to church?",
+    a: "Following Jesus was never meant to be a solo journey. A church is a family that helps you grow, carries you when it's hard, and lets you help others. Start anywhere that loves Jesus and teaches the Bible — we'll gladly help you find one.",
+    ref: "Hebrews 10:24–25",
+    verse: "And let us consider how to stir up one another to love and good works, not neglecting to meet together.",
+  },
+] as const;
 
 /**
  * HowTo rather than Article: the page is literally a set of steps someone can
@@ -100,6 +153,15 @@ const jsonLd = {
         "@type": "SpeakableSpecification",
         cssSelector: ["h1"],
       },
+    },
+    {
+      "@type": "FAQPage",
+      "@id": `${SITE.url}/know-jesus#questions`,
+      mainEntity: QUESTIONS.map((x) => ({
+        "@type": "Question",
+        name: x.q,
+        acceptedAnswer: { "@type": "Answer", text: `${x.a} (${x.ref})` },
+      })),
     },
     {
       "@type": "BreadcrumbList",
@@ -192,11 +254,54 @@ export default function KnowJesusPage() {
                       <p className="mt-1.5 leading-relaxed text-white/70">
                         {s.text}
                       </p>
+                      {s.href && (
+                        <a
+                          href={s.href}
+                          {...(s.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                          className="mt-3 inline-flex min-h-6 items-center text-sm font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
+                        >
+                          {s.cta}
+                        </a>
+                      )}
                     </div>
                   
                 </Reveal>
               ))}
             </ol>
+          </div>
+        </section>
+
+        {/* Honest questions */}
+        <section id="questions" className="section-pad relative overflow-hidden">
+          <div className="container-x relative">
+            <div className="mx-auto max-w-3xl text-center">
+              <Reveal>
+                <h2 className="font-display text-4xl font-bold leading-tight sm:text-5xl">
+                  Honest Questions,{" "}
+                  <span className="text-gradient-gold">Honest Answers</span>
+                </h2>
+              </Reveal>
+              <Reveal delay={0.05}>
+                <p className="mx-auto mt-6 max-w-2xl text-lg text-white/70">
+                  The things that hold people back — answered plainly, with
+                  what the Bible actually says.
+                </p>
+              </Reveal>
+            </div>
+            <div className="mx-auto mt-14 grid max-w-5xl gap-5 md:grid-cols-2">
+              {QUESTIONS.map((x, i) => (
+                <Reveal key={x.q} delay={(i % 2) * 0.05}>
+                  <article className="h-full rounded-2xl glass p-6 sm:p-7">
+                    <h3 className="font-display text-xl font-bold leading-snug text-white">{x.q}</h3>
+                    <p className="mt-3 leading-relaxed text-white/75">{x.a}</p>
+                    <blockquote className="mt-4 border-l-2 border-gold/60 pl-4 text-sm italic leading-relaxed text-white/65">
+                      &ldquo;{x.verse}&rdquo;{" "}
+                      <cite className="not-italic font-semibold text-gold-400">{x.ref}</cite>
+                    </blockquote>
+                  </article>
+                </Reveal>
+              ))}
+            </div>
           </div>
         </section>
 
