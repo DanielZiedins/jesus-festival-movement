@@ -100,9 +100,19 @@ export const PLAYBOOK_PHASES = [
 /** Practical detail for each of the 13 STEPS, keyed by step number. */
 export const PLAYBOOK_DETAIL: Record<
   number,
-  { timing: string; checklist: readonly string[]; watch?: string }
+  {
+    timing: string;
+    checklist: readonly string[];
+    watch?: string;
+    /** Deeper guides on this site for the step (screen only, not printed). */
+    guides?: readonly { label: string; href: string }[];
+  }
 > = {
   1: {
+    guides: [
+      { label: "How to prayer walk your city", href: "/resources/prayer-walk" },
+      { label: "How to pray for your city", href: "/blog/how-to-pray-for-your-city" },
+    ],
     timing: "Start 9–12 months out — and never stop",
     checklist: [
       "Set aside dedicated time to pray and fast over your city",
@@ -114,6 +124,10 @@ export const PLAYBOOK_DETAIL: Record<
       "Don't skip this to get to logistics. Everything downstream is built on whether God actually called you to it.",
   },
   2: {
+    guides: [
+      { label: "Training volunteers", href: "/answers#volunteers" },
+      { label: "How many volunteers you need", href: "/answers#how-many-volunteers" },
+    ],
     timing: "6–9 months out",
     checklist: [
       "Look for humility, unity, and evangelistic hearts before looking for skills",
@@ -125,6 +139,10 @@ export const PLAYBOOK_DETAIL: Record<
       "One divisive or self-promoting person on a core team can cost you the whole thing. Choose character first.",
   },
   3: {
+    guides: [
+      { label: "What actually happens at a Jesus Festival", href: "/blog/what-actually-happens-at-a-jesus-festival" },
+      { label: "The best time of year", href: "/answers#best-time-of-year" },
+    ],
     timing: "6–9 months out",
     checklist: [
       "Write one sentence that says exactly what this festival is for",
@@ -136,6 +154,10 @@ export const PLAYBOOK_DETAIL: Record<
       "If your team can't repeat the vision from memory, it isn't clear enough yet.",
   },
   4: {
+    guides: [
+      { label: "Why city-wide unity is worth it", href: "/blog/why-city-wide-church-unity-is-worth-it" },
+      { label: "What about different denominations?", href: "/answers#denomination" },
+    ],
     timing: "5–8 months out",
     checklist: [
       "Meet local pastors in person — not by mass email",
@@ -148,6 +170,10 @@ export const PLAYBOOK_DETAIL: Record<
       "Unity takes longer than logistics. Start these conversations earlier than feels necessary.",
   },
   5: {
+    guides: [
+      { label: "Permits for an outdoor event", href: "/answers#permits" },
+      { label: "Planning for rain", href: "/answers#rain-plan" },
+    ],
     timing: "4–6 months out",
     checklist: [
       "Consider parks, outdoor spaces, church properties, and city-approved venues",
@@ -160,6 +186,10 @@ export const PLAYBOOK_DETAIL: Record<
       "Ask about noise bylaws and amplification limits specifically. It's the most common late surprise.",
   },
   6: {
+    guides: [
+      { label: "How to plan baptisms", href: "/blog/how-to-plan-baptisms-at-an-outdoor-festival" },
+      { label: "Music licensing", href: "/answers#music-licensing" },
+    ],
     timing: "3–5 months out",
     checklist: [
       "Build the run sheet: worship, testimonies, Gospel message, response, prayer ministry",
@@ -172,6 +202,11 @@ export const PLAYBOOK_DETAIL: Record<
       "Don't over-program. Leave room for the Holy Spirit and for people to respond without being rushed.",
   },
   7: {
+    guides: [
+      { label: "Permits", href: "/answers#permits" },
+      { label: "Insurance", href: "/answers#insurance" },
+      { label: "What it costs", href: "/answers#cost" },
+    ],
     timing: "2–4 months out",
     checklist: [
       "Apply for city permits early — they take longer than you expect",
@@ -185,6 +220,11 @@ export const PLAYBOOK_DETAIL: Record<
       "Call your municipality and ask what they require — don't guess. One missing permit can cancel the day.",
   },
   8: {
+    guides: [
+      { label: "How to give an altar call", href: "/blog/how-to-give-an-altar-call-at-an-outdoor-event" },
+      { label: "Response team training card", href: "/resources/response-team" },
+      { label: "Sharing your testimony", href: "/blog/how-to-share-your-testimony" },
+    ],
     timing: "2–3 months out, and ongoing",
     checklist: [
       "Train volunteers to share the Gospel simply and kindly",
@@ -197,6 +237,9 @@ export const PLAYBOOK_DETAIL: Record<
       "Evangelism training is the difference between an event people attended and a city that got reached.",
   },
   9: {
+    guides: [
+      { label: "Promoting with no budget", href: "/answers#promote-with-no-budget" },
+    ],
     timing: "6–8 weeks out",
     checklist: [
       "Announce early, then build momentum with testimonies and video",
@@ -209,6 +252,10 @@ export const PLAYBOOK_DETAIL: Record<
       "Promote to the lost, not only to the Church. Write your invitations for someone who has never been.",
   },
   10: {
+    guides: [
+      { label: "Response team training card", href: "/resources/response-team" },
+      { label: "Handling opposition", href: "/answers#handling-opposition" },
+    ],
     timing: "The day itself",
     checklist: [
       "Brief every volunteer before doors open — roles, tone, and the plan",
@@ -221,6 +268,10 @@ export const PLAYBOOK_DETAIL: Record<
       "Excellence matters, but love matters more. People will remember how they were treated.",
   },
   11: {
+    guides: [
+      { label: "Measuring success", href: "/answers#measuring-success" },
+      { label: "The harvest is real: Hamilton 2026", href: "/blog/the-harvest-is-real-kingdom-impact" },
+    ],
     timing: "Within 72 hours",
     checklist: [
       "Contact everyone who responded — quickly and personally",
@@ -233,6 +284,11 @@ export const PLAYBOOK_DETAIL: Record<
       "Follow-up delayed is follow-up lost. Have people assigned to this before the festival, not after.",
   },
   12: {
+    guides: [
+      { label: "The first 48 hours with a new believer", href: "/blog/how-to-follow-up-with-a-new-believer" },
+      { label: "What happens after the festival", href: "/blog/what-happens-after-the-festival" },
+      { label: "Church outreach ideas", href: "/blog/church-outreach-ideas" },
+    ],
     timing: "Weeks 1–8 after",
     checklist: [
       "Launch or strengthen a regular outreach group in the city",
@@ -244,6 +300,10 @@ export const PLAYBOOK_DETAIL: Record<
       "This is the step most festivals skip. It's the one that turns an event into a movement.",
   },
   13: {
+    guides: [
+      { label: "Every Jesus Festival so far", href: "/festivals" },
+      { label: "Can a small church host one?", href: "/answers#small-church-host" },
+    ],
     timing: "Ongoing",
     checklist: [
       "Write down what you learned, including the mistakes",

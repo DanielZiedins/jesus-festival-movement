@@ -128,19 +128,19 @@ export const FLOWS: Flow[] = [
       list: [
         {
           title: "People have met Jesus",
-          body: "Men and women who arrived not knowing Him have gone home forgiven, free, and full of joy. Not statistics — actual people, with names, whose lives changed direction.",
+          body: "At Jesus Festival Hamilton 2026, early reports counted 70+ people giving their lives to Jesus, with altar calls on both nights. Not statistics — actual people, with names, whose lives changed direction.",
         },
         {
           title: "New believers have been baptized",
-          body: "Public declarations of new life, celebrated by a whole crowd of people who had never met them before that day.",
+          body: "50+ baptisms in the middle of Gage Park, celebrated by a crowd who had never met them before that day. One person came up out of the water shouting, \"My back is healed!\"",
         },
         {
           title: "Churches have stood together",
-          body: "Congregations that had never collaborated shared one stage to lift up one name. One local pastor told us that alone was a miracle.",
+          body: "Congregations from across the city shared one stage to lift up one name — no one church's brand, just Jesus.",
         },
         {
           title: "Outreach has kept going",
-          body: "This is the one we care most about. Teams that formed for a festival are still on the streets every week, sharing the Gospel long after the equipment was returned.",
+          body: "This is the one we care most about. The weekly street outreach behind it all began as Love on Hamilton in 2014 and has grown into 20+ weekly outreach teams, still sharing the Gospel long after the equipment is returned.",
         },
       ],
       scripture: {
@@ -152,7 +152,7 @@ export const FLOWS: Flow[] = [
           We say this carefully, because we know who did it. We organized. We showed up.
           <strong>God saved people.</strong> Every bit of fruit belongs to Him.
         </p>`,
-      cta: { label: "Read The Testimonies", url: `${SITE_URL}/#testimonies` },
+      cta: { label: "Read The Full Story", url: `${SITE_URL}/blog/the-harvest-is-real-kingdom-impact` },
       ps: `<strong>P.S.</strong> Have a testimony from a Jesus Festival — yours or someone else's? Just reply to this email. We'd love to celebrate it with you.`,
     }),
   },
@@ -184,7 +184,7 @@ export const FLOWS: Flow[] = [
         },
         {
           title: "3. Have somewhere to send someone",
-          body: `Sometimes a person isn't ready to talk but is ready to read. <a href="https://IAmReborn.net" style="color:#f5c451;">IAmReborn.net</a> explains the new birth plainly, and our own <a href="${SITE_URL}/know-jesus" style="color:#f5c451;">Gospel page</a> ends with a prayer anyone can pray.`,
+          body: `Sometimes a person isn't ready to talk but is ready to read. <a href="https://IAmReborn.net" style="color:#f5c451;">IAmReborn.net</a> explains the new birth plainly, and our own <a href="${SITE_URL}/know-jesus" style="color:#f5c451;">Gospel page</a> answers the honest questions that hold people back and ends with a prayer anyone can pray.`,
         },
       ],
       extra: `

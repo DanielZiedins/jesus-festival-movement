@@ -213,6 +213,27 @@ export default function PlaybookPage() {
                           </p>
                         </div>
                       )}
+
+                      {detail.guides && (
+                        <div className="no-print mt-6 border-t border-white/10 pt-5">
+                          <p className="text-xs font-bold uppercase tracking-[.2em] text-white/55">
+                            Go deeper
+                          </p>
+                          <ul className="mt-3 flex flex-wrap gap-2">
+                            {detail.guides.map((g) => (
+                              <li key={g.href}>
+                                <Link
+                                  href={g.href}
+                                  className="inline-flex min-h-9 items-center gap-1.5 rounded-full border border-white/12 px-4 text-sm font-semibold text-white/80 transition hover:border-gold/40 hover:text-gold"
+                                >
+                                  {g.label}
+                                  <Icon name="arrow" className="h-3.5 w-3.5" />
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                     </article>
                   );
                 })}

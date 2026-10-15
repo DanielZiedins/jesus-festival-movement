@@ -10,6 +10,15 @@ import { SIMPLE_STEPS, SITE, STARTER_GUIDE_FAQS } from "@/lib/content";
 
 const guidePath = "/resources/basics-how-to-start-a-jesus-festival.pdf";
 
+const TOOLS = [
+  ["Playbook", "The full 13-step playbook", "Timelines, checklists and the mistake most teams make at every stage.", "/start-a-jesus-festival/playbook"],
+  ["Printable", "Prayer walk guide", "Start where every festival starts: praying over your city, one street at a time.", "/resources/prayer-walk"],
+  ["Guide", "How to give an altar call", "Preaching for a response, inviting without pressure, and caring for everyone who comes forward.", "/blog/how-to-give-an-altar-call-at-an-outdoor-event"],
+  ["Printable", "Response team training card", "What your altar team does when someone comes forward, on two printable pages.", "/resources/response-team"],
+  ["Guide", "How to plan baptisms", "Permission, the tank, safety, preparing each person, and the follow-up after.", "/blog/how-to-plan-baptisms-at-an-outdoor-festival"],
+  ["Guide", "The first 48 hours", "How to follow up with a new believer so a decision becomes a disciple.", "/blog/how-to-follow-up-with-a-new-believer"],
+] as const;
+
 export const metadata: Metadata = {
   title: "How to Start a Jesus Festival in Your City",
   description:
@@ -109,6 +118,27 @@ export default function StartJesusFestivalPage() {
 
       <section className="border-y border-white/10 bg-[#0b1122]/75 py-20 sm:py-28"><div className="container-x grid gap-12 lg:grid-cols-[.72fr_1.28fr] lg:gap-20"><div><p className="text-xs font-bold uppercase tracking-[.28em] text-ember-400">Build with wisdom</p><h2 className="mt-5 font-display text-4xl font-bold uppercase leading-[.9] tracking-[-.055em] text-white sm:text-6xl">Four things to hold together.</h2></div><div className="grid gap-4 sm:grid-cols-2">{[["Prayer", "Ask God for His heart, timing, and the people who should carry the work."],["Local unity", "Build relationships with healthy churches and ministries already serving the city."],["Practical care", "Think through permits, accessibility, volunteers, safety, and real hospitality."],["Lasting follow-up", "Prepare a gracious connection and discipleship path before the public gathering begins."]].map(([title, text], index) => <article key={title} className="rounded-[1.6rem] border border-white/10 bg-white/[.035] p-6"><span className="font-display text-sm font-bold text-gold">0{index + 1}</span><h3 className="mt-5 font-display text-xl font-bold text-white">{title}</h3><p className="mt-3 text-sm leading-relaxed text-white/56">{text}</p></article>)}</div></div></section>
 
+      {/* Free tools — every practical guide on the site, one click from the front door */}
+      <section className="section-pad" aria-labelledby="tools-heading">
+        <div className="container-x">
+          <div className="max-w-3xl">
+            <p className="text-xs font-bold uppercase tracking-[.28em] text-gold">Free tools for your team</p>
+            <h2 id="tools-heading" className="mt-5 font-display text-4xl font-bold uppercase leading-[.92] tracking-[-.05em] text-white sm:text-6xl">Everything we&apos;ve learned, free.</h2>
+          </div>
+          <ul className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {TOOLS.map(([kind, title, text, href]) => (
+              <li key={href}>
+                <Link href={href} className="group flex h-full flex-col rounded-[1.7rem] border border-white/10 bg-white/[.035] p-7 transition duration-300 hover:-translate-y-1 hover:border-gold/30 hover:bg-white/[.055]">
+                  <span className="text-xs font-bold uppercase tracking-[.2em] text-gold-400">{kind}</span>
+                  <span className="mt-3 font-display text-2xl font-bold leading-tight text-white">{title}</span>
+                  <span className="mt-3 flex-1 leading-relaxed text-white/65">{text}</span>
+                  <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-gold">Open it <Icon name="arrow" className="h-4 w-4 transition-transform group-hover:translate-x-1" /></span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
       <section className="section-pad"><div className="container-x"><div className="max-w-3xl"><p className="text-xs font-bold uppercase tracking-[.28em] text-gold">Questions people ask</p><h2 className="mt-5 font-display text-4xl font-bold uppercase leading-[.92] tracking-[-.05em] text-white sm:text-6xl">A clear place to begin.</h2></div><div className="mt-12 grid gap-4 md:grid-cols-3">{STARTER_GUIDE_FAQS.map((faq) => <article key={faq.question} className="rounded-[1.7rem] border border-white/10 bg-white/[.035] p-7"><h3 className="font-display text-2xl font-bold leading-tight text-white">{faq.question}</h3><p className="mt-4 leading-relaxed text-white/58">{faq.answer}</p></article>)}</div></div></section>
 
       <section className="pb-20 sm:pb-28"><div className="container-x"><div className="mx-auto max-w-4xl rounded-[2.2rem] border border-gold/20 bg-gradient-to-br from-gold/[.1] via-white/[.035] to-ember/[.09] p-8 text-center shadow-[0_35px_110px_rgba(0,0,0,.35)] sm:p-12"><Icon name="spark" className="mx-auto h-9 w-9 text-gold" /><p className="mt-6 text-xs font-bold uppercase tracking-[.28em] text-gold">Take the next step</p><h2 className="mt-4 font-display text-3xl font-bold uppercase tracking-[-.04em] text-white sm:text-5xl">Your faithful yes matters.</h2><p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-white/62">Download the guide, pray with your people, and tell us what God is putting on your heart for your city.</p><div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row"><a href={guidePath} download className="button-primary">Get the free PDF <Icon name="download" className="h-5 w-5" /></a><Link href="/start-a-jesus-festival/playbook" className="button-secondary">Open the full 13-step playbook</Link></div></div></div></section>
