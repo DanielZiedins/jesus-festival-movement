@@ -2,7 +2,7 @@
   "name": "jesus-festival-movement",
   "version": "1.0.0",
   "private": true,
-  "description": "Jesus Festival Movement — a global evangelistic movement from Hamilton, Ontario to the nations.",
+  "description": "Jesus Festival Movement \u2014 a global evangelistic movement from Hamilton, Ontario to the nations.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,7 +12,8 @@
     "audit": "node scripts/audit.mjs",
     "indexnow": "node scripts/indexnow.mjs",
     "audit:a11y": "node scripts/a11y.mjs",
-    "audit:layout": "node scripts/layout.mjs"
+    "audit:layout": "node scripts/layout.mjs",
+    "audit:links": "node scripts/links.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

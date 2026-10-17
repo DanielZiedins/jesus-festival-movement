@@ -76,7 +76,7 @@ export const FLOWS: Flow[] = [
             </td>
           </tr>
         </table>`,
-      cta: { label: "See The Vision", url: `${SITE_URL}/#vision` },
+      cta: { label: "See The Vision", url: `${SITE_URL}/#movement` },
       ps: `<strong>P.S.</strong> If you're reading this and you don't yet know Jesus personally — that's the most important thing on our whole website. <a href="${SITE_URL}/know-jesus" style="color:#f5c451;">Start here</a>, no pressure at all.`,
     }),
   },
@@ -104,7 +104,7 @@ export const FLOWS: Flow[] = [
         text: "Do not despise these small beginnings, for the Lord rejoices to see the work begin.",
         reference: "Zechariah 4:10",
       },
-      cta: { label: "Read The Full Story", url: `${SITE_URL}/#story` },
+      cta: { label: "Read The Full Story", url: `${SITE_URL}/about` },
       ps: `<strong>P.S.</strong> Whatever you're praying about for your own city right now — the first Jesus Festival was once exactly that. An unanswered prayer and an unreasonable idea.`,
     }),
   },
@@ -152,7 +152,7 @@ export const FLOWS: Flow[] = [
           We say this carefully, because we know who did it. We organized. We showed up.
           <strong>God saved people.</strong> Every bit of fruit belongs to Him.
         </p>`,
-      cta: { label: "Read The Full Story", url: `${SITE_URL}/blog/the-harvest-is-real-kingdom-impact` },
+      cta: { label: "See What God Did", url: `${SITE_URL}/blog/the-harvest-is-real-kingdom-impact` },
       ps: `<strong>P.S.</strong> Have a testimony from a Jesus Festival — yours or someone else's? Just reply to this email. We'd love to celebrate it with you.`,
     }),
   },
