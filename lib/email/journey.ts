@@ -132,7 +132,7 @@ export const FLOWS: Flow[] = [
         },
         {
           title: "New believers have been baptized",
-          body: "50+ baptisms in the middle of Gage Park, celebrated by a crowd who had never met them before that day. One person came up out of the water shouting, \"My back is healed!\"",
+          body: "50+ baptisms in the middle of Gage Park, celebrated by a crowd who had never met them before that day. One person came up out of the water saying, \"My back is healed!\"",
         },
         {
           title: "Churches have stood together",
