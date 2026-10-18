@@ -61,6 +61,16 @@ const pages = [
     ...EXTRA,
   ]),
 ];
+// A lastmod in the future (a post dated tomorrow) makes engines distrust every
+// date in the sitemap. Content dates are written in Ontario time, so compare
+// against today's date there — a UTC "tomorrow" allowance once let a whole
+// day of future-dated posts through.
+{
+  const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Toronto" }).format(new Date());
+  for (const m of sm.text.matchAll(/<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g)) {
+    if (m[2].slice(0, 10) > today) fail("lastmod", m[1].replace(PROD, "") || "/", `lastmod ${m[2].slice(0, 10)} is after today (${today})`);
+  }
+}
 if (pages.length < 5) {
   console.error(`✗ Sitemap listed only ${pages.length} pages — refusing to report a clean audit.`);
   process.exit(2);

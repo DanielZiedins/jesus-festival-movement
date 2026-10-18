@@ -18,7 +18,7 @@ export const POSTS: Post[] = [
     tldr:
       "Most people come to faith through someone they already know. Start by writing out your relational world — family, friends, workmates, neighbours — then pray for three of them by name daily. Be genuinely interested, answer the questions actually asked, tell your own short story, and make small warm invitations rather than large cold ones.",
     date: "2026-06-02",
-    updated: "2026-10-19",
+    updated: "2026-10-18",
     category: "Evangelism",
     eyebrow: "Start Where You Are",
     keywords: [
@@ -159,6 +159,7 @@ export const POSTS: Post[] = [
     tldr:
       "Assign one person to own follow-up before the event, not after. Contact everyone who responded within 72 hours personally, record decisions and testimonies while they're fresh, hand people to a named person at a local church, then launch a sustainable weekly or monthly outreach within about six weeks.",
     date: "2026-06-18",
+    updated: "2026-10-18",
     category: "Festival Playbook",
     eyebrow: "The Part Nobody Photographs",
     keywords: [
@@ -169,6 +170,20 @@ export const POSTS: Post[] = [
       "church outreach sustainability",
     ],
     related: ["kingdom-base", "loh", "lotw", "jf-app"],
+    faq: [
+      {
+        q: "How do you follow up after an evangelistic event?",
+        a: "Give follow-up to one named person before the event, capture the same details for everyone who responds, contact each person personally within 72 hours, and hand them to a local church properly rather than just passing on a name. Then launch something weekly that keeps going.",
+      },
+      {
+        q: "How soon should you follow up with people who responded?",
+        a: "Within three days. A short, human message from someone who was actually there — who you are, that you were glad to meet them, one open question and one concrete next step — matters far more than a newsletter or a PDF.",
+      },
+      {
+        q: "Why do evangelistic events fail to make disciples?",
+        a: "Usually because follow-up belonged to 'the team', which means it belonged to nobody. The day itself carries everyone; the Monday after is where most events quietly fail. Assign it, capture it properly, and act within days.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -280,6 +295,7 @@ export const POSTS: Post[] = [
     tldr:
       "Work in three tiers: agree on the essentials, respect differing convictions without making them the price of admission, and let go of preferences on purpose. Visit pastors in person, ask how you can serve what they're already doing, and give partners real ownership rather than a logo on a poster.",
     date: "2026-07-01",
+    updated: "2026-10-18",
     category: "The Church",
     eyebrow: "Better Together",
     keywords: [
@@ -290,6 +306,20 @@ export const POSTS: Post[] = [
       "city wide church partnership",
     ],
     related: ["tkn", "seekfirst", "lda", "jf-ca"],
+    faq: [
+      {
+        q: "Why does church unity matter for evangelism?",
+        a: "Because Jesus presented it as evidence. In John 17:21 He prays that His followers would be one 'so that the world may believe'. People outside the Church rarely notice denominational distinctions, but they do notice whether Christians appear to belong to one another.",
+      },
+      {
+        q: "How can churches with different beliefs work together?",
+        a: "Agree on the essentials — Jesus crucified and risen, salvation by grace through faith, the authority of Scripture, the Great Commission. Respect convictions where you differ, such as baptism practice or church governance. And let go of preferences like whose logo is bigger.",
+      },
+      {
+        q: "How do you start working with other churches in your city?",
+        a: "Start with relationships, not a proposal: meet pastors one at a time, listen, pray together, and serve alongside them. You are not trying to build one church out of many, but to help many churches remember they are one Church. If someone says no, bless them and keep the door open.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -315,7 +345,7 @@ export const POSTS: Post[] = [
       },
       {
         t: "p",
-        text: "When congregations that have operated in separate lanes for twenty years show up in the same park, serving side by side, it lands. One local pastor told us that alone was a miracle — and he'd been in the city his whole ministry.",
+        text: "When congregations that have operated in separate lanes for twenty years show up in the same park, serving side by side, it lands. A watching city sees something it rarely sees: Christians who obviously belong to one another.",
       },
       { t: "h2", text: "Unity is not uniformity" },
       {
@@ -395,6 +425,7 @@ export const POSTS: Post[] = [
     tldr:
       "About 2.3 billion people have essentially no access to the Gospel, while around 2.6 billion identify as Christians — so the labour force is not small, just largely dormant. Hold both scales at once: pray for one nation weekly on a rhythm, and act consistently in your own neighbourhood.",
     date: "2026-07-14",
+    updated: "2026-10-18",
     category: "Mission",
     eyebrow: "Zoom Out, Then Zoom In",
     keywords: [
@@ -405,6 +436,20 @@ export const POSTS: Post[] = [
       "how to pray for the nations",
     ],
     related: ["lom", "lotw", "oikos", "seekfirst"],
+    faq: [
+      {
+        q: "What is the Great Commission?",
+        a: "The Great Commission is Jesus' final instruction to His followers in Matthew 28:19–20: to go and make disciples of all nations, baptizing them and teaching them to obey everything He commanded. It applies both to the ends of the earth and to your own street.",
+      },
+      {
+        q: "How many people have never heard the Gospel?",
+        a: "Missiological estimates put the number of people with little or no realistic access to the Gospel at over two billion. The post explains the figures, and why turning them into a map of real places and a list of real names does more than the statistic alone.",
+      },
+      {
+        q: "How can one person help fulfil the Great Commission?",
+        a: "Pray for the nations on a regular rhythm, support people who are sent, and share the Gospel where you already are — starting with the people God has already put around you. Most of us can't move overseas this year, but all of us can learn the name of a neighbour.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -504,6 +549,7 @@ export const POSTS: Post[] = [
     tldr:
       "A churchgoer might spend three hours a week in a church building and forty at work, among people far less likely to walk into a church. Do excellent work, be conspicuously kind, be honest when it costs you, and treat your trade, your resources and your home as Kingdom ground.",
     date: "2026-07-22",
+    updated: "2026-10-18",
     category: "Discipleship",
     eyebrow: "Monday Matters",
     keywords: [
@@ -514,6 +560,16 @@ export const POSTS: Post[] = [
       "kingdom business",
     ],
     related: ["lda", "six33", "tasksimply", "dz", "kd"],
+    faq: [
+      {
+        q: "Is my job a ministry?",
+        a: "Yes. Most Christians spend far more hours at work than in church, among people who are unlikely to walk into a church building. Colossians 3:23 calls you to work heartily, as for the Lord. You are not a Christian who happens to have a job; you are sent to that job.",
+      },
+      {
+        q: "How do you share your faith at work?",
+        a: "Do excellent work, be conspicuously kind, and be honest even when it costs you. You don't need to preach at colleagues, and you don't need to hide your faith either. Living as an ordinary person who obviously follows Jesus usually prompts the questions.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -609,6 +665,7 @@ export const POSTS: Post[] = [
     tldr:
       "Prepare before the crisis: introduce yourself to your municipality's emergency contact, agree in advance which church coordinates a joint response, write down what your building can genuinely offer, and keep a current volunteer list with skills noted. Then serve without strings — no evangelistic invoice attached.",
     date: "2026-07-28",
+    updated: "2026-10-18",
     category: "Outreach",
     eyebrow: "Ready Before It Happens",
     keywords: [
@@ -619,6 +676,16 @@ export const POSTS: Post[] = [
       "practical compassion ministry",
     ],
     related: ["response", "loh", "lotw", "kingdom-base"],
+    faq: [
+      {
+        q: "How can churches help in a disaster or crisis?",
+        a: "Prepare before it happens: introduce yourselves to your municipality's emergency management contact, agree which church coordinates a joint response, write down what your building can genuinely offer, and keep a list of volunteers and their skills. In a crisis, coordination matters more than willingness.",
+      },
+      {
+        q: "Should churches evangelize during a crisis?",
+        a: "Serve without strings. Help people because they are made in God's image and they are hurting, not as a transaction. People notice an agenda in a crisis. Give practical help, and if someone asks why you came, tell them honestly.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -717,7 +784,7 @@ export const POSTS: Post[] = [
     tldr:
       "A Jesus Festival is a free outdoor event with live worship, real testimonies, a clear unhurried Gospel message, and trained volunteers ready to pray with anyone who responds. Nothing is expected of you — no belief, no singing, no collection. Family-friendly elements run alongside so parents can stay.",
     date: "2026-08-04",
-    updated: "2026-10-19",
+    updated: "2026-10-18",
     category: "The Festivals",
     eyebrow: "Before You Come",
     keywords: [
@@ -862,7 +929,7 @@ export const POSTS: Post[] = [
     tldr:
       "Pray for your city by name, on a rhythm you can sustain — five minutes daily beats an hour once. Use a simple frame: thank God for the city, pray for its people by category (leaders, churches, the hurting, the lost), pray Scripture over it, and ask God what your part is. Walking or driving a route while you pray helps it stay concrete.",
     date: "2026-08-25",
-    updated: "2026-10-19",
+    updated: "2026-10-18",
     category: "Prayer",
     eyebrow: "Where Every Festival Starts",
     keywords: [
@@ -1199,7 +1266,7 @@ export const POSTS: Post[] = [
       "A simple, honest structure for telling your story of coming to Jesus — before, the turning point, and after — in about three minutes, without preaching, exaggerating or making it about you.",
     tldr: "Share your testimony in three parts: what your life was like before, the moment or season Jesus became real to you, and what is genuinely different now. Keep it to about three minutes, use plain words instead of church language, be honest about what is still hard, and end by asking about their story.",
     date: "2026-10-01",
-    updated: "2026-10-19",
+    updated: "2026-10-18",
     category: "Evangelism",
     eyebrow: "Your story, told well",
     keywords: [
@@ -1363,7 +1430,7 @@ export const POSTS: Post[] = [
       "Eleven church outreach ideas arranged by how much they ask of you — this week, this season, this year — with why each one works, how it usually goes wrong, and the follow-up step most lists leave out.",
     tldr: "The outreach that reaches people is repeatable, relational and has a clear next step. Start this week with no budget — prayer walking, mapping the people you already know, sharing your story. Build to something weekly as a small team. Then gather across churches once a year. Plan the follow-up before any of it.",
     date: "2026-10-04",
-    updated: "2026-10-19",
+    updated: "2026-10-18",
     category: "Outreach",
     eyebrow: "Ideas worth doing",
     keywords: [
@@ -1514,7 +1581,7 @@ export const POSTS: Post[] = [
       "Daniel and Katie Ziedins have spent twelve years taking the Gospel to the streets of Hamilton and beyond. Now they serve with e3 Canada and I Am Second, and the vision is bigger than ever. Here is what it is, why it matters eternally, and how you can stand with it.",
     tldr: "Daniel and Katie Ziedins began Love on Hamilton in 2014 and have spent twelve years taking the Gospel to the streets. Today they serve with e3 Canada and I Am Second, equipping believers to evangelize and helping establish multiplying churches — with a goal of 100 outreach groups worldwide. You can stand with them by praying, by giving through e3 Canada, and by going yourself.",
     date: "2026-10-05",
-    updated: "2026-10-19",
+    updated: "2026-10-18",
     category: "Mission",
     eyebrow: "An invitation",
     keywords: [
@@ -2687,7 +2754,7 @@ export const POSTS: Post[] = [
     description:
       "Christmas is the one season most people are open to hearing about Jesus. Practical, low-cost Christmas outreach ideas for churches — carols in public, personal invitations, serving people alone at Christmas — and the January plan most churches forget.",
     tldr: "Christmas is one of the few seasons when people who never think about church are open to it. The outreach that works is personal and repeatable: invite people by name to a short, Gospel-clear Christmas service, take carols and hot drinks into public spaces, serve people who will be alone, and partner with ministries already caring for families in need. Above all, plan January before December, so everyone you meet has a next step.",
-    date: "2026-10-19",
+    date: "2026-10-18",
     category: "Outreach",
     eyebrow: "Seasonal outreach",
     keywords: [
@@ -2840,7 +2907,7 @@ export const POSTS: Post[] = [
     description:
       "A clear, step-by-step guide to the most important conversation there is: praying first, listening, explaining the Gospel simply, inviting a response without pressure, praying together, giving assurance, and the next steps that turn a decision into a disciple.",
     tldr: "Pray first and listen before you speak. Explain the Gospel simply — God loves us, sin separates us, Jesus died and rose to bring us back, and we respond by turning from sin and trusting Him as Lord. Check they understand, invite them to respond without pressure, and pray together, in their own words or a simple prayer. Then give them assurance from Scripture and one clear next step, and follow up within 48 hours.",
-    date: "2026-10-19",
+    date: "2026-10-18",
     category: "Evangelism",
     eyebrow: "The conversation",
     keywords: [
@@ -3004,6 +3071,274 @@ export const POSTS: Post[] = [
         text: "Know Jesus explains the good news simply, answers the honest questions that hold people back, and ends with a prayer anyone can pray.",
         href: "/know-jesus",
         cta: "Open Know Jesus",
+      },
+    ],
+  },
+  {
+    slug: "what-is-evangelism",
+    title: "What Is Evangelism? A Simple, Biblical Definition (And How To Start)",
+    description:
+      "What evangelism is, what it isn't, why every Christian is called to it, and how to start this week — a clear, biblical answer for anyone who has ever felt unsure, unqualified or afraid.",
+    tldr: "Evangelism is sharing the good news of Jesus — that God loves us, that Jesus died for our sins and rose again, and that anyone who turns from sin and trusts Him as Lord is forgiven and made new — and inviting people to respond. It isn't arguing, pressuring or performing. Every Christian is called to it, and it usually starts with the people you already know.",
+    date: "2026-10-18",
+    category: "Evangelism",
+    eyebrow: "The basics",
+    keywords: [
+      "what is evangelism",
+      "evangelism definition",
+      "what does evangelism mean",
+      "biblical definition of evangelism",
+      "why is evangelism important",
+      "how to start evangelism",
+    ],
+    related: ["lotw", "oikos", "reborn"],
+    faq: [
+      {
+        q: "What is evangelism?",
+        a: "Evangelism is sharing the good news of Jesus Christ — that God loves us, that Jesus died for our sins and rose again, and that anyone who turns from sin and trusts Him as Lord is forgiven and made new — and inviting people to respond. The word comes from the Greek euangelion, meaning good news.",
+      },
+      {
+        q: "What is the difference between evangelism and discipleship?",
+        a: "Evangelism is sharing the Gospel and inviting people to put their trust in Jesus. Discipleship is helping people follow Him day by day after they do. Jesus' Great Commission includes both: make disciples, baptize them, and teach them to obey everything He commanded.",
+      },
+      {
+        q: "Is every Christian called to evangelism?",
+        a: "Yes. Some people have a particular gift for it, but Jesus' commission was given to all His followers, and 1 Peter 3:15 asks every believer to be ready to give a reason for their hope. For most Christians, evangelism happens most naturally among the people they already know.",
+      },
+      {
+        q: "How do you start evangelism if you're nervous?",
+        a: "Start small. Write down a few people you know who don't follow Jesus, pray for them by name, learn to tell your own story in three minutes, and look for small, natural openings. Nerves are normal; the Holy Spirit does the convicting, and your part is to be faithful and kind.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Evangelism is one of those words many Christians feel slightly guilty about. They know they're supposed to do it, they're not sure what it actually means, and they suspect they're not very good at it. If that's you, this is the place to start.",
+      },
+
+      { t: "h2", text: "A simple definition" },
+      {
+        t: "p",
+        text: "<strong>Evangelism is sharing the good news of Jesus and inviting people to respond.</strong> The word comes from the Greek <em>euangelion</em>, which simply means good news. An evangelist is a bearer of good news.",
+      },
+      {
+        t: "p",
+        text: "And the news itself is simple enough to say in a breath: God loves us; our sin separates us from Him; Jesus, God's Son, died in our place and rose again; and anyone who turns from sin and trusts Him as Lord is forgiven and made new.",
+      },
+      {
+        t: "scripture",
+        text: "For I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes.",
+        ref: "Romans 1:16",
+      },
+
+      { t: "h2", text: "What evangelism is not" },
+      {
+        t: "list",
+        items: [
+          "<strong>Not winning arguments.</strong> You can win a debate and lose a friend. Answers matter, but love opens doors arguments don't.",
+          "<strong>Not pressure.</strong> Nobody can be argued or pushed into the Kingdom. Clarity and kindness bear fruit that lasts.",
+          "<strong>Not a performance.</strong> You don't need a stage, a script or a particular personality.",
+          "<strong>Not only for professionals.</strong> Pastors and evangelists matter, but most people come to faith through someone they already know.",
+          "<strong>Not your responsibility to save anyone.</strong> God does the saving. Your part is to be faithful.",
+        ],
+      },
+
+      { t: "h2", text: "Why every Christian is called to it" },
+      {
+        t: "p",
+        text: "Jesus' last words on earth, before He ascended, were a commission to all His followers. It has never been withdrawn.",
+      },
+      {
+        t: "scripture",
+        text: "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.",
+        ref: "Matthew 28:19–20",
+      },
+      {
+        t: "p",
+        text: "Notice the promise at the end. You are never sent alone. Read more about <a href=\"/blog/great-commission-in-numbers\">the Great Commission today</a> — and why it applies to your own street as much as the ends of the earth.",
+      },
+
+      { t: "h2", text: "Evangelism and discipleship" },
+      {
+        t: "p",
+        text: "Evangelism is the doorway; discipleship is the house. The Great Commission is to make disciples, not just decisions. That's why good evangelism always thinks about what happens next: a local church, a Bible, a friend who keeps showing up. See <a href=\"/blog/how-to-follow-up-with-a-new-believer\">the first 48 hours with a new believer</a>.",
+      },
+
+      { t: "h2", text: "The different ways it happens" },
+      {
+        t: "steps",
+        items: [
+          { title: "Relational", text: "Friends, family, neighbours and workmates — the people God has already put around you. The most common way people meet Jesus." },
+          { title: "Personal story", text: "Telling what Jesus has done for you. Nobody can argue with your testimony." },
+          { title: "Practical love", text: "Serving people with no strings attached, which often prompts the question \"why do you do this?\"" },
+          { title: "Public proclamation", text: "Open-air preaching, outreach teams and Gospel festivals, where the good news is announced to whoever will listen." },
+          { title: "Written and online", text: "Sending someone a page, a book or a video that explains the Gospel clearly when they're ready to read." },
+        ],
+      },
+
+      { t: "h2", text: "How to start this week" },
+      {
+        t: "list",
+        ordered: true,
+        items: [
+          "Write down three people you know who don't follow Jesus. <a href=\"https://OikosMap.com\">OikosMap</a> can help.",
+          "Pray for them by name every day.",
+          "Learn to <a href=\"/blog/how-to-share-your-testimony\">share your story in three minutes</a>.",
+          "Look for one small, natural opening — a question, a hard week, an invitation.",
+          "When someone is ready, <a href=\"/blog/how-to-lead-someone-to-christ\">here's how to lead them to Christ</a>.",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "But in your hearts honor Christ the Lord as holy, always being prepared to make a defense to anyone who asks you for a reason for the hope that is in you; yet do it with gentleness and respect.",
+        ref: "1 Peter 3:15",
+      },
+
+      { t: "h2", text: "If you're afraid" },
+      {
+        t: "p",
+        text: "You're in good company. Paul asked the churches to pray that he would speak boldly — so even he felt the pull to stay quiet. Fear isn't disqualifying; it's normal. Start small, go with a friend, and remember whose message it is. See <a href=\"/answers#afraid-to-share-faith\">what to do if you're afraid to share your faith</a>.",
+      },
+      {
+        t: "callout",
+        title: "The message, explained simply",
+        text: "Know Jesus explains the Gospel in four steps, answers the honest questions people ask, and ends with a prayer anyone can pray. It's a good page to send someone.",
+        href: "/know-jesus",
+        cta: "Open Know Jesus",
+      },
+    ],
+  },
+  {
+    slug: "how-to-plan-an-outdoor-worship-night",
+    title: "How To Plan An Outdoor Worship Night In Your City",
+    description:
+      "An outdoor worship night is one of the simplest ways to lift up Jesus in public — and a great first step toward a full festival. Venue and permission, sound, the program, prayer and the Gospel, weather, safety, and the follow-up after.",
+    tldr: "Choose a public space you can get permission for, book sound that fits the space, and keep the program simple: worship, a short testimony, a clear Gospel message, an invitation to respond and prayer. Invite several churches to lead together, have a rain plan and a trained prayer team, and decide the follow-up before the night. Start small and make it something you could repeat.",
+    date: "2026-10-18",
+    category: "Festival Playbook",
+    eyebrow: "Playbook",
+    keywords: [
+      "outdoor worship night",
+      "how to plan a worship night",
+      "worship in the park",
+      "church outdoor worship event",
+      "night of worship ideas",
+      "community worship night",
+    ],
+    related: ["jf-ca", "lotw", "jf-niagara"],
+    faq: [
+      {
+        q: "How do you plan an outdoor worship night?",
+        a: "Choose a public space and get permission, book sound that suits it, and plan a simple program: worship, a short testimony, a clear Gospel message, an invitation and prayer. Invite several churches to lead together, prepare a rain plan and a trained prayer team, and decide your follow-up before the night.",
+      },
+      {
+        q: "Do you need a permit for a worship night in a park?",
+        a: "Often, yes — especially for amplified sound, a stage or a large crowd. Requirements vary by city, so contact your municipality's parks or events office early and treat their answer as final. Ask about sound limits, end times, power and insurance.",
+      },
+      {
+        q: "How long should an outdoor worship night be?",
+        a: "Around 90 minutes to two hours works well for most first events. Long enough for worship, a testimony, a short Gospel message and time for prayer, and short enough that families and first-time guests stay to the end.",
+      },
+      {
+        q: "What happens if it rains on an outdoor worship night?",
+        a: "Decide beforehand: a covered space, a partner church building on standby, or a backup date. Agree in advance who makes the call and by when, and keep electrical safety non-negotiable — wind and lightning, not light rain, are what stop outdoor events.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Some of the most powerful nights we've seen weren't big at all: a few churches, a sound system, a park, and people singing to Jesus in the open air while the city walked past. An outdoor worship night is one of the simplest ways to lift up His name in public, and often the first step toward a <a href=\"/blog/what-actually-happens-at-a-jesus-festival\">full Jesus Festival</a>.",
+      },
+      {
+        t: "scripture",
+        text: "Let everything that has breath praise the LORD! Praise the LORD!",
+        ref: "Psalm 150:6",
+      },
+      {
+        t: "p",
+        text: "In 2026, Jesus Festival Hamilton opened with a Friday night of pure worship before the main festival day. Here's how to plan a night like that in your city.",
+      },
+
+      { t: "h2", text: "Start with prayer and a few partners" },
+      {
+        t: "p",
+        text: "Pray first, then invite two or three churches or worship teams to carry it with you. A night led by several churches says more to a city than any one congregation could alone — read <a href=\"/blog/why-city-wide-church-unity-is-worth-it\">why city-wide unity is worth the effort</a>.",
+      },
+
+      { t: "h2", text: "Choose the place and get permission" },
+      {
+        t: "list",
+        items: [
+          "Pick a public space people already pass through: a park, a square, a waterfront",
+          "Contact your municipality's parks or events office early. <a href=\"/answers#permits\">Requirements vary by city</a>, especially for amplified sound and stages",
+          "Ask about sound limits, end times, power, washrooms and accessibility",
+          "Check whether you need event insurance — <a href=\"/answers#insurance\">here's what to ask</a>",
+        ],
+      },
+
+      { t: "h2", text: "Sound and light" },
+      {
+        t: "p",
+        text: "Sound is the single biggest technical decision. Too quiet and nobody hears; too loud and you lose the neighbours. Book a sound provider who has done outdoor events, tell them the space and crowd size, and agree volume limits with them in advance. If the night runs past sunset, plan simple stage and safety lighting too.",
+      },
+
+      { t: "h2", text: "A simple program" },
+      {
+        t: "steps",
+        items: [
+          { title: "Worship", text: "Led by teams from several churches. Choose songs a mixed crowd can follow, and leave space." },
+          { title: "A testimony", text: "Three to five minutes from someone whose life Jesus has changed. Often the part people remember most." },
+          { title: "The Gospel, clearly", text: "A short message: who Jesus is, why we need Him, what He did, and how to respond." },
+          { title: "An invitation", text: "A plain, pressure-free invitation to respond, with a trained team ready. See how to give an altar call." },
+          { title: "Prayer", text: "Time for people to receive prayer, with prayer team members in pairs." },
+          { title: "Worship to close", text: "End where you began, lifting up Jesus." },
+        ],
+      },
+      {
+        t: "p",
+        text: "For the invitation and prayer, read <a href=\"/blog/how-to-give-an-altar-call-at-an-outdoor-event\">how to give an altar call at an outdoor event</a> and give your team the printable <a href=\"/resources/response-team\">response team card</a>.",
+      },
+
+      { t: "h2", text: "Team, safety and weather" },
+      {
+        t: "list",
+        items: [
+          "A small volunteer team: welcome, prayer, stewarding, set-up and tear-down — see <a href=\"/blog/how-to-recruit-and-train-volunteers-for-an-outreach-event\">recruiting and training volunteers</a>",
+          "A first-aider on site, and a clear plan if someone needs help",
+          "Safeguarding basics: volunteers in pairs, nobody alone with a child",
+          "A rain plan decided in advance, with <a href=\"/answers#rain-plan\">who makes the call and by when</a>",
+          "Electrical safety around sound and power, always",
+        ],
+      },
+
+      { t: "h2", text: "Invite the city" },
+      {
+        t: "p",
+        text: "The best promotion is personal: every church inviting its people to bring a friend. Add simple posters in local businesses, a shareable image for social media, and a <a href=\"/answers#promote-with-no-budget\">few no-budget ideas</a>. Pray over the invitations as much as you print them.",
+      },
+
+      { t: "h2", text: "Plan the follow-up before the night" },
+      {
+        t: "p",
+        text: "Decide who will contact anyone who responds, how and within how many days, and which churches will welcome them. Read <a href=\"/blog/what-happens-after-the-festival\">what happens after the festival</a> — the same principles apply to a single night.",
+      },
+
+      { t: "h2", text: "Make it repeatable" },
+      {
+        t: "p",
+        text: "A worship night that happens once is a memory. One that happens every season becomes a rhythm a city starts to expect, and often grows into something bigger. When you're ready, <a href=\"/start-a-jesus-festival\">a full Jesus Festival</a> is the next step.",
+      },
+      {
+        t: "scripture",
+        text: "I will bless the LORD at all times; his praise shall continually be in my mouth.",
+        ref: "Psalm 34:1",
+      },
+      {
+        t: "callout",
+        title: "Ready to go further?",
+        text: "The free 13-step playbook takes you from prayer and partners to a full city festival, with timelines and checklists at every stage.",
+        href: "/start-a-jesus-festival/playbook",
+        cta: "Open the playbook",
       },
     ],
   },

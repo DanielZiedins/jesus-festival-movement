@@ -18,6 +18,7 @@ const TOOLS = [
   ["Guide", "How to plan baptisms", "Permission, the tank, safety, preparing each person, and the follow-up after.", "/blog/how-to-plan-baptisms-at-an-outdoor-festival"],
   ["Guide", "Recruiting and training volunteers", "Roles, recruiting through churches, safeguarding, and a simple training-night plan.", "/blog/how-to-recruit-and-train-volunteers-for-an-outreach-event"],
   ["Guide", "How to preach outdoors", "The message, the craft, sound and permission, and answering hecklers with grace.", "/blog/how-to-preach-the-gospel-outdoors"],
+  ["Guide", "Start with a worship night", "A simpler first step: venue, sound, a simple program, prayer and the Gospel in the open air.", "/blog/how-to-plan-an-outdoor-worship-night"],
   ["Guide", "The first 48 hours", "How to follow up with a new believer so a decision becomes a disciple.", "/blog/how-to-follow-up-with-a-new-believer"],
 ] as const;
 

@@ -189,6 +189,7 @@ export const PLAYBOOK_DETAIL: Record<
   6: {
     guides: [
       { label: "How to plan baptisms", href: "/blog/how-to-plan-baptisms-at-an-outdoor-festival" },
+      { label: "Start with an outdoor worship night", href: "/blog/how-to-plan-an-outdoor-worship-night" },
       { label: "Music licensing", href: "/answers#music-licensing" },
     ],
     timing: "3–5 months out",

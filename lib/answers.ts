@@ -196,6 +196,20 @@ export const ANSWERS: Answer[] = [
 
   /* ── Faith ──────────────────────────────────────────────── */
   {
+    id: "what-is-evangelism",
+    q: "What is evangelism?",
+    topic: "faith",
+    short:
+      "Evangelism is sharing the good news of Jesus — that God loves us, that Jesus died for our sins and rose again, and that anyone who turns from sin and trusts Him as Lord is forgiven and made new — and inviting people to respond. It isn't arguing or pressuring. Every Christian is called to it, and it usually starts with people you already know.",
+    detail: [
+      "The word comes from the Greek <em>euangelion</em>, meaning good news. Evangelism is the doorway; discipleship — helping people follow Jesus day by day — is the house, and the Great Commission includes both.",
+    ],
+    links: [
+      { label: "What is evangelism? The full guide", href: "/blog/what-is-evangelism" },
+      { label: "How to lead someone to Christ", href: "/blog/how-to-lead-someone-to-christ" },
+    ],
+  },
+  {
     id: "great-commission",
     q: "What is the Great Commission?",
     topic: "faith",
