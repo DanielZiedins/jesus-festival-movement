@@ -2,7 +2,7 @@ import { MOVEMENT_FACTS, SITE, STARTER_GUIDE_FAQS } from "@/lib/content";
 import { SORTED_POSTS } from "@/lib/blog/posts";
 import { ANSWERS } from "@/lib/answers";
 import { NETWORK } from "@/lib/network";
-import { EVENTS, eventPhase, upcomingEvents, type FestivalEvent } from "@/lib/events";
+import { EVENTS, NEXT_ANNOUNCEMENT, eventPhase, upcomingEvents, type FestivalEvent } from "@/lib/events";
 
 export const dynamic = "force-static";
 // Re-render daily so a festival drops out of the "upcoming" list on its own.
@@ -26,7 +26,7 @@ export function GET() {
     ? upcomingEvents()
         .map((e) => `${describe(e)} Enquiries: ${e.phones.join(" or ")}.`)
         .join("\n")
-    : "- No festivals are currently scheduled. See the starter guide to begin one.";
+    : `- No festivals are currently scheduled. ${NEXT_ANNOUNCEMENT.name}: ${NEXT_ANNOUNCEMENT.status.toLowerCase()} — announcement sign-up at ${NEXT_ANNOUNCEMENT.href}. To begin one in your own city, see the starter guide.`;
 
   // Held festivals stay on record: "when was the Akuse festival" outlives the event.
   const held = EVENTS.filter((e) => eventPhase(e) === "ended")

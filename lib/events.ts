@@ -148,3 +148,16 @@ export function eventStageCopy(e: FestivalEvent, now = new Date()) {
     mapCopy: `${e.country} — the next festival, ${e.dateLabel}.`,
   };
 }
+
+/**
+ * What to point people to when nothing is scheduled. Verified 2026-10-17 on
+ * JesusFestival.ca/2027: "Dates are not announced yet." When Hamilton 2027
+ * dates are published, add the festival to EVENTS (which takes over every
+ * "upcoming" surface automatically) and update or remove this.
+ */
+export const NEXT_ANNOUNCEMENT = {
+  name: "Jesus Festival Hamilton 2027",
+  status: "Dates have not been announced yet",
+  href: "https://www.jesusfestival.ca/2027",
+  label: "JesusFestival.ca/2027",
+} as const;

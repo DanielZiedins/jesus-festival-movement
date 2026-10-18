@@ -428,6 +428,23 @@ export const ANSWERS: Answer[] = [
     ],
   },
   {
+    // Time-sensitive: update when JesusFestival.ca/2027 announces dates
+    // (see NEXT_ANNOUNCEMENT in lib/events.ts).
+    id: "jesus-festival-2027",
+    q: "When is Jesus Festival 2027?",
+    topic: "attending",
+    short:
+      "Dates for Jesus Festival Hamilton 2027 have not been announced yet. The most recent festival ran September 4–5, 2026 at Gage Park in Hamilton, Ontario. The official place to get the 2027 dates first is JesusFestival.ca/2027.",
+    detail: [
+      "Every Jesus Festival is free and open to everyone. While you wait, you can pray, serve, or <a href=\"/start-a-jesus-festival\">start one in your own city</a> — every festival so far began with a handful of local believers praying.",
+    ],
+    links: [
+      { label: "Jesus Festival 2027 updates", href: "https://www.jesusfestival.ca/2027" },
+      { label: "What happened in 2026", href: "/answers#jesus-festival-hamilton-2026-results" },
+      { label: "All Jesus Festivals", href: "/festivals" },
+    ],
+  },
+  {
     id: "jesus-festival-hamilton-2026-results",
     q: "What happened at Jesus Festival Hamilton 2026?",
     topic: "basics",

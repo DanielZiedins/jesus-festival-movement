@@ -7,7 +7,7 @@ import Reveal from "@/components/ui/Reveal";
 import Eyebrow from "@/components/ui/Eyebrow";
 import Icon from "@/components/ui/Icon";
 import JoinForm from "@/components/JoinForm";
-import { EVENTS, eventPhase, type FestivalEvent } from "@/lib/events";
+import { EVENTS, NEXT_ANNOUNCEMENT, eventPhase, type FestivalEvent } from "@/lib/events";
 import { SITE } from "@/lib/content";
 
 const PAGE_URL = `${SITE.url}/festivals`;
@@ -285,7 +285,12 @@ export default function FestivalsPage() {
                       praying — which means the next one could be in your city.{" "}
                       <Link href="/start-a-jesus-festival" className="font-semibold text-gold underline underline-offset-4">
                         Here is how to begin.
-                      </Link>
+                      </Link>{" "}
+                      {NEXT_ANNOUNCEMENT.status} for {NEXT_ANNOUNCEMENT.name} — get them first at{" "}
+                      <a href={NEXT_ANNOUNCEMENT.href} target="_blank" rel="noopener noreferrer" className="font-semibold text-gold underline underline-offset-4">
+                        {NEXT_ANNOUNCEMENT.label}
+                      </a>
+                      .
                     </>
                   )}
                 </p>
