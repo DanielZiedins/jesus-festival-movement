@@ -8,6 +8,7 @@ import Icon from "@/components/ui/Icon";
 import Share from "@/components/Share";
 import JoinForm from "@/components/JoinForm";
 import Blocks from "@/components/blog/Blocks";
+import { headingIds } from "@/lib/blog/types";
 import { POST_BY_SLUG, POSTS, readingMinutes, relatedPosts, wordCount } from "@/lib/blog/posts";
 import { SITE_BY_KEY } from "@/lib/network";
 import { SITE } from "@/lib/content";
@@ -102,6 +103,27 @@ export default async function BlogPost({ params }: Params) {
     },
   };
 
+  // "In this article": only worth showing once a post has real sections.
+  const ids = headingIds(post.body);
+  const sections = post.body
+    .filter((b) => b.t === "h2")
+    .map((b, i) => ({ id: ids[i], text: (b as { text: string }).text }));
+  const showToc = sections.length >= 4;
+
+  const faqLd = post.faq?.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "@id": `${url}#faq`,
+        isPartOf: { "@id": `${url}#article` },
+        mainEntity: post.faq.map((f) => ({
+          "@type": "Question",
+          name: f.q,
+          acceptedAnswer: { "@type": "Answer", text: f.a },
+        })),
+      }
+    : null;
+
   const breadcrumbs = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -122,6 +144,12 @@ export default async function BlogPost({ params }: Params) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
       />
+      {faqLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
       <ScrollProgress />
       <Nav />
 
@@ -186,7 +214,42 @@ export default async function BlogPost({ params }: Params) {
                   </aside>
                 </Reveal>
               )}
+              {showToc && (
+                <nav aria-labelledby="toc-heading" className="no-print mb-12 rounded-2xl border border-white/10 bg-white/[0.025] p-6 sm:p-7">
+                  <p id="toc-heading" className="text-xs font-bold uppercase tracking-[0.22em] text-white/55">
+                    In this article
+                  </p>
+                  <ol className="mt-4 space-y-1">
+                    {sections.map((sec, i) => (
+                      <li key={sec.id}>
+                        <a
+                          href={`#${sec.id}`}
+                          className="flex min-h-6 gap-3 py-1 text-white/75 transition hover:text-gold"
+                        >
+                          <span className="w-5 shrink-0 font-display text-sm font-bold text-gold-400">{i + 1}</span>
+                          <span className="leading-snug">{sec.text}</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ol>
+                </nav>
+              )}
               <Blocks blocks={post.body} />
+              {post.faq && post.faq.length > 0 && (
+                <section id="questions" aria-labelledby="faq-heading" className="mt-16 border-t border-white/10 pt-12">
+                  <h2 id="faq-heading" className="font-display text-2xl font-bold leading-tight text-white sm:text-3xl">
+                    Questions people ask
+                  </h2>
+                  <div className="mt-8 space-y-4">
+                    {post.faq.map((f) => (
+                      <div key={f.q} className="rounded-2xl glass p-6">
+                        <h3 className="font-display text-lg font-bold leading-snug text-white">{f.q}</h3>
+                        <p className="mt-2 leading-relaxed text-white/75">{f.a}</p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              )}
             </div>
           </div>
         </article>

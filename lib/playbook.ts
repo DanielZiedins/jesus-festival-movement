@@ -125,6 +125,7 @@ export const PLAYBOOK_DETAIL: Record<
   },
   2: {
     guides: [
+      { label: "Recruiting and training volunteers", href: "/blog/how-to-recruit-and-train-volunteers-for-an-outreach-event" },
       { label: "Training volunteers", href: "/answers#volunteers" },
       { label: "How many volunteers you need", href: "/answers#how-many-volunteers" },
     ],
@@ -224,6 +225,7 @@ export const PLAYBOOK_DETAIL: Record<
       { label: "How to give an altar call", href: "/blog/how-to-give-an-altar-call-at-an-outdoor-event" },
       { label: "Response team training card", href: "/resources/response-team" },
       { label: "Sharing your testimony", href: "/blog/how-to-share-your-testimony" },
+      { label: "How to preach outdoors", href: "/blog/how-to-preach-the-gospel-outdoors" },
     ],
     timing: "2–3 months out, and ongoing",
     checklist: [

@@ -965,6 +965,16 @@ export const POSTS: Post[] = [
       "new believer first steps",
     ],
     related: ["kingdom-base", "reborn", "oikos", "jf-app"],
+    faq: [
+      {
+        q: "How soon should you follow up with a new believer?",
+        a: "Within 48 hours. The first two days after someone gives their life to Jesus are when a personal call or message matters most: a real person, a personal invitation to church that week, and one simple first step such as reading the Gospel of John.",
+      },
+      {
+        q: "What should you give a new Christian?",
+        a: "A Bible or a Gospel of John, one simple daily habit, the name of a person who will check in on them, and a personal invitation to a local church and a small group. Keep it small and clear rather than handing over a stack of material.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -1624,6 +1634,20 @@ export const POSTS: Post[] = [
       "Daniel and Katie Ziedins",
     ],
     related: ["kd", "lotw", "jf-ca", "six33-world"],
+    faq: [
+      {
+        q: "What happened at Jesus Festival Hamilton 2026?",
+        a: "Jesus Festival Hamilton ran September 4–5, 2026 at Gage Park with a record turnout. Early reports published by JesusFestival.ca count 70+ people giving their lives to Jesus, 50+ baptisms in the park, 3,000+ free hot dogs and drinks served, and altar calls on both nights.",
+      },
+      {
+        q: "How can I support Daniel and Katie Ziedins?",
+        a: "Pray for them and the people they reach, give through e3 Canada's secure staff page if the Lord puts it on your heart, and go yourself: learn to share your faith and serve in your own city. Their updates and story are at KD-Ziedins.com.",
+      },
+      {
+        q: "What is SIX33?",
+        a: "SIX33 is a Christian lifestyle and performance culture brand built on Matthew 6:33, founded in 2014 as Seek First Brand and rebuilt in 2026. It is pre-launch, and a major part of its heart is raising funds for Love on The World's street-level outreach. Its home is SIX33.World.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -1827,6 +1851,24 @@ export const POSTS: Post[] = [
       "water baptism safety",
     ],
     related: ["jf-ca", "lotw", "kd"],
+    faq: [
+      {
+        q: "Can you do baptisms at an outdoor event?",
+        a: "Yes, where the venue allows it. Ask the city or venue in writing about placing a tank, the water source and where it can be drained, and tell your insurer. Requirements vary by city and country, so your own municipality and insurer are the final word.",
+      },
+      {
+        q: "What do you need for an outdoor baptism?",
+        a: "A stable tank deep enough to lower an adult under, non-slip steps with a handrail, a clean water supply, a first-aider beside the water, dark T-shirts in every size, plenty of towels, a private changing tent, and connect cards so a local church can follow up.",
+      },
+      {
+        q: "Who should baptize people at a festival?",
+        a: "Pastors from partner churches, or leaders they appoint. Settle it with the churches during planning, not at the tank: who baptizes, how, who can be baptized, and which church each person will belong to afterwards. Many festivals invite a candidate's own pastor to baptize them when present.",
+      },
+      {
+        q: "How do you keep festival baptisms safe?",
+        a: "Two people in the water for every baptism, a first-aider at the tank the whole time, electrics kept well away from the water with any pump or heater on a GFCI-protected circuit, and a parent or guardian's consent for anyone under 18.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -2007,6 +2049,28 @@ export const POSTS: Post[] = [
       "how to lead someone to Christ at an event",
     ],
     related: ["jf-ca", "lotw", "kingdom-base"],
+    faq: [
+      {
+        q: "What is an altar call?",
+        a: "An altar call is an invitation, usually at the end of a Gospel message, for people to respond publicly to Jesus — to give their life to Him, come back to Him, or ask for prayer. At an outdoor event it usually means walking to the front of the stage or to a signed prayer tent, where a trained team member meets them.",
+      },
+      {
+        q: "How do you give an altar call without pressuring people?",
+        a: "Explain exactly what will happen if someone comes forward, give people time, and avoid tricks such as asking for raised hands with every head bowed and then asking those people to stand. Name more than one response — salvation, rededication, prayer, baptism — and keep the promise that nobody will be pushed.",
+      },
+      {
+        q: "Who should be on an altar call response team?",
+        a: "Believers recruited through partner churches whose pastors vouch for them, trained together before the event. They work in pairs, wear lanyards or team shirts so they are easy to find, never take a child aside, and know who the safeguarding lead and first-aider are.",
+      },
+      {
+        q: "What should you say to someone who comes forward?",
+        a: "Welcome them, ask their name and why they came, and listen first. Explain the Gospel in a sentence or two, check they understand, and invite them to pray in their own words or repeat a short prayer after you. Then give them a Bible or Gospel of John and offer an optional connect card.",
+      },
+      {
+        q: "What happens after an altar call?",
+        a: "A local church contacts each person within 48 hours with a personal invitation to church that week and a simple plan for reading the Bible. Connect cards go to one named person, are entered securely that night, and are shared only with the church that will follow up.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -2168,6 +2232,356 @@ export const POSTS: Post[] = [
         t: "callout",
         title: "Planning a Jesus Festival?",
         text: "The free playbook walks through every stage: partners, permits, the program, prayer teams on the day, and the follow-up after.",
+        href: "/start-a-jesus-festival/playbook",
+        cta: "Open the playbook",
+      },
+    ],
+  },
+  {
+    slug: "how-to-preach-the-gospel-outdoors",
+    title: "How To Preach The Gospel Outdoors: A Biblical, Practical Guide To Open-Air Preaching",
+    description:
+      "Open-air preaching is as old as the Church. A practical, biblical guide to preaching the Gospel outdoors: what to say, how long, sound and permission, answering hecklers with grace, loving the neighbours, and inviting a response.",
+    tldr: "Open-air preaching means proclaiming the Gospel in a public outdoor space, as Jesus, Peter and Paul did. Keep it short and clear: who Jesus is, why we need Him, what He did, and how to respond. Get permission for any amplification, stand where people can stop without blocking anyone, answer hecklers with grace, and always have a team ready to talk with people afterwards.",
+    date: "2026-10-18",
+    category: "Evangelism",
+    eyebrow: "Open-air preaching",
+    keywords: [
+      "open air preaching",
+      "how to preach outdoors",
+      "street preaching tips",
+      "how to preach the gospel in public",
+      "evangelistic preaching",
+      "preaching at an outreach event",
+    ],
+    related: ["lotw", "loh", "kd"],
+    faq: [
+      {
+        q: "What is open-air preaching?",
+        a: "Open-air preaching is proclaiming the Gospel in a public outdoor space — a park, a square, a street or a festival stage — to whoever is passing or gathered. It is as old as the Church: Jesus taught crowds on hillsides and from a boat, and the apostles preached in streets and marketplaces.",
+      },
+      {
+        q: "How long should an open-air sermon be?",
+        a: "Shorter than a Sunday sermon. Outdoors, people are standing, moving and deciding whether to stay, so a clear message that covers who Jesus is, why we need Him, what He did and how to respond usually lands better in minutes than in an hour. Say one thing well rather than many things.",
+      },
+      {
+        q: "Is street preaching legal?",
+        a: "In many places public speech, including religious speech, is protected, but rules about amplified sound, permits, noise levels and specific locations vary by city and country. Check with your municipality before using a sound system, and always follow reasonable instructions from police or property owners.",
+      },
+      {
+        q: "How do you respond to hecklers when preaching outdoors?",
+        a: "With grace and brevity. Don't argue for the crowd's entertainment; acknowledge a fair question, answer it kindly or offer to talk one-to-one afterwards, and return to the message. A gentle answer often wins the listeners who are watching how you treat the person shouting.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Before there were church buildings, there was open air. Jesus taught crowds on a hillside and from a boat pushed out from the shore. Peter preached the first Christian sermon to a crowd in the street. Paul reasoned in the marketplace every day with whoever happened to be there. Open-air preaching is not a fringe method. It is where the Church began.",
+      },
+      {
+        t: "scripture",
+        text: "Seeing the crowds, he went up on the mountain, and when he sat down, his disciples came to him. And he opened his mouth and taught them.",
+        ref: "Matthew 5:1–2",
+      },
+      {
+        t: "p",
+        text: "This guide is for anyone who will stand up outdoors and speak about Jesus — from a festival stage, a park bench or a street corner. It covers what to say, how to say it, and how to love the people listening, including the ones who don't want to.",
+      },
+
+      { t: "h2", text: "A long, unbroken tradition" },
+      {
+        t: "p",
+        text: "In the eighteenth century, when many pulpits were closed to them, George Whitefield and John Wesley took the Gospel into fields, market squares and mining towns, and crowds who would never have entered a church heard it gladly. The same instinct runs through every generation since: if people will not come in, the message goes out.",
+      },
+      {
+        t: "scripture",
+        text: "So he reasoned in the synagogue with the Jews and the devout persons, and in the marketplace every day with those who happened to be there.",
+        ref: "Acts 17:17",
+      },
+      {
+        t: "p",
+        text: "A <a href=\"/blog/what-actually-happens-at-a-jesus-festival\">Jesus Festival</a> is part of that tradition: a free public celebration where the Gospel is preached plainly in the open air of a city park.",
+      },
+
+      { t: "h2", text: "What to say: the message" },
+      {
+        t: "p",
+        text: "Outdoors, you are competing with traffic, children, food trucks and people's own plans. Clarity is everything. Whatever your style, make sure every listener could repeat back four things:",
+      },
+      {
+        t: "steps",
+        items: [
+          { title: "Who Jesus is", text: "The Son of God who became a man — not a moral teacher, a religious brand or a symbol." },
+          { title: "Why we need Him", text: "We have all sinned, and sin separates us from God. Say it honestly and include yourself." },
+          { title: "What He did", text: "He died in our place and rose again. The resurrection is the heart of the news." },
+          { title: "How to respond", text: "Turn from sin and trust Him as Lord — today, and here is how." },
+        ],
+      },
+      {
+        t: "p",
+        text: "Our <a href=\"/know-jesus\">Know Jesus page</a> lays the message out simply, and many open-air preachers find it a useful model. Your own story helps enormously: <a href=\"/blog/how-to-share-your-testimony\">a three-minute testimony</a> often holds a passer-by better than any argument.",
+      },
+      {
+        t: "scripture",
+        text: "For I delivered to you as of first importance what I also received: that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day.",
+        ref: "1 Corinthians 15:3–4",
+      },
+
+      { t: "h2", text: "How to say it: the craft" },
+      {
+        t: "list",
+        items: [
+          "<strong>Keep it short.</strong> Say one thing well. People are standing, and many are deciding whether to stay with every sentence.",
+          "<strong>Open with something human.</strong> A question, a story, something everyone in the park recognises. Earn the next minute.",
+          "<strong>Speak to people, not at them.</strong> Look at faces, not over heads. Warmth carries further than volume.",
+          "<strong>Use plain words.</strong> Drop church vocabulary or explain it. \"Saved\", \"grace\" and \"repent\" all need a sentence of explanation for most listeners.",
+          "<strong>Keep your tone good news.</strong> Be honest about sin and judgement, but never let the crowd hear contempt. You are a sinner saved by grace, talking to people Jesus loves.",
+          "<strong>End with a clear invitation.</strong> Tell people exactly what they can do next and where to go.",
+        ],
+      },
+
+      { t: "h2", text: "Sound, permission and place" },
+      {
+        t: "p",
+        text: "Rules about amplified sound, permits and specific locations vary from city to city. Before you bring a speaker, <a href=\"/answers#permits\">check with your municipality</a>, and treat their answer as the final word. Then choose your spot with care:",
+      },
+      {
+        t: "list",
+        items: [
+          "Stand where people can stop and listen without blocking a path, a doorway or a business",
+          "Keep amplification to what the space needs — loud enough to hear, not loud enough to drive people away",
+          "Avoid competing with worship services, funerals, schools at dismissal, or residential streets late in the day",
+          "Follow reasonable instructions from police, park staff and property owners, politely and at once",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "Behave wisely toward outsiders, making the best use of the time. Let your speech always be gracious, seasoned with salt.",
+        ref: "Colossians 4:5–6",
+      },
+
+      { t: "h2", text: "Answering hecklers with grace" },
+      {
+        t: "p",
+        text: "Sooner or later someone will shout back. That moment often preaches louder than the sermon, because everyone is watching how you treat them. A few principles:",
+      },
+      {
+        t: "list",
+        items: [
+          "Don't argue for the crowd's entertainment, and never mock",
+          "If it's a fair question, say so, answer briefly and kindly, and return to the message",
+          "Offer a real conversation afterwards: \"I'd love to talk with you about that when I finish\"",
+          "If someone is aggressive or unsafe, stop, let your team step in, and involve security or police if needed",
+        ],
+      },
+      {
+        t: "p",
+        text: "We cover this more fully in <a href=\"/answers#handling-opposition\">how to handle opposition</a>.",
+      },
+      {
+        t: "scripture",
+        text: "In your hearts honor Christ the Lord as holy, always being prepared to make a defense to anyone who asks you for a reason for the hope that is in you; yet do it with gentleness and respect.",
+        ref: "1 Peter 3:15",
+      },
+
+      { t: "h2", text: "Never preach alone" },
+      {
+        t: "p",
+        text: "Open-air preaching works best as a team sport. While one person preaches, others pray, hand out water or Gospel tracts, and — most importantly — talk one-to-one with people who stop. Many of the best conversations start at the edge of the crowd, not in front of it.",
+      },
+      {
+        t: "p",
+        text: "If you will invite people to respond, prepare your team the way you would for any <a href=\"/blog/how-to-give-an-altar-call-at-an-outdoor-event\">altar call</a>, and give them our printable <a href=\"/resources/response-team\">response team card</a>. And make sure someone owns <a href=\"/blog/how-to-follow-up-with-a-new-believer\">follow-up</a> before you start.",
+      },
+
+      { t: "h2", text: "Start small, start faithful" },
+      {
+        t: "p",
+        text: "You don't need a stage to begin. Many of the people preaching at festivals today started with a weekly street outreach, a few friends and a few minutes of courage. Pray first, preach the Gospel plainly, love whoever is listening, and leave the results to God.",
+      },
+      {
+        t: "scripture",
+        text: "Preach the word; be ready in season and out of season; reprove, rebuke, and exhort, with complete patience and teaching.",
+        ref: "2 Timothy 4:2",
+      },
+      {
+        t: "callout",
+        title: "Planning a Jesus Festival?",
+        text: "The free playbook covers the whole journey — partners, permits, the program, the preaching and the follow-up after.",
+        href: "/start-a-jesus-festival/playbook",
+        cta: "Open the playbook",
+      },
+    ],
+  },
+  {
+    slug: "how-to-recruit-and-train-volunteers-for-an-outreach-event",
+    title: "How To Recruit And Train Volunteers For A Church Outreach Event",
+    description:
+      "Every outreach event runs on volunteers. The roles you need, how to recruit through churches, safeguarding and screening, a simple training-night plan, the day-of briefing, and how to care for your team so they come back.",
+    tldr: "List every role before you recruit, with a clear description and time commitment for each. Recruit through partner churches and personal asks rather than general announcements. Follow your church's safeguarding policy and local screening requirements for anyone working with children. Train everyone together at one short training night, brief them again on the day, and thank them properly afterwards — then invite them into weekly outreach.",
+    date: "2026-10-18",
+    category: "Festival Playbook",
+    eyebrow: "Playbook",
+    keywords: [
+      "how to recruit volunteers for church event",
+      "church outreach volunteer roles",
+      "volunteer training for outreach",
+      "festival volunteer roles",
+      "how many volunteers for an event",
+      "church event volunteer management",
+    ],
+    related: ["kingdom-base", "lotw", "jf-ca"],
+    faq: [
+      {
+        q: "What volunteer roles does a church outreach event need?",
+        a: "Usually: welcome and information, prayer team, response team for people who come forward, kids zone, first aid, stewarding and safety, set-up and tear-down, hospitality and food, media and photography, and follow-up administration. Small events combine roles; larger ones need a lead for each area.",
+      },
+      {
+        q: "How do you recruit volunteers for a church event?",
+        a: "Ask personally and through partner church pastors rather than relying on general announcements. Give every role a short description, a time commitment and a named lead, so people know exactly what they are saying yes to. Specific asks get far more yeses than vague appeals for help.",
+      },
+      {
+        q: "Do volunteers who work with children need a background check?",
+        a: "Follow your church's safeguarding policy and your local requirements, which often include a police or vulnerable-sector check for anyone working with children. Never let unscreened volunteers supervise children, keep adults in pairs, and have a clear check-in and pick-up process for families.",
+      },
+      {
+        q: "How do you train outreach volunteers?",
+        a: "Hold one short training night for everyone: the vision, how the day will run, safeguarding, how to share the Gospel simply and how to pray with people, then breakout time by role. Brief everyone again on the day, and give role leads a written one-page summary.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Every outreach event, from a single afternoon in a park to a city-wide festival, is carried by volunteers. The stage, the sound and the posters matter, but it is ordinary believers in lanyards who welcome strangers, pray with the hurting and walk new believers to their next step.",
+      },
+      {
+        t: "scripture",
+        text: "As each has received a gift, use it to serve one another, as good stewards of God's varied grace.",
+        ref: "1 Peter 4:10",
+      },
+      {
+        t: "p",
+        text: "This guide walks through recruiting and training a volunteer team well, so they serve with confidence and want to come back.",
+      },
+
+      { t: "h2", text: "Start with the roles, not the people" },
+      {
+        t: "p",
+        text: "The most common mistake is asking for \"volunteers\" before deciding what they will do. Write the role list first. For most outreach events it looks something like this:",
+      },
+      {
+        t: "steps",
+        items: [
+          { title: "Welcome and information", text: "The first faces people see. Directions, questions, a smile, and making everyone feel expected." },
+          { title: "Prayer team", text: "Praying for the event, the city and anyone who asks — visible, approachable, and never pushy." },
+          { title: "Response team", text: "Trained to care for people who respond to the Gospel invitation. See our response team card." },
+          { title: "Kids zone", text: "Screened volunteers only, working in pairs, with a clear check-in and pick-up process." },
+          { title: "First aid", text: "Qualified people, clearly identified, with a known location everyone can find." },
+          { title: "Stewarding and safety", text: "Crowd flow, lost children, accessibility, and calm responses when something goes wrong." },
+          { title: "Set-up and tear-down", text: "Often the least seen and most appreciated team. Early starts and late finishes." },
+          { title: "Hospitality and food", text: "Free food and drink say more about the Gospel than many sermons." },
+          { title: "Media and photography", text: "Capturing the story — always with consent, and never photographing children without a parent's permission." },
+          { title: "Follow-up administration", text: "Receiving connect cards, entering them securely, and passing each one to the right church that night." },
+        ],
+      },
+      {
+        t: "p",
+        text: "For each role, write one paragraph: what they will do, when, for how long, and who they report to. Wondering how many people you need? <a href=\"/answers#how-many-volunteers\">Plan by role, not headcount</a>, with a named lead for each.",
+      },
+
+      { t: "h2", text: "Recruit through relationships" },
+      {
+        t: "p",
+        text: "General announcements produce few volunteers. Personal asks produce many. A few things that help:",
+      },
+      {
+        t: "list",
+        items: [
+          "<strong>Go through pastors.</strong> Ask each partner church's pastor to recommend people for specific roles. Their endorsement matters, and they know who is ready.",
+          "<strong>Make specific asks.</strong> \"Would you lead the welcome team from 10 to 2?\" gets a yes far more often than \"Can you help?\"",
+          "<strong>Say what it costs.</strong> Training night, the day itself, and anything in between. People commit more readily to a clear ask.",
+          "<strong>Invite the unsure.</strong> Many first-time volunteers have never shared their faith. Welcome roles and hospitality are a great way to start.",
+          "<strong>Keep a simple list.</strong> Names, roles, contact details and screening status in one place. A tool like <a href=\"https://KingdomBase.App\">Kingdom Base</a> can help you keep track.",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "Then he said to his disciples, \"The harvest is plentiful, but the laborers are few; therefore pray earnestly to the Lord of the harvest to send out laborers into his harvest.\"",
+        ref: "Matthew 9:37–38",
+      },
+      {
+        t: "p",
+        text: "Notice that Jesus' first instruction about workers was to pray for them. Recruit prayerfully.",
+      },
+
+      { t: "h2", text: "Safeguarding and screening" },
+      {
+        t: "p",
+        text: "Caring for people means protecting them. Follow your church's safeguarding policy and your local requirements, which often include a police or vulnerable-sector check for anyone working with children or vulnerable adults. Then build simple rules into every role:",
+      },
+      {
+        t: "list",
+        items: [
+          "Volunteers work in pairs; nobody is alone with a child or a vulnerable adult",
+          "Only screened volunteers supervise children, with a clear check-in and pick-up process",
+          "Everyone knows who the safeguarding lead and first-aider are, and how to reach them",
+          "Photos and videos only with consent, and never of children without a parent's permission",
+          "Personal details on connect cards are handled by named people and stored securely",
+        ],
+      },
+
+      { t: "h2", text: "A simple training night" },
+      {
+        t: "p",
+        text: "One evening, a few weeks before the event, with everyone in the room. A plan that works:",
+      },
+      {
+        t: "steps",
+        items: [
+          { title: "Worship and pray", text: "Start where the event starts. Pray for the city and the people who will come." },
+          { title: "Share the vision", text: "Why you are doing this, what a win looks like, and the story of what God has done before." },
+          { title: "Walk through the day", text: "The schedule, the site map, where everything is, and who leads each area." },
+          { title: "Safeguarding", text: "The non-negotiables, in plain language, for every role." },
+          { title: "Sharing faith simply", text: "How to share a short testimony and how to pray with someone. Practise in pairs." },
+          { title: "Breakouts by role", text: "Role leads go through the specifics, answer questions and hand out a one-page summary." },
+        ],
+      },
+      {
+        t: "p",
+        text: "Give your response team our printable <a href=\"/resources/response-team\">training card</a>, and send everyone <a href=\"/blog/how-to-share-your-testimony\">how to share your testimony in three minutes</a> to read beforehand.",
+      },
+
+      { t: "h2", text: "The day-of briefing" },
+      {
+        t: "p",
+        text: "Gather everyone 30 minutes before doors open. Pray together, confirm roles and shifts, point out first aid and the safeguarding lead, explain what to do if something goes wrong, and remind people why they are there. Keep it short, warm and clear.",
+      },
+
+      { t: "h2", text: "Care for your team" },
+      {
+        t: "list",
+        items: [
+          "Schedule real breaks and make sure volunteers eat and drink",
+          "Check in on people serving in emotionally heavy roles like prayer and response",
+          "Thank everyone personally within the week, with a story of what God did",
+          "Ask what could be better, and actually change it next time",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "And let us not grow weary of doing good, for in due season we will reap, if we do not give up.",
+        ref: "Galatians 6:9",
+      },
+
+      { t: "h2", text: "From volunteers to a movement" },
+      {
+        t: "p",
+        text: "The best thing a festival can do for its volunteers is give them a taste of mission they don't want to lose. Invite them into weekly outreach afterwards, through groups like <a href=\"https://www.loveontheworld.com/cities\">Love on The World's city groups</a> or your own church. That is how <a href=\"/blog/what-happens-after-the-festival\">an event becomes a movement</a>.",
+      },
+      {
+        t: "callout",
+        title: "Building your festival team?",
+        text: "The free 13-step playbook covers the core team, roles, timelines and every checklist in between.",
         href: "/start-a-jesus-festival/playbook",
         cta: "Open the playbook",
       },

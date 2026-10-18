@@ -131,6 +131,10 @@ export function GET() {
     );
     if (p.tldr) out.push(`**In short:** ${md(p.tldr)}`, "");
     for (const b of p.body) out.push(block(b), "");
+    if (p.faq?.length) {
+      out.push("#### Questions people ask", "");
+      for (const f of p.faq) out.push(`**${f.q}** ${md(f.a)}`, "");
+    }
   }
 
   out.push(`---`, "", `Contact: ${SITE.email}`, "");

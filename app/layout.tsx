@@ -109,6 +109,20 @@ const structuredData = {
         name: "Hamilton, Ontario, Canada",
       },
       areaServed: "Worldwide",
+      // The subjects the site's guides actually cover — helps engines connect
+      // the organization to the questions it answers.
+      knowsAbout: [
+        "Gospel festivals",
+        "Evangelism",
+        "Open-air preaching",
+        "Altar calls and response teams",
+        "Outdoor baptisms",
+        "Following up with new believers",
+        "Church unity",
+        "Prayer walking",
+        "Outreach volunteer training",
+        "The Great Commission",
+      ],
       // Defined here, in the layout, so every page resolves the same people.
       founder: FOUNDERS.map((f) => ({
         "@type": "Person",

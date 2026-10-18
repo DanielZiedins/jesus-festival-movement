@@ -1,5 +1,5 @@
 import Icon from "../ui/Icon";
-import type { Block } from "@/lib/blog/types";
+import { headingIds, type Block } from "@/lib/blog/types";
 
 /**
  * Renders authored post blocks.
@@ -17,6 +17,8 @@ function Html({ html, className }: { html: string; className?: string }) {
 }
 
 export default function Blocks({ blocks }: { blocks: Block[] }) {
+  const ids = headingIds(blocks);
+  let h2 = 0;
   return (
     <div className="space-y-6">
       {blocks.map((b, i) => {
@@ -25,6 +27,7 @@ export default function Blocks({ blocks }: { blocks: Block[] }) {
             return (
               <h2
                 key={i}
+                id={ids[h2++]}
                 className="!mt-14 scroll-mt-28 font-display text-2xl font-bold leading-tight text-white sm:text-3xl"
               >
                 {b.text}

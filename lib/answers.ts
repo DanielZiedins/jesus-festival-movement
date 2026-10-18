@@ -162,6 +162,7 @@ export const ANSWERS: Answer[] = [
     links: [
       { label: "Sharing the Gospel with someone you know", href: "/blog/share-the-gospel-with-someone-you-already-know" },
       { label: "Mobilizing evangelism — step 8", href: "/start-a-jesus-festival/playbook" },
+      { label: "Recruiting and training volunteers", href: "/blog/how-to-recruit-and-train-volunteers-for-an-outreach-event" },
     ],
   },
   {
@@ -311,7 +312,10 @@ export const ANSWERS: Answer[] = [
       "Teams that recruit a vague number of \"helpers\" end up with people standing around while critical roles go uncovered.",
       "Roster in shifts so nobody serves for eight hours straight, and brief everyone before doors open.",
     ],
-    links: [{ label: "Mobilizing evangelism — step 8", href: "/start-a-jesus-festival/playbook" }],
+    links: [
+      { label: "Mobilizing evangelism — step 8", href: "/start-a-jesus-festival/playbook" },
+      { label: "Every role, explained", href: "/blog/how-to-recruit-and-train-volunteers-for-an-outreach-event" },
+    ],
   },
   {
     id: "rain-plan",
@@ -538,6 +542,7 @@ export const ANSWERS: Answer[] = [
     links: [
       { label: "Do you need insurance?", href: "/answers#insurance" },
       { label: "Isn't public evangelism just pushy?", href: "/answers#isnt-this-pushy" },
+      { label: "Preaching outdoors with grace", href: "/blog/how-to-preach-the-gospel-outdoors" },
     ],
   },
   {

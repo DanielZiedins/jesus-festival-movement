@@ -16,6 +16,8 @@ const TOOLS = [
   ["Guide", "How to give an altar call", "Preaching for a response, inviting without pressure, and caring for everyone who comes forward.", "/blog/how-to-give-an-altar-call-at-an-outdoor-event"],
   ["Printable", "Response team training card", "What your altar team does when someone comes forward, on two printable pages.", "/resources/response-team"],
   ["Guide", "How to plan baptisms", "Permission, the tank, safety, preparing each person, and the follow-up after.", "/blog/how-to-plan-baptisms-at-an-outdoor-festival"],
+  ["Guide", "Recruiting and training volunteers", "Roles, recruiting through churches, safeguarding, and a simple training-night plan.", "/blog/how-to-recruit-and-train-volunteers-for-an-outreach-event"],
+  ["Guide", "How to preach outdoors", "The message, the craft, sound and permission, and answering hecklers with grace.", "/blog/how-to-preach-the-gospel-outdoors"],
   ["Guide", "The first 48 hours", "How to follow up with a new believer so a decision becomes a disciple.", "/blog/how-to-follow-up-with-a-new-believer"],
 ] as const;
 
