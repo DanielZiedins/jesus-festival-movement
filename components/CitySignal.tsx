@@ -44,7 +44,7 @@ export default function CitySignal() {
           <Reveal>
             <Eyebrow>Is your city on your heart?</Eyebrow>
             <h2 className="mt-4 max-w-xl font-display text-3xl font-bold uppercase leading-[.9] tracking-[-.05em] text-white sm:text-4xl">
-              A movement begins with a
+              A movement begins with a{" "}
               <span className="block text-gradient-gold">signal of faith.</span>
             </h2>
           </Reveal>

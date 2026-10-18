@@ -19,7 +19,7 @@ export default function Story() {
             <Reveal>
               <Eyebrow>The movement</Eyebrow>
               <h2 className="mt-6 max-w-xl font-display text-5xl font-bold uppercase leading-[.91] tracking-[-.055em] text-white sm:text-6xl lg:text-7xl">
-                More than a festival.
+                More than a festival.{" "}
                 <span className="block text-gradient-gold">A movement that remains.</span>
               </h2>
               <p className="mt-7 max-w-xl text-lg leading-relaxed text-white/66">

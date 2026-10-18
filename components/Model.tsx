@@ -22,7 +22,7 @@ export default function Model() {
           <Reveal>
             <Eyebrow>One gathering. Many expressions.</Eyebrow>
             <h2 className="mt-6 font-display text-5xl font-bold uppercase leading-[.9] tracking-[-.055em] text-white sm:text-6xl lg:text-7xl">
-              What a Jesus Festival
+              What a Jesus Festival{" "}
               <span className="block text-gradient-gold">can look like.</span>
             </h2>
             <p className="mx-auto mt-7 max-w-2xl text-lg leading-relaxed text-white/62">

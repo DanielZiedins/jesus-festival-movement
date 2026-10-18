@@ -13,7 +13,7 @@ export default function HowToStart() {
           <Reveal>
             <Eyebrow dark>Bring Jesus Festival to your city</Eyebrow>
             <h2 className="mt-6 font-display text-5xl font-bold uppercase leading-[.88] tracking-[-.06em] text-ink sm:text-6xl lg:text-7xl">
-              You do not need to have it
+              You do not need to have it{" "}
               <span className="block text-ember-600">all figured out.</span>
             </h2>
             <p className="mt-7 max-w-xl text-lg leading-relaxed text-ink/68">

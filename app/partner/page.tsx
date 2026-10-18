@@ -166,7 +166,7 @@ export default function PartnerPage() {
                   The short version
                 </p>
                 <h2 className="mt-5 font-display text-3xl font-bold uppercase leading-[.95] tracking-[-.04em] text-white sm:text-5xl">
-                  It started with a yes,
+                  It started with a yes,{" "}
                   <span className="block text-gradient-gold">
                     and a street corner.
                   </span>

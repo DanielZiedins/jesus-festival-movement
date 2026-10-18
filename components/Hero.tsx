@@ -29,8 +29,8 @@ export default function Hero() {
           </div>
 
           <h1 className="mt-7 font-display text-[clamp(3.9rem,10vw,8.5rem)] font-bold uppercase leading-[0.79] tracking-[-0.075em] text-white">
-            From one
-            <span className="block text-outline-gold">city</span>
+            From one{" "}
+            <span className="block text-outline-gold">city</span>{" "}
             <span className="block pl-[.35em] text-gradient-gold">to the nations</span>
           </h1>
 
@@ -44,7 +44,7 @@ export default function Hero() {
               <Icon name="arrow" className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a href="#movement" className="button-secondary">
-              Discover the movement
+              Discover the movement{" "}
               <span aria-hidden="true">↓</span>
             </a>
           </div>

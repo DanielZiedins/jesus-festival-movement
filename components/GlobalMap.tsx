@@ -47,7 +47,7 @@ export default function GlobalMap({ copyOverrides, statusOverrides }: Props = {}
           <Reveal>
             <Eyebrow>A movement without borders</Eyebrow>
             <h2 className="mt-6 max-w-3xl font-display text-5xl font-bold uppercase leading-[.9] tracking-[-.055em] text-white sm:text-6xl lg:text-7xl">
-              Imagine your city
+              Imagine your city{" "}
               <span className="block text-gradient-gold">lit up with the Gospel.</span>
             </h2>
           </Reveal>

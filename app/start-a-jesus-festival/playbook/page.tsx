@@ -95,7 +95,7 @@ export default function PlaybookPage() {
               The full playbook · Free forever
             </p>
             <h1 className="mt-5 font-display text-[clamp(3rem,7.5vw,6.5rem)] font-bold uppercase leading-[.84] tracking-[-.06em] text-white">
-              Thirteen steps.
+              Thirteen steps.{" "}
               <span className="block text-gradient-gold">Nothing held back.</span>
             </h1>
             <p className="mt-8 max-w-3xl text-xl leading-relaxed text-white/70">

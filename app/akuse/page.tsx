@@ -159,7 +159,7 @@ export default function AkusePage() {
                 className="hero-in mt-7 text-balance font-display text-5xl font-bold leading-[0.98] sm:text-7xl lg:text-8xl"
                 style={{ "--reveal-d": "0.06s" } as React.CSSProperties}
               >
-                Jesus Festival
+                Jesus Festival{" "}
                 <span className="mt-1 block text-gradient-gold">
                   {EV.city}
                 </span>

@@ -67,7 +67,7 @@ export default function AboutPage() {
             </Link>
             <p className="mt-12 text-xs font-bold uppercase tracking-[.3em] text-gold">About Jesus Festival Movement</p>
             <h1 className="mt-5 font-display text-[clamp(3.8rem,9vw,8rem)] font-bold uppercase leading-[.8] tracking-[-.07em] text-white">
-              Cities lifting up
+              Cities lifting up{" "}
               <span className="block text-gradient-gold">the name of Jesus.</span>
             </h1>
             <p className="mt-9 max-w-3xl text-xl leading-relaxed text-white/70 sm:text-2xl">

@@ -106,7 +106,22 @@ function inspect() {
     if (size < 11) tiny.push(`${label(e)} ${size}px`);
   }
 
-  return { vw, scroll: document.documentElement.scrollWidth, overflow, small, tiny };
+  // 4. Headings whose words run together across element boundaries —
+  // "From one<span class=block>city</span>" looks fine but reads (to crawlers
+  // and screen readers) as "From onecity". Needs {" "} at the join in JSX.
+  const joins = [];
+  for (const h of document.querySelectorAll("h1,h2,h3")) {
+    const w = document.createTreeWalker(h, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (w.nextNode()) if (w.currentNode.textContent.length) nodes.push(w.currentNode);
+    for (let i = 1; i < nodes.length; i++) {
+      const a = nodes[i - 1].textContent, b = nodes[i].textContent;
+      if (/[A-Za-z0-9.,!?;:'’”)]$/.test(a) && /^[A-Za-z0-9“"‘(]/.test(b) && nodes[i - 1].parentElement !== nodes[i].parentElement)
+        joins.push(`"${a.slice(-15)}|${b.slice(0, 15)}" in "${h.textContent.replace(/\s+/g, " ").trim().slice(0, 60)}"`);
+    }
+  }
+
+  return { vw, scroll: document.documentElement.scrollWidth, overflow, small, tiny, joins };
 }
 
 const list = await pages();
@@ -136,7 +151,7 @@ try {
         console.log(`✗ ${path}: measured ${r.vw}px, asked for ${width}px — emulation failed`);
         continue;
       }
-      const n = r.overflow.length + r.small.length + r.tiny.length + (r.scroll > r.vw + 1 ? 1 : 0);
+      const n = r.overflow.length + r.small.length + r.tiny.length + r.joins.length + (r.scroll > r.vw + 1 ? 1 : 0);
       if (!n) {
         console.log(`  ✓ ${path} @${r.vw}px`);
         continue;
@@ -147,6 +162,7 @@ try {
       for (const s of r.small.slice(0, 12)) console.log(`    target<24  ${s}`);
       if (r.small.length > 12) console.log(`    … ${r.small.length - 12} more small targets`);
       for (const t of r.tiny.slice(0, 8)) console.log(`    text<11px  ${t}`);
+      for (const j of r.joins.slice(0, 8)) console.log(`    run-on     ${j}`);
       if (r.tiny.length > 8) console.log(`    … ${r.tiny.length - 8} more tiny text`);
     }
     await page.close();
@@ -157,6 +173,6 @@ try {
 console.log(
   failed
     ? `\n${failed} page×width result(s) failed at ${BASE}.`
-    : `\n✓ ${list.length} pages × ${WIDTHS.join("/")}px: no overflow, every target ≥24px or spaced, no text under 11px.`,
+    : `\n✓ ${list.length} pages × ${WIDTHS.join("/")}px: no overflow, every target ≥24px or spaced, no text under 11px, no run-together headings.`,
 );
 process.exit(failed ? 1 : 0);

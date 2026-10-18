@@ -63,7 +63,7 @@ export default function Contact() {
           <div className="lg:sticky lg:top-32">
             <Eyebrow>Could your city be next?</Eyebrow>
             <h2 className="mt-6 font-display text-5xl font-bold uppercase leading-[.87] tracking-[-.06em] text-white sm:text-6xl lg:text-7xl">
-              Do not ignore
+              Do not ignore{" "}
               <span className="block text-gradient-gold">the stirring.</span>
             </h2>
             <p className="mt-7 max-w-xl text-lg leading-relaxed text-white/65">

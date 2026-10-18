@@ -24,7 +24,7 @@ export default function Festivals() {
           <Reveal>
             <Eyebrow>Hamilton → Niagara → Akuse → Nations</Eyebrow>
             <h2 className="mt-6 max-w-3xl font-display text-5xl font-bold uppercase leading-[.9] tracking-[-.055em] text-white sm:text-6xl lg:text-7xl">
-              A local yes can
+              A local yes can{" "}
               <span className="block text-gradient-gold">travel farther than you imagine.</span>
             </h2>
           </Reveal>

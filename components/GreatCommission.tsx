@@ -33,7 +33,7 @@ export default function GreatCommission() {
               style={{ "--rv-d": `${index * 0.08}s`, "--rv-y": "24px" } as CSSProperties}
               className={word === "nations" ? "mr-[.2em] inline-block text-gradient-gold" : "mr-[.2em] inline-block text-white"}
             >
-              {word}
+              {word}{" "}
             </span>
           ))}
         </h2>

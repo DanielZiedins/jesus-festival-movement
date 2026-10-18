@@ -75,7 +75,7 @@ export default async function ShopPage() {
               <Link href="/" className="inline-flex items-center gap-2 text-sm font-semibold text-white/52 transition hover:text-gold"><span>←</span> Back to the movement</Link>
               <p className="mt-10 text-xs font-bold uppercase tracking-[.3em] text-gold">Kingdom Shop × Jesus Festival</p>
               <h1 className="mt-5 max-w-4xl font-display text-[clamp(4rem,9vw,8.5rem)] font-bold uppercase leading-[.78] tracking-[-.075em] text-white">
-                Wear the message.
+                Wear the message.{" "}
                 <span className="block text-gradient-gold">Carry the mission.</span>
               </h1>
               <p className="mt-8 max-w-2xl text-lg leading-relaxed text-white/66 sm:text-xl">A faith-forward collection for people who want their everyday life to point somewhere higher: Jesus, His Gospel, and the cities He loves.</p>

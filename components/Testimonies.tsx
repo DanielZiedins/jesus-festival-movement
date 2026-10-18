@@ -13,7 +13,7 @@ export default function Testimonies() {
             <div className="h-full rounded-[2rem] border border-white/10 bg-white/[.025] p-7 sm:p-10">
               <Eyebrow>The fruit</Eyebrow>
               <h2 className="mt-6 font-display text-5xl font-bold uppercase leading-[.9] tracking-[-.055em] text-white sm:text-6xl">
-                This is why
+                This is why{" "}
                 <span className="block text-gradient-gold">the yes is worth it.</span>
               </h2>
               <p className="mt-7 text-lg leading-relaxed text-white/60">
