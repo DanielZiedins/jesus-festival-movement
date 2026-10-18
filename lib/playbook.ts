@@ -226,6 +226,7 @@ export const PLAYBOOK_DETAIL: Record<
       { label: "Response team training card", href: "/resources/response-team" },
       { label: "Sharing your testimony", href: "/blog/how-to-share-your-testimony" },
       { label: "How to preach outdoors", href: "/blog/how-to-preach-the-gospel-outdoors" },
+      { label: "How to lead someone to Christ", href: "/blog/how-to-lead-someone-to-christ" },
     ],
     timing: "2–3 months out, and ongoing",
     checklist: [

@@ -365,6 +365,7 @@ export const ANSWERS: Answer[] = [
     ],
     links: [
       { label: "Sharing the Gospel with someone you know", href: "/blog/share-the-gospel-with-someone-you-already-know" },
+      { label: "How to lead someone to Christ", href: "/blog/how-to-lead-someone-to-christ" },
     ],
   },
   {
@@ -493,6 +494,7 @@ export const ANSWERS: Answer[] = [
     links: [
       { label: "Eleven outreach ideas, by effort", href: "/blog/church-outreach-ideas" },
       { label: "How to prayer walk your city", href: "/resources/prayer-walk" },
+      { label: "Christmas outreach ideas", href: "/blog/christmas-outreach-ideas-for-churches" },
     ],
   },
   {

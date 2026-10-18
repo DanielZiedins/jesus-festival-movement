@@ -258,6 +258,27 @@ export const MAP_MARKERS = [
  * and the Organization schema's `founder`, so the two can never disagree.
  * Everything here comes from kd-ziedins.com, their own public site.
  */
+/**
+ * Last real content change for each hand-listed page (from git history,
+ * ignoring styling-only commits). Update the date when you change what a page
+ * says — the sitemap reports it to search engines as lastmod.
+ */
+export const PAGE_UPDATED: Record<string, string> = {
+  "/": "2026-10-13",
+  "/festivals": "2026-10-17",
+  "/about": "2026-10-06",
+  "/start-a-jesus-festival": "2026-10-19",
+  "/start-a-jesus-festival/playbook": "2026-10-19",
+  "/resources/prayer-walk": "2026-09-23",
+  "/resources/response-team": "2026-10-14",
+  "/shop": "2026-09-23",
+  "/stories/kingdom-shop": "2026-09-24",
+  "/answers": "2026-10-19",
+  "/know-jesus": "2026-10-19",
+  "/network": "2026-10-07",
+  "/privacy": "2026-10-02",
+};
+
 export const FOUNDERS = [
   {
     id: "daniel-ziedins",

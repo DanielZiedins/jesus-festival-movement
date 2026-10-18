@@ -37,6 +37,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       title: post.title,
       description: post.description,
       publishedTime: post.date,
+      ...(post.updated ? { modifiedTime: post.updated } : null),
     },
     twitter: {
       card: "summary_large_image",
@@ -82,7 +83,7 @@ export default async function BlogPost({ params }: Params) {
       height: 630,
     },
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.updated ?? post.date,
     // Point at the Organization the layout defines on every page, so engines
     // resolve one entity instead of an anonymous copy per article.
     author: { "@id": `${SITE.url}/#organization` },
@@ -187,7 +188,15 @@ export default async function BlogPost({ params }: Params) {
                 </Reveal>
                 <Reveal immediate delay={0.15}>
                   <p className="mt-7 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-white/10 pt-6 text-sm text-white/55">
-                    <span>{fmt(post.date)}</span>
+                    <time dateTime={post.date}>{fmt(post.date)}</time>
+                    {post.updated && post.updated !== post.date && (
+                      <>
+                        <span aria-hidden="true">·</span>
+                        <span>
+                          Updated <time dateTime={post.updated}>{fmt(post.updated)}</time>
+                        </span>
+                      </>
+                    )}
                     <span>·</span>
                     <span>{readingMinutes(post)} min read</span>
                     <span>·</span>

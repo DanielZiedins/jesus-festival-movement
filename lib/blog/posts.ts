@@ -18,6 +18,7 @@ export const POSTS: Post[] = [
     tldr:
       "Most people come to faith through someone they already know. Start by writing out your relational world — family, friends, workmates, neighbours — then pray for three of them by name daily. Be genuinely interested, answer the questions actually asked, tell your own short story, and make small warm invitations rather than large cold ones.",
     date: "2026-06-02",
+    updated: "2026-10-19",
     category: "Evangelism",
     eyebrow: "Start Where You Are",
     keywords: [
@@ -28,6 +29,20 @@ export const POSTS: Post[] = [
       "personal evangelism tips",
     ],
     related: ["oikos", "reborn", "lotw", "kingdom-base"],
+    faq: [
+      {
+        q: "What is an oikos?",
+        a: "Oikos is the New Testament word usually translated household. It means your whole relational world — family, friends, workmates and neighbours — the people God has already placed around you, and the people most likely to hear the Gospel from you.",
+      },
+      {
+        q: "How do you start a conversation about Jesus with a friend?",
+        a: "Pray for them first, be genuinely interested in their life, and answer the questions they actually ask. Your own short story of what Jesus has done often opens the door, and small, warm invitations — come with me, or can I pray for that? — work better than big asks.",
+      },
+      {
+        q: "What if my friend says no?",
+        a: "Keep loving them, keep praying, and stay their friend. Sharing the Gospel with people you know is a long game; many people say no several times before they say yes, and the results belong to God, not to you.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -702,6 +717,7 @@ export const POSTS: Post[] = [
     tldr:
       "A Jesus Festival is a free outdoor event with live worship, real testimonies, a clear unhurried Gospel message, and trained volunteers ready to pray with anyone who responds. Nothing is expected of you — no belief, no singing, no collection. Family-friendly elements run alongside so parents can stay.",
     date: "2026-08-04",
+    updated: "2026-10-19",
     category: "The Festivals",
     eyebrow: "Before You Come",
     keywords: [
@@ -712,6 +728,20 @@ export const POSTS: Post[] = [
       "family friendly christian event",
     ],
     related: ["jf-ca", "jf-app", "jf-niagara", "reborn"],
+    faq: [
+      {
+        q: "Do I have to be a Christian to go to a Jesus Festival?",
+        a: "No. Everyone is welcome, whatever they believe. You don't need to sing, raise a hand, sign anything or give money, and nobody will pressure you to respond. Many people come simply curious.",
+      },
+      {
+        q: "Is a Jesus Festival free?",
+        a: "Yes. Jesus Festivals are free and open to everyone, with no ticket and no collection. Some festivals have independent food trucks or vendors who charge for their own items.",
+      },
+      {
+        q: "Can I bring my kids to a Jesus Festival?",
+        a: "Yes. Festivals are planned for families, with family-friendly elements running alongside the main programme so parents can stay and listen. It's outdoors, so bring water, sunscreen and something to sit on.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -832,6 +862,7 @@ export const POSTS: Post[] = [
     tldr:
       "Pray for your city by name, on a rhythm you can sustain — five minutes daily beats an hour once. Use a simple frame: thank God for the city, pray for its people by category (leaders, churches, the hurting, the lost), pray Scripture over it, and ask God what your part is. Walking or driving a route while you pray helps it stay concrete.",
     date: "2026-08-25",
+    updated: "2026-10-19",
     category: "Prayer",
     eyebrow: "Where Every Festival Starts",
     keywords: [
@@ -843,6 +874,20 @@ export const POSTS: Post[] = [
       "revival prayer",
     ],
     related: ["oikos", "seekfirst", "loh", "lom"],
+    faq: [
+      {
+        q: "How do you pray for your city?",
+        a: "Name it, then thank God for specific things, pray for its people by category — leaders, pastors and churches, the hurting, and the lost — pray Scripture such as Jeremiah 29:7 over it, and ask God what your part is. A few minutes every day matters more than occasional long prayers.",
+      },
+      {
+        q: "What Bible verses can you pray over a city?",
+        a: "Jeremiah 29:7 for its welfare, Matthew 9:37–38 for workers in the harvest, Habakkuk 2:14 that the knowledge of the glory of the Lord would fill it, Psalm 127:1 over everything being built there, and 1 Timothy 2:1–2 for its leaders.",
+      },
+      {
+        q: "What is a prayer walk?",
+        a: "Praying while you walk through a neighbourhood, park or street, noticing people and places and praying for what you see. Our free prayer walk guide walks you through it step by step.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -954,6 +999,7 @@ export const POSTS: Post[] = [
       "Someone said yes to Jesus at your event. What you do in the next two days matters more than everything you spent nine months planning. A practical, honest guide to follow-up that actually keeps people.",
     tldr: "Contact a new believer within 48 hours, as a person rather than an organisation. Ask how they are, answer the practical questions they actually have, help them read a Gospel for themselves, and walk them into one healthy local church in person. One real relationship outperforms any automated sequence.",
     date: "2026-09-08",
+    updated: "2026-10-18",
     category: "Discipleship",
     eyebrow: "After the yes",
     keywords: [
@@ -1153,6 +1199,7 @@ export const POSTS: Post[] = [
       "A simple, honest structure for telling your story of coming to Jesus — before, the turning point, and after — in about three minutes, without preaching, exaggerating or making it about you.",
     tldr: "Share your testimony in three parts: what your life was like before, the moment or season Jesus became real to you, and what is genuinely different now. Keep it to about three minutes, use plain words instead of church language, be honest about what is still hard, and end by asking about their story.",
     date: "2026-10-01",
+    updated: "2026-10-19",
     category: "Evangelism",
     eyebrow: "Your story, told well",
     keywords: [
@@ -1164,6 +1211,20 @@ export const POSTS: Post[] = [
       "sharing your testimony with friends",
     ],
     related: ["reborn", "oikos", "kingdom-base", "lotw"],
+    faq: [
+      {
+        q: "How long should a testimony be?",
+        a: "About three minutes. That is long enough to tell what your life was like before, how Jesus became real to you, and what is different now, and short enough that the person listening stays with you and has room to respond.",
+      },
+      {
+        q: "What if I grew up in church and don't have a dramatic testimony?",
+        a: "You still have a story. Talk about the moment or season faith became your own rather than your parents', what you were trusting in before that, and what is genuinely different now. Ordinary stories are often the most relatable ones.",
+      },
+      {
+        q: "What should you avoid when sharing your testimony?",
+        a: "Church vocabulary nobody outside understands, exaggeration, making the story about how bad you were rather than what Jesus did, and pretending everything is now easy. Be honest about what is still hard, and end by asking about their story.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -1302,6 +1363,7 @@ export const POSTS: Post[] = [
       "Eleven church outreach ideas arranged by how much they ask of you — this week, this season, this year — with why each one works, how it usually goes wrong, and the follow-up step most lists leave out.",
     tldr: "The outreach that reaches people is repeatable, relational and has a clear next step. Start this week with no budget — prayer walking, mapping the people you already know, sharing your story. Build to something weekly as a small team. Then gather across churches once a year. Plan the follow-up before any of it.",
     date: "2026-10-04",
+    updated: "2026-10-19",
     category: "Outreach",
     eyebrow: "Ideas worth doing",
     keywords: [
@@ -1313,6 +1375,20 @@ export const POSTS: Post[] = [
       "church evangelism strategy",
     ],
     related: ["oikos", "loh", "lotw", "kingdom-base"],
+    faq: [
+      {
+        q: "What are good outreach ideas for a small church?",
+        a: "Start with things that cost nothing and need no permission: prayer walking your neighbourhood, mapping and praying for the people you already know, and learning to share your story. Then build one simple weekly outreach as a small team before attempting anything large.",
+      },
+      {
+        q: "How do you choose the right outreach idea?",
+        a: "Test it three ways: is it repeatable, is it relational, and does it have a clear next step for the people you meet? Ideas that pass all three tend to keep reaching people long after a one-off event would have finished.",
+      },
+      {
+        q: "What do most church outreach plans forget?",
+        a: "Follow-up. Decide before any event who will contact the people you meet, how quickly, and where you will invite them next. Without that, even a great outreach leaves new contacts with nowhere to go.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -1438,6 +1514,7 @@ export const POSTS: Post[] = [
       "Daniel and Katie Ziedins have spent twelve years taking the Gospel to the streets of Hamilton and beyond. Now they serve with e3 Canada and I Am Second, and the vision is bigger than ever. Here is what it is, why it matters eternally, and how you can stand with it.",
     tldr: "Daniel and Katie Ziedins began Love on Hamilton in 2014 and have spent twelve years taking the Gospel to the streets. Today they serve with e3 Canada and I Am Second, equipping believers to evangelize and helping establish multiplying churches — with a goal of 100 outreach groups worldwide. You can stand with them by praying, by giving through e3 Canada, and by going yourself.",
     date: "2026-10-05",
+    updated: "2026-10-19",
     category: "Mission",
     eyebrow: "An invitation",
     keywords: [
@@ -1449,6 +1526,20 @@ export const POSTS: Post[] = [
       "Daniel and Katie Ziedins",
     ],
     related: ["kd", "loh", "lotw", "oikos"],
+    faq: [
+      {
+        q: "What does 'plunder hell, populate heaven' mean?",
+        a: "It is a phrase popularised by the evangelist Reinhard Bonnke. It captures the urgency of evangelism: Jesus came to rescue people from darkness into His kingdom, and every person who comes to faith is a life rescued and added to heaven.",
+      },
+      {
+        q: "Who are Daniel and Katie Ziedins?",
+        a: "Daniel and Katie Ziedins are Hamilton-based evangelists who began Love on Hamilton in 2014. They serve with e3 Canada and I Am Second, equipping believers to evangelize and helping establish multiplying churches. Their story and updates are at KD-Ziedins.com.",
+      },
+      {
+        q: "How can I partner with Daniel and Katie?",
+        a: "Pray for them and the people they reach, give monthly or once through e3 Canada's secure staff page if the Lord puts it on your heart, and go yourself by learning to share your faith in your own city.",
+      },
+    ],
     body: [
       {
         t: "p",
@@ -1621,6 +1712,7 @@ export const POSTS: Post[] = [
       "70+ people gave their lives to Jesus and 50+ were baptized at Jesus Festival Hamilton 2026. Here is the fruit behind it — twelve years of street evangelism, Love on The World, SIX33 — and how you can partner with Daniel and Katie Ziedins through e3 Canada to plunder hell and populate heaven.",
     tldr: "Early reports from Jesus Festival Hamilton 2026 count 70+ people giving their lives to Jesus and 50+ baptisms in a city park. That fruit grew from twelve years of weekly street evangelism that began with Love on Hamilton in 2014, became Love on The World, and is now reaching Niagara and Akuse, Ghana. SIX33, a Christian culture brand coming soon, is being built to fund the same street outreach. You can stand with it by praying, by giving to Daniel and Katie Ziedins through e3 Canada, and by going yourself.",
     date: "2026-10-06",
+    updated: "2026-10-18",
     category: "Mission",
     eyebrow: "The fruit",
     keywords: [
@@ -1840,6 +1932,7 @@ export const POSTS: Post[] = [
       "A practical, biblical guide to public baptisms at an outreach event: permission, the tank, water and safety, who baptizes, preparing each person, the day-of flow, and following up so a baptism becomes a beginning.",
     tldr: "Plan baptisms months ahead, not on the morning. Get written permission from the venue for the tank, the water source and where it drains. Agree with your partner churches on who baptizes and how. Have a trained person talk with every candidate first, get a parent or guardian's consent for anyone under 18, and keep a first-aider beside the water. Bring towels, dark T-shirts, a private changing tent and follow-up cards, and connect every person to a local church within the week.",
     date: "2026-10-12",
+    updated: "2026-10-18",
     category: "Festival Playbook",
     eyebrow: "Playbook",
     keywords: [
@@ -2038,6 +2131,7 @@ export const POSTS: Post[] = [
       "A biblical, practical guide to the Gospel invitation at a festival or outreach: preaching for a response, inviting without pressure, training a response team, praying for healing with care, connect cards and consent, and what happens in the first 48 hours.",
     tldr: "Preach the Gospel clearly enough that people know what they are responding to, then invite them plainly and without pressure, telling them exactly what will happen when they come forward. Have a trained response team from your partner churches waiting: in pairs, identifiable, never alone with a minor. Listen first, explain the Gospel simply, pray with people rather than for them, take a connect card only with consent, and make sure a local church contacts every person within 48 hours.",
     date: "2026-10-14",
+    updated: "2026-10-18",
     category: "Evangelism",
     eyebrow: "The invitation",
     keywords: [
@@ -2584,6 +2678,332 @@ export const POSTS: Post[] = [
         text: "The free 13-step playbook covers the core team, roles, timelines and every checklist in between.",
         href: "/start-a-jesus-festival/playbook",
         cta: "Open the playbook",
+      },
+    ],
+  },
+  {
+    slug: "christmas-outreach-ideas-for-churches",
+    title: "Christmas Outreach Ideas For Churches That Actually Reach People",
+    description:
+      "Christmas is the one season most people are open to hearing about Jesus. Practical, low-cost Christmas outreach ideas for churches — carols in public, personal invitations, serving people alone at Christmas — and the January plan most churches forget.",
+    tldr: "Christmas is one of the few seasons when people who never think about church are open to it. The outreach that works is personal and repeatable: invite people by name to a short, Gospel-clear Christmas service, take carols and hot drinks into public spaces, serve people who will be alone, and partner with ministries already caring for families in need. Above all, plan January before December, so everyone you meet has a next step.",
+    date: "2026-10-19",
+    category: "Outreach",
+    eyebrow: "Seasonal outreach",
+    keywords: [
+      "christmas outreach ideas for churches",
+      "church christmas outreach",
+      "christmas evangelism ideas",
+      "christmas community outreach",
+      "christmas eve service invitation",
+      "how to reach your community at christmas",
+    ],
+    related: ["lotw", "loh", "oikos"],
+    faq: [
+      {
+        q: "What are good Christmas outreach ideas for a church?",
+        a: "Personal invitations to a short, Gospel-clear Christmas service; carols with free hot drinks in a public space; a meal or gathering for people who would otherwise be alone; visits to care homes; and partnering with ministries already serving families in need. Choose ideas your people can actually sustain, and plan the follow-up first.",
+      },
+      {
+        q: "How do you invite people to church at Christmas?",
+        a: "Personally. A warm invitation from someone they know means far more than a flyer, and many people who never otherwise attend will say yes at Christmas. Give your congregation simple invitation cards, pray for the names they plan to invite, and make sure the service is welcoming to someone who has never been.",
+      },
+      {
+        q: "When should a church start planning Christmas outreach?",
+        a: "By October. That leaves time to recruit and train volunteers, check permission for anything in a public space, coordinate with other churches and ministries, and — most importantly — plan the January next steps before December gets busy.",
+      },
+      {
+        q: "How do you follow up after Christmas outreach?",
+        a: "Decide before December what you will invite people to in January — a newcomers' lunch, a course exploring faith, a small group — and collect contact details with consent. Contact people within days, personally, rather than waiting for the new year to settle.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "There is one season of the year when people who never think about church are thinking about church. They hum carols in shops, sit through nativity plays and wonder, at least for a moment, what all this is about. Christmas is not a distraction from mission. It is one of its best open doors.",
+      },
+      {
+        t: "scripture",
+        text: "And the angel said to them, \"Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord.\"",
+        ref: "Luke 2:10–11",
+      },
+      {
+        t: "p",
+        text: "These ideas are tested against the same three questions we use for <a href=\"/blog/church-outreach-ideas\">any outreach idea</a>: is it repeatable, is it relational, and does it give people a clear next step?",
+      },
+
+      { t: "h2", text: "Start with prayer and names" },
+      {
+        t: "p",
+        text: "Before any event, ask everyone in your church to write down three people they will invite this Christmas, and pray for them by name every week through Advent. A simple tool like <a href=\"https://OikosMap.com\">OikosMap</a> helps people see who God has already put around them. The rest of this list works far better when it starts here.",
+      },
+      {
+        t: "p",
+        text: "Pray for your city through the season too. Our guide to <a href=\"/blog/how-to-pray-for-your-city\">praying for your city</a> and the <a href=\"/resources/prayer-walk\">prayer walk guide</a> both work well as an Advent rhythm.",
+      },
+
+      { t: "h2", text: "Ideas that cost almost nothing" },
+      {
+        t: "steps",
+        items: [
+          { title: "Personal invitation cards", text: "A simple card with the service time and a warm line, given by hand. Simple, and often the most fruitful thing a church does all season." },
+          { title: "Carols and hot drinks in public", text: "Carols in a park, square or outside a busy shop (with permission where needed), free hot chocolate, and people ready to chat and pray. Short, warm and good news." },
+          { title: "A Christmas prayer table", text: "At a market or community event, with permission: a sign offering to pray for anyone, and a few people who will listen first." },
+          { title: "Care home visits", text: "Carols, cards and conversation for residents who may have few visitors. Call ahead and follow the home's guidance." },
+          { title: "Christmas cards to neighbours", text: "Every household on your street, with a handwritten note and an invitation. Small, personal and repeatable every year." },
+        ],
+      },
+
+      { t: "h2", text: "Ideas for a small team" },
+      {
+        t: "list",
+        items: [
+          "<strong>A meal for people who would be alone.</strong> On or around Christmas Day, a simple shared meal and a warm room. Advertise it through local services, not just your church.",
+          "<strong>An outdoor nativity reading.</strong> The Christmas story read aloud in a public space, with music and an invitation to the Christmas service.",
+          "<strong>A family afternoon.</strong> Crafts, cocoa and the Christmas story for children, so parents can stay and connect.",
+          "<strong>Serving alongside existing ministries.</strong> Food banks, shelters and family support ministries already know who needs help. Partnering with them serves people with dignity and avoids duplicating what already works.",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "For I was hungry and you gave me food, I was thirsty and you gave me drink, I was a stranger and you welcomed me.",
+        ref: "Matthew 25:35",
+      },
+
+      { t: "h2", text: "Make the Christmas service a front door" },
+      {
+        t: "p",
+        text: "Many guests will walk through your doors for the first time this Christmas. Make it easy:",
+      },
+      {
+        t: "list",
+        items: [
+          "Keep it short and explain what is happening, without assuming church vocabulary",
+          "Preach the Gospel clearly: who Jesus is, why He came, what He did, and how to respond — the real meaning of Christmas",
+          "Have friendly people at the door and parking, and somewhere obvious for families with young children",
+          "Offer one simple next step, such as a card to request a Bible or an invitation to a January event",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.",
+        ref: "John 1:14",
+      },
+
+      { t: "h2", text: "Gather across churches" },
+      {
+        t: "p",
+        text: "A city-wide carol service or outdoor Christmas celebration, shared by several churches, says something no single congregation can: that the Church in your city is one family lifting up one name. It is a small taste of what a <a href=\"/blog/what-actually-happens-at-a-jesus-festival\">Jesus Festival</a> does, and a great first step towards one. Read <a href=\"/blog/why-city-wide-church-unity-is-worth-it\">why city-wide unity is worth it</a>.",
+      },
+
+      { t: "h2", text: "Plan January before December" },
+      {
+        t: "p",
+        text: "This is the step most Christmas outreach skips, and it is the one that turns a warm moment into lasting fruit. Before December begins, decide:",
+      },
+      {
+        t: "list",
+        items: [
+          "What you will invite every new contact to in January — a newcomers' lunch, a course exploring faith, a small group",
+          "Who will contact each person, how, and within how many days",
+          "How you will collect contact details with consent, and keep them secure",
+          "How you will care for anyone who decides to follow Jesus — see <a href=\"/blog/how-to-follow-up-with-a-new-believer\">the first 48 hours</a>",
+        ],
+      },
+      {
+        t: "p",
+        text: "And recruit your Christmas helpers well — our guide to <a href=\"/blog/how-to-recruit-and-train-volunteers-for-an-outreach-event\">recruiting and training volunteers</a> applies to a carol night as much as a festival.",
+      },
+
+      { t: "h2", text: "The best news there is" },
+      {
+        t: "p",
+        text: "Christmas outreach is not about competing with the season's noise. It is about telling the truth at the heart of it: God came near. A child was born who is Wonderful Counsellor, Mighty God, Everlasting Father, Prince of Peace — and He came for the very people your church will meet this December.",
+      },
+      {
+        t: "scripture",
+        text: "For to us a child is born, to us a son is given; and the government shall be upon his shoulder, and his name shall be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.",
+        ref: "Isaiah 9:6",
+      },
+      {
+        t: "callout",
+        title: "Send people somewhere good",
+        text: "For anyone curious about the real Christmas story, our Know Jesus page explains the good news simply and answers the honest questions people ask.",
+        href: "/know-jesus",
+        cta: "Share Know Jesus",
+      },
+    ],
+  },
+  {
+    slug: "how-to-lead-someone-to-christ",
+    title: "How To Lead Someone To Christ: A Simple, Biblical Guide",
+    description:
+      "A clear, step-by-step guide to the most important conversation there is: praying first, listening, explaining the Gospel simply, inviting a response without pressure, praying together, giving assurance, and the next steps that turn a decision into a disciple.",
+    tldr: "Pray first and listen before you speak. Explain the Gospel simply — God loves us, sin separates us, Jesus died and rose to bring us back, and we respond by turning from sin and trusting Him as Lord. Check they understand, invite them to respond without pressure, and pray together, in their own words or a simple prayer. Then give them assurance from Scripture and one clear next step, and follow up within 48 hours.",
+    date: "2026-10-19",
+    category: "Evangelism",
+    eyebrow: "The conversation",
+    keywords: [
+      "how to lead someone to christ",
+      "how to lead someone to jesus",
+      "how to explain the gospel",
+      "salvation prayer",
+      "how to share the gospel step by step",
+      "what to say when someone wants to become a christian",
+    ],
+    related: ["lotw", "reborn", "kingdom-base"],
+    faq: [
+      {
+        q: "How do you lead someone to Christ?",
+        a: "Pray for them, listen to their story, and explain the Gospel simply: God loves us, sin separates us from Him, Jesus died and rose again to bring us back, and we respond by turning from sin and trusting Him as Lord. If they want to respond, pray together, then help them take a first step and follow up within 48 hours.",
+      },
+      {
+        q: "Is there a specific prayer someone has to pray to be saved?",
+        a: "No. Salvation comes through faith in Jesus, not particular words. A simple prayer can help someone express that faith — confessing that Jesus is Lord, believing God raised Him from the dead, and asking for forgiveness — but their own honest words to God are just as real.",
+      },
+      {
+        q: "What should you do after someone accepts Jesus?",
+        a: "Give them assurance from Scripture, such as John 6:37 and Romans 10:13, and one simple first step: reading the Gospel of John. Help them find a local church, talk to them about baptism, encourage them to tell someone, and contact them within 48 hours.",
+      },
+      {
+        q: "What if someone isn't ready to accept Jesus?",
+        a: "That's fine. Never pressure anyone. Thank them for the conversation, offer to pray for them, leave the door open, and keep being their friend. Many people hear the Gospel several times before they respond, and the results belong to God.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "There is no conversation more important than this one. And yet many Christians who love Jesus have never led anyone to Him — not because they don't care, but because they aren't sure what to say, and are afraid of getting it wrong.",
+      },
+      {
+        t: "p",
+        text: "Here is the good news: you can't save anyone, and you don't have to. God does the saving. Your part is to be faithful, clear and kind. This guide walks you through it.",
+      },
+      {
+        t: "scripture",
+        text: "No one can come to me unless the Father who sent me draws him. And I will raise him up on the last day.",
+        ref: "John 6:44",
+      },
+
+      { t: "h2", text: "1. Pray before you speak" },
+      {
+        t: "p",
+        text: "Every one of these conversations starts in prayer, often long before it happens. Pray for the people around you by name. Ask God for opportunities, courage and the right words. Then pray quietly in the moment, too.",
+      },
+      {
+        t: "p",
+        text: "If you don't know where to start, <a href=\"/blog/share-the-gospel-with-someone-you-already-know\">begin with the people you already know</a>.",
+      },
+
+      { t: "h2", text: "2. Listen first" },
+      {
+        t: "p",
+        text: "Ask questions and actually listen. What do they believe about God? What has their experience of faith or church been? What are they carrying right now? People can tell the difference between being cared about and being targeted, and the Gospel lands differently on someone who feels heard.",
+      },
+      {
+        t: "p",
+        text: "Your own story can open the door. Learn to <a href=\"/blog/how-to-share-your-testimony\">share your testimony in three minutes</a> — before, encounter, after.",
+      },
+
+      { t: "h2", text: "3. Explain the Gospel simply" },
+      {
+        t: "p",
+        text: "You don't need a long presentation. You need to be clear about four things, in plain words:",
+      },
+      {
+        t: "steps",
+        items: [
+          { title: "God loves you", text: "You were created by God and for Him, and He loves you more than you can imagine. (John 3:16)" },
+          { title: "Sin separates us", text: "We have all sinned, and sin separates us from God. No amount of effort can bridge that gap on our own. (Romans 3:23)" },
+          { title: "Jesus made a way", text: "Jesus, God's Son, died on the cross in our place and rose again from the dead. (Romans 5:8)" },
+          { title: "We respond in faith", text: "We turn from sin and trust Jesus as Lord — and He forgives us and makes us new. (Romans 10:9)" },
+        ],
+      },
+      {
+        t: "p",
+        text: "Our <a href=\"/know-jesus\">Know Jesus page</a> lays out the same four truths, with honest answers to the questions people most often ask. It's a good page to send someone afterwards.",
+      },
+
+      { t: "h2", text: "4. Check they understand" },
+      {
+        t: "p",
+        text: "Before you invite a response, ask: \"Does that make sense?\" or \"What do you think about what I just said?\" Answer honest questions honestly. If you don't know an answer, say so and offer to find out. Understanding matters more than speed.",
+      },
+
+      { t: "h2", text: "5. Invite them to respond — without pressure" },
+      {
+        t: "p",
+        text: "If they seem open, ask a simple, gentle question: \"Is there anything stopping you from putting your trust in Jesus today?\" Then let them answer. Silence is fine. A no is fine. Pressure produces responses that don't last; clarity and kindness produce ones that do.",
+      },
+      {
+        t: "scripture",
+        text: "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me.",
+        ref: "Revelation 3:20",
+      },
+
+      { t: "h2", text: "6. Pray together" },
+      {
+        t: "p",
+        text: "If they want to respond, invite them to pray, in their own words or by repeating a simple prayer after you. The words themselves don't save anyone — faith in Jesus does — but a prayer can help someone express that faith. For example:",
+      },
+      {
+        t: "quote",
+        text: "Jesus, I believe You are the Son of God, that You died for my sins and rose again. I turn from my sin and trust You as my Lord. Thank You for forgiving me and making me new. Help me follow You. Amen.",
+        cite: "A simple prayer of response",
+      },
+
+      { t: "h2", text: "7. Give them assurance" },
+      {
+        t: "p",
+        text: "Many new believers wonder, a day later, whether it was real — especially if they didn't feel anything. Point them to God's promises rather than their feelings:",
+      },
+      {
+        t: "list",
+        items: [
+          "\"Whoever comes to me I will never cast out.\" (John 6:37)",
+          "\"Everyone who calls on the name of the Lord will be saved.\" (Romans 10:13)",
+          "\"I write these things to you who believe in the name of the Son of God, that you may know that you have eternal life.\" (1 John 5:13)",
+        ],
+      },
+
+      { t: "h2", text: "8. Help them take the next step" },
+      {
+        t: "steps",
+        items: [
+          { title: "Read the Gospel of John", text: "A chapter a day is a great first habit." },
+          { title: "Find a church family", text: "Help them connect with a local church that loves Jesus and teaches the Bible — go with them if you can." },
+          { title: "Talk about baptism", text: "Jesus asked His followers to be baptized as a public declaration of new life. See what baptism is." },
+          { title: "Tell someone", text: "Encourage them to tell a friend or family member what has happened." },
+          { title: "Stay in touch", text: "Contact them within 48 hours, and keep walking with them." },
+        ],
+      },
+      {
+        t: "p",
+        text: "We've written a full guide to <a href=\"/blog/how-to-follow-up-with-a-new-believer\">the first 48 hours with a new believer</a>, and a short answer on <a href=\"/answers#what-is-baptism\">what baptism is</a>. If you're serving at an event, our printable <a href=\"/resources/response-team\">response team card</a> puts this whole conversation on one page.",
+      },
+
+      { t: "h2", text: "Common mistakes to avoid" },
+      {
+        t: "list",
+        items: [
+          "Talking more than listening",
+          "Using church words without explaining them",
+          "Pressuring someone, or treating a prayer as a box to tick",
+          "Giving up on a friend because they said no the first time",
+          "Leaving a new believer alone after they say yes",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "Just so, I tell you, there is joy before the angels of God over one sinner who repents.",
+        ref: "Luke 15:10",
+      },
+      {
+        t: "callout",
+        title: "Send someone the Gospel",
+        text: "Know Jesus explains the good news simply, answers the honest questions that hold people back, and ends with a prayer anyone can pray.",
+        href: "/know-jesus",
+        cta: "Open Know Jesus",
       },
     ],
   },

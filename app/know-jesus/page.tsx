@@ -329,6 +329,18 @@ export default function KnowJesusPage() {
                   Ask Us Anything
                 </a>
               </Reveal>
+              <Reveal delay={0.12}>
+                <p className="mx-auto mt-8 max-w-xl text-white/65">
+                  Already following Jesus and want to help someone else meet Him?{" "}
+                  <a
+                    href="/blog/how-to-lead-someone-to-christ"
+                    className="font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
+                  >
+                    How to lead someone to Christ
+                  </a>
+                  .
+                </p>
+              </Reveal>
               <Reveal delay={0.15}>
                 <div className="mt-14">
                   <Share

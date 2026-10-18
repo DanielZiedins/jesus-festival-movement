@@ -22,6 +22,12 @@ export type Post = {
   tldr?: string;
   /** ISO date. */
   date: string;
+  /**
+   * ISO date of the last material content change (new sections, FAQs,
+   * corrected facts) — not typo fixes or styling. Drives dateModified, the
+   * sitemap lastmod and the visible "Updated" line.
+   */
+  updated?: string;
   category: string;
   /** Small label above the title. */
   eyebrow: string;
