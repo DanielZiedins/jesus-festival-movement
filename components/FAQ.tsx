@@ -9,7 +9,7 @@ export default function FAQ() {
         <div>
           <Eyebrow>Questions &amp; next steps</Eyebrow>
           <h2 className="mt-6 font-display text-4xl font-bold uppercase leading-[.92] tracking-[-.05em] text-white sm:text-5xl lg:text-6xl">
-            Start with
+            Start with{" "}
             <span className="block text-gradient-gold">one faithful yes.</span>
           </h2>
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-white/58">

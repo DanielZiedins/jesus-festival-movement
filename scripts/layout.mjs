@@ -25,7 +25,7 @@ import { join } from "node:path";
 
 const BASE = (process.env.AUDIT_URL || "http://localhost:3000").replace(/\/$/, "");
 const PROD = "https://www.jesusfestivalmovement.com";
-const EXTRA = ["/partner", "/privacy"];
+const EXTRA = ["/partner", "/privacy", "/thank-you"];
 const WIDTHS = (process.env.WIDTHS || "360,390").split(",").map(Number);
 const CACHE = join(process.cwd(), ".a11y-cache");
 const CHROME =

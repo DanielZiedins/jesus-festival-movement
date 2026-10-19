@@ -95,7 +95,7 @@ export default function ThankYouPage() {
           </div>
           <p className="mt-8 text-xs font-bold uppercase tracking-[.3em] text-gold">Message received</p>
           <h1 className="mt-5 max-w-4xl font-display text-5xl font-bold uppercase leading-[.84] tracking-[-.065em] text-white sm:text-7xl lg:text-8xl">
-            Your faithful yes
+            Your faithful yes{" "}
             <span className="block text-gradient-gold">matters.</span>
           </h1>
           <p className="mt-7 max-w-2xl text-lg leading-relaxed text-white/65 sm:text-xl">
@@ -130,7 +130,7 @@ export default function ThankYouPage() {
             <div>
               <p className="text-xs font-bold uppercase tracking-[.28em] text-gold">Your head start is ready</p>
               <h2 className="mt-5 max-w-3xl font-display text-4xl font-bold uppercase leading-[.9] tracking-[-.055em] text-white sm:text-6xl">
-                You do not have to
+                You do not have to{" "}
                 <span className="block text-gradient-gold">wait to begin.</span>
               </h2>
               <p className="mt-7 max-w-2xl text-lg leading-relaxed text-white/62">

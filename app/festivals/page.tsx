@@ -135,7 +135,7 @@ function FestivalCard({ e, held }: { e: FestivalEvent; held: boolean }) {
       </dl>
 
       <p className="mt-6 border-l-2 border-gold/40 pl-4 text-base italic leading-relaxed text-white/70">
-        &ldquo;{e.theme}&rdquo;
+        &ldquo;{e.theme}&rdquo;{" "}
         <span className="mt-1 block text-xs not-italic uppercase tracking-[.16em] text-white/45">
           {e.scripture.ref}
         </span>

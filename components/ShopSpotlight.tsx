@@ -18,7 +18,7 @@ export default async function ShopSpotlight() {
           <Reveal>
             <Eyebrow>Now open · Kingdom Shop</Eyebrow>
             <h2 className="mt-6 max-w-2xl font-display text-5xl font-bold uppercase leading-[.88] tracking-[-.06em] text-white sm:text-6xl lg:text-7xl">
-              Wear the message.
+              Wear the message.{" "}
               <span className="block text-gradient-gold">Carry the mission.</span>
             </h2>
             <p className="mt-7 max-w-xl text-lg leading-relaxed text-white/65">
