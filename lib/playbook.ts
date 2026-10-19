@@ -112,6 +112,7 @@ export const PLAYBOOK_DETAIL: Record<
     guides: [
       { label: "How to prayer walk your city", href: "/resources/prayer-walk" },
       { label: "How to pray for your city", href: "/blog/how-to-pray-for-your-city" },
+      { label: "What is revival?", href: "/blog/what-is-revival" },
     ],
     timing: "Start 9–12 months out — and never stop",
     checklist: [
@@ -228,6 +229,7 @@ export const PLAYBOOK_DETAIL: Record<
       { label: "Sharing your testimony", href: "/blog/how-to-share-your-testimony" },
       { label: "How to preach outdoors", href: "/blog/how-to-preach-the-gospel-outdoors" },
       { label: "How to lead someone to Christ", href: "/blog/how-to-lead-someone-to-christ" },
+      { label: "Using Gospel tracts well", href: "/blog/gospel-tracts-do-they-still-work" },
     ],
     timing: "2–3 months out, and ongoing",
     checklist: [

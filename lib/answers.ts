@@ -210,6 +210,20 @@ export const ANSWERS: Answer[] = [
     ],
   },
   {
+    id: "what-is-revival",
+    q: "What is revival?",
+    topic: "faith",
+    short:
+      "Revival is a season when God renews the spiritual life of His people by His Spirit — deep repentance, fresh love for Jesus and Scripture, earnest prayer and holy living — which often overflows into many unbelievers coming to faith. It can't be manufactured by events or hype; Scripture's pattern is that it begins with God's people humbling themselves and praying.",
+    detail: [
+      "History's best-known revivals — the First Great Awakening, the Welsh Revival of 1904–05, Azusa Street in 1906, the Hebrides in 1949–52 — were preceded by prayer, marked by repentance, and spilled out into evangelism.",
+    ],
+    links: [
+      { label: "What is revival? The full guide", href: "/blog/what-is-revival" },
+      { label: "How to pray for your city", href: "/blog/how-to-pray-for-your-city" },
+    ],
+  },
+  {
     id: "great-commission",
     q: "What is the Great Commission?",
     topic: "faith",

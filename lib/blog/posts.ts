@@ -3342,6 +3342,271 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "what-is-revival",
+    title: "What Is Revival? A Biblical Look At Spiritual Awakening",
+    description:
+      "What revival is, what it isn't, what Scripture and history show about it, the marks of a genuine move of God, and how ordinary believers can pray and prepare for revival in their own city.",
+    tldr: "Revival is a season when God renews the spiritual life of His people by His Spirit — bringing deep repentance, fresh love for Jesus and His Word, earnest prayer and holy living — which often overflows into many unbelievers coming to faith. It can't be manufactured by events or hype. Scripture's pattern is that it begins with God's people humbling themselves, praying and turning from sin.",
+    date: "2026-10-18",
+    category: "Prayer",
+    eyebrow: "Revival",
+    keywords: [
+      "what is revival",
+      "christian revival meaning",
+      "biblical revival",
+      "how to pray for revival",
+      "signs of revival",
+      "history of revival",
+    ],
+    related: ["lotw", "kd", "seekfirst"],
+    faq: [
+      {
+        q: "What is revival in Christianity?",
+        a: "Revival is a season when God renews the spiritual life of His people by His Spirit: deep repentance, fresh love for Jesus and Scripture, earnest prayer and holy living. It often overflows into many unbelievers coming to faith, which is sometimes called awakening.",
+      },
+      {
+        q: "What is the difference between revival and awakening?",
+        a: "The words are often used interchangeably. Strictly, revival describes the renewal of believers and the Church, while awakening describes the wider effect on a community or nation as many people outside the Church come to faith. Historically, one has often led to the other.",
+      },
+      {
+        q: "What are the signs of a genuine revival?",
+        a: "Conviction of sin and repentance, a fresh love for Jesus and His Word, earnest prayer, changed lives that last, unity among believers, and a burden to share the Gospel. Emotion may be present, but lasting fruit — not excitement — is the test.",
+      },
+      {
+        q: "How do you pray for revival?",
+        a: "Begin with yourself and your church, as 2 Chronicles 7:14 and Psalm 139:23–24 model: humble yourselves, confess sin and ask God to search your heart. Then pray Scripture over your city by name, pray with other churches, and keep praying long after the novelty wears off.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Few words stir Christians like revival. We pray for it, sing about it and long for it. But what actually is it — and how would we know if it came?",
+      },
+      {
+        t: "scripture",
+        text: "Will you not revive us again, that your people may rejoice in you?",
+        ref: "Psalm 85:6",
+      },
+
+      { t: "h2", text: "A simple definition" },
+      {
+        t: "p",
+        text: "<strong>Revival is a season when God renews the spiritual life of His people by His Spirit.</strong> Believers who had grown cold are brought back to life: convicted of sin, filled with fresh love for Jesus, hungry for His Word and burdened to pray. And very often that renewal overflows, so that many outside the Church come to faith too — what is sometimes called an awakening.",
+      },
+      {
+        t: "p",
+        text: "Notice who revival starts with. It isn't first about \"them\" out there. It is about God's people, and it is God's work, not ours.",
+      },
+
+      { t: "h2", text: "What revival is not" },
+      {
+        t: "list",
+        items: [
+          "<strong>Not an event on a calendar.</strong> A series of meetings can be a blessing, but you can't schedule a move of God.",
+          "<strong>Not hype or emotion.</strong> Feelings may run high, but the test is lasting fruit, not excitement.",
+          "<strong>Not a technique.</strong> No method, worship style or programme produces it.",
+          "<strong>Not only for the past.</strong> God has revived His people again and again, and He has not changed.",
+        ],
+      },
+
+      { t: "h2", text: "What Scripture shows" },
+      {
+        t: "p",
+        text: "The Bible is full of revival: the reforms under Hezekiah and Josiah, the people weeping as Ezra read the Law, and above all Pentecost, when the Spirit fell and thousands turned to Jesus in a day. Again and again the pattern is the same: God's people humble themselves, pray and turn from sin, and God answers.",
+      },
+      {
+        t: "scripture",
+        text: "If my people who are called by my name humble themselves, and pray and seek my face and turn from their wicked ways, then I will hear from heaven and will forgive their sin and heal their land.",
+        ref: "2 Chronicles 7:14",
+      },
+      {
+        t: "scripture",
+        text: "Repent therefore, and turn back, that your sins may be blotted out, that times of refreshing may come from the presence of the Lord.",
+        ref: "Acts 3:19–20",
+      },
+
+      { t: "h2", text: "What history shows" },
+      {
+        t: "p",
+        text: "Church history is marked by seasons that bear the same fingerprints. A few of the best known:",
+      },
+      {
+        t: "steps",
+        items: [
+          { title: "The First Great Awakening (1730s–1740s)", text: "Across Britain and the American colonies, through preachers such as Jonathan Edwards, George Whitefield and John Wesley — often in open fields." },
+          { title: "The Welsh Revival (1904–1905)", text: "Associated with Evan Roberts, marked by fervent prayer meetings and widespread repentance across Wales." },
+          { title: "Azusa Street (1906)", text: "In Los Angeles, under the leadership of William J. Seymour, with a deep impact on the worldwide Pentecostal movement." },
+          { title: "The Hebrides Revival (1949–1952)", text: "In Scotland's Outer Hebrides, associated with Duncan Campbell and years of persistent prayer beforehand." },
+        ],
+      },
+      {
+        t: "p",
+        text: "Different places, different centuries, the same thread: they were preceded by prayer, marked by repentance, and spilled out into evangelism.",
+      },
+
+      { t: "h2", text: "The marks of genuine revival" },
+      {
+        t: "list",
+        items: [
+          "Conviction of sin and honest repentance",
+          "A fresh love for Jesus and hunger for Scripture",
+          "Earnest, persistent prayer",
+          "Holy, changed lives that last beyond the meetings",
+          "Unity among believers across old dividing lines",
+          "A burden for the lost, and many coming to faith",
+        ],
+      },
+
+      { t: "h2", text: "How to pray and prepare" },
+      {
+        t: "steps",
+        items: [
+          { title: "Start with yourself", text: "Ask God to search your own heart first (Psalm 139:23–24). Revival in a city usually begins with repentance in the Church." },
+          { title: "Pray for your city by name", text: "Use Scripture when your words run out — see how to pray for your city." },
+          { title: "Pray with other churches", text: "Unity in prayer is one of the most consistent threads in revival history." },
+          { title: "Keep going", text: "Many revivals were preceded by years of faithful, unspectacular prayer. Don't stop when the novelty wears off." },
+          { title: "Share the Gospel now", text: "Don't wait for revival to start evangelism. Faithful witness is part of preparing the ground." },
+        ],
+      },
+      {
+        t: "p",
+        text: "Practical starting points: our guide to <a href=\"/blog/how-to-pray-for-your-city\">praying for your city</a>, the free <a href=\"/resources/prayer-walk\">prayer walk guide</a>, and <a href=\"/blog/why-city-wide-church-unity-is-worth-it\">why city-wide unity is worth the effort</a>.",
+      },
+      {
+        t: "scripture",
+        text: "O LORD, I have heard the report of you, and your work, O LORD, do I fear. In the midst of the years revive it; in the midst of the years make it known; in wrath remember mercy.",
+        ref: "Habakkuk 3:2",
+      },
+      {
+        t: "callout",
+        title: "Lift up Jesus in your city",
+        text: "A Jesus Festival is one way churches unite to pray, worship and preach the Gospel publicly. The free playbook shows how to begin.",
+        href: "/start-a-jesus-festival",
+        cta: "Start a Jesus Festival",
+      },
+    ],
+  },
+  {
+    slug: "gospel-tracts-do-they-still-work",
+    title: "Gospel Tracts: Do They Still Work? How To Use Them Well",
+    description:
+      "An honest, practical guide to Gospel tracts today: when they help and when they don't, how to choose a good one, how to hand them out graciously, digital tracts and QR codes, and the mistakes to avoid.",
+    tldr: "Gospel tracts still help when they're used well: as a follow-up to a real conversation, or something a person can read later when they're ready. Choose one that explains the Gospel clearly and honestly and gives a next step. Hand it out with a smile and a few words, respect local rules and property, never trick people, and consider a digital version — a link or QR code to a clear Gospel page.",
+    date: "2026-10-18",
+    category: "Evangelism",
+    eyebrow: "Tools for the harvest",
+    keywords: [
+      "gospel tracts",
+      "do gospel tracts work",
+      "how to hand out gospel tracts",
+      "best gospel tracts",
+      "digital gospel tract",
+      "tract evangelism",
+    ],
+    related: ["reborn", "lotw", "kingdom-base"],
+    faq: [
+      {
+        q: "What is a Gospel tract?",
+        a: "A Gospel tract is a short printed leaflet or card that explains the good news of Jesus — who He is, why we need Him, what He did and how to respond — so someone can read it in a few minutes, often with a next step such as a website or a local church to contact.",
+      },
+      {
+        q: "Do Gospel tracts still work?",
+        a: "They can. A tract is a tool, not a substitute for a relationship. They tend to help most when given after a real conversation, or left with someone who wants to read more later. Some people do come to faith through a tract they kept, but they work best alongside personal witness.",
+      },
+      {
+        q: "How do you hand out Gospel tracts?",
+        a: "With a smile and a few words, never pushed. Offer one after a conversation or to someone who's open, accept a no graciously, and respect local rules about leafleting and private property. Never leave them as litter, and never disguise a tract as something it isn't.",
+      },
+      {
+        q: "What is a digital Gospel tract?",
+        a: "A link or QR code that takes someone to a clear explanation of the Gospel online, such as a Know Jesus page. It's easy to share by text or social media and can include answers to common questions, a prayer and a way to talk to a real person.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "For generations, Christians have handed out small printed explanations of the Gospel. Some people roll their eyes at them; others came to faith through one they kept in a coat pocket for years. So do tracts still work? The honest answer: they can — if they're used well.",
+      },
+      {
+        t: "scripture",
+        text: "So shall my word be that goes out from my mouth; it shall not return to me empty, but it shall accomplish that which I purpose.",
+        ref: "Isaiah 55:11",
+      },
+
+      { t: "h2", text: "What a tract can and can't do" },
+      {
+        t: "p",
+        text: "A tract is a tool. It can put a clear explanation of the Gospel into someone's hands to read later, in their own time, without pressure. It can't replace a conversation, a friendship or a church family. Tracts are at their best as a companion to personal witness, not a substitute for it.",
+      },
+      {
+        t: "list",
+        items: [
+          "<strong>Most helpful:</strong> after a real conversation, as something to take home",
+          "<strong>Helpful:</strong> for someone curious but not ready to talk",
+          "<strong>Least helpful:</strong> pushed at strangers with no word or smile",
+        ],
+      },
+
+      { t: "h2", text: "How to choose a good tract" },
+      {
+        t: "steps",
+        items: [
+          { title: "A clear Gospel", text: "Who Jesus is, why we need Him, His death and resurrection, and how to respond — without jargon." },
+          { title: "Honest and kind in tone", text: "Truthful about sin and judgement, but unmistakably good news. Nothing that mocks or shames." },
+          { title: "Readable", text: "Short, plain language, a clean design, and large enough type to read easily." },
+          { title: "A next step", text: "A website, a local church or a real person to contact — so a reader who's stirred knows where to go." },
+        ],
+      },
+
+      { t: "h2", text: "How to hand them out graciously" },
+      {
+        t: "list",
+        items: [
+          "Smile, make eye contact and say a few words: \"Can I give you this? It's about why Jesus matters to me.\"",
+          "Accept a no warmly, and never chase anyone",
+          "Offer to talk or pray if someone seems open",
+          "Respect local rules about leafleting and private property — ask permission where needed",
+          "Never leave tracts as litter, on windscreens or in places they'll blow away",
+          "Never disguise a tract as something else, like fake money or a fake notice. The Gospel never needs a trick.",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "But we have renounced disgraceful, underhanded ways. We refuse to practice cunning or to tamper with God's word, but by the open statement of the truth we would commend ourselves to everyone's conscience in the sight of God.",
+        ref: "2 Corinthians 4:2",
+      },
+
+      { t: "h2", text: "Digital tracts and QR codes" },
+      {
+        t: "p",
+        text: "Today a \"tract\" can be a link. A QR code on a card, or a link sent by text, can take someone to a page that explains the Gospel, answers honest questions and lets them reach a real person. It's easy to share, never runs out, and can be updated.",
+      },
+      {
+        t: "p",
+        text: "Our <a href=\"/know-jesus\">Know Jesus page</a> was written for exactly this: the Gospel in four simple truths, honest answers to the doubts that hold people back, a prayer anyone can pray, and next steps. <a href=\"https://IAmReborn.net\">IAmReborn.net</a> is another clear explanation of the new birth.",
+      },
+
+      { t: "h2", text: "Tracts at festivals and outreach" },
+      {
+        t: "p",
+        text: "At a festival or street outreach, a tract or card is most useful as a take-home after a conversation, prayer or response. Pair it with your <a href=\"/resources/response-team\">response team</a>, and make sure every card points to a real next step — a local church, a follow-up contact, or a page like Know Jesus. Then <a href=\"/blog/how-to-follow-up-with-a-new-believer\">follow up</a> with anyone who leaves their details.",
+      },
+
+      { t: "h2", text: "Better together with a conversation" },
+      {
+        t: "p",
+        text: "The best tract is still a person. Learn to <a href=\"/blog/how-to-share-your-testimony\">share your story in three minutes</a> and <a href=\"/blog/how-to-lead-someone-to-christ\">lead someone to Christ</a> when they're ready — and let the printed or digital tract be what they take home.",
+      },
+      {
+        t: "callout",
+        title: "Share the Gospel in one link",
+        text: "Know Jesus explains the good news simply, answers honest questions, and ends with a prayer and next steps. Send it to someone today.",
+        href: "/know-jesus",
+        cta: "Open Know Jesus",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));
