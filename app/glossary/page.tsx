@@ -121,15 +121,20 @@ export default function GlossaryPage() {
                         <dt className="font-display text-2xl font-bold text-white">{t.term}</dt>
                         <dd className="mt-3 leading-relaxed text-white/75">
                           {t.definition}
-                          {t.ref && <span className="mt-2 block text-sm font-semibold text-gold-400">{t.ref}</span>}
+                          {t.ref && <> <span className="mt-2 block text-sm font-semibold text-gold-400">{t.ref}</span></>}
                           {t.href && (
-                            <Link
-                              href={t.href}
-                              className="mt-4 inline-flex min-h-6 items-center gap-1.5 text-sm font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
-                            >
-                              {t.linkLabel ?? "Read more"}
-                              <Icon name="arrow" className="h-3.5 w-3.5" />
-                            </Link>
+                            <>
+                              {" "}
+                              <span className="mt-4 block">
+                                <Link
+                                  href={t.href}
+                                  className="inline-flex min-h-6 items-center gap-1.5 text-sm font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
+                                >
+                                  {t.linkLabel ?? "Read more"}
+                                  <Icon name="arrow" className="h-3.5 w-3.5" />
+                                </Link>
+                              </span>
+                            </>
                           )}
                         </dd>
                       </div>
