@@ -46,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/shop`, lastModified: at("/shop"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE.url}/stories/kingdom-shop`, lastModified: at("/stories/kingdom-shop"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/answers`, lastModified: at("/answers"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE.url}/glossary`, lastModified: at("/glossary"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/know-jesus`, lastModified: at("/know-jesus"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/blog`, lastModified: new Date(`${newestPost}T12:00:00Z`), changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE.url}/network`, lastModified: at("/network"), changeFrequency: "monthly", priority: 0.7 },

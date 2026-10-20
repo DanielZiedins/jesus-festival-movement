@@ -11,6 +11,7 @@ const EXPLORE = [
   ["All Jesus Festivals", "/festivals"],
   ["Jesus Festival Akuse, Ghana", "/akuse"],
   ["Answers", "/answers"],
+  ["Glossary", "/glossary"],
   ["The Journal", "/blog"],
   ["Know Jesus", "/know-jesus"],
   ["The network", "/network"],

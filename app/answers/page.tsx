@@ -230,7 +230,15 @@ export default function AnswersPage() {
                         {SITE.email}
                       </a>
                       . A real person reads every one. Or join the movement and
-                      get the nine letters free.
+                      get the nine letters free.{" "}
+                      Not sure what a word means? Try the{" "}
+                      <a
+                        href="/glossary"
+                        className="font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
+                      >
+                        glossary
+                      </a>
+                      .
                     </p>
                   </div>
                   <JoinForm source="answers" variant="inline" cta="Join Free" />

@@ -113,6 +113,7 @@ export const PLAYBOOK_DETAIL: Record<
       { label: "How to prayer walk your city", href: "/resources/prayer-walk" },
       { label: "How to pray for your city", href: "/blog/how-to-pray-for-your-city" },
       { label: "What is revival?", href: "/blog/what-is-revival" },
+      { label: "How to pray for someone in person", href: "/blog/how-to-pray-for-someone-in-person" },
     ],
     timing: "Start 9–12 months out — and never stop",
     checklist: [
@@ -293,6 +294,7 @@ export const PLAYBOOK_DETAIL: Record<
     guides: [
       { label: "The first 48 hours with a new believer", href: "/blog/how-to-follow-up-with-a-new-believer" },
       { label: "What happens after the festival", href: "/blog/what-happens-after-the-festival" },
+      { label: "What is discipleship?", href: "/blog/what-is-discipleship" },
       { label: "Church outreach ideas", href: "/blog/church-outreach-ideas" },
     ],
     timing: "Weeks 1–8 after",

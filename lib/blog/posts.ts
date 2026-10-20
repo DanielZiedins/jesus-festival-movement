@@ -3607,6 +3607,272 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "what-is-discipleship",
+    title: "What Is Discipleship? How To Follow Jesus — And Help Others Follow Him",
+    description:
+      "What discipleship means, how Jesus made disciples, what following Him involves day to day, and a simple, practical way to disciple a new believer — so a decision becomes a lifelong walk with Jesus.",
+    tldr: "Discipleship is following Jesus day by day and helping others do the same: learning His teaching, obeying it, praying, and growing in a church family. A disciple is literally a learner or apprentice. Jesus made disciples by calling people to be with Him and then sending them out — and He told His followers to make disciples who make disciples. You can start by meeting regularly with one new believer to read the Bible, pray and practise obeying it.",
+    date: "2026-10-20",
+    category: "Discipleship",
+    eyebrow: "The basics",
+    keywords: [
+      "what is discipleship",
+      "discipleship meaning",
+      "how to disciple someone",
+      "how to disciple a new believer",
+      "biblical discipleship",
+      "disciples making disciples",
+    ],
+    related: ["lotw", "reborn", "kingdom-base"],
+    faq: [
+      {
+        q: "What is discipleship?",
+        a: "Discipleship is following Jesus day by day and helping others do the same: learning His teaching, obeying it, praying, and growing in a church family. The word disciple means a learner or apprentice — someone who learns by being with their teacher and doing what they do.",
+      },
+      {
+        q: "What is the difference between evangelism and discipleship?",
+        a: "Evangelism is sharing the Gospel and inviting people to put their trust in Jesus. Discipleship is helping them follow Him afterwards. The Great Commission includes both: make disciples, baptize them, and teach them to obey everything Jesus commanded.",
+      },
+      {
+        q: "How do you disciple a new believer?",
+        a: "Meet regularly — weekly if you can. Read a book of the Bible together, starting with the Gospel of John; pray together; ask what they are learning and what they will obey this week; help them into a church family; and invite them to share their own story with someone else.",
+      },
+      {
+        q: "Do you need to be a mature Christian to disciple someone?",
+        a: "You need to be following Jesus, not to have it all figured out. Many people are discipled best by someone just a few steps ahead of them. Be honest about what you don't know, stay close to Scripture, and connect them to a church where others can help too.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Jesus didn't tell His followers to make converts. He told them to make disciples. That one word changes everything about how we think of the Christian life — and about what happens after someone says yes to Jesus.",
+      },
+      {
+        t: "scripture",
+        text: "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you.",
+        ref: "Matthew 28:19–20",
+      },
+
+      { t: "h2", text: "What the word means" },
+      {
+        t: "p",
+        text: "In the New Testament, a disciple (<em>mathētēs</em>) is a learner — closer to an apprentice than a student. An apprentice doesn't just collect information. They spend time with their master, watch how they work, and learn by doing. <strong>Discipleship is following Jesus day by day, and helping others do the same.</strong>",
+      },
+      {
+        t: "p",
+        text: "Notice the last phrase of the commission: <em>teaching them to observe</em>. Not just to know, but to obey. Discipleship is measured by changed lives, not by how much we can explain.",
+      },
+
+      { t: "h2", text: "How Jesus made disciples" },
+      {
+        t: "scripture",
+        text: "And he appointed twelve (whom he also named apostles) so that they might be with him and he might send them out to preach.",
+        ref: "Mark 3:14",
+      },
+      {
+        t: "p",
+        text: "Two movements, in that order: <strong>with Him</strong>, then <strong>sent</strong>. Jesus invited people into His life — meals, journeys, hard conversations — before He sent them out to do what they'd seen Him do. He spent His public ministry pouring Himself into a small group, and they turned the world upside down.",
+      },
+
+      { t: "h2", text: "What following Jesus involves" },
+      {
+        t: "steps",
+        items: [
+          { title: "Abiding in Jesus", text: "A real relationship with Him, not just religious activity (John 15:5)." },
+          { title: "His Word", text: "Reading Scripture regularly, and letting it shape what you believe and do." },
+          { title: "Prayer", text: "Talking with God honestly, every day." },
+          { title: "Obedience", text: "Doing what Jesus says — in small things as much as big ones." },
+          { title: "Church family", text: "Following Jesus alongside others who encourage, correct and carry one another." },
+          { title: "Mission", text: "Sharing the good news and loving people, wherever He has placed you." },
+        ],
+      },
+
+      { t: "h2", text: "Disciples who make disciples" },
+      {
+        t: "scripture",
+        text: "And what you have heard from me in the presence of many witnesses entrust to faithful men, who will be able to teach others also.",
+        ref: "2 Timothy 2:2",
+      },
+      {
+        t: "p",
+        text: "Count the generations in that verse: Paul, Timothy, faithful people, others. Discipleship is designed to multiply. Every disciple is meant, in time, to help someone else follow Jesus. That is how a single <a href=\"/blog/what-happens-after-the-festival\">event becomes a movement</a>.",
+      },
+
+      { t: "h2", text: "How to disciple a new believer" },
+      {
+        t: "p",
+        text: "You don't need a curriculum to start. A simple rhythm, kept faithfully, goes a long way:",
+      },
+      {
+        t: "list",
+        ordered: true,
+        items: [
+          "<strong>Meet regularly.</strong> Weekly if you can, even for half an hour.",
+          "<strong>Read the Bible together.</strong> Start with the Gospel of John, a chapter at a time.",
+          "<strong>Ask three questions.</strong> What does this show us about God? What does it show us about people? What will we obey this week?",
+          "<strong>Pray together</strong> — for each other, and for people you both know who don't follow Jesus yet.",
+          "<strong>Help them into a church family.</strong> Go with them the first few times.",
+          "<strong>Talk about baptism</strong> as a step of obedience. See <a href=\"/glossary#baptism\">what baptism is</a>.",
+          "<strong>Invite them to share their story</strong> with someone else. New believers are often the most natural evangelists.",
+        ],
+      },
+      {
+        t: "p",
+        text: "The first days matter most — read <a href=\"/blog/how-to-follow-up-with-a-new-believer\">the first 48 hours with a new believer</a> for what to do right away.",
+      },
+
+      { t: "h2", text: "Common mistakes" },
+      {
+        t: "list",
+        items: [
+          "Information without obedience — knowing more but changing nothing",
+          "A programme without a relationship",
+          "Doing it alone, instead of within a church family",
+          "Waiting until you feel qualified before helping anyone",
+          "Forgetting mission — discipleship that never looks outward",
+        ],
+      },
+      {
+        t: "p",
+        text: "Discipleship and evangelism belong together: one is the doorway, the other is the house. If you haven't read it yet, start with <a href=\"/blog/what-is-evangelism\">what evangelism is</a>.",
+      },
+      {
+        t: "callout",
+        title: "Start with one person",
+        text: "Think of one newer believer you could meet with this month. Pray for them, invite them, and open the Gospel of John together.",
+        href: "/blog/how-to-follow-up-with-a-new-believer",
+        cta: "The first 48 hours",
+      },
+    ],
+  },
+  {
+    slug: "how-to-pray-for-someone-in-person",
+    title: "How To Pray For Someone In Person (Without Making It Weird)",
+    description:
+      "A simple, respectful guide to offering prayer and praying with someone face to face: how to ask, how to listen, what to say, praying for healing with care, respecting boundaries, and following up.",
+    tldr: "Ask simply — \"Can I pray for you right now?\" — and accept a no warmly. Listen to what they want prayer for, then pray briefly and specifically in plain words, in Jesus' name. Ask before any touch, keep it to a shoulder or hand, and never promise outcomes or pressure anyone. Afterwards, ask how they are and, where it's natural, follow up later.",
+    date: "2026-10-20",
+    category: "Prayer",
+    eyebrow: "Prayer",
+    keywords: [
+      "how to pray for someone",
+      "how to pray for someone in person",
+      "offering to pray for a stranger",
+      "praying for others",
+      "how to pray for healing for someone",
+      "prayer ministry tips",
+    ],
+    related: ["kd", "lotw", "loh"],
+    faq: [
+      {
+        q: "How do you offer to pray for someone?",
+        a: "Ask simply and warmly: \"Can I pray for you right now?\" or \"Is there anything I can pray for you about?\" Most people say yes, including many who don't go to church. If they say no, accept it graciously and keep being kind.",
+      },
+      {
+        q: "What do you say when you pray for someone?",
+        a: "Keep it short, specific and in plain words. Thank God for them, ask for what they asked for by name, and pray in Jesus' name. You don't need special vocabulary; a sincere, simple prayer is enough.",
+      },
+      {
+        q: "Should you touch someone when you pray for them?",
+        a: "Only if you ask first and they say yes, and then keep it appropriate — a hand on the shoulder or holding a hand. Many people are more comfortable without any touch, and that is completely fine.",
+      },
+      {
+        q: "How do you pray for someone's healing?",
+        a: "Ask what they would like prayer for, pray in faith and in Jesus' name, and afterwards gently ask how they are. Never promise an outcome, never pressure anyone to say they feel better, and never suggest stopping medication or medical care — encourage them to have any healing confirmed by their doctor.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Offering to pray for someone is one of the simplest, kindest and most natural ways to bring Jesus into an ordinary conversation. Many people who would never come to church are moved that someone cared enough to ask. And it doesn't need to be weird.",
+      },
+      {
+        t: "scripture",
+        text: "Therefore, confess your sins to one another and pray for one another, that you may be healed. The prayer of a righteous person has great power as it is working.",
+        ref: "James 5:16",
+      },
+
+      { t: "h2", text: "1. Ask simply" },
+      {
+        t: "p",
+        text: "When someone mentions a hard week, a sick parent or a big decision, ask: <strong>\"Can I pray for you about that — right now?\"</strong> Asking to do it now, rather than promising to later, is often what makes it meaningful. If they say no, smile, say that's fine, and keep being kind.",
+      },
+
+      { t: "h2", text: "2. Listen first" },
+      {
+        t: "p",
+        text: "Ask what they'd like prayer for, and listen. Don't assume you know. People often share more than you expect when they sense genuine care, and listening well is itself part of loving them.",
+      },
+
+      { t: "h2", text: "3. Pray briefly, specifically and plainly" },
+      {
+        t: "list",
+        items: [
+          "Keep it short — thirty seconds to a minute is plenty",
+          "Use their name and pray for exactly what they asked",
+          "Use ordinary words, not church language",
+          "Pray in Jesus' name — it's His name, not your eloquence, that matters",
+          "Eyes open or closed — whichever helps them feel comfortable",
+        ],
+      },
+      {
+        t: "quote",
+        text: "Jesus, thank You for Sarah. You know how worried she is about her dad's surgery on Friday. Please give the doctors wisdom, bring him through safely, and give Sarah Your peace this week. In Jesus' name, amen.",
+        cite: "An example of a short, specific prayer",
+      },
+      {
+        t: "scripture",
+        text: "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God.",
+        ref: "Philippians 4:6",
+      },
+
+      { t: "h2", text: "4. Respect boundaries" },
+      {
+        t: "list",
+        items: [
+          "Ask before any touch, and keep it to a shoulder or hand — or none at all",
+          "Respect people's beliefs; you're offering care, not winning an argument",
+          "Where you can, men pray with men and women with women, especially in private settings",
+          "Never take a child aside to pray; pray with a parent present",
+        ],
+      },
+
+      { t: "h2", text: "5. Praying for healing, with care" },
+      {
+        t: "p",
+        text: "God still heals, and Jesus healed out of compassion. Pray with faith — and with wisdom. Never promise an outcome God hasn't promised, never pressure someone to say they feel better, and never suggest they stop medication or medical care. Encourage them to have any healing confirmed by their doctor. If someone is in crisis or at risk, help them get immediate professional help.",
+      },
+      {
+        t: "scripture",
+        text: "Moved with pity, he stretched out his hand and touched him and said to him, \"I will; be clean.\"",
+        ref: "Mark 1:41",
+      },
+
+      { t: "h2", text: "6. After you pray" },
+      {
+        t: "p",
+        text: "Ask how they are. Sometimes people are moved; sometimes they're simply grateful. If it's natural, ask if you can check in later, and do. A follow-up message — \"How did Friday go?\" — often opens the door to a deeper conversation about Jesus.",
+      },
+      {
+        t: "p",
+        text: "If they ask why you pray, tell them honestly — <a href=\"/blog/how-to-share-your-testimony\">your story in three minutes</a> is perfect for that moment. Daniel and Katie Ziedins have written more on this too: <a href=\"https://www.kd-ziedins.com/blog/how-to-pray-for-someone\">How to Pray for Someone</a> on KD-Ziedins.com.",
+      },
+
+      { t: "h2", text: "Make it a habit" },
+      {
+        t: "p",
+        text: "The more you offer, the more natural it becomes. Try offering to pray for one person this week — a friend, a coworker, a neighbour. Then try it on a <a href=\"/resources/prayer-walk\">prayer walk</a>, or with a team at an outreach. You'll be surprised how many people say yes.",
+      },
+      {
+        t: "callout",
+        title: "Serving on a prayer team?",
+        text: "The printable response team card covers listening, praying with people, healing prayer with care and safeguarding — on two pages.",
+        href: "/resources/response-team",
+        cta: "Get the card",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));

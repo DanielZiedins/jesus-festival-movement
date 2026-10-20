@@ -2,6 +2,7 @@ import { MOVEMENT_FACTS, SITE, STARTER_GUIDE_FAQS } from "@/lib/content";
 import { SORTED_POSTS } from "@/lib/blog/posts";
 import { ANSWERS } from "@/lib/answers";
 import { NETWORK } from "@/lib/network";
+import { GLOSSARY } from "@/lib/glossary";
 import { EVENTS, NEXT_ANNOUNCEMENT, eventPhase, upcomingEvents, type FestivalEvent } from "@/lib/events";
 
 export const dynamic = "force-static";
@@ -55,6 +56,7 @@ ${SITE.tagline}
 - Printable altar call response team training card: ${u}/resources/response-team
 - Free starter guide PDF: ${u}/resources/basics-how-to-start-a-jesus-festival.pdf
 - Answers to common questions: ${u}/answers
+- Glossary of evangelism and festival terms: ${u}/glossary
 - The Journal: ${u}/blog
 - Know Jesus (the Gospel, explained): ${u}/know-jesus
 - The wider network: ${u}/network
@@ -77,6 +79,9 @@ ${guideFaqs}
 
 ## Answers (question -> short answer)
 ${answers}
+
+## Glossary (term -> definition)
+${[...GLOSSARY].sort((x, y) => x.term.localeCompare(y.term)).map((t) => `- ${t.term}: ${t.definition} (${u}/glossary#${t.id})`).join("\n")}
 
 ## The Journal
 ${posts}

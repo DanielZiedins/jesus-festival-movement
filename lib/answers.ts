@@ -458,6 +458,7 @@ export const ANSWERS: Answer[] = [
       { label: "The first 48 hours — the full guide", href: "/blog/how-to-follow-up-with-a-new-believer" },
       { label: "Kingdom Base — free follow-up tool", href: "https://KingdomBase.App" },
       { label: "The Gospel, explained simply", href: "/know-jesus" },
+      { label: "What is discipleship?", href: "/blog/what-is-discipleship" },
     ],
   },
   {
