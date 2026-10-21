@@ -163,6 +163,7 @@ export const ANSWERS: Answer[] = [
       { label: "Sharing the Gospel with someone you know", href: "/blog/share-the-gospel-with-someone-you-already-know" },
       { label: "Mobilizing evangelism — step 8", href: "/start-a-jesus-festival/playbook" },
       { label: "Recruiting and training volunteers", href: "/blog/how-to-recruit-and-train-volunteers-for-an-outreach-event" },
+      { label: "Run an evangelism training night", href: "/blog/how-to-run-an-evangelism-training-night" },
     ],
   },
   {
@@ -394,6 +395,7 @@ export const ANSWERS: Answer[] = [
     links: [
       { label: "Sharing the Gospel with someone you know", href: "/blog/share-the-gospel-with-someone-you-already-know" },
       { label: "How to lead someone to Christ", href: "/blog/how-to-lead-someone-to-christ" },
+      { label: "Street evangelism for beginners", href: "/blog/street-evangelism-beginners-guide" },
     ],
   },
   {
@@ -524,6 +526,7 @@ export const ANSWERS: Answer[] = [
       { label: "Eleven outreach ideas, by effort", href: "/blog/church-outreach-ideas" },
       { label: "How to prayer walk your city", href: "/resources/prayer-walk" },
       { label: "Christmas outreach ideas", href: "/blog/christmas-outreach-ideas-for-churches" },
+      { label: "Run an evangelism training night", href: "/blog/how-to-run-an-evangelism-training-night" },
     ],
   },
   {

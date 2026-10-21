@@ -9,6 +9,7 @@ import Share from "@/components/Share";
 import JoinForm from "@/components/JoinForm";
 import Blocks from "@/components/blog/Blocks";
 import { headingIds } from "@/lib/blog/types";
+import { termsIn } from "@/lib/glossary";
 import { POST_BY_SLUG, POSTS, readingMinutes, relatedPosts, wordCount } from "@/lib/blog/posts";
 import { SITE_BY_KEY } from "@/lib/network";
 import { SITE } from "@/lib/content";
@@ -110,6 +111,15 @@ export default async function BlogPost({ params }: Params) {
     .filter((b) => b.t === "h2")
     .map((b, i) => ({ id: ids[i], text: (b as { text: string }).text }));
   const showToc = sections.length >= 4;
+
+  // Glossary terms this guide actually uses — links every post into /glossary.
+  const keyTerms = termsIn(
+    post.body
+      .map((b) =>
+        "text" in b ? b.text : "items" in b ? b.items.map((i) => (typeof i === "string" ? i : `${i.title} ${i.text}`)).join(" ") : "",
+      )
+      .join(" "),
+  );
 
   const faqLd = post.faq?.length
     ? {
@@ -244,6 +254,25 @@ export default async function BlogPost({ params }: Params) {
                 </nav>
               )}
               <Blocks blocks={post.body} />
+              {keyTerms.length > 0 && (
+                <nav aria-labelledby="terms-heading" className="mt-14 border-t border-white/10 pt-8">
+                  <p id="terms-heading" className="text-xs font-bold uppercase tracking-[0.22em] text-white/55">
+                    Key terms in this guide
+                  </p>
+                  <ul className="mt-4 flex flex-wrap gap-2">
+                    {keyTerms.map((t) => (
+                      <li key={t.id}>
+                        <a
+                          href={`/glossary#${t.id}`}
+                          className="inline-flex min-h-9 items-center rounded-full border border-white/12 px-4 text-sm font-semibold text-white/80 transition hover:border-gold/40 hover:text-gold"
+                        >
+                          {t.term}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </nav>
+              )}
               {post.faq && post.faq.length > 0 && (
                 <section id="questions" aria-labelledby="faq-heading" className="mt-16 border-t border-white/10 pt-12">
                   <h2 id="faq-heading" className="font-display text-2xl font-bold leading-tight text-white sm:text-3xl">

@@ -145,6 +145,15 @@ export const GLOSSARY: Term[] = [
     linkLabel: "What is revival?",
   },
   {
+    id: "street-evangelism",
+    term: "Street evangelism",
+    definition:
+      "Starting conversations about Jesus with people in public places — parks, streets, markets — usually as a small team: offering prayer, listening, sharing a personal story and the Gospel, and inviting people to respond without pressure.",
+    ref: "Luke 14:21",
+    href: "/blog/street-evangelism-beginners-guide",
+    linkLabel: "Street evangelism for beginners",
+  },
+  {
     id: "testimony",
     term: "Testimony",
     definition:
@@ -154,3 +163,19 @@ export const GLOSSARY: Term[] = [
     linkLabel: "How to share your testimony",
   },
 ];
+
+/**
+ * Glossary terms a piece of text actually uses, in order of first appearance.
+ * Word-boundary matching, case-insensitive; HTML tags are ignored.
+ */
+export function termsIn(text: string, max = 6): Term[] {
+  const plain = text.replace(/<[^>]+>/g, " ").toLowerCase();
+  return GLOSSARY.map((t) => {
+    const m = new RegExp(`\\b${t.term.toLowerCase().replace(/[-]/g, "[- ]")}s?\\b`).exec(plain);
+    return { t, at: m ? m.index : -1 };
+  })
+    .filter((x) => x.at >= 0)
+    .sort((a, b) => a.at - b.at)
+    .slice(0, max)
+    .map((x) => x.t);
+}

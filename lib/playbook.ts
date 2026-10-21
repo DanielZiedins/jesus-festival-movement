@@ -231,6 +231,8 @@ export const PLAYBOOK_DETAIL: Record<
       { label: "How to preach outdoors", href: "/blog/how-to-preach-the-gospel-outdoors" },
       { label: "How to lead someone to Christ", href: "/blog/how-to-lead-someone-to-christ" },
       { label: "Using Gospel tracts well", href: "/blog/gospel-tracts-do-they-still-work" },
+      { label: "Street evangelism for beginners", href: "/blog/street-evangelism-beginners-guide" },
+      { label: "Run an evangelism training night", href: "/blog/how-to-run-an-evangelism-training-night" },
     ],
     timing: "2–3 months out, and ongoing",
     checklist: [

@@ -3873,6 +3873,258 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "street-evangelism-beginners-guide",
+    title: "Street Evangelism: A Beginner's Guide To Sharing Jesus In Public",
+    description:
+      "A practical, biblical beginner's guide to street evangelism: how to prepare, where to go, conversation starters that actually work, sharing the Gospel simply, staying safe and respectful, handling rejection, and following up.",
+    tldr: "Street evangelism means starting conversations about Jesus with people in public places. Go in pairs, pray first, and choose a busy but relaxed spot. Open with a friendly question or an offer to pray, listen more than you talk, share the Gospel simply and your own story, and invite — never pressure — a response. Accept no graciously, stay safe and respectful, and make it a weekly rhythm with a team.",
+    date: "2026-10-21",
+    category: "Evangelism",
+    eyebrow: "Getting started",
+    keywords: [
+      "street evangelism",
+      "how to do street evangelism",
+      "street evangelism tips",
+      "evangelism conversation starters",
+      "how to share the gospel with strangers",
+      "outreach team",
+    ],
+    related: ["loh", "lotw", "kd"],
+    faq: [
+      {
+        q: "What is street evangelism?",
+        a: "Street evangelism is starting conversations about Jesus with people in public places — parks, streets, markets, transit stops — usually as a small team. It ranges from offering to pray for people to sharing your story and the Gospel with someone who wants to talk.",
+      },
+      {
+        q: "How do you start a conversation about Jesus with a stranger?",
+        a: "Start friendly and simple: offer to pray for them, ask a genuine question such as \"What do you think happens after we die?\" or \"If you could ask God one thing, what would it be?\", or simply ask how their day is going. Then listen, and let the conversation go where they're open to.",
+      },
+      {
+        q: "Is street evangelism effective?",
+        a: "It can be, especially as part of a regular rhythm with follow-up and a church to connect people to. Many conversations plant seeds rather than produce an immediate response, and that's normal. Weekly street outreach in Hamilton that began in 2014 grew into 20+ weekly outreach teams and a city-wide festival.",
+      },
+      {
+        q: "How do you stay safe doing street evangelism?",
+        a: "Always go in pairs or more, stay in public, well-lit places, keep your phone charged, and agree a check-in plan. Never go into someone's home or car, never take a child aside, and if anyone becomes aggressive, politely end the conversation and leave.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "The idea of walking up to a stranger to talk about Jesus terrifies most Christians. It terrified most of the people who now do it every week. Street evangelism isn't for a special kind of person — it's a skill, and like any skill it gets easier with practice, a good team and a few simple tools.",
+      },
+      {
+        t: "scripture",
+        text: "Go out quickly to the streets and lanes of the city, and bring in the poor and crippled and blind and lame.",
+        ref: "Luke 14:21",
+      },
+      {
+        t: "p",
+        text: "This is how many movements start. Love on Hamilton began in 2014 with weekly street evangelism and care for Hamilton's homeless community — and it grew into 20+ weekly outreach teams and <a href=\"/blog/what-actually-happens-at-a-jesus-festival\">a city-wide festival</a>.",
+      },
+
+      { t: "h2", text: "Before you go" },
+      {
+        t: "list",
+        items: [
+          "<strong>Pray first.</strong> For courage, for the people you'll meet, and for open hearts.",
+          "<strong>Never go alone.</strong> Pairs at minimum; a small team is better.",
+          "<strong>Pick a place and time.</strong> Somewhere busy but relaxed — a park, a plaza, outside a café — where people aren't rushing.",
+          "<strong>Bring something to give.</strong> Water, coffee or snacks open doors; a card or <a href=\"/blog/gospel-tracts-do-they-still-work\">Gospel tract</a> with a link gives people a next step.",
+          "<strong>Know your story.</strong> Practise <a href=\"/blog/how-to-share-your-testimony\">your testimony in three minutes</a> before you go.",
+        ],
+      },
+
+      { t: "h2", text: "Conversation starters that work" },
+      {
+        t: "steps",
+        items: [
+          { title: "\"Can I pray for you about anything?\"", text: "The simplest opener there is, and many people say yes — including people who never go to church." },
+          { title: "\"If you could ask God one question, what would it be?\"", text: "Honest, open, and it lets them lead." },
+          { title: "\"What do you think happens after we die?\"", text: "A question nearly everyone has thought about, and few get asked." },
+          { title: "\"We're out here giving away free coffee — want one?\"", text: "Practical kindness starts conversations without any agenda." },
+          { title: "\"How's your day going, honestly?\"", text: "Then genuinely listen. Many conversations start with someone simply being heard." },
+        ],
+      },
+
+      { t: "h2", text: "The conversation itself" },
+      {
+        t: "p",
+        text: "Listen more than you talk. Ask follow-up questions. When there's an opening, share how Jesus changed your life, and explain the Gospel simply: God loves us, sin separates us from Him, Jesus died and rose again to bring us back, and we respond by turning from sin and trusting Him as Lord.",
+      },
+      {
+        t: "p",
+        text: "If someone wants to respond, here's <a href=\"/blog/how-to-lead-someone-to-christ\">how to lead someone to Christ</a>. If they don't, that's completely fine. Offer to pray for them, give them something to take away, and thank them for talking.",
+      },
+      {
+        t: "scripture",
+        text: "Let your speech always be gracious, seasoned with salt, so that you may know how you ought to answer each person.",
+        ref: "Colossians 4:6",
+      },
+
+      { t: "h2", text: "Stay safe and respectful" },
+      {
+        t: "list",
+        items: [
+          "Stay in pairs and in public, well-lit places; agree a check-in plan",
+          "Never go into someone's home or car, and never take a child aside",
+          "Don't block paths, doorways or businesses; follow local rules and reasonable requests",
+          "Accept no the first time, warmly — never chase or argue",
+          "If anyone becomes aggressive, politely end the conversation and leave",
+        ],
+      },
+
+      { t: "h2", text: "When it doesn't go well" },
+      {
+        t: "p",
+        text: "Some people will ignore you, a few will be rude, and most conversations won't end in a decision. That's normal. Jesus said some seed falls on hard ground. Your job is to sow faithfully; God gives the growth. Debrief with your team, pray for the people you met by name, and go again next week.",
+      },
+      {
+        t: "scripture",
+        text: "So neither he who plants nor he who waters is anything, but only God who gives the growth.",
+        ref: "1 Corinthians 3:7",
+      },
+
+      { t: "h2", text: "Follow up" },
+      {
+        t: "p",
+        text: "If someone wants to keep talking or responds to Jesus, ask — with their consent — for a way to stay in touch, and connect them to a local church within days. See <a href=\"/blog/how-to-follow-up-with-a-new-believer\">the first 48 hours with a new believer</a>.",
+      },
+
+      { t: "h2", text: "Make it a weekly rhythm" },
+      {
+        t: "p",
+        text: "One outing is an adventure. A weekly rhythm with the same team, in the same place, at the same time, becomes a presence a neighbourhood recognises — and it's how most lasting fruit grows. Join or <a href=\"https://www.loveontheworld.com/start-a-group\">start a Love on The World outreach group</a> in your city.",
+      },
+      {
+        t: "callout",
+        title: "Bring a team together",
+        text: "Our guide to recruiting and training volunteers works for a weekly street team as much as a festival.",
+        href: "/blog/how-to-recruit-and-train-volunteers-for-an-outreach-event",
+        cta: "Build your team",
+      },
+    ],
+  },
+  {
+    slug: "how-to-run-an-evangelism-training-night",
+    title: "How To Run An Evangelism Training Night At Your Church",
+    description:
+      "Most Christians want to share their faith but don't know how. A practical plan for a single evening that equips your church: the agenda, practising the Gospel and testimonies in pairs, praying for people, going out together, and keeping the momentum.",
+    tldr: "Plan one evening of about two to three hours: worship and pray, show from Scripture why every believer is sent, teach the Gospel in four simple truths, then practise — telling testimonies and explaining the Gospel in pairs, and praying for one another. If you can, go out together for 30–60 minutes and come back to debrief. Give everyone simple resources and a next step, and make it the start of a regular rhythm.",
+    date: "2026-10-21",
+    category: "The Church",
+    eyebrow: "For pastors and leaders",
+    keywords: [
+      "evangelism training for church",
+      "how to train church members to evangelize",
+      "evangelism workshop",
+      "church evangelism training night",
+      "equipping believers to share their faith",
+      "evangelism training plan",
+    ],
+    related: ["kd", "lotw", "oikos"],
+    faq: [
+      {
+        q: "How do you train church members to evangelize?",
+        a: "Keep it simple and practical: show from Scripture that every believer is sent, teach a short, clear Gospel explanation, and have people practise telling their testimony and the Gospel in pairs. If possible, go out together straight away and debrief afterwards. Practice builds confidence far faster than more teaching.",
+      },
+      {
+        q: "What should an evangelism training night include?",
+        a: "Worship and prayer, a short biblical case for evangelism, the Gospel in four simple truths, testimony practice in pairs, praying for one another, an optional time of going out together, a debrief, and simple take-home resources with a clear next step.",
+      },
+      {
+        q: "How long should evangelism training be?",
+        a: "A single evening of two to three hours is enough to equip people to start, especially if it includes practice and a short time of going out together. Then keep momentum with a regular rhythm — a monthly outreach or a weekly team — rather than another long training event.",
+      },
+      {
+        q: "Can someone help train our church in evangelism?",
+        a: "Yes. Daniel and Katie Ziedins, who started the outreach that led to Jesus Festival, help churches make evangelism practical, biblical and repeatable. You can invite them through KD-Ziedins.com.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Most churches don't have an evangelism problem so much as a confidence problem. Ask a room of Christians whether they want to share their faith and nearly every hand goes up. Ask who feels equipped to, and most go down. One good evening can change that.",
+      },
+      {
+        t: "scripture",
+        text: "And he gave the apostles, the prophets, the evangelists, the shepherds and teachers, to equip the saints for the work of ministry, for building up the body of Christ.",
+        ref: "Ephesians 4:11–12",
+      },
+      {
+        t: "p",
+        text: "Notice the job description: leaders <em>equip</em>; the whole church does the work. Here's a plan for a single training night that does exactly that.",
+      },
+
+      { t: "h2", text: "Before the night" },
+      {
+        t: "list",
+        items: [
+          "Pray, and ask God for the people who should come",
+          "Invite personally — a pastor's direct ask fills a room far better than a notice",
+          "Plan for pairs: people learn best practising with one other person",
+          "Decide whether you'll go out together at the end, and choose a nearby place",
+          "Print simple resources — a Gospel outline, a testimony worksheet, a prayer card",
+        ],
+      },
+
+      { t: "h2", text: "The agenda" },
+      {
+        t: "steps",
+        items: [
+          { title: "Worship and pray (15 minutes)", text: "Start where every mission starts: with Jesus. Pray for your city and the people you'll meet." },
+          { title: "Why we're sent (15 minutes)", text: "Show from Scripture that every believer is called — Matthew 28:19–20, Romans 10:14–15, 1 Peter 3:15. Keep it short and warm, not guilt-driven." },
+          { title: "The Gospel in four truths (20 minutes)", text: "God loves us; sin separates us; Jesus died and rose to bring us back; we respond by turning from sin and trusting Him as Lord. Have everyone say it back." },
+          { title: "Testimony practice in pairs (25 minutes)", text: "Before, encounter, after — three minutes each, then swap. Give gentle feedback: shorter, plainer, more honest." },
+          { title: "Praying for people (15 minutes)", text: "Practise offering prayer and praying briefly and specifically for each other." },
+          { title: "Go out together (30–60 minutes, optional)", text: "In pairs, nearby: offer to pray for people, start a few conversations. Learning by doing is where confidence grows." },
+          { title: "Debrief (20 minutes)", text: "What happened? What did you learn? Celebrate every step of courage, whatever the result." },
+        ],
+      },
+
+      { t: "h2", text: "Why practice matters most" },
+      {
+        t: "p",
+        text: "People don't gain confidence by hearing more teaching; they gain it by doing the thing once. Saying the Gospel out loud to a friend, then to a stranger, breaks the fear in a way no talk can. Even ten minutes of going out together often does more than an hour in the room.",
+      },
+      {
+        t: "scripture",
+        text: "And he called the twelve together and gave them power and authority over all demons and to cure diseases, and he sent them out to proclaim the kingdom of God and to heal.",
+        ref: "Luke 9:1–2",
+      },
+
+      { t: "h2", text: "Resources to send people home with" },
+      {
+        t: "list",
+        items: [
+          "<a href=\"/blog/what-is-evangelism\">What is evangelism?</a> — the basics, plainly",
+          "<a href=\"/blog/how-to-share-your-testimony\">How to share your testimony in three minutes</a>",
+          "<a href=\"/blog/how-to-lead-someone-to-christ\">How to lead someone to Christ</a>",
+          "<a href=\"/blog/how-to-pray-for-someone-in-person\">How to pray for someone in person</a>",
+          "<a href=\"/blog/street-evangelism-beginners-guide\">Street evangelism: a beginner's guide</a>",
+          "<a href=\"https://OikosMap.com\">OikosMap</a> — to write down and pray for the people they already know",
+        ],
+      },
+
+      { t: "h2", text: "Keep the momentum" },
+      {
+        t: "p",
+        text: "A training night is a spark; a rhythm is the fire. Within a week, invite everyone into something regular: a monthly outreach, a weekly street team, or a prayer walk. Share stories from the pulpit of people who took a step. And keep praying for the names people wrote down.",
+      },
+      {
+        t: "p",
+        text: "If you'd like help, Daniel and Katie Ziedins train churches to make evangelism practical, biblical and repeatable — <a href=\"https://www.kd-ziedins.com/evangelism-training\">invite them through KD-Ziedins.com</a>.",
+      },
+      {
+        t: "callout",
+        title: "Take it city-wide",
+        text: "When your church is ready, a Jesus Festival brings churches together to lift up Jesus publicly. The free playbook shows how.",
+        href: "/start-a-jesus-festival",
+        cta: "Start a Jesus Festival",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));
