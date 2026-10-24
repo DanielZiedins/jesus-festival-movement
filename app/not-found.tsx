@@ -27,7 +27,7 @@ export default function NotFound() {
           <p className="mt-3 text-xs font-bold uppercase tracking-[.3em] text-gold">A turn in the road</p>
           <h1 className="mt-5 font-display text-4xl font-bold uppercase leading-[.88] tracking-[-.06em] text-white sm:text-6xl">This page has gone <span className="text-gradient-gold">somewhere else.</span></h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/62">The movement is still here. Find the story, the first steps, or the way to bring Jesus Festival to your city.</p>
-          <div className="mt-10 flex flex-col gap-3 sm:flex-row"><Link href="/" className="button-primary">Return home <Icon name="arrow" className="h-4 w-4" /></Link><Link href="/start-a-jesus-festival" className="button-secondary">Start in your city</Link></div>
+          <div className="mt-10 flex flex-col gap-3 sm:flex-row"><Link href="/" className="button-primary">Return home <Icon name="arrow" className="h-4 w-4" /></Link><Link href="/start-a-jesus-festival" className="button-secondary">Start in your city</Link></div><form action="/search" method="get" role="search" className="mt-8 flex max-w-xl gap-2"><label htmlFor="nf-search" className="sr-only">Search the site</label><input id="nf-search" name="q" type="search" placeholder="Search guides and answers" className="min-w-0 flex-1 rounded-full border border-white/15 bg-white/[.04] px-5 py-3 text-white placeholder:text-white/55 focus:border-gold/50 focus:outline-none focus:ring-2 focus:ring-gold/30" /><button type="submit" className="button-secondary">Search</button></form>
 
           {/* Someone here usually followed an old or mistyped link — give them
               the main places to land rather than only the front door. */}

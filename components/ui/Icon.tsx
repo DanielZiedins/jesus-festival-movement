@@ -26,6 +26,7 @@ const paths: Record<string, React.ReactNode> = {
     <path d="M12 21c-1-4-4-5-4-9 0-3 2-5 4-9 2 4 4 6 4 9 0 4-3 5-4 9Z" />
   ),
   arrow: <path d="M5 12h14M13 6l6 6-6 6" />,
+  search: <path d="M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14Zm5-2 5 5" />,
   mail: (
     <path d="M3 6h18v12H3V6Zm0 1 9 7 9-7" />
   ),

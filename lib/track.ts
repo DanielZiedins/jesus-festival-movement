@@ -11,7 +11,8 @@ export type TrackEvent =
   | { name: "download"; props: { file: string } }
   | { name: "outbound"; props: { kind: "give" | "network" | "shop" | "social" | "other"; host: string } }
   | { name: "cta"; props: { label: string; page: string } }
-  | { name: "answers_search"; props: { results: "none" | "some" | "many" } };
+  | { name: "answers_search"; props: { results: "none" | "some" | "many" } }
+  | { name: "site_search"; props: { results: "none" | "some" | "many" } };
 
 /**
  * Safe to call anywhere. Until Web Analytics is enabled on the Vercel project

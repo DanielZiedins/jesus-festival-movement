@@ -100,6 +100,17 @@ export default function BlogIndex() {
                   what we&apos;re still learning.
                 </p>
               </Reveal>
+              <form action="/search" method="get" role="search" className="mx-auto mt-8 flex max-w-md gap-2">
+                <label htmlFor="blog-search" className="sr-only">Search guides and answers</label>
+                <input
+                  id="blog-search"
+                  name="q"
+                  type="search"
+                  placeholder="Search guides and answers"
+                  className="min-w-0 flex-1 rounded-full border border-white/15 bg-white/[.04] px-5 py-3 text-white placeholder:text-white/55 focus:border-gold/50 focus:outline-none focus:ring-2 focus:ring-gold/30"
+                />
+                <button type="submit" className="button-secondary">Search</button>
+              </form>
             </div>
           </div>
         </section>
