@@ -13,7 +13,8 @@
     "indexnow": "node scripts/indexnow.mjs",
     "audit:a11y": "node scripts/a11y.mjs",
     "audit:layout": "node scripts/layout.mjs",
-    "audit:links": "node scripts/links.mjs"
+    "audit:links": "node scripts/links.mjs",
+    "audit:deeplinks": "node scripts/deeplinks.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
