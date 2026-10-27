@@ -4125,6 +4125,257 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "i-just-became-a-christian-what-now",
+    title: "I Just Became A Christian — What Now? Your First 30 Days With Jesus",
+    description:
+      "Just gave your life to Jesus? Welcome. A warm, simple guide to your first 30 days: what just happened, assurance when doubts come, reading the Bible, praying, finding a church, baptism, telling someone, and what to do when you mess up.",
+    tldr: "Welcome to the family of God. When you trust Jesus, you are forgiven, made new and given His Spirit — and that rests on His promise, not your feelings. In your first 30 days: read the Gospel of John a chapter a day, talk to God honestly every day, find a local church that loves Jesus and teaches the Bible, tell someone what happened, and ask about baptism. When you stumble, come straight back to Him.",
+    date: "2026-10-26",
+    category: "Discipleship",
+    eyebrow: "New to faith",
+    keywords: [
+      "i just became a christian what now",
+      "new christian what to do",
+      "first steps as a new christian",
+      "new believer guide",
+      "how to grow as a new christian",
+      "just got saved what now",
+    ],
+    related: ["reborn", "lotw", "jf-ca"],
+    faq: [
+      {
+        q: "What should I do after becoming a Christian?",
+        a: "Start simple: read the Gospel of John a chapter a day, talk to God honestly every day, find a local church that loves Jesus and teaches the Bible, tell someone what happened, and ask a church about baptism. You don't need to change everything at once — follow Jesus one day at a time.",
+      },
+      {
+        q: "How do I know I'm really saved?",
+        a: "Your salvation rests on Jesus' promise, not your feelings. He said whoever comes to Him He will never cast out (John 6:37), and everyone who calls on the name of the Lord will be saved (Romans 10:13). If you have honestly turned to Him, trust what He has said.",
+      },
+      {
+        q: "Do I have to go to church as a new Christian?",
+        a: "Following Jesus was never meant to be done alone. A church family helps you grow, prays for you and walks with you when it's hard. Look for one that loves Jesus and teaches the Bible — and if you don't know where to start, ask the person who shared Jesus with you, or contact us.",
+      },
+      {
+        q: "What if I sin after becoming a Christian?",
+        a: "You will — every Christian does. Sin doesn't undo what Jesus did. Come straight back to Him, be honest, and receive His forgiveness (1 John 1:9). Then keep going. Growing in Jesus is a lifelong journey, not an overnight change.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "If you've just given your life to Jesus — welcome. Heaven celebrated, and so do we. Whether it happened at a festival, in a conversation with a friend or alone in your room, something real has begun. This guide is for your first 30 days.",
+      },
+      {
+        t: "scripture",
+        text: "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
+        ref: "2 Corinthians 5:17",
+      },
+
+      { t: "h2", text: "What just happened" },
+      {
+        t: "p",
+        text: "When you turned from sin and put your trust in Jesus, God did more than you can feel right now. You were <strong>forgiven</strong> — every sin, past, present and future. You were <strong>made new</strong> — given a fresh start from the inside. You were <strong>adopted</strong> into God's family. And His Holy Spirit came to live in you, to help you follow Jesus.",
+      },
+      {
+        t: "scripture",
+        text: "But to all who did receive him, who believed in his name, he gave the right to become children of God.",
+        ref: "John 1:12",
+      },
+
+      { t: "h2", text: "When doubts come" },
+      {
+        t: "p",
+        text: "It's very common to wake up a day or a week later and wonder whether it was real — especially if you didn't feel anything dramatic. Your salvation doesn't rest on your feelings. It rests on Jesus' promise:",
+      },
+      {
+        t: "list",
+        items: [
+          "\"Whoever comes to me I will never cast out.\" (John 6:37)",
+          "\"Everyone who calls on the name of the Lord will be saved.\" (Romans 10:13)",
+          "\"I write these things to you who believe in the name of the Son of God, that you may know that you have eternal life.\" (1 John 5:13)",
+        ],
+      },
+
+      { t: "h2", text: "Your first 30 days" },
+      {
+        t: "steps",
+        items: [
+          { title: "Read the Gospel of John", text: "A chapter a day takes three weeks. It was written so that you would believe and have life in Jesus' name. Here's how to read the Bible for the first time." },
+          { title: "Talk to God every day", text: "Prayer is simply talking with God — honestly, in your own words. Thank Him, tell Him what's on your mind, and ask for help." },
+          { title: "Find a church family", text: "Look for a church that loves Jesus and teaches the Bible. Go this Sunday if you can, and keep going." },
+          { title: "Tell someone", text: "Tell a friend, a family member or the person who shared Jesus with you. Faith grows when it's spoken." },
+          { title: "Ask about baptism", text: "Jesus asked His followers to be baptized as a public declaration of new life. A local church will gladly help." },
+          { title: "Find one person to walk with", text: "Someone a few steps ahead of you who can answer questions and pray with you." },
+        ],
+      },
+      {
+        t: "p",
+        text: "For the Bible part, start here: <a href=\"/blog/how-to-read-the-bible-for-the-first-time\">how to read the Bible for the first time</a>. For baptism, see <a href=\"/glossary#baptism\">what baptism is</a>.",
+      },
+
+      { t: "h2", text: "When you mess up" },
+      {
+        t: "p",
+        text: "You will. Every Christian does. Becoming a Christian doesn't make you perfect overnight; it makes you forgiven and gives you a new direction. When you sin, don't hide from God — run to Him. Be honest, receive His forgiveness, and keep going.",
+      },
+      {
+        t: "scripture",
+        text: "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.",
+        ref: "1 John 1:9",
+      },
+
+      { t: "h2", text: "What changes — and what takes time" },
+      {
+        t: "p",
+        text: "Some things may change quickly: a new peace, a new desire to pray, old habits losing their grip. Others take years. That's normal. Following Jesus is called a walk, not a sprint. Discipleship is learning, day by day, to trust and obey Him — read <a href=\"/blog/what-is-discipleship\">what discipleship is</a>.",
+      },
+      {
+        t: "scripture",
+        text: "And I am sure of this, that he who began a good work in you will bring it to completion at the day of Jesus Christ.",
+        ref: "Philippians 1:6",
+      },
+
+      { t: "h2", text: "You're not alone" },
+      {
+        t: "p",
+        text: "If you have questions, doubts or just want to tell someone what happened, write to us at <a href=\"mailto:hello@jesusfestival.ca\">Hello@JesusFestival.ca</a>. A real person reads every message, and we'd love to celebrate with you and help you find a church nearby.",
+      },
+      {
+        t: "callout",
+        title: "Still exploring?",
+        text: "If you're not sure yet, or want to understand what you've said yes to, Know Jesus explains the Gospel simply and answers honest questions.",
+        href: "/know-jesus",
+        cta: "Open Know Jesus",
+      },
+    ],
+  },
+  {
+    slug: "how-to-read-the-bible-for-the-first-time",
+    title: "How To Read The Bible For The First Time: A Simple Plan",
+    description:
+      "Never read the Bible before? Where to start (hint: not page one), how the Bible is organised, choosing a translation, a simple daily method, a 30-day starter plan, and what to do when it's confusing.",
+    tldr: "Don't start at page one. Begin with the Gospel of John, a chapter a day, in a readable translation. Before you read, ask God to help you understand; as you read, notice what it shows about God and about people; afterwards, choose one thing to do or remember. When parts are confusing, keep going and ask someone. Then read Mark, Acts and the Psalms.",
+    date: "2026-10-26",
+    category: "Discipleship",
+    eyebrow: "New to faith",
+    keywords: [
+      "how to read the bible for the first time",
+      "where to start reading the bible",
+      "bible reading plan for beginners",
+      "how to read the bible",
+      "which bible translation should i read",
+      "bible for beginners",
+    ],
+    related: ["reborn", "lotw", "kd"],
+    faq: [
+      {
+        q: "Where should I start reading the Bible?",
+        a: "With the Gospel of John. It tells the story of Jesus clearly and was written so that readers would believe in Him. Read a chapter a day. After John, read Mark, then Acts, then dip into the Psalms. Leave the harder books for later.",
+      },
+      {
+        q: "Which Bible translation should a beginner read?",
+        a: "One you can understand. Readable modern translations such as the NIV, NLT or CSB are good places to start; the ESV is a little more literal. You can compare several free online or in a Bible app. The best translation is the one you will actually read.",
+      },
+      {
+        q: "How long should I read the Bible each day?",
+        a: "Start small — one chapter, or ten to fifteen minutes. Consistency matters far more than length. A short daily habit you keep will shape you more than a long session you only manage once a month.",
+      },
+      {
+        q: "What if I don't understand what I'm reading?",
+        a: "That's normal, even for people who've read it for years. Keep reading, note your questions, and ask a pastor or a Christian friend. Reading with others — in a small group or with one person — helps enormously. Ask God to help you understand before you start.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "The Bible can feel intimidating: hundreds of pages, unfamiliar names, ancient history. Many people start bravely at Genesis and stall somewhere in Leviticus. There's a better way to begin, and it's simpler than you think.",
+      },
+      {
+        t: "scripture",
+        text: "Your word is a lamp to my feet and a light to my path.",
+        ref: "Psalm 119:105",
+      },
+
+      { t: "h2", text: "Don't start at page one" },
+      {
+        t: "p",
+        text: "The Bible isn't one book; it's a library of 66, written over many centuries, all pointing to Jesus. You don't read a library front to back. <strong>Start with the Gospel of John</strong> — the story of Jesus' life, death and resurrection, written for exactly this purpose.",
+      },
+      {
+        t: "scripture",
+        text: "But these are written so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in his name.",
+        ref: "John 20:31",
+      },
+
+      { t: "h2", text: "How the Bible is organised" },
+      {
+        t: "list",
+        items: [
+          "<strong>The Old Testament</strong> — God's story with His people before Jesus: creation, the law, history, poetry like the Psalms, and the prophets",
+          "<strong>The New Testament</strong> — Jesus and the early Church: four Gospels about Jesus' life, Acts (the first Christians), letters to churches, and Revelation",
+          "References like <em>John 3:16</em> mean the book of John, chapter 3, verse 16",
+        ],
+      },
+
+      { t: "h2", text: "Choose a translation you can read" },
+      {
+        t: "p",
+        text: "The Bible was written in Hebrew, Aramaic and Greek, so every English Bible is a translation. Readable modern ones like the NIV, NLT or CSB are great for beginners; the ESV is a little more literal. Most are free in Bible apps and websites. The best translation is the one you'll actually read.",
+      },
+
+      { t: "h2", text: "A simple daily method" },
+      {
+        t: "steps",
+        items: [
+          { title: "Pray first", text: "\"God, help me understand and live what I read.\" A ten-second prayer changes how you read." },
+          { title: "Read one chapter", text: "Slowly. Read it twice if it's short." },
+          { title: "Ask three questions", text: "What does this show me about God? What does it show me about people? What will I do or remember today?" },
+          { title: "Write one line", text: "A verse, a question or a thought, in a notebook or your phone." },
+          { title: "Talk to God about it", text: "Turn what you read into a short prayer." },
+        ],
+      },
+
+      { t: "h2", text: "A 30-day starter plan" },
+      {
+        t: "list",
+        items: [
+          "<strong>Days 1–21:</strong> the Gospel of John, one chapter a day",
+          "<strong>Days 22–30:</strong> the first nine chapters of Acts — what happened next",
+          "<strong>Alongside:</strong> one Psalm whenever you need words to pray",
+          "<strong>Then:</strong> the Gospel of Mark, the rest of Acts, and a short letter like Philippians",
+        ],
+      },
+      {
+        t: "p",
+        text: "You can start John right now, free online: <a href=\"https://www.biblegateway.com/passage/?search=John+1&version=NIV\">John 1</a>.",
+      },
+
+      { t: "h2", text: "When it's confusing" },
+      {
+        t: "p",
+        text: "Some parts will be. That's normal for everyone, including people who've read it for decades. Don't let one hard passage stop you; note the question and keep reading. Ask a pastor or a Christian friend, and if you can, read with others. Many churches have small groups that read the Bible together.",
+      },
+      {
+        t: "scripture",
+        text: "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness.",
+        ref: "2 Timothy 3:16",
+      },
+
+      { t: "h2", text: "Make it a habit" },
+      {
+        t: "p",
+        text: "Attach it to something you already do every day — your morning coffee, your commute, your lunch break. Short and daily beats long and occasional. If you miss a day, simply pick up where you left off. Bible reading is one of the main ways we grow as followers of Jesus — see <a href=\"/blog/what-is-discipleship\">what discipleship is</a> and <a href=\"/blog/i-just-became-a-christian-what-now\">your first 30 days as a Christian</a>.",
+      },
+      {
+        t: "callout",
+        title: "New to all of this?",
+        text: "Know Jesus explains the heart of the Bible's message simply — and answers the honest questions people ask.",
+        href: "/know-jesus",
+        cta: "Open Know Jesus",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));

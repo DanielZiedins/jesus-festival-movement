@@ -249,7 +249,10 @@ export const ANSWERS: Answer[] = [
       "A prayer as simple as this is enough: <em>&ldquo;Jesus, I believe You died for me and rose again. Forgive my sins. I turn to You. Be my Lord and Savior. Fill me with Your Spirit. Amen.&rdquo;</em>",
       "Salvation is a gift received by faith, not a reward for cleaning yourself up first. If you prayed that and meant it, you are not on probation — you are family.",
     ],
-    links: [{ label: "The Gospel, explained simply", href: "/know-jesus" }],
+    links: [
+      { label: "The Gospel, explained simply", href: "/know-jesus" },
+      { label: "Your first 30 days as a Christian", href: "/blog/i-just-became-a-christian-what-now" },
+    ],
   },
   {
     id: "is-evangelism-effective",
@@ -461,6 +464,7 @@ export const ANSWERS: Answer[] = [
       { label: "Kingdom Base — free follow-up tool", href: "https://KingdomBase.App" },
       { label: "The Gospel, explained simply", href: "/know-jesus" },
       { label: "What is discipleship?", href: "/blog/what-is-discipleship" },
+      { label: "How to read the Bible for the first time", href: "/blog/how-to-read-the-bible-for-the-first-time" },
     ],
   },
   {

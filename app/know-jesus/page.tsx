@@ -235,7 +235,14 @@ export default function KnowJesusPage() {
               <Reveal delay={0.05}>
                 <p className="mx-auto mt-6 max-w-2xl text-lg text-white/70">
                   Salvation is a gift, not a graduation. Here are five simple
-                  next steps to help you grow.
+                  next steps to help you grow — and a fuller guide to{" "}
+                  <a
+                    href="/blog/i-just-became-a-christian-what-now"
+                    className="font-semibold text-gold underline decoration-gold/50 underline-offset-4 hover:decoration-gold"
+                  >
+                    your first 30 days
+                  </a>
+                  .
                 </p>
               </Reveal>
             </div>
