@@ -4376,6 +4376,262 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "what-is-the-kingdom-of-god",
+    title: "What Is The Kingdom Of God? Jesus' Central Message, Explained",
+    description:
+      "The Kingdom of God was the heart of everything Jesus preached. What it means, why it is 'already here' and 'not yet', how you enter it, what it looks like in ordinary life, and what it means to seek it first.",
+    tldr: "The Kingdom of God is God's reign — His rule as King, and the life, peace and justice that come wherever He reigns. It was the centre of Jesus' preaching. In Jesus it has already arrived, and it will come in fullness when He returns. You enter it by turning from sin and trusting Jesus, being born again. It grows quietly like a mustard seed, and Jesus calls His followers to seek it first.",
+    date: "2026-10-29",
+    category: "Discipleship",
+    eyebrow: "The basics",
+    keywords: [
+      "what is the kingdom of god",
+      "kingdom of god meaning",
+      "kingdom of heaven",
+      "seek first the kingdom of god",
+      "already and not yet kingdom",
+      "how to enter the kingdom of god",
+    ],
+    related: ["six33-world", "lotw", "tkn"],
+    faq: [
+      {
+        q: "What is the Kingdom of God?",
+        a: "The Kingdom of God is God's reign — His rule as King, and the life, righteousness, peace and joy that come wherever He reigns. It was the central theme of Jesus' preaching: He announced that in Him, God's Kingdom had come near.",
+      },
+      {
+        q: "Is the Kingdom of God now or in the future?",
+        a: "Both. Christians often describe it as 'already and not yet'. In Jesus the Kingdom has already arrived — seen in forgiveness, healing and changed lives — but it will come in fullness when He returns and makes all things new.",
+      },
+      {
+        q: "How do you enter the Kingdom of God?",
+        a: "Jesus said you must be born again (John 3:3). You enter by turning from sin and putting your trust in Jesus as Lord. It isn't earned by being good enough; it is received as a gift, like a child receives.",
+      },
+      {
+        q: "What is the difference between the Kingdom of God and the Kingdom of heaven?",
+        a: "They refer to the same reality. Matthew's Gospel usually says 'Kingdom of heaven', in keeping with Jewish reverence for God's name, while Mark and Luke say 'Kingdom of God' in the same sayings of Jesus.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "If you read the Gospels and ask what Jesus talked about most, the answer isn't hard to find. Again and again — in sermons, parables and prayers — it is the Kingdom of God. It was His opening announcement, and it is still the heart of the good news.",
+      },
+      {
+        t: "scripture",
+        text: "Now after John was arrested, Jesus came into Galilee, proclaiming the gospel of God, and saying, \"The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel.\"",
+        ref: "Mark 1:14–15",
+      },
+
+      { t: "h2", text: "What the Kingdom of God is" },
+      {
+        t: "p",
+        text: "<strong>The Kingdom of God is God's reign</strong> — His rule as the rightful King, and the life that flows wherever He reigns. It isn't first a place on a map. It is wherever God's will is done: forgiveness instead of guilt, healing instead of brokenness, justice instead of oppression, peace instead of fear.",
+      },
+      {
+        t: "scripture",
+        text: "For the kingdom of God is not a matter of eating and drinking but of righteousness and peace and joy in the Holy Spirit.",
+        ref: "Romans 14:17",
+      },
+      {
+        t: "p",
+        text: "That's why Jesus taught His followers to pray, <em>\"Your kingdom come, your will be done, on earth as it is in heaven\"</em> (Matthew 6:10). The two lines mean the same thing.",
+      },
+
+      { t: "h2", text: "Already here, and not yet" },
+      {
+        t: "p",
+        text: "In Jesus, the Kingdom has <strong>already</strong> arrived. When He forgave sins, healed the sick and welcomed outsiders, He was showing what God's reign looks like. But it has <strong>not yet</strong> come in fullness: the world is still broken, and Christians wait for the day Jesus returns and makes all things new.",
+      },
+      {
+        t: "scripture",
+        text: "But if it is by the finger of God that I cast out demons, then the kingdom of God has come upon you.",
+        ref: "Luke 11:20",
+      },
+
+      { t: "h2", text: "How you enter it" },
+      {
+        t: "p",
+        text: "You don't enter the Kingdom by being good enough, religious enough or important enough. Jesus said you must be born again — made new by God. You enter by turning from sin and trusting Him as Lord, receiving it as a gift, like a child.",
+      },
+      {
+        t: "scripture",
+        text: "Jesus answered him, \"Truly, truly, I say to you, unless one is born again he cannot see the kingdom of God.\"",
+        ref: "John 3:3",
+      },
+      {
+        t: "p",
+        text: "If you've never taken that step, <a href=\"/know-jesus\">Know Jesus</a> explains how, simply and honestly.",
+      },
+
+      { t: "h2", text: "How it grows" },
+      {
+        t: "p",
+        text: "Jesus described the Kingdom in surprisingly small pictures: a mustard seed that becomes a tree, a little yeast that works through a whole batch of dough, a hidden treasure worth everything. It often grows quietly — one life, one family, one street at a time — until its effect is unmistakable.",
+      },
+      {
+        t: "scripture",
+        text: "The kingdom of heaven is like a grain of mustard seed that a man took and sowed in his field. It is the smallest of all seeds, but when it has grown it is larger than all the garden plants and becomes a tree.",
+        ref: "Matthew 13:31–32",
+      },
+
+      { t: "h2", text: "What it looks like in ordinary life" },
+      {
+        t: "list",
+        items: [
+          "Forgiving someone who hurt you, because you've been forgiven",
+          "Serving people no one else notices",
+          "Doing honest, excellent work as worship — see <a href=\"/blog/kingdom-work-outside-of-sunday\">Kingdom work outside of Sunday</a>",
+          "Sharing the good news of the King with the people around you",
+          "Churches across a city lifting up one name together",
+        ],
+      },
+
+      { t: "h2", text: "Seek it first" },
+      {
+        t: "p",
+        text: "Jesus gave His followers one priority above all the anxieties of daily life: put God's Kingdom first, and trust Him with the rest. That single verse has shaped countless lives and ministries.",
+      },
+      {
+        t: "scripture",
+        text: "But seek first the kingdom of God and his righteousness, and all these things will be added to you.",
+        ref: "Matthew 6:33",
+      },
+      {
+        t: "p",
+        text: "Seeking the Kingdom first means asking, in every part of life, \"What does Jesus as King want here?\" — and then doing it. It is the heartbeat of <a href=\"/blog/what-is-discipleship\">discipleship</a> and of <a href=\"/blog/what-is-evangelism\">evangelism</a>: following the King, and inviting others to know Him.",
+      },
+      {
+        t: "callout",
+        title: "Meet the King",
+        text: "The Kingdom of God is good news because the King is good. Know Jesus explains who He is and how to respond.",
+        href: "/know-jesus",
+        cta: "Open Know Jesus",
+      },
+    ],
+  },
+  {
+    slug: "how-to-share-your-faith-on-social-media",
+    title: "How To Share Your Faith On Social Media (Without Being Preachy)",
+    description:
+      "A practical, biblical guide to sharing Jesus online: what to post, telling your story, responding to comments and messages with grace, consent and safety, avoiding arguments, and pointing people to a next step.",
+    tldr: "Share your faith online the way you would in person: honestly, kindly and consistently. Post your own story and what God is doing, share Scripture that has helped you, and show practical love. Reply to comments with grace and take real questions to private messages. Get consent before posting other people's stories or photos, never argue for an audience, and always give curious people a next step — a conversation, a church, or a clear Gospel page.",
+    date: "2026-10-29",
+    category: "Evangelism",
+    eyebrow: "Online",
+    keywords: [
+      "how to share your faith on social media",
+      "christian social media tips",
+      "evangelism on social media",
+      "sharing the gospel online",
+      "christian content ideas",
+      "digital evangelism",
+    ],
+    related: ["reborn", "lotw", "jf-app"],
+    faq: [
+      {
+        q: "How do you share your faith on social media without being preachy?",
+        a: "Share your own story rather than lecturing: what God has done in your life, a verse that helped you this week, an answered prayer, or how your church served your city. Be honest about struggles, stay kind in the comments, and let your everyday posts match what you say you believe.",
+      },
+      {
+        q: "What should Christians post on social media?",
+        a: "Your testimony in short pieces, Scripture with a sentence about why it matters to you, stories of what God is doing (with consent), invitations to church or events, practical love you've seen or shared, and honest questions you've wrestled with. Mix faith naturally into ordinary life rather than only posting 'religious' content.",
+      },
+      {
+        q: "How should Christians respond to negative comments online?",
+        a: "With grace and brevity. Don't argue for an audience. Acknowledge fair points, answer sincere questions kindly or offer to talk privately, and ignore or remove abuse. How you treat critics often says more about Jesus than anything you post.",
+      },
+      {
+        q: "Can I post photos of people from church or outreach events?",
+        a: "Only with consent. Ask before posting anyone's photo or story, never post children without a parent's permission, and never share someone's testimony, prayer request or location without asking. Protect the people you're trying to love.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Most of the people you know spend hours a day on their phones. Social media is one of the places your friends, family and coworkers actually are — which makes it part of your mission field. The question isn't whether to be a Christian online, but how.",
+      },
+      {
+        t: "scripture",
+        text: "Walk in wisdom toward outsiders, making the best use of the time. Let your speech always be gracious, seasoned with salt, so that you may know how you ought to answer each person.",
+        ref: "Colossians 4:5–6",
+      },
+
+      { t: "h2", text: "Start with your own story" },
+      {
+        t: "p",
+        text: "Nobody can argue with what happened to you. Share your testimony in short pieces: what life was like before, how Jesus became real, and what is different now. Our guide to <a href=\"/blog/how-to-share-your-testimony\">sharing your testimony in three minutes</a> works perfectly as a caption or a short video script.",
+      },
+
+      { t: "h2", text: "What to post" },
+      {
+        t: "steps",
+        items: [
+          { title: "A verse and why it matters", text: "Not just the verse — one honest sentence about why it spoke to you this week." },
+          { title: "What God is doing", text: "Answered prayers, changed lives, your church serving the city — with permission from anyone involved." },
+          { title: "Honest questions", text: "Doubts you've wrestled with and what helped. Honesty invites conversation; perfection shuts it down." },
+          { title: "Invitations", text: "To church, a worship night or an outreach. A personal invite in a post reaches people no flyer will." },
+          { title: "Ordinary life, lived for Jesus", text: "Faith woven into normal posts says more than a feed full of slogans." },
+        ],
+      },
+
+      { t: "h2", text: "In the comments and messages" },
+      {
+        t: "list",
+        items: [
+          "Thank people for engaging, even when they disagree",
+          "Answer sincere questions kindly — or offer to talk by private message, where real conversations happen",
+          "Never argue for an audience; nobody is won by being humiliated in public",
+          "Ignore or remove abuse rather than feeding it",
+          "Offer to pray when someone shares something hard — and then actually do it",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "A soft answer turns away wrath, but a harsh word stirs up anger.",
+        ref: "Proverbs 15:1",
+      },
+
+      { t: "h2", text: "Consent, safety and privacy" },
+      {
+        t: "list",
+        items: [
+          "Ask before posting anyone's photo, story or testimony",
+          "Never post children without a parent's permission — and avoid identifying details like school or location",
+          "Never share someone's prayer request publicly without asking",
+          "Be careful with live locations at events and outreach",
+          "Keep private conversations private",
+        ],
+      },
+      {
+        t: "p",
+        text: "Loving people well online includes protecting them. A story isn't worth sharing if it costs someone their dignity or safety.",
+      },
+
+      { t: "h2", text: "Live what you post" },
+      {
+        t: "p",
+        text: "The quickest way to undermine your witness online is a gap between your posts and your life. The people who see your feed often see you at work, at home and in the group chat too. Kindness, honesty and humility offline make your posts believable.",
+      },
+
+      { t: "h2", text: "Always give a next step" },
+      {
+        t: "p",
+        text: "When someone is curious, make it easy to take one step: offer a conversation over coffee, invite them to church, or send them a clear explanation of the Gospel. Our <a href=\"/know-jesus\">Know Jesus page</a> was written for exactly that moment — the Gospel in four simple truths, honest answers to common doubts, and a prayer anyone can pray.",
+      },
+      {
+        t: "p",
+        text: "And when someone is ready, here's <a href=\"/blog/how-to-lead-someone-to-christ\">how to lead someone to Christ</a> — whether you're talking in person or by message.",
+      },
+      {
+        t: "callout",
+        title: "Share the Gospel in one link",
+        text: "Know Jesus is ready to share in a post, a comment or a message. Send it to someone today.",
+        href: "/know-jesus",
+        cta: "Open Know Jesus",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));

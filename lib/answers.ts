@@ -370,7 +370,10 @@ export const ANSWERS: Answer[] = [
       "Write your invitations for someone who has never been to a church rather than for people already inside one. Plain language, a clear time and place, and an explicit \"everyone is welcome\".",
       "Local radio, community noticeboards and shop windows are often free and still remarkably effective.",
     ],
-    links: [{ label: "Promotion — step 9", href: "/start-a-jesus-festival/playbook" }],
+    links: [
+      { label: "Promotion — step 9", href: "/start-a-jesus-festival/playbook" },
+      { label: "Sharing your faith on social media", href: "/blog/how-to-share-your-faith-on-social-media" },
+    ],
   },
 
   /* ── More faith ─────────────────────────────────────────── */

@@ -94,6 +94,15 @@ export const GLOSSARY: Term[] = [
     linkLabel: "What happens at a Jesus Festival",
   },
   {
+    id: "kingdom-of-god",
+    term: "Kingdom of God",
+    definition:
+      "God's reign — His rule as King, and the righteousness, peace and joy that come wherever He reigns. It was the centre of Jesus' preaching: already present in Him, and coming in fullness when He returns. You enter it by being born again through faith in Jesus.",
+    ref: "Mark 1:15",
+    href: "/blog/what-is-the-kingdom-of-god",
+    linkLabel: "What is the Kingdom of God?",
+  },
+  {
     id: "oikos",
     term: "Oikos",
     definition:
