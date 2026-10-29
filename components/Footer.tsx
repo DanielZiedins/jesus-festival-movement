@@ -74,17 +74,6 @@ export default function Footer() {
                 Privacy
               </Link>
             </p>
-            <p className="mt-2 text-[0.72rem] text-white/55">
-              Made with <span aria-label="love" role="img" className="inline-block animate-pulse text-ember-400">❤️</span> by:{" "}
-              <a
-                href="https://www.danielziedins.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-semibold text-white/52 underline decoration-gold/35 underline-offset-4 transition hover:text-gold"
-              >
-                Daniel Ziedins
-              </a>
-            </p>
             {/* Deliberately quiet — for people who are sent here. */}
             <p className="mt-2 text-[0.72rem] text-white/50">
               <Link
