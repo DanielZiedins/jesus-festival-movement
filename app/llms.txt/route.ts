@@ -54,6 +54,7 @@ ${SITE.tagline}
 - The full 13-step playbook (timelines, checklists, warnings): ${u}/start-a-jesus-festival/playbook
 - Prayer walk guide: ${u}/resources/prayer-walk
 - Printable altar call response team training card: ${u}/resources/response-team
+- Printable four-week Advent prayer guide for your city: ${u}/resources/advent-prayer-guide
 - Free starter guide PDF: ${u}/resources/basics-how-to-start-a-jesus-festival.pdf
 - Answers to common questions: ${u}/answers
 - Glossary of evangelism and festival terms: ${u}/glossary

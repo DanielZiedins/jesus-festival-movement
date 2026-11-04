@@ -2755,6 +2755,7 @@ export const POSTS: Post[] = [
       "Christmas is the one season most people are open to hearing about Jesus. Practical, low-cost Christmas outreach ideas for churches — carols in public, personal invitations, serving people alone at Christmas — and the January plan most churches forget.",
     tldr: "Christmas is one of the few seasons when people who never think about church are open to it. The outreach that works is personal and repeatable: invite people by name to a short, Gospel-clear Christmas service, take carols and hot drinks into public spaces, serve people who will be alone, and partner with ministries already caring for families in need. Above all, plan January before December, so everyone you meet has a next step.",
     date: "2026-10-18",
+    updated: "2026-11-04",
     category: "Outreach",
     eyebrow: "Seasonal outreach",
     keywords: [
@@ -2807,6 +2808,13 @@ export const POSTS: Post[] = [
       {
         t: "p",
         text: "Pray for your city through the season too. Our guide to <a href=\"/blog/how-to-pray-for-your-city\">praying for your city</a> and the <a href=\"/resources/prayer-walk\">prayer walk guide</a> both work well as an Advent rhythm.",
+      },
+      {
+        t: "callout",
+        title: "Free: an Advent prayer guide for your city",
+        text: "Four printable weeks of Hope, Peace, Joy and Love — Scripture, prayers for your city, people to pray for and one action each week.",
+        href: "/resources/advent-prayer-guide",
+        cta: "Get the Advent guide",
       },
 
       { t: "h2", text: "Ideas that cost almost nothing" },

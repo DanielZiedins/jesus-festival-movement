@@ -271,6 +271,7 @@ export const PAGE_UPDATED: Record<string, string> = {
   "/start-a-jesus-festival/playbook": "2026-10-21",
   "/resources/prayer-walk": "2026-09-23",
   "/resources/response-team": "2026-10-14",
+  "/resources/advent-prayer-guide": "2026-11-04",
   "/shop": "2026-09-23",
   "/stories/kingdom-shop": "2026-09-24",
   "/answers": "2026-10-26",
