@@ -6,6 +6,7 @@ const EXPLORE = [
   ["The movement", "/#movement"],
   ["About the movement", "/about"],
   ["Start a Jesus Festival", "/start-a-jesus-festival"],
+  ["Free resources", "/resources"],
   ["Prayer walk guide", "/resources/prayer-walk"],
   ["Response team card", "/resources/response-team"],
   ["Advent prayer guide", "/resources/advent-prayer-guide"],

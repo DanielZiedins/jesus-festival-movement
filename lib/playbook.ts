@@ -297,6 +297,7 @@ export const PLAYBOOK_DETAIL: Record<
       { label: "The first 48 hours with a new believer", href: "/blog/how-to-follow-up-with-a-new-believer" },
       { label: "What happens after the festival", href: "/blog/what-happens-after-the-festival" },
       { label: "What is discipleship?", href: "/blog/what-is-discipleship" },
+      { label: "Start a small group Bible study", href: "/blog/how-to-start-a-small-group-bible-study" },
       { label: "Church outreach ideas", href: "/blog/church-outreach-ideas" },
     ],
     timing: "Weeks 1–8 after",

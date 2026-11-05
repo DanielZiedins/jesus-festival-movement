@@ -97,7 +97,8 @@ const structuredData = {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: SITE.name, item: SITE.url },
-        { "@type": "ListItem", position: 2, name: "Response Team Training Card", item: `${SITE.url}/resources/response-team` },
+        { "@type": "ListItem", position: 2, name: "Resources", item: `${SITE.url}/resources` },
+        { "@type": "ListItem", position: 3, name: "Response Team Training Card", item: `${SITE.url}/resources/response-team` },
       ],
     },
   ],

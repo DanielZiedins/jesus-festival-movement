@@ -402,6 +402,7 @@ export const ANSWERS: Answer[] = [
       { label: "Sharing the Gospel with someone you know", href: "/blog/share-the-gospel-with-someone-you-already-know" },
       { label: "How to lead someone to Christ", href: "/blog/how-to-lead-someone-to-christ" },
       { label: "Street evangelism for beginners", href: "/blog/street-evangelism-beginners-guide" },
+      { label: "Evangelism for introverts", href: "/blog/evangelism-for-introverts" },
     ],
   },
   {
@@ -468,6 +469,7 @@ export const ANSWERS: Answer[] = [
       { label: "The Gospel, explained simply", href: "/know-jesus" },
       { label: "What is discipleship?", href: "/blog/what-is-discipleship" },
       { label: "How to read the Bible for the first time", href: "/blog/how-to-read-the-bible-for-the-first-time" },
+      { label: "Start a small group Bible study", href: "/blog/how-to-start-a-small-group-bible-study" },
     ],
   },
   {

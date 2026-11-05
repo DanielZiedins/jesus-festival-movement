@@ -4876,6 +4876,250 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "evangelism-for-introverts",
+    title: "Evangelism For Introverts: Sharing Jesus Without Becoming Someone Else",
+    description:
+      "You don't need to be loud, outgoing or a natural talker to share your faith. A practical, biblical guide to evangelism for introverts: one-to-one conversations, listening, writing, hospitality, prayer, and doing outreach in a way that fits how God made you.",
+    tldr: "Introverts make some of the best evangelists, because so much of sharing Jesus is listening, noticing and deep one-to-one conversation. Start with the people you already know, ask good questions and really listen, share your story honestly, and use your strengths — writing, hospitality, prayer and faithfulness over time. Serve at events in roles that suit you, and give yourself time to recharge.",
+    date: "2026-11-05",
+    category: "Evangelism",
+    eyebrow: "For the quieter ones",
+    keywords: [
+      "evangelism for introverts",
+      "how can an introvert share their faith",
+      "introvert christian evangelism",
+      "sharing faith when you're shy",
+      "quiet evangelism",
+      "one to one evangelism",
+    ],
+    related: ["oikos", "lotw", "kd"],
+    faq: [
+      {
+        q: "Can introverts be good at evangelism?",
+        a: "Yes. Much of evangelism is listening, noticing people and having honest one-to-one conversations — strengths many introverts already have. You don't need to be loud or outgoing; you need to be faithful, kind and willing to share what Jesus has done for you.",
+      },
+      {
+        q: "How can an introvert share their faith?",
+        a: "Start with people you already know, one at a time. Ask good questions and listen well, share your story honestly when there's an opening, and use your strengths: a thoughtful message, a letter, an invitation to your home, or simply being a faithful friend over time.",
+      },
+      {
+        q: "Do I have to do street evangelism if I'm an introvert?",
+        a: "No one is required to do every kind of outreach. Every Christian is called to share their faith, but there are many ways to do it. If you join a street team, roles like prayer, hospitality or one-to-one conversations often suit introverts well — and many find it easier than they expected.",
+      },
+      {
+        q: "How do introverts avoid burning out in ministry?",
+        a: "Plan recovery time after social events, serve in roles that fit you, work alongside others rather than alone, and keep a steady rhythm instead of occasional big pushes. Faithfulness over time matters more than intensity.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "If the word \"evangelism\" makes you picture a loud stranger with a megaphone, and you're quietly sure that isn't you — good news. It doesn't have to be. Some of the most fruitful evangelists in history were quiet, thoughtful people who listened more than they talked.",
+      },
+      {
+        t: "scripture",
+        text: "But in your hearts honor Christ the Lord as holy, always being prepared to make a defense to anyone who asks you for a reason for the hope that is in you; yet do it with gentleness and respect.",
+        ref: "1 Peter 3:15",
+      },
+      {
+        t: "p",
+        text: "Notice the setting in that verse: someone asks, and you answer — gently. That's a conversation, not a performance.",
+      },
+
+      { t: "h2", text: "Your quietness is not a weakness" },
+      {
+        t: "p",
+        text: "Jesus had many of His most important conversations one-to-one: Nicodemus at night, the woman at the well, Zacchaeus over dinner. Introverts tend to be good listeners, notice what others miss and prefer depth to small talk — all of which make for real conversations about real things.",
+      },
+
+      { t: "h2", text: "Start with people you already know" },
+      {
+        t: "p",
+        text: "You don't have to start with strangers. Most people come to faith through someone they already know. Write down a few names, pray for them by name, and look for natural openings. <a href=\"/blog/share-the-gospel-with-someone-you-already-know\">Here's how to share the Gospel with someone you already know</a>.",
+      },
+
+      { t: "h2", text: "Ask good questions, then listen" },
+      {
+        t: "steps",
+        items: [
+          { title: "\"How are you, really?\"", text: "And then wait. People notice when someone actually wants to know." },
+          { title: "\"What's been on your mind lately?\"", text: "Deep questions suit deep thinkers — on both sides." },
+          { title: "\"Can I pray for you about that?\"", text: "Often the simplest and most natural bridge to Jesus. Here's how to pray for someone in person." },
+          { title: "\"Do you ever think about faith?\"", text: "Asked gently, with real curiosity, it opens more doors than an argument." },
+        ],
+      },
+
+      { t: "h2", text: "Play to your strengths" },
+      {
+        t: "list",
+        items: [
+          "<strong>Writing.</strong> A thoughtful message, card or letter can say what you'd struggle to say out loud — and people keep them.",
+          "<strong>Hospitality.</strong> A meal at your table, with one or two people, is one of the most natural places to talk about what matters.",
+          "<strong>Prayer.</strong> Faithful, persistent prayer for people by name is real evangelism, not a lesser version of it.",
+          "<strong>Faithfulness.</strong> Being a steady, trustworthy friend for years often opens the door that a single bold conversation can't.",
+          "<strong>Sharing a link.</strong> Sending someone a clear explanation of the Gospel, like <a href=\"/know-jesus\">Know Jesus</a>, when they're curious.",
+        ],
+      },
+
+      { t: "h2", text: "Your story, in your words" },
+      {
+        t: "p",
+        text: "Prepare your story ahead of time so you're not searching for words in the moment. Write it out once — before, encounter, after — and keep it to about three minutes. See <a href=\"/blog/how-to-share-your-testimony\">how to share your testimony in three minutes</a>.",
+      },
+
+      { t: "h2", text: "At outreach and festivals" },
+      {
+        t: "p",
+        text: "If you join a street team or serve at a festival, you don't have to be the one on the microphone. Prayer teams, hospitality, welcome and one-to-one conversations on a <a href=\"/resources/response-team\">response team</a> all suit quieter people well. Go with a partner, and plan time to recharge afterwards.",
+      },
+      {
+        t: "scripture",
+        text: "As each has received a gift, use it to serve one another, as good stewards of God's varied grace.",
+        ref: "1 Peter 4:10",
+      },
+
+      { t: "h2", text: "God uses you as you are" },
+      {
+        t: "p",
+        text: "Moses told God he wasn't a good speaker. God sent him anyway — and sent help with him. You don't have to become someone else to share Jesus. You just need to be honest about what He has done, and willing to say it when the moment comes.",
+      },
+      {
+        t: "callout",
+        title: "Start small this week",
+        text: "Pick one person, pray for them every day, and look for one honest question to ask. That's evangelism.",
+        href: "/blog/what-is-evangelism",
+        cta: "What is evangelism?",
+      },
+    ],
+  },
+  {
+    slug: "how-to-start-a-small-group-bible-study",
+    title: "How To Start A Small Group Bible Study (A Simple, Practical Guide)",
+    description:
+      "Small groups are where many Christians grow most — and where new believers find a home. How to start one: who to invite, where and when to meet, a simple format, what to study first, leading discussion, and keeping it healthy.",
+    tldr: "Pray, invite a few people personally, and pick a regular time and place — a home, café or church room. Keep the format simple: welcome and food, read a passage together, discuss it with a few good questions, pray for one another, and decide one thing to put into practice. Start with a Gospel such as John or Mark, keep it to 60–90 minutes, and make it easy for newcomers and new believers to join.",
+    date: "2026-11-05",
+    category: "Discipleship",
+    eyebrow: "Discipleship",
+    keywords: [
+      "how to start a small group",
+      "how to start a bible study",
+      "small group bible study format",
+      "how to lead a bible study",
+      "bible study questions for small groups",
+      "starting a home group",
+    ],
+    related: ["lotw", "kingdom-base", "reborn"],
+    faq: [
+      {
+        q: "How do you start a small group Bible study?",
+        a: "Pray first, invite a few people personally, and choose a regular time and place. Keep the format simple — welcome, read a passage, discuss it, pray together and choose one thing to practise — and start with a Gospel such as John or Mark.",
+      },
+      {
+        q: "How many people should be in a small group?",
+        a: "Small enough that everyone can talk — often around four to twelve. If a group grows much larger, discussion gets harder; consider splitting into two groups or breaking into smaller circles for prayer.",
+      },
+      {
+        q: "What should a small group study first?",
+        a: "A Gospel is a great place to start, especially John or Mark, because it keeps Jesus at the centre and is accessible to new believers and people exploring faith. Read a passage each week rather than racing through.",
+      },
+      {
+        q: "What questions should you ask in a Bible study?",
+        a: "Three simple questions work for almost any passage: What does this show us about God? What does it show us about people? What will we do about it this week? Follow up with \"What stood out to you?\" and give people time to answer.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Sunday gatherings matter, but many Christians grow most in a small group: a handful of people, a Bible, a kitchen table and honest conversation. It's also where new believers often find a home. Starting one is simpler than you think.",
+      },
+      {
+        t: "scripture",
+        text: "And they devoted themselves to the apostles' teaching and the fellowship, to the breaking of bread and the prayers.",
+        ref: "Acts 2:42",
+      },
+      {
+        t: "p",
+        text: "That verse is practically a small group format: teaching, fellowship, food and prayer.",
+      },
+
+      { t: "h2", text: "Before you start" },
+      {
+        t: "list",
+        items: [
+          "<strong>Pray</strong> for the people God wants in the group",
+          "<strong>Talk to your church leaders</strong> — most churches love to support new groups",
+          "<strong>Find a co-leader</strong> so the group never depends on one person",
+          "<strong>Invite personally</strong> — a direct ask works far better than an announcement",
+        ],
+      },
+
+      { t: "h2", text: "When and where" },
+      {
+        t: "p",
+        text: "Pick a regular time — the same day each week or fortnight — and a welcoming place: a home, a quiet café, or a room at church. Keep it to 60–90 minutes so it's sustainable. Food helps more than almost anything.",
+      },
+
+      { t: "h2", text: "A simple format" },
+      {
+        t: "steps",
+        items: [
+          { title: "Welcome and food (15 minutes)", text: "Unhurried. Relationships are half the point." },
+          { title: "Read the passage (5 minutes)", text: "Out loud, together. Short passages are fine." },
+          { title: "Discuss (30 minutes)", text: "What does this show us about God? About people? What will we do this week?" },
+          { title: "Pray for one another (15 minutes)", text: "Share requests and pray for each other — and for people you know who don't follow Jesus yet." },
+          { title: "One thing to practise", text: "Each person names one thing to put into practice before you meet again." },
+        ],
+      },
+
+      { t: "h2", text: "What to study first" },
+      {
+        t: "p",
+        text: "Start with a Gospel — John or Mark — a passage at a time. It keeps Jesus at the centre and works for everyone from long-time believers to people exploring faith. Our guide to <a href=\"/blog/how-to-read-the-bible-for-the-first-time\">reading the Bible for the first time</a> is a good handout for newcomers.",
+      },
+
+      { t: "h2", text: "Leading discussion well" },
+      {
+        t: "list",
+        items: [
+          "Ask open questions, then wait — silence often means people are thinking",
+          "Don't answer your own questions; let the group discover",
+          "Gently bring quieter voices in, and gently rein in dominant ones",
+          "It's fine to say \"I don't know — let's find out\"",
+          "Keep coming back to the passage and to Jesus",
+        ],
+      },
+
+      { t: "h2", text: "Keep it healthy" },
+      {
+        t: "list",
+        items: [
+          "Keep what's shared in the group confidential",
+          "Look outward: pray for people you know, and serve together sometimes",
+          "Welcome newcomers and new believers — leave an empty chair",
+          "When the group gets too big to talk, multiply into two",
+          "Stay connected to a local church, and follow its safeguarding policies",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "And what you have heard from me in the presence of many witnesses entrust to faithful men, who will be able to teach others also.",
+        ref: "2 Timothy 2:2",
+      },
+      {
+        t: "p",
+        text: "A healthy small group is discipleship in action — read <a href=\"/blog/what-is-discipleship\">what discipleship is</a>. And it's often the best next step for someone who has just come to faith: see <a href=\"/blog/i-just-became-a-christian-what-now\">your first 30 days as a Christian</a>.",
+      },
+      {
+        t: "callout",
+        title: "Invite one person this week",
+        text: "Most small groups start with a single invitation. Pray, then ask.",
+        href: "/blog/what-is-discipleship",
+        cta: "What is discipleship?",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));

@@ -114,7 +114,8 @@ export default function AdventGuidePage() {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: SITE.name, item: SITE.url },
-          { "@type": "ListItem", position: 2, name: "Advent Prayer Guide", item: url },
+          { "@type": "ListItem", position: 2, name: "Resources", item: `${SITE.url}/resources` },
+        { "@type": "ListItem", position: 3, name: "Advent Prayer Guide", item: url },
         ],
       },
     ],

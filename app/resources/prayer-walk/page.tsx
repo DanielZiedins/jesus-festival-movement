@@ -31,7 +31,7 @@ const structuredData = {
   "@graph": [
     { "@type": "HowTo", "@id": `${SITE.url}/resources/prayer-walk/#howto`, name: "How to Prayer Walk Your City", description: "A short Christian prayer-walk guide for beginning to pray for and serve a city.", step: steps.map(([name, text], index) => ({ "@type": "HowToStep", position: index + 1, name, text })) },
     { "@type": "FAQPage", "@id": `${SITE.url}/resources/prayer-walk/#faq`, mainEntity: faqs.map(([question, answer]) => ({ "@type": "Question", name: question, acceptedAnswer: { "@type": "Answer", text: answer } })) },
-    { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: SITE.name, item: SITE.url }, { "@type": "ListItem", position: 2, name: "Prayer Walk Guide", item: `${SITE.url}/resources/prayer-walk` }] },
+    { "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: SITE.name, item: SITE.url }, { "@type": "ListItem", position: 2, name: "Resources", item: `${SITE.url}/resources` }, { "@type": "ListItem", position: 3, name: "Prayer Walk Guide", item: `${SITE.url}/resources/prayer-walk` }] },
   ],
 };
 

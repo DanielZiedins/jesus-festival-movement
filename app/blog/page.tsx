@@ -8,22 +8,10 @@ import Icon from "@/components/ui/Icon";
 import JoinForm from "@/components/JoinForm";
 import { SORTED_POSTS, readingMinutes } from "@/lib/blog/posts";
 import { SITE } from "@/lib/content";
+import { CHRISTMAS_SEASON, inChristmasSeason } from "@/lib/season";
 
 // Re-render daily so the seasonal panel appears and retires on its own.
 export const revalidate = 86400;
-
-/** Advent and Christmas resources, surfaced only from November 1 to December 25. */
-const SEASON = [
-  { label: "Free printable", title: "Advent prayer guide for your city", href: "/resources/advent-prayer-guide" },
-  { label: "The season", title: "What is Advent?", href: "/blog/what-is-advent" },
-  { label: "Outreach", title: "Christmas outreach ideas for churches", href: "/blog/christmas-outreach-ideas-for-churches" },
-  { label: "Invite", title: "How to invite someone to church at Christmas", href: "/blog/how-to-invite-someone-to-church-at-christmas" },
-] as const;
-
-function inChristmasSeason(now = new Date()): boolean {
-  const m = now.getUTCMonth();
-  return m === 10 || (m === 11 && now.getUTCDate() <= 25);
-}
 
 export const metadata: Metadata = {
   title: "The Journal — Evangelism, Unity & Reaching Your City",
@@ -139,7 +127,7 @@ export default function BlogIndex() {
                   This season: <span className="text-gradient-gold">Advent &amp; Christmas</span>
                 </h2>
                 <ul className="mt-5 grid gap-3 sm:grid-cols-2">
-                  {SEASON.map((item) => (
+                  {CHRISTMAS_SEASON.map((item) => (
                     <li key={item.href}>
                       <a
                         href={item.href}

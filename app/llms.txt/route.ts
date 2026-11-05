@@ -52,6 +52,7 @@ ${SITE.tagline}
 - All festivals (upcoming and held): ${u}/festivals
 - How to start a Jesus Festival: ${u}/start-a-jesus-festival
 - The full 13-step playbook (timelines, checklists, warnings): ${u}/start-a-jesus-festival/playbook
+- All free resources and printables: ${u}/resources
 - Prayer walk guide: ${u}/resources/prayer-walk
 - Printable altar call response team training card: ${u}/resources/response-team
 - Printable four-week Advent prayer guide for your city: ${u}/resources/advent-prayer-guide

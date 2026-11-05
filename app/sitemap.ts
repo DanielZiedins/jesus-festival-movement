@@ -41,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/about`, lastModified: at("/about"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/start-a-jesus-festival`, lastModified: at("/start-a-jesus-festival"), changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE.url}/start-a-jesus-festival/playbook`, lastModified: at("/start-a-jesus-festival/playbook"), changeFrequency: "monthly", priority: 0.9 },
+    { url: `${SITE.url}/resources`, lastModified: at("/resources"), changeFrequency: "monthly", priority: 0.85 },
     { url: `${SITE.url}/resources/prayer-walk`, lastModified: at("/resources/prayer-walk"), changeFrequency: "monthly", priority: 0.85 },
     { url: `${SITE.url}/resources/response-team`, lastModified: at("/resources/response-team"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/resources/advent-prayer-guide`, lastModified: at("/resources/advent-prayer-guide"), changeFrequency: "yearly", priority: 0.8 },

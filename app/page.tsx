@@ -7,6 +7,7 @@ import Festivals from "@/components/Festivals";
 import HowToStart from "@/components/HowToStart";
 import GlobalMap from "@/components/GlobalMap";
 import Testimonies from "@/components/Testimonies";
+import SeasonStrip from "@/components/SeasonStrip";
 import Partnership from "@/components/Partnership";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
@@ -127,6 +128,7 @@ export default function Home() {
         <Model />
         <GreatCommission />
         <HowToStart />
+        <SeasonStrip />
         <ShopSpotlight />
         <Testimonies />
         <JoinMovement />

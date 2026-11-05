@@ -21,6 +21,7 @@ const PAGES: Omit<SearchItem, "hay" | "kind">[] = [
   { title: "The 13-step festival playbook", text: "Timelines, checklists and warnings for every stage of planning a Jesus Festival.", href: "/start-a-jesus-festival/playbook" },
   { title: "All Jesus Festivals", text: "Where Jesus Festivals have happened — Hamilton, Niagara and Akuse, Ghana — and what's next.", href: "/festivals" },
   { title: "Prayer walk guide", text: "A short, practical guide to prayer walking your city.", href: "/resources/prayer-walk" },
+  { title: "Free resources", text: "Every free printable, guide and tool in one place.", href: "/resources" },
   { title: "Advent prayer guide", text: "A printable four-week Advent prayer guide for your city: Hope, Peace, Joy and Love.", href: "/resources/advent-prayer-guide" },
   { title: "Response team training card", text: "A printable card for altar call and prayer teams: steps, a simple prayer, safeguarding.", href: "/resources/response-team" },
   { title: "About the movement", text: "The story, the people behind it, and what Jesus Festival Movement exists to do.", href: "/about" },
