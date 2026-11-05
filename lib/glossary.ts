@@ -17,6 +17,15 @@ export type Term = {
 
 export const GLOSSARY: Term[] = [
   {
+    id: "advent",
+    term: "Advent",
+    definition:
+      "The season of preparation before Christmas, from the Latin adventus, meaning coming or arrival. It begins on the fourth Sunday before Christmas and looks back to Jesus' birth and forward to His return; many churches mark its Sundays with hope, peace, joy and love.",
+    ref: "Isaiah 9:6",
+    href: "/blog/what-is-advent",
+    linkLabel: "What is Advent?",
+  },
+  {
     id: "altar-call",
     term: "Altar call",
     definition:

@@ -9,6 +9,22 @@ import JoinForm from "@/components/JoinForm";
 import { SORTED_POSTS, readingMinutes } from "@/lib/blog/posts";
 import { SITE } from "@/lib/content";
 
+// Re-render daily so the seasonal panel appears and retires on its own.
+export const revalidate = 86400;
+
+/** Advent and Christmas resources, surfaced only from November 1 to December 25. */
+const SEASON = [
+  { label: "Free printable", title: "Advent prayer guide for your city", href: "/resources/advent-prayer-guide" },
+  { label: "The season", title: "What is Advent?", href: "/blog/what-is-advent" },
+  { label: "Outreach", title: "Christmas outreach ideas for churches", href: "/blog/christmas-outreach-ideas-for-churches" },
+  { label: "Invite", title: "How to invite someone to church at Christmas", href: "/blog/how-to-invite-someone-to-church-at-christmas" },
+] as const;
+
+function inChristmasSeason(now = new Date()): boolean {
+  const m = now.getUTCMonth();
+  return m === 10 || (m === 11 && now.getUTCDate() <= 25);
+}
+
 export const metadata: Metadata = {
   title: "The Journal — Evangelism, Unity & Reaching Your City",
   description:
@@ -117,6 +133,29 @@ export default function BlogIndex() {
 
         <section className="section-pad !pt-4">
           <div className="container-x">
+            {inChristmasSeason() && (
+              <aside aria-labelledby="season-heading" className="mb-8 rounded-3xl border border-gold/25 bg-gradient-to-br from-gold/[.08] via-white/[.02] to-ember/[.06] p-6 sm:p-8">
+                <h2 id="season-heading" className="font-display text-2xl font-bold text-white sm:text-3xl">
+                  This season: <span className="text-gradient-gold">Advent &amp; Christmas</span>
+                </h2>
+                <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+                  {SEASON.map((item) => (
+                    <li key={item.href}>
+                      <a
+                        href={item.href}
+                        className="group flex h-full items-center justify-between gap-4 rounded-2xl border border-white/10 bg-black/20 p-4 transition hover:border-gold/40"
+                      >
+                        <span>
+                          <span className="block text-xs font-bold uppercase tracking-[0.18em] text-gold-400">{item.label}</span>
+                          <span className="mt-1 block font-semibold leading-snug text-white">{item.title}</span>
+                        </span>
+                        <Icon name="arrow" className="h-4 w-4 shrink-0 text-gold transition-transform group-hover:translate-x-1" />
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </aside>
+            )}
             {/* Lead article */}
             {lead && (
               <Reveal>

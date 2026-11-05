@@ -4640,6 +4640,242 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "what-is-advent",
+    title: "What Is Advent? Meaning, Themes And How To Celebrate It",
+    description:
+      "What Advent means, when it starts, why it looks back to Jesus' birth and forward to His return, the traditional themes and the Advent wreath, and simple ways for individuals, families and churches to keep it.",
+    tldr: "Advent is the season of preparation before Christmas. The word comes from the Latin adventus, meaning coming or arrival. It begins on the fourth Sunday before Christmas — always between November 27 and December 3 — and looks back to Jesus' first coming at Bethlehem and forward to His return. Many churches mark its four Sundays with the themes of hope, peace, joy and love, often with an Advent wreath.",
+    date: "2026-11-05",
+    category: "Prayer",
+    eyebrow: "The season",
+    keywords: [
+      "what is advent",
+      "advent meaning",
+      "when does advent start",
+      "advent wreath meaning",
+      "advent themes hope peace joy love",
+      "how to celebrate advent",
+    ],
+    related: ["lotw", "kd", "seekfirst"],
+    faq: [
+      {
+        q: "What is Advent?",
+        a: "Advent is the season of waiting and preparation before Christmas. The word comes from the Latin adventus, meaning coming or arrival. Christians use it to remember Jesus' first coming at Bethlehem and to look forward to His promised return.",
+      },
+      {
+        q: "When does Advent start?",
+        a: "Advent begins on the fourth Sunday before Christmas Day, so it always starts between November 27 and December 3, and runs until Christmas Eve. Many churches also treat it as the start of the Christian year.",
+      },
+      {
+        q: "What are the four Sundays of Advent?",
+        a: "Many churches give each Sunday a theme — commonly hope, peace, joy and love — and light one more candle on an Advent wreath each week. Traditions vary; some use other themes, such as the prophets, Bethlehem, the shepherds and the angels.",
+      },
+      {
+        q: "What do the candles on an Advent wreath mean?",
+        a: "An Advent wreath usually holds four candles, one lit for each Sunday of Advent, often three purple and one pink — the pink for the third Sunday, a Sunday of joy. Many wreaths have a white centre candle, the Christ candle, lit on Christmas Eve or Christmas Day.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Before the lights, the shopping and the carols, the Church has always kept a quieter season: Advent. It is four weeks of waiting, longing and getting ready — not just for a holiday, but for a Person.",
+      },
+      {
+        t: "scripture",
+        text: "Therefore the Lord himself will give you a sign. Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel.",
+        ref: "Isaiah 7:14",
+      },
+
+      { t: "h2", text: "What the word means" },
+      {
+        t: "p",
+        text: "Advent comes from the Latin <em>adventus</em>, meaning <strong>coming</strong> or <strong>arrival</strong>. The season remembers that God's people waited centuries for the promised Messiah — and that He came, born in Bethlehem. Immanuel: God with us.",
+      },
+
+      { t: "h2", text: "When Advent starts" },
+      {
+        t: "p",
+        text: "Advent begins on the <strong>fourth Sunday before Christmas Day</strong>, so it always falls between November 27 and December 3, and runs until Christmas Eve. Many churches also treat it as the beginning of the Christian year.",
+      },
+
+      { t: "h2", text: "Looking back, and looking forward" },
+      {
+        t: "p",
+        text: "Advent holds two arrivals together. It looks <strong>back</strong> to Jesus' first coming, as a baby in a manger. And it looks <strong>forward</strong> to His second coming, when He will return and make all things new. Christians live between the two — which is why Advent is about hope, not just nostalgia.",
+      },
+      {
+        t: "scripture",
+        text: "He who testifies to these things says, \"Surely I am coming soon.\" Amen. Come, Lord Jesus!",
+        ref: "Revelation 22:20",
+      },
+
+      { t: "h2", text: "The four themes" },
+      {
+        t: "p",
+        text: "Many churches give each Sunday a theme. One common pattern is:",
+      },
+      {
+        t: "steps",
+        items: [
+          { title: "Hope", text: "The people who walked in darkness have seen a great light (Isaiah 9:2)." },
+          { title: "Peace", text: "His name shall be called Prince of Peace (Isaiah 9:6)." },
+          { title: "Joy", text: "Good news of great joy that will be for all the people (Luke 2:10)." },
+          { title: "Love", text: "For God so loved the world, that he gave his only Son (John 3:16)." },
+        ],
+      },
+      {
+        t: "p",
+        text: "Traditions vary — some churches use other themes, such as the prophets, Bethlehem, the shepherds and the angels — but every version points to the same Saviour.",
+      },
+
+      { t: "h2", text: "The Advent wreath" },
+      {
+        t: "p",
+        text: "An Advent wreath is a ring of evergreen with four candles, one lit for each Sunday, so the light grows as Christmas nears. Often three candles are purple and one is pink, for the third Sunday, a Sunday of joy. Many wreaths have a white centre candle — the Christ candle — lit on Christmas Eve or Christmas Day, because the Light of the world has come.",
+      },
+
+      { t: "h2", text: "How to keep Advent" },
+      {
+        t: "list",
+        items: [
+          "<strong>Read the story.</strong> Isaiah's promises, then Luke 1–2 and Matthew 1–2, a little each day.",
+          "<strong>Pray for your city.</strong> Our free <a href=\"/resources/advent-prayer-guide\">Advent prayer guide</a> gives you four weeks of Hope, Peace, Joy and Love, with prayers for the people and streets around you.",
+          "<strong>Light the candles together.</strong> As a family or with friends, one more each Sunday, with a reading and a short prayer.",
+          "<strong>Make room.</strong> Advent is a good season to slow down, give generously and serve someone who will be alone.",
+          "<strong>Invite someone.</strong> Christmas is one of the few times people who never think about church are open to it. Here's <a href=\"/blog/how-to-invite-someone-to-church-at-christmas\">how to invite someone to church at Christmas</a>.",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.",
+        ref: "John 1:14",
+      },
+      {
+        t: "callout",
+        title: "Pray through Advent",
+        text: "A free, printable four-week guide: Scripture, prayers for your city, people to pray for and one action each week.",
+        href: "/resources/advent-prayer-guide",
+        cta: "Get the Advent guide",
+      },
+    ],
+  },
+  {
+    slug: "how-to-invite-someone-to-church-at-christmas",
+    title: "How To Invite Someone To Church At Christmas (What To Say, And What Not To)",
+    description:
+      "Christmas is one of the easiest times of the year to invite someone to church. How to choose who to invite, what to actually say, how to make it easy to say yes, what to do on the day, and how to follow up — without pressure.",
+    tldr: "Pray for a few names, then invite personally — face to face or by message — with a specific service, time and place. Keep it warm and simple: \"Would you like to come with me to our Christmas Eve service? I'd love to have you.\" Offer to pick them up and sit together, tell them what to expect, accept a no graciously, and follow up afterwards with a thank-you and one next step.",
+    date: "2026-11-05",
+    category: "Outreach",
+    eyebrow: "Seasonal outreach",
+    keywords: [
+      "how to invite someone to church",
+      "invite a friend to church at christmas",
+      "christmas eve service invitation",
+      "what to say when inviting someone to church",
+      "church invitation ideas",
+      "christmas outreach",
+    ],
+    related: ["lotw", "oikos", "loh"],
+    faq: [
+      {
+        q: "How do you invite someone to church at Christmas?",
+        a: "Personally and specifically. Mention the service, the time and the place, and make it easy: \"Would you like to come with me to our Christmas Eve service at 6? I'd love to have you.\" Offer to pick them up and sit with them, and accept a no warmly.",
+      },
+      {
+        q: "What should I say when inviting someone to church?",
+        a: "Keep it short, warm and honest. Say why it matters to you, give the details, and make it easy to say yes or no. For example: \"Christmas Eve at church is one of my favourite nights of the year. Would you like to come with me?\"",
+      },
+      {
+        q: "What if they say no?",
+        a: "Thank them and keep being a good friend. A no to one service is not a no to Jesus, and many people say yes on a later invitation. Pray for them, and look for the next natural opportunity — a carol night, a meal, or a conversation.",
+      },
+      {
+        q: "What should I do after someone visits church with me?",
+        a: "Thank them for coming, ask what they thought, and listen. Answer questions honestly, and offer one simple next step — coming again, a meal together, or a newcomers' event in January. Keep the friendship going whatever they decide.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Ask most people who started following Jesus as adults how it began, and you'll often hear some version of \"a friend invited me.\" Christmas is one of the easiest times of the year to be that friend. Carols, candles and the Christmas story feel familiar even to people who never go to church.",
+      },
+      {
+        t: "scripture",
+        text: "He first found his own brother Simon and said to him, \"We have found the Messiah\" (which means Christ). He brought him to Jesus.",
+        ref: "John 1:41–42",
+      },
+
+      { t: "h2", text: "Start with names" },
+      {
+        t: "p",
+        text: "Write down three people you could invite this Christmas — a neighbour, a coworker, a family member, a friend who has drifted. Pray for them by name every day through Advent. Our <a href=\"/resources/advent-prayer-guide\">Advent prayer guide</a> builds that into week one. A tool like <a href=\"https://OikosMap.com\">OikosMap</a> helps you see who God has already put around you.",
+      },
+
+      { t: "h2", text: "Invite personally" },
+      {
+        t: "p",
+        text: "A flyer or a social post reaches people; a personal invitation moves them. Ask face to face if you can, or send a personal message — not a group text. Be specific: which service, what time, where.",
+      },
+      {
+        t: "steps",
+        items: [
+          { title: "Simple and warm", text: "\"Would you like to come with me to our Christmas Eve service at 6? I'd love to have you.\"" },
+          { title: "Personal", text: "\"Christmas Eve at church is one of my favourite nights of the year. Want to come with us?\"" },
+          { title: "Low-pressure", text: "\"No pressure at all, but if you're free on Christmas Eve, we'd love you to join us.\"" },
+          { title: "For families", text: "\"There's a family carol service on Sunday afternoon — the kids would love it. Want to come along?\"" },
+        ],
+      },
+
+      { t: "h2", text: "Make it easy to say yes" },
+      {
+        t: "list",
+        items: [
+          "Offer to pick them up, or meet them outside so they don't walk in alone",
+          "Sit with them, and introduce them to a couple of friendly people",
+          "Tell them what to expect: how long it is, what people wear, whether there are kids' activities",
+          "Mention anything afterwards — a hot drink, a meal at your place",
+          "Choose a service that's welcoming to first-time guests",
+        ],
+      },
+
+      { t: "h2", text: "What not to do" },
+      {
+        t: "list",
+        items: [
+          "Don't pressure or guilt anyone — Christmas is good news, not an obligation",
+          "Don't make them feel like a project; they're your friend",
+          "Don't invite and then leave them alone at the door",
+          "Don't take a no personally, or stop being their friend",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "Let your speech always be gracious, seasoned with salt, so that you may know how you ought to answer each person.",
+        ref: "Colossians 4:6",
+      },
+
+      { t: "h2", text: "After the service" },
+      {
+        t: "p",
+        text: "Thank them for coming. Ask what they thought, and really listen. Answer questions honestly — and if you don't know, say so. Offer one simple next step: coming again, a meal together, or a newcomers' event in January. If they want to explore faith further, <a href=\"/know-jesus\">Know Jesus</a> is a good page to share, and here's <a href=\"/blog/how-to-lead-someone-to-christ\">how to lead someone to Christ</a> when they're ready.",
+      },
+
+      { t: "h2", text: "For church leaders" },
+      {
+        t: "p",
+        text: "Help your people invite: print simple invitation cards, preach the Gospel clearly at Christmas services, train welcome teams to notice first-time guests, and plan the January next steps before December begins. Our guide to <a href=\"/blog/christmas-outreach-ideas-for-churches\">Christmas outreach ideas for churches</a> covers it all.",
+      },
+      {
+        t: "callout",
+        title: "Pray for your three names",
+        text: "The free Advent prayer guide walks you through four weeks of praying for your city — and for the people you'll invite.",
+        href: "/resources/advent-prayer-guide",
+        cta: "Get the Advent guide",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));
