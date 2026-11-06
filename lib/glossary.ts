@@ -39,8 +39,8 @@ export const GLOSSARY: Term[] = [
     definition:
       "Being immersed in water as a public declaration that you have died to your old life and been raised to new life in Jesus. It doesn't save you — faith in Christ does — but Jesus commanded it of His followers as the normal first step of obedience.",
     ref: "Romans 6:4",
-    href: "/blog/how-to-plan-baptisms-at-an-outdoor-festival",
-    linkLabel: "Planning baptisms at a festival",
+    href: "/blog/what-is-baptism",
+    linkLabel: "What is baptism?",
   },
   {
     id: "discipleship",

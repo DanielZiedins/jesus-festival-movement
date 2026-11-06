@@ -2,6 +2,7 @@ import { MOVEMENT_FACTS, SITE } from "@/lib/content";
 import { SORTED_POSTS, readingMinutes } from "@/lib/blog/posts";
 import type { Block } from "@/lib/blog/types";
 import { ANSWERS, TOPICS, answersIn } from "@/lib/answers";
+import { GLOSSARY } from "@/lib/glossary";
 import { PLAYBOOK_DETAIL, PLAYBOOK_PHASES, STEPS } from "@/lib/playbook";
 import { EVENTS, eventPhase } from "@/lib/events";
 
@@ -118,6 +119,12 @@ export function GET() {
       out.push("");
       if (d.watch) out.push(`Watch out: ${md(d.watch)}`, "");
     }
+  }
+
+  // ── Glossary ────────────────────────────────────────────────────────────
+  out.push("## Glossary", "", `Canonical: ${u}/glossary`, "");
+  for (const t of [...GLOSSARY].sort((x, y) => x.term.localeCompare(y.term))) {
+    out.push(`**${t.term}** — ${t.definition}${t.ref ? ` (${t.ref})` : ""} Canonical: ${u}/glossary#${t.id}`, "");
   }
 
   // ── Journal ─────────────────────────────────────────────────────────────

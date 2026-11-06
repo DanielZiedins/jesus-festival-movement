@@ -5120,6 +5120,272 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "what-is-baptism",
+    title: "What Is Baptism? Meaning, Why It Matters, And How To Get Baptized",
+    description:
+      "A plain, biblical answer: what baptism is, what it means, why Jesus asked His followers to be baptized, whether it saves you, who can be baptized, what happens at a baptism, and how to take the step.",
+    tldr: "Baptism is a public act of obedience in which a follower of Jesus is baptized in water, picturing dying to an old life and rising to new life with Him. The word comes from the Greek baptizō, to immerse. It doesn't save you — faith in Jesus does — but Jesus commanded it, and it is the normal first step for a new believer. Churches practise it in different ways; talk to a local church about being baptized.",
+    date: "2026-11-06",
+    category: "Discipleship",
+    eyebrow: "New to faith",
+    keywords: [
+      "what is baptism",
+      "meaning of baptism",
+      "why get baptized",
+      "does baptism save you",
+      "how to get baptized",
+      "what happens at a baptism",
+    ],
+    related: ["jf-ca", "lotw", "reborn"],
+    faq: [
+      {
+        q: "What is baptism?",
+        a: "Baptism is a public act in which a follower of Jesus is baptized in water as a sign of their faith. It pictures dying to an old life and rising to new life with Jesus. The Greek word baptizō means to dip or immerse.",
+      },
+      {
+        q: "Does baptism save you?",
+        a: "Salvation comes through faith in Jesus, not through any ritual — it is a gift of grace (Ephesians 2:8–9). But Jesus commanded His followers to be baptized, and in the New Testament new believers were baptized soon after coming to faith. Baptism is the outward sign of what God has done inside.",
+      },
+      {
+        q: "Who can be baptized?",
+        a: "Anyone who has put their faith in Jesus. In the New Testament, people were baptized soon after believing — like the Ethiopian official who saw water and asked what prevented him (Acts 8:36). Some churches also baptize the infants of believing families; ask your local church how it practises baptism.",
+      },
+      {
+        q: "How do I get baptized?",
+        a: "Talk to a local church. Most will meet with you to hear your story, explain what baptism means and what will happen, and arrange a baptism — often during a service, and sometimes outdoors in a lake, river or park. Invite your friends and family to celebrate with you.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Few moments in the Christian life are as joyful as a baptism. At Jesus Festival Hamilton 2026, <a href=\"/blog/the-harvest-is-real-kingdom-impact\">early reports counted 50+ baptisms</a> in the middle of a city park — and the crowd cheered every one. But what actually is baptism, and why does it matter?",
+      },
+      {
+        t: "scripture",
+        text: "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit.",
+        ref: "Matthew 28:19",
+      },
+
+      { t: "h2", text: "What baptism is" },
+      {
+        t: "p",
+        text: "<strong>Baptism is a public act in which a follower of Jesus is baptized in water as a sign of their faith.</strong> The New Testament word <em>baptizō</em> means to dip or immerse. It is one of the first things Jesus asked His followers to do, and the early Church baptized new believers soon after they came to faith.",
+      },
+
+      { t: "h2", text: "What it means" },
+      {
+        t: "p",
+        text: "Baptism is a picture of the Gospel. Going under the water pictures dying and being buried with Jesus — the old life ending. Coming up out of the water pictures rising with Him to a new life.",
+      },
+      {
+        t: "scripture",
+        text: "We were buried therefore with him by baptism into death, in order that, just as Christ was raised from the dead by the glory of the Father, we too might walk in newness of life.",
+        ref: "Romans 6:4",
+      },
+      {
+        t: "list",
+        items: [
+          "<strong>A declaration:</strong> \"I belong to Jesus now\" — said publicly, in front of others",
+          "<strong>A picture:</strong> death to the old life, and new life with Him",
+          "<strong>A step of obedience:</strong> doing what Jesus asked His followers to do",
+          "<strong>A welcome:</strong> into the family of God's people",
+        ],
+      },
+
+      { t: "h2", text: "Jesus was baptized too" },
+      {
+        t: "p",
+        text: "Jesus Himself was baptized by John in the Jordan River — not because He needed forgiveness, but to identify with us and to begin His public ministry. As He came up out of the water, the Spirit descended and the Father spoke: \"This is my beloved Son, with whom I am well pleased\" (Matthew 3:17).",
+      },
+
+      { t: "h2", text: "Does baptism save you?" },
+      {
+        t: "p",
+        text: "No ritual saves anyone. Salvation is a gift received by faith in Jesus — not earned by anything we do. Baptism is the outward sign of what God has already done inside. But that doesn't make it optional: Jesus commanded it, and it is the normal first step of obedience for a new believer.",
+      },
+      {
+        t: "scripture",
+        text: "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.",
+        ref: "Ephesians 2:8–9",
+      },
+
+      { t: "h2", text: "Who can be baptized" },
+      {
+        t: "p",
+        text: "Anyone who has put their faith in Jesus. You don't need to have your life sorted out first — baptism marks a beginning, not a graduation. In the book of Acts, people were baptized soon after believing, sometimes the same day.",
+      },
+      {
+        t: "scripture",
+        text: "And as they were going along the road they came to some water, and the eunuch said, \"See, here is water! What prevents me from being baptized?\"",
+        ref: "Acts 8:36",
+      },
+      {
+        t: "p",
+        text: "Churches practise baptism in different ways. Many baptize believers by full immersion; some also baptize the infants of believing families, or baptize by pouring. If you're unsure, talk to a local church about how they practise it.",
+      },
+
+      { t: "h2", text: "What happens at a baptism" },
+      {
+        t: "steps",
+        items: [
+          { title: "A conversation first", text: "A pastor or leader meets with you to hear your story and explain what will happen." },
+          { title: "Your story", text: "Many churches invite you to share briefly how you came to faith — a few sentences is plenty." },
+          { title: "A few questions", text: "Often something like: \"Have you turned from sin and put your trust in Jesus? Will you follow Him?\"" },
+          { title: "Into the water", text: "You're baptized in the name of the Father, the Son and the Holy Spirit." },
+          { title: "Celebration", text: "Friends, family and the church celebrate with you — it's one of the happiest moments in church life." },
+        ],
+      },
+
+      { t: "h2", text: "How to take the step" },
+      {
+        t: "p",
+        text: "Talk to a local church — tell them you've put your trust in Jesus and want to be baptized. They'll take it from there. Invite the people who matter to you; your baptism is a powerful way to tell them what Jesus has done. If you've just come to faith, see <a href=\"/blog/i-just-became-a-christian-what-now\">your first 30 days as a Christian</a>.",
+      },
+      {
+        t: "p",
+        text: "Planning baptisms for an outreach or festival? Read <a href=\"/blog/how-to-plan-baptisms-at-an-outdoor-festival\">how to plan baptisms at an outdoor festival</a>.",
+      },
+      {
+        t: "callout",
+        title: "Not sure where you stand with Jesus?",
+        text: "Baptism follows faith. Know Jesus explains the good news simply and answers honest questions.",
+        href: "/know-jesus",
+        cta: "Open Know Jesus",
+      },
+    ],
+  },
+  {
+    slug: "how-to-pray-a-simple-guide-for-beginners",
+    title: "How To Pray: A Simple Guide For Beginners",
+    description:
+      "Prayer is simply talking with God — and anyone can do it. A warm, practical guide for beginners: what prayer is, the pattern Jesus taught, a simple framework, praying Scripture, listening, when prayer feels empty, and building a daily habit.",
+    tldr: "Prayer is talking with God, honestly, in your own words. Jesus gave a pattern in the Lord's Prayer: honour God, ask for His will, ask for what you need, confess and forgive, and ask for help against temptation. A simple framework is Thanks, Sorry, Please. Pray anywhere, use the Psalms when words run out, leave space to listen, and start with five minutes a day. Feelings come and go; God still hears.",
+    date: "2026-11-06",
+    category: "Prayer",
+    eyebrow: "New to faith",
+    keywords: [
+      "how to pray",
+      "how to pray for beginners",
+      "how to talk to god",
+      "the lord's prayer meaning",
+      "simple prayer guide",
+      "how to start praying",
+    ],
+    related: ["reborn", "lotw", "kd"],
+    faq: [
+      {
+        q: "How do I start praying?",
+        a: "Just start talking to God honestly, in your own words — out loud, silently or written down. Thank Him for something, tell Him what's on your mind, and ask for what you need. Five minutes a day at a regular time is a great beginning.",
+      },
+      {
+        q: "What is the Lord's Prayer?",
+        a: "The Lord's Prayer is the prayer Jesus taught His disciples (Matthew 6:9–13). It begins 'Our Father in heaven, hallowed be your name' and moves through asking for God's kingdom and will, daily needs, forgiveness, and help against temptation. You can pray it word for word or use it as a pattern.",
+      },
+      {
+        q: "What should I say when I pray?",
+        a: "There are no magic words. A simple framework is Thanks (what you're grateful for), Sorry (what you need forgiveness for), and Please (what you need, and what others need). When your words run out, pray a Psalm or another passage of Scripture.",
+      },
+      {
+        q: "What if I don't feel anything when I pray?",
+        a: "That's normal. Prayer isn't measured by feelings. God promises to hear those who call on Him, whether or not you feel it in the moment. Keep praying; many people find that the habit itself changes them over time.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "If you've never really prayed before, it can feel awkward — like talking to the ceiling, or worrying you'll get the words wrong. Here's the good news: prayer isn't a performance. It's simply talking with God, who already knows you and wants to hear from you.",
+      },
+      {
+        t: "scripture",
+        text: "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God.",
+        ref: "Philippians 4:6",
+      },
+
+      { t: "h2", text: "What prayer is" },
+      {
+        t: "p",
+        text: "<strong>Prayer is talking with God — honestly, in your own words.</strong> You can pray out loud or silently, kneeling or walking, in a church or on a bus. Because of Jesus, you can come to God as a child comes to a loving father.",
+      },
+
+      { t: "h2", text: "The pattern Jesus taught" },
+      {
+        t: "p",
+        text: "When His disciples asked Jesus to teach them to pray, He gave them what we now call the Lord's Prayer. You can pray it word for word, or use each line as a prompt:",
+      },
+      {
+        t: "steps",
+        items: [
+          { title: "\"Our Father in heaven, hallowed be your name\"", text: "Start with who God is — your Father, holy and good." },
+          { title: "\"Your kingdom come, your will be done\"", text: "Ask for God's way in your life, your family and your city." },
+          { title: "\"Give us this day our daily bread\"", text: "Ask for what you need today — nothing is too small." },
+          { title: "\"Forgive us our debts, as we also have forgiven our debtors\"", text: "Be honest about your sins, receive forgiveness, and forgive others." },
+          { title: "\"Lead us not into temptation, but deliver us from evil\"", text: "Ask for strength and protection." },
+        ],
+      },
+      {
+        t: "scripture",
+        text: "Pray then like this: \"Our Father in heaven, hallowed be your name. Your kingdom come, your will be done, on earth as it is in heaven.\"",
+        ref: "Matthew 6:9–10",
+      },
+
+      { t: "h2", text: "A simple framework: Thanks, Sorry, Please" },
+      {
+        t: "list",
+        items: [
+          "<strong>Thanks:</strong> name one or two things you're grateful for today",
+          "<strong>Sorry:</strong> be honest about where you've gone wrong, and receive God's forgiveness",
+          "<strong>Please:</strong> ask for what you need — and pray for other people by name",
+        ],
+      },
+
+      { t: "h2", text: "When your words run out" },
+      {
+        t: "p",
+        text: "Borrow God's words. The Psalms are full of honest prayers — joy, fear, anger, grief and hope. Read one slowly and make it your own. Psalm 23, Psalm 46 and Psalm 139 are good places to start.",
+      },
+
+      { t: "h2", text: "Leave space to listen" },
+      {
+        t: "p",
+        text: "Prayer is a conversation, not a speech. After you pray, sit quietly for a minute. Read a passage of Scripture — God most often speaks through His Word. Over time you'll learn to notice His peace, His prompting, and His answers.",
+      },
+
+      { t: "h2", text: "When prayer feels empty" },
+      {
+        t: "p",
+        text: "Sometimes prayer feels dry, or answers don't come the way you hoped. That's part of every Christian's experience, including people in the Bible. God hears even when you don't feel it. Keep going, keep honest, and talk to a trusted Christian friend if you're struggling.",
+      },
+      {
+        t: "scripture",
+        text: "The LORD is near to all who call on him, to all who call on him in truth.",
+        ref: "Psalm 145:18",
+      },
+
+      { t: "h2", text: "Build a daily habit" },
+      {
+        t: "list",
+        items: [
+          "Pick a time — first thing in the morning, or before bed",
+          "Start with five minutes; it will grow naturally",
+          "Pair it with a short Bible reading — see <a href=\"/blog/how-to-read-the-bible-for-the-first-time\">how to read the Bible for the first time</a>",
+          "Keep a simple list of people and needs you're praying for",
+          "Pray with others sometimes — a friend, a small group or a church",
+        ],
+      },
+      {
+        t: "p",
+        text: "As you grow, try <a href=\"/blog/how-to-pray-for-someone-in-person\">praying for someone in person</a>, or <a href=\"/blog/how-to-pray-for-your-city\">praying for your city</a>.",
+      },
+      {
+        t: "callout",
+        title: "New to following Jesus?",
+        text: "Your first 30 days as a Christian: assurance, prayer, the Bible, church and baptism — simply explained.",
+        href: "/blog/i-just-became-a-christian-what-now",
+        cta: "Your first 30 days",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));

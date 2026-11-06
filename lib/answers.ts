@@ -252,6 +252,7 @@ export const ANSWERS: Answer[] = [
     links: [
       { label: "The Gospel, explained simply", href: "/know-jesus" },
       { label: "Your first 30 days as a Christian", href: "/blog/i-just-became-a-christian-what-now" },
+      { label: "How to pray: a guide for beginners", href: "/blog/how-to-pray-a-simple-guide-for-beginners" },
     ],
   },
   {
@@ -418,6 +419,7 @@ export const ANSWERS: Answer[] = [
     links: [
       { label: "How to follow Jesus", href: "/know-jesus" },
       { label: "Baptized in a City Park", href: "https://www.jesusfestival.ca/news/baptized-in-a-city-park" },
+      { label: "What is baptism? The full guide", href: "/blog/what-is-baptism" },
     ],
   },
   {
