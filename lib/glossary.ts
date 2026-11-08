@@ -86,6 +86,15 @@ export const GLOSSARY: Term[] = [
     linkLabel: "Using Gospel tracts well",
   },
   {
+    id: "grace",
+    term: "Grace",
+    definition:
+      "God's undeserved kindness — His favour, forgiveness and help given freely to people who could never earn them. Christians are saved by grace through faith in Jesus, not by good works, and grace then changes how they live.",
+    ref: "Ephesians 2:8–9",
+    href: "/blog/what-is-grace",
+    linkLabel: "What is grace?",
+  },
+  {
     id: "great-commission",
     term: "Great Commission",
     definition:

@@ -5386,6 +5386,251 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "what-is-grace",
+    title: "What Is Grace? God's Undeserved Kindness, Explained",
+    description:
+      "Grace is at the heart of the Christian faith. What it means, how it differs from mercy, why it's a gift and not a wage, what it changes in everyday life, and how to receive it.",
+    tldr: "Grace is God's undeserved kindness — His favour and help given freely to people who could never earn it. Mercy is God not giving us the judgement we deserve; grace is God giving us the good we don't deserve. We are saved by grace through faith, not by our works, and the same grace then changes how we live, gives strength in weakness, and makes us gracious to others.",
+    date: "2026-11-08",
+    category: "Discipleship",
+    eyebrow: "The basics",
+    keywords: [
+      "what is grace",
+      "grace meaning bible",
+      "grace vs mercy",
+      "saved by grace through faith",
+      "amazing grace meaning",
+      "what does grace mean in christianity",
+    ],
+    related: ["reborn", "lotw", "kd"],
+    faq: [
+      {
+        q: "What is grace in Christianity?",
+        a: "Grace is God's undeserved kindness: His favour, forgiveness and help given freely to people who could never earn them. The Bible teaches that we are saved by grace through faith in Jesus, not by our own good works (Ephesians 2:8–9).",
+      },
+      {
+        q: "What is the difference between grace and mercy?",
+        a: "Mercy is God not giving us the judgement our sin deserves. Grace is God giving us what we don't deserve — forgiveness, new life, adoption into His family and eternal life. In Jesus we receive both.",
+      },
+      {
+        q: "If we're saved by grace, do good works matter?",
+        a: "Yes, but as the result of salvation, not the cause. Ephesians 2:10 says we were created in Christ Jesus for good works. Grace doesn't make holy living optional; it makes it possible, and it trains us to live differently (Titus 2:11–12).",
+      },
+      {
+        q: "How do I receive God's grace?",
+        a: "By trusting Jesus. Grace can't be earned, only received — by turning from sin and putting your faith in Him as Lord. If you've never done that, Know Jesus explains how, simply and honestly.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "\"Amazing grace, how sweet the sound, that saved a wretch like me.\" It's one of the best-known lines ever sung. But what is grace, really — and why do Christians say everything depends on it?",
+      },
+
+      { t: "h2", text: "A simple definition" },
+      {
+        t: "p",
+        text: "<strong>Grace is God's undeserved kindness.</strong> It is His favour, forgiveness and help, given freely to people who could never earn them. A gift you work for is a wage. Grace is the opposite of a wage: it is given because of who God is, not because of who we are.",
+      },
+      {
+        t: "scripture",
+        text: "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.",
+        ref: "Ephesians 2:8–9",
+      },
+
+      { t: "h2", text: "Grace and mercy" },
+      {
+        t: "list",
+        items: [
+          "<strong>Mercy</strong> is God not giving us the judgement our sin deserves",
+          "<strong>Grace</strong> is God giving us the good we don't deserve: forgiveness, new life, a place in His family, eternal life",
+        ],
+      },
+      {
+        t: "scripture",
+        text: "But God shows his love for us in that while we were still sinners, Christ died for us.",
+        ref: "Romans 5:8",
+      },
+      {
+        t: "p",
+        text: "Notice the timing: <em>while we were still sinners</em>. God didn't wait for us to improve. That's grace.",
+      },
+
+      { t: "h2", text: "Why we can't earn it" },
+      {
+        t: "p",
+        text: "Most religions — and most of our instincts — work on a simple deal: be good enough, and God will accept you. The Gospel turns that upside down. Nobody is good enough, and nobody has to be. Jesus lived the life we couldn't, died the death we deserved, and rose again, so that anyone who trusts Him is accepted as a gift.",
+      },
+      {
+        t: "p",
+        text: "That's why grace is such good news for people who feel they've done too much, or that they're too far gone. Grace is measured by the giver, not the receiver.",
+      },
+
+      { t: "h2", text: "What grace changes" },
+      {
+        t: "steps",
+        items: [
+          { title: "How God sees you", text: "Forgiven, accepted and loved — not on probation." },
+          { title: "How you live", text: "Grace doesn't make holiness optional; it makes it possible. It trains us to say no to sin and yes to God (Titus 2:11–12)." },
+          { title: "Your weakness", text: "\"My grace is sufficient for you, for my power is made perfect in weakness\" (2 Corinthians 12:9)." },
+          { title: "How you treat others", text: "People who've received grace become gracious — slower to judge, quicker to forgive." },
+        ],
+      },
+      {
+        t: "scripture",
+        text: "For the grace of God has appeared, bringing salvation for all people, training us to renounce ungodliness and worldly passions, and to live self-controlled, upright, and godly lives in the present age.",
+        ref: "Titus 2:11–12",
+      },
+
+      { t: "h2", text: "Grace and good works" },
+      {
+        t: "p",
+        text: "If we're saved by grace, do good works matter? Yes — but as the fruit of salvation, not the root of it. Right after saying we're saved by grace, Paul adds that we were created in Christ Jesus <em>for good works</em> (Ephesians 2:10). We don't obey to be loved; we obey because we are loved.",
+      },
+
+      { t: "h2", text: "Living by grace" },
+      {
+        t: "list",
+        items: [
+          "When you fail, come back to God quickly — grace is for exactly that moment",
+          "Let go of trying to earn what has already been given",
+          "Extend grace to others, especially when they don't deserve it — see <a href=\"/blog/how-to-forgive-someone-who-hurt-you\">how to forgive someone who hurt you</a>",
+          "Tell others about it: grace is the best news there is",
+        ],
+      },
+      {
+        t: "callout",
+        title: "Receive it",
+        text: "Grace can't be earned — only received, by trusting Jesus. Know Jesus explains how, simply and honestly.",
+        href: "/know-jesus",
+        cta: "Open Know Jesus",
+      },
+    ],
+  },
+  {
+    slug: "how-to-forgive-someone-who-hurt-you",
+    title: "How To Forgive Someone Who Hurt You (A Biblical, Honest Guide)",
+    description:
+      "Forgiveness is one of the hardest things Jesus asks of us — and one of the most freeing. What forgiveness is and isn't, why it matters, practical steps, what to do when the feelings don't follow, and why forgiving never means staying in danger.",
+    tldr: "Forgiving someone means releasing your right to make them pay for what they did and handing the debt to God — because God has forgiven you. It isn't pretending it didn't hurt, excusing it, or automatically trusting the person again, and it never means staying in an unsafe situation. It's usually a decision followed by a process: be honest about the hurt, choose to release it, pray for the person, and keep choosing when the feelings return.",
+    date: "2026-11-08",
+    category: "Discipleship",
+    eyebrow: "Life with Jesus",
+    keywords: [
+      "how to forgive someone",
+      "how to forgive someone who hurt you",
+      "biblical forgiveness",
+      "forgiveness vs reconciliation",
+      "how to let go of hurt",
+      "why should i forgive",
+    ],
+    related: ["reborn", "kd", "lotw"],
+    faq: [
+      {
+        q: "What does it mean to forgive someone?",
+        a: "To forgive is to release your right to make someone pay for what they did to you, and to hand that debt to God. It isn't saying the wrong didn't matter; it's choosing not to carry the debt yourself, because God has forgiven you far more (Ephesians 4:32).",
+      },
+      {
+        q: "Does forgiving someone mean I have to trust them again?",
+        a: "No. Forgiveness and reconciliation are different. Forgiveness is something you can do on your own, before God. Reconciliation and restored trust require the other person to change, and take time. You can forgive someone and still keep healthy boundaries.",
+      },
+      {
+        q: "Do I have to forgive someone who abused me?",
+        a: "Forgiveness is ultimately for your freedom, and it never means staying in danger, keeping silent about abuse, or returning to an unsafe relationship. If you have been abused, your safety comes first: reach out to emergency services, a trusted pastor, or a professional counsellor. Forgiveness can come later, as part of healing, with support.",
+      },
+      {
+        q: "What if I've forgiven but still feel hurt?",
+        a: "That's normal. Forgiveness is often a decision followed by a process. Feelings can return; when they do, bring them to God honestly and choose again to release the debt. Over time, many people find the pain loosens its grip.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Someone hurt you. Maybe it was a betrayal, a careless word, years of being let down, or something far worse. And somewhere you've heard that Christians are supposed to forgive. It can sound impossible, or even unfair. This guide is honest about both the cost and the freedom.",
+      },
+      {
+        t: "scripture",
+        text: "Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you.",
+        ref: "Ephesians 4:32",
+      },
+
+      { t: "h2", text: "What forgiveness is" },
+      {
+        t: "p",
+        text: "<strong>Forgiving someone means releasing your right to make them pay, and handing the debt to God.</strong> In Jesus' parables, sin is pictured as a debt. When you forgive, you tear up the IOU — not because it wasn't real, but because you're choosing not to collect it yourself.",
+      },
+      {
+        t: "p",
+        text: "The reason Christians forgive is simple, and humbling: God has forgiven us a debt we could never repay. Read <a href=\"/blog/what-is-grace\">what grace is</a>.",
+      },
+
+      { t: "h2", text: "What forgiveness is not" },
+      {
+        t: "list",
+        items: [
+          "<strong>Not pretending</strong> it didn't happen or didn't hurt",
+          "<strong>Not excusing</strong> what they did, or calling wrong right",
+          "<strong>Not automatically trusting</strong> them again — trust is rebuilt over time, if at all",
+          "<strong>Not reconciliation</strong> — that takes two people; forgiveness can take one",
+          "<strong>Not staying in danger</strong> — forgiveness never requires you to remain in an unsafe situation or keep quiet about abuse",
+        ],
+      },
+      {
+        t: "callout",
+        title: "If you're not safe",
+        text: "If someone is harming you, your safety comes first. Contact emergency services if you're in danger, and reach out to a trusted pastor or a professional counsellor. Forgiveness can come later, as part of healing, with support.",
+      },
+
+      { t: "h2", text: "Why forgiveness matters" },
+      {
+        t: "p",
+        text: "Jesus tied our forgiveness of others closely to our own life with God. Unforgiveness keeps us chained to the person who hurt us; resentment is a heavy thing to carry for years. Forgiveness doesn't set them free from accountability — it sets you free from the weight.",
+      },
+      {
+        t: "scripture",
+        text: "Then Peter came up and said to him, \"Lord, how often will my brother sin against me, and I forgive him? As many as seven times?\" Jesus said to him, \"I do not say to you seven times, but seventy-seven times.\"",
+        ref: "Matthew 18:21–22",
+      },
+
+      { t: "h2", text: "How to forgive: practical steps" },
+      {
+        t: "steps",
+        items: [
+          { title: "Be honest about the hurt", text: "Name what happened and how it affected you. The Psalms show that God welcomes honest lament." },
+          { title: "Remember how you've been forgiven", text: "Grace received is the soil grace grows in." },
+          { title: "Make the decision", text: "Tell God, in your own words, that you release the person and hand the debt to Him. Write it down if it helps." },
+          { title: "Pray for them", text: "Jesus told us to pray for those who hurt us. It's hard — and it changes us." },
+          { title: "Set wise boundaries", text: "Forgiveness and boundaries go together. You can forgive and still protect yourself." },
+          { title: "Choose again when it returns", text: "The feelings may come back. Each time, bring them to God and release the debt again." },
+        ],
+      },
+
+      { t: "h2", text: "When the feelings don't follow" },
+      {
+        t: "p",
+        text: "Forgiveness usually starts as a decision before it becomes a feeling. Don't wait to feel forgiving before you forgive. Keep choosing, keep praying, and give it time. Many people find that, slowly, the memory stops hurting the way it did.",
+      },
+
+      { t: "h2", text: "You don't have to do it alone" },
+      {
+        t: "p",
+        text: "Talk to a trusted Christian friend or pastor, and consider a professional counsellor for deep wounds. Forgiveness is something God helps us do, often through other people. If you'd like to talk or be prayed for, write to us at <a href=\"mailto:hello@jesusfestival.ca\">Hello@JesusFestival.ca</a>.",
+      },
+      {
+        t: "scripture",
+        text: "Bearing with one another and, if one has a complaint against another, forgiving each other; as the Lord has forgiven you, so you also must forgive.",
+        ref: "Colossians 3:13",
+      },
+      {
+        t: "callout",
+        title: "Forgiven first",
+        text: "We can forgive because we've been forgiven. If you've never received God's forgiveness yourself, Know Jesus explains how.",
+        href: "/know-jesus",
+        cta: "Open Know Jesus",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));

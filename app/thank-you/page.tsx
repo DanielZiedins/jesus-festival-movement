@@ -210,7 +210,7 @@ export default function ThankYouPage() {
                   <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-gold/20 bg-gold/[.08] text-gold">
                     <Icon name={track.icon} className="h-6 w-6" />
                   </div>
-                  <span className="font-display text-4xl font-bold text-white/[.08]">{track.number}</span>
+                  <span aria-hidden="true" data-num={track.number} className="watermark-num font-display text-4xl font-bold text-white/[.08]" />
                 </div>
                 <h3 className="mt-6 font-display text-2xl font-bold text-white sm:text-3xl">{track.title}</h3>
                 <p className="mt-3 leading-relaxed text-white/52">{track.description}</p>
