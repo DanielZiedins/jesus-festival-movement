@@ -60,7 +60,7 @@ export default async function ShopSpotlight() {
                   <p className="mt-7 font-display text-2xl font-bold leading-tight text-white">More than merch.</p>
                   <p className="mt-3 text-sm leading-relaxed text-white/56">A visible reminder that Jesus is worth lifting up—in every city, every day.</p>
                 </div>
-                <Link href="/shop" className="group rounded-[1.7rem] border border-ember/25 bg-gradient-to-br from-ember/[.16] to-gold/[.08] p-6 transition hover:-translate-y-1 hover:border-gold/45 sm:p-7">
+                <Link href="/shop" className="group rounded-[1.7rem] border border-ember/25 bg-gradient-to-br from-ember/[.16] to-gold/[.08] p-6 transition spot hover:-translate-y-1 hover:border-gold/45 sm:p-7">
                   <p className="text-xs font-bold uppercase tracking-[.22em] text-gold">The collection</p>
                   <p className="mt-3 font-display text-4xl font-bold text-white">{products.length}</p>
                   <p className="mt-1 text-sm text-white/58">Jesus Festival pieces live now.</p>

@@ -35,7 +35,7 @@ export default function HowToStart() {
           <div className="grid gap-4 sm:grid-cols-2">
             {SIMPLE_STEPS.map((step, index) => (
               <Reveal key={step.number} delay={index * 0.06}>
-                <article className={`group relative min-h-[15rem] overflow-hidden rounded-[1.8rem] border p-7 transition duration-500 hover:-translate-y-1 sm:p-8 ${
+                <article className={`group relative min-h-[15rem] overflow-hidden rounded-[1.8rem] border p-7 transition duration-500 spot hover:-translate-y-1 sm:p-8 ${
                   index === 2
                     ? "border-ember-600 bg-ember-600 text-white shadow-[0_24px_70px_rgba(233,95,50,.25)]"
                     : "border-ink/10 bg-white/58 text-ink"

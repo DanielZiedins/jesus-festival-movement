@@ -133,7 +133,7 @@ export default function ResourcesPage() {
                         <Link
                           href={r.href}
                           {...(r.download ? { download: true } : {})}
-                          className="group flex h-full flex-col rounded-[1.6rem] border border-white/10 bg-white/[.035] p-6 transition duration-300 hover:-translate-y-1 hover:border-gold/30 hover:bg-white/[.055]"
+                          className="group flex h-full flex-col rounded-[1.6rem] border border-white/10 bg-white/[.035] p-6 transition duration-300 spot hover:-translate-y-1 hover:border-gold/30 hover:bg-white/[.055]"
                         >
                           <span className="font-display text-xl font-bold leading-snug text-white">{r.title}</span>
                           <span className="mt-2 flex-1 leading-relaxed text-white/70">{r.text}</span>

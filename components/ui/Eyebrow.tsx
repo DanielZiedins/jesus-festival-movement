@@ -7,7 +7,7 @@ export default function Eyebrow({
 }) {
   return (
     <span className={`inline-flex items-center gap-2.5 text-xs font-bold uppercase tracking-[0.25em] ${dark ? "text-ember-700" : "text-gold-400"}`}>
-      <span className={`h-px w-8 bg-gradient-to-r from-transparent ${dark ? "to-ember-600" : "to-gold"}`} />
+      <span className={`eyebrow-line h-px w-8 bg-gradient-to-r from-transparent ${dark ? "to-ember-600" : "to-gold"}`} />
       {children}
     </span>
   );

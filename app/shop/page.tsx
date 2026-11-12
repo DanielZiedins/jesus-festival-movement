@@ -108,7 +108,7 @@ export default async function ShopPage() {
 
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {products.map((product, index) => (
-              <article key={product.handle} className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.025] transition duration-500 hover:-translate-y-1 hover:border-gold/35 hover:bg-white/[.045]">
+              <article key={product.handle} className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[.025] transition duration-500 spot hover:-translate-y-1 hover:border-gold/35 hover:bg-white/[.045]">
                 <a href={product.url} target="_blank" rel="noopener noreferrer" className="relative block aspect-square overflow-hidden bg-[radial-gradient(circle_at_50%_30%,rgba(244,196,92,.12),transparent_46%),#0a0f1d]">
                   <Image src={product.image} alt={product.title} fill sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 33vw" className="object-contain p-7 transition duration-700 group-hover:scale-110 group-hover:rotate-1 sm:p-10" />
                   <span className="absolute left-5 top-5 rounded-full border border-white/12 bg-ink/72 px-3 py-2 text-[0.72rem] font-bold uppercase tracking-[.18em] text-gold backdrop-blur-xl">0{index + 1}</span>

@@ -54,7 +54,7 @@ export default function KnowJesus() {
         <div className="mx-auto mt-14 grid max-w-5xl gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {GOSPEL.map((g, i) => (
             <Reveal key={g.title} delay={i * 0.08}>
-              <div className="group relative h-full overflow-hidden rounded-2xl glass p-6 transition-all duration-300 hover:-translate-y-1 hover:border-gold/30">
+              <div className="group relative h-full overflow-hidden rounded-2xl glass p-6 transition-all duration-300 spot hover:-translate-y-1 hover:border-gold/30">
                 <span className="font-display text-4xl font-bold text-gold/55 transition-colors group-hover:text-gold/80">
                   {i + 1}
                 </span>

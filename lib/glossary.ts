@@ -34,6 +34,15 @@ export const GLOSSARY: Term[] = [
     linkLabel: "How to give an altar call",
   },
   {
+    id: "apologetics",
+    term: "Apologetics",
+    definition:
+      "Giving reasons for the Christian faith — explaining why it is true and makes sense, and answering honest questions and objections. From the Greek apologia, a reasoned defence; it has nothing to do with apologising. Done well, it is gentle, respectful and points people to Jesus.",
+    ref: "1 Peter 3:15",
+    href: "/blog/how-to-answer-hard-questions-about-faith",
+    linkLabel: "Answering hard questions",
+  },
+  {
     id: "baptism",
     term: "Baptism",
     definition:
@@ -41,6 +50,15 @@ export const GLOSSARY: Term[] = [
     ref: "Romans 6:4",
     href: "/blog/what-is-baptism",
     linkLabel: "What is baptism?",
+  },
+  {
+    id: "born-again",
+    term: "Born again",
+    definition:
+      "Jesus' phrase for the new spiritual life God gives a person who turns from sin and trusts Him. It isn't turning over a new leaf by effort; it is a fresh start worked by the Holy Spirit, and Jesus said it is how anyone enters the Kingdom of God.",
+    ref: "John 3:3",
+    href: "/blog/i-just-became-a-christian-what-now",
+    linkLabel: "Your first 30 days",
   },
   {
     id: "discipleship",
@@ -74,8 +92,8 @@ export const GLOSSARY: Term[] = [
     definition:
       "The good news of Jesus Christ: God loves us; sin separates us from Him; Jesus, God's Son, died in our place and rose again; and anyone who turns from sin and trusts Him as Lord is forgiven and given new life.",
     ref: "1 Corinthians 15:3–4",
-    href: "/know-jesus",
-    linkLabel: "The Gospel, explained simply",
+    href: "/blog/what-is-the-gospel",
+    linkLabel: "What is the Gospel?",
   },
   {
     id: "gospel-tract",
@@ -102,6 +120,15 @@ export const GLOSSARY: Term[] = [
     ref: "Matthew 28:19–20",
     href: "/blog/great-commission-in-numbers",
     linkLabel: "The Great Commission today",
+  },
+  {
+    id: "incarnation",
+    term: "Incarnation",
+    definition:
+      "The Christian belief that God the Son became a real human being in Jesus — fully God and fully human — without ceasing to be God. From the Latin for in flesh. It is what Christmas celebrates: God came near, as Immanuel, God with us.",
+    ref: "John 1:14",
+    href: "/blog/the-true-meaning-of-christmas",
+    linkLabel: "The true meaning of Christmas",
   },
   {
     id: "jesus-festival",
@@ -170,6 +197,15 @@ export const GLOSSARY: Term[] = [
     ref: "Psalm 85:6",
     href: "/blog/what-is-revival",
     linkLabel: "What is revival?",
+  },
+  {
+    id: "salvation",
+    term: "Salvation",
+    definition:
+      "Being rescued by God from sin and its consequences, and brought into new, eternal life with Him. Christians believe salvation is a gift received by grace through faith in Jesus, who died and rose again — not something earned by good works.",
+    ref: "Ephesians 2:8–9",
+    href: "/blog/what-is-the-gospel",
+    linkLabel: "What is the Gospel?",
   },
   {
     id: "street-evangelism",

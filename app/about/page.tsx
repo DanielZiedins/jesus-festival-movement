@@ -164,7 +164,7 @@ export default function AboutPage() {
           </div>
           <div className="mt-12 grid gap-4 md:grid-cols-2">
             {MOVEMENT_FACTS.map((fact, index) => (
-              <article key={fact.question} className="rounded-[1.8rem] border border-white/10 bg-white/[.035] p-7 transition duration-300 hover:-translate-y-1 hover:border-gold/30 hover:bg-white/[.055] sm:p-8">
+              <article key={fact.question} className="rounded-[1.8rem] border border-white/10 bg-white/[.035] p-7 transition duration-300 spot hover:-translate-y-1 hover:border-gold/30 hover:bg-white/[.055] sm:p-8">
                 <span className="font-display text-sm font-bold text-gold">0{index + 1}</span>
                 <h3 className="mt-5 font-display text-2xl font-bold leading-tight text-white">{fact.question}</h3>
                 <p className="mt-4 leading-relaxed text-white/58">{fact.answer}</p>

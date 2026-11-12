@@ -80,6 +80,29 @@ const GUARD = `
   addEventListener('resize', schedule);
   d.addEventListener('visibilitychange', schedule);
 })();
+/* Spotlight cards: a soft glow that follows the pointer across any .spot
+   card. One delegated listener, rAF-batched, mouse/pen only — the glow is a
+   CSS radial gradient positioned by --mx/--my (see globals.css). */
+(function () {
+  var w = window;
+  if (!w.matchMedia || !w.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+  if (w.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var el = null, x = 0, y = 0, raf = 0;
+  function paint() {
+    raf = 0;
+    if (!el) return;
+    var r = el.getBoundingClientRect();
+    el.style.setProperty('--mx', (x - r.left) + 'px');
+    el.style.setProperty('--my', (y - r.top) + 'px');
+  }
+  document.addEventListener('pointermove', function (e) {
+    var t = e.target;
+    el = t && t.closest ? t.closest('.spot') : null;
+    if (!el) return;
+    x = e.clientX; y = e.clientY;
+    if (!raf) raf = requestAnimationFrame(paint);
+  }, { passive: true });
+})();
 `;
 
 export default function RevealGuard() {

@@ -34,7 +34,7 @@ export default function Model() {
         <div className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {FESTIVAL_ELEMENTS.map((item, index) => (
             <Reveal key={item.title} delay={(index % 4) * 0.05}>
-              <article className="element-card group relative h-full min-h-[17rem] overflow-hidden rounded-[1.75rem] border border-white/10 bg-ink/65 p-6 backdrop-blur-sm transition duration-500 hover:-translate-y-1 hover:border-gold/35 sm:p-7">
+              <article className="element-card group relative h-full min-h-[17rem] overflow-hidden rounded-[1.75rem] border border-white/10 bg-ink/65 p-6 backdrop-blur-sm transition duration-500 spot hover:-translate-y-1 hover:border-gold/35 sm:p-7">
                 <div className="absolute right-0 top-0 h-28 w-28 rounded-full bg-gold/[.07] blur-3xl transition group-hover:bg-ember/[.14]" />
                 <div className="relative flex h-full flex-col">
                   <div className="flex items-center justify-between">

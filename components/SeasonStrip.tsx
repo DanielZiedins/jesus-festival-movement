@@ -15,9 +15,9 @@ export default function SeasonStrip() {
           <p className="mt-2 max-w-2xl text-white/70">
             One of the few seasons when people who never think about church are open to it. Pray, then invite.
           </p>
-          <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-            {CHRISTMAS_SEASON.map((item) => (
-              <li key={item.href}>
+          <ul className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+            {CHRISTMAS_SEASON.map((item, i) => (
+              <li key={item.href} className={i === 0 ? "sm:col-span-2 lg:col-span-1" : undefined}>
                 <a
                   href={item.href}
                   className="group flex h-full items-center justify-between gap-4 rounded-2xl border border-white/10 bg-black/20 p-4 transition hover:border-gold/40"

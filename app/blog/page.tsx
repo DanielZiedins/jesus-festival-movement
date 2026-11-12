@@ -127,8 +127,8 @@ export default function BlogIndex() {
                   This season: <span className="text-gradient-gold">Advent &amp; Christmas</span>
                 </h2>
                 <ul className="mt-5 grid gap-3 sm:grid-cols-2">
-                  {CHRISTMAS_SEASON.map((item) => (
-                    <li key={item.href}>
+                  {CHRISTMAS_SEASON.map((item, i) => (
+                    <li key={item.href} className={i === 0 ? "sm:col-span-2" : undefined}>
                       <a
                         href={item.href}
                         className="group flex h-full items-center justify-between gap-4 rounded-2xl border border-white/10 bg-black/20 p-4 transition hover:border-gold/40"
@@ -149,7 +149,7 @@ export default function BlogIndex() {
               <Reveal>
                 <a
                   href={`/blog/${lead.slug}`}
-                  className="group relative block overflow-hidden rounded-3xl glass-strong p-8 transition-all duration-300 hover:-translate-y-1 hover:border-gold/35 sm:p-12"
+                  className="group relative block overflow-hidden rounded-3xl glass-strong p-8 transition-all duration-300 spot hover:-translate-y-1 hover:border-gold/35 sm:p-12"
                 >
                   <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-gold-500/10 blur-3xl" />
                   <div className="relative max-w-3xl">
@@ -186,7 +186,7 @@ export default function BlogIndex() {
                 <Reveal key={p.slug} delay={i * 0.05}>
                   <a
                     href={`/blog/${p.slug}`}
-                    className="group flex h-full flex-col rounded-3xl glass p-7 transition-all duration-300 hover:-translate-y-1 hover:border-gold/30"
+                    className="group flex h-full flex-col rounded-3xl glass p-7 transition-all duration-300 spot hover:-translate-y-1 hover:border-gold/30"
                   >
                     <div className="flex flex-wrap items-center gap-x-3 text-[11px] font-bold uppercase tracking-[0.18em]">
                       <span className="text-gold-400">{p.category}</span>

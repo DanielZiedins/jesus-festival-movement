@@ -5,6 +5,7 @@
 export const CHRISTMAS_SEASON = [
   { label: "Free printable", title: "Advent prayer guide for your city", href: "/resources/advent-prayer-guide" },
   { label: "The season", title: "What is Advent?", href: "/blog/what-is-advent" },
+  { label: "The story", title: "The true meaning of Christmas", href: "/blog/the-true-meaning-of-christmas" },
   { label: "Outreach", title: "Christmas outreach ideas for churches", href: "/blog/christmas-outreach-ideas-for-churches" },
   { label: "Invite", title: "How to invite someone to church at Christmas", href: "/blog/how-to-invite-someone-to-church-at-christmas" },
 ] as const;

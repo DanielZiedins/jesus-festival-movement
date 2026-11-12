@@ -131,7 +131,7 @@ export default function StartJesusFestivalPage() {
           <ul className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {TOOLS.map(([kind, title, text, href]) => (
               <li key={href}>
-                <Link href={href} className="group flex h-full flex-col rounded-[1.7rem] border border-white/10 bg-white/[.035] p-7 transition duration-300 hover:-translate-y-1 hover:border-gold/30 hover:bg-white/[.055]">
+                <Link href={href} className="group flex h-full flex-col rounded-[1.7rem] border border-white/10 bg-white/[.035] p-7 transition duration-300 spot hover:-translate-y-1 hover:border-gold/30 hover:bg-white/[.055]">
                   <span className="text-xs font-bold uppercase tracking-[.2em] text-gold-400">{kind}</span>
                   <span className="mt-3 font-display text-2xl font-bold leading-tight text-white">{title}</span>
                   <span className="mt-3 flex-1 leading-relaxed text-white/65">{text}</span>

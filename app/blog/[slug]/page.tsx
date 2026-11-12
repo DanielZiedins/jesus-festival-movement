@@ -322,7 +322,7 @@ export default async function BlogPost({ params }: Params) {
                       href={s!.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group rounded-2xl glass p-6 transition-all duration-300 hover:-translate-y-1 hover:border-gold/30"
+                      className="group rounded-2xl glass p-6 transition-all duration-300 spot hover:-translate-y-1 hover:border-gold/30"
                     >
                       <p className="font-display font-bold text-white">
                         {s!.name}
@@ -378,7 +378,7 @@ export default async function BlogPost({ params }: Params) {
                       <a
                         key={p.slug}
                         href={`/blog/${p.slug}`}
-                        className="group rounded-2xl glass p-6 transition-all duration-300 hover:-translate-y-1 hover:border-gold/30"
+                        className="group rounded-2xl glass p-6 transition-all duration-300 spot hover:-translate-y-1 hover:border-gold/30"
                       >
                         <p className="text-[11px] font-bold uppercase tracking-[0.18em] text-gold-400">
                           {p.category}

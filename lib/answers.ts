@@ -251,6 +251,7 @@ export const ANSWERS: Answer[] = [
     ],
     links: [
       { label: "The Gospel, explained simply", href: "/know-jesus" },
+      { label: "What is the Gospel?", href: "/blog/what-is-the-gospel" },
       { label: "Your first 30 days as a Christian", href: "/blog/i-just-became-a-christian-what-now" },
       { label: "How to pray: a guide for beginners", href: "/blog/how-to-pray-a-simple-guide-for-beginners" },
     ],
@@ -672,6 +673,51 @@ export const ANSWERS: Answer[] = [
       { label: "Why city-wide unity is worth it", href: "/blog/why-city-wide-church-unity-is-worth-it" },
       { label: "I'm afraid to share my faith", href: "/answers#afraid-to-share-faith" },
       { label: "How to give an altar call", href: "/blog/how-to-give-an-altar-call-at-an-outdoor-event" },
+    ],
+  },
+  {
+    id: "what-is-the-gospel",
+    q: "What is the Gospel?",
+    topic: "faith",
+    short:
+      "The Gospel is the good news that God, who made us and loves us, sent His Son Jesus to rescue us. We have all turned away from God, and sin separates us from Him. Jesus died on the cross in our place and rose again, and anyone who turns from sin and trusts Him as Lord is forgiven and given new, eternal life as a gift.",
+    detail: [
+      "Paul summarises it as of first importance: &ldquo;that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day&rdquo; (1 Corinthians 15:3–4).",
+      "It is good news, not good advice — an announcement of what God has done, not a list of what we must do to earn His approval.",
+    ],
+    links: [
+      { label: "What is the Gospel? The full guide", href: "/blog/what-is-the-gospel" },
+      { label: "Know Jesus", href: "/know-jesus" },
+    ],
+  },
+  {
+    id: "meaning-of-christmas",
+    q: "What is the true meaning of Christmas?",
+    topic: "faith",
+    short:
+      "Christmas celebrates the birth of Jesus Christ — Christians believe God the Son became a human being to save people from their sins and bring them back to God. The Bible calls Him Immanuel, which means God with us. Gifts, lights and gatherings point to that greater gift.",
+    detail: [
+      "The angels announced it as &ldquo;good news of great joy that will be for all the people&rdquo; (Luke 2:10) — first to shepherds on a night shift, not to the powerful.",
+      "The four weeks before Christmas, Advent, are a season of preparing for it — and one of the easiest times of year to invite someone to church.",
+    ],
+    links: [
+      { label: "The true meaning of Christmas", href: "/blog/the-true-meaning-of-christmas" },
+      { label: "Advent prayer guide for your city", href: "/resources/advent-prayer-guide" },
+    ],
+  },
+  {
+    id: "answering-hard-questions",
+    q: "How should I answer hard questions about my faith?",
+    topic: "faith",
+    short:
+      "Listen first and ask what is behind the question. Answer honestly, admit what you don't know and offer to find out, and keep pointing to Jesus — His life, death and resurrection. The Bible asks Christians to give a reason for their hope with gentleness and respect (1 Peter 3:15). The goal is to help the person, not win the argument.",
+    detail: [
+      "Many hard questions — especially about suffering — come from personal pain. Grieve with people before you explain anything.",
+      "Your own story of what Jesus has done is something nobody can argue with; have a short version ready.",
+    ],
+    links: [
+      { label: "How to answer hard questions about faith", href: "/blog/how-to-answer-hard-questions-about-faith" },
+      { label: "How to share your testimony", href: "/blog/how-to-share-your-testimony" },
     ],
   },
 ];

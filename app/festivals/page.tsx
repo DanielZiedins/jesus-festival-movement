@@ -80,7 +80,7 @@ function FestivalCard({ e, held }: { e: FestivalEvent; held: boolean }) {
       className={`group relative flex h-full flex-col overflow-hidden rounded-[1.8rem] border p-7 transition-all duration-300 sm:p-9 ${
         held
           ? "border-white/10 bg-white/[.025] hover:border-white/20"
-          : "border-gold/25 bg-gradient-to-br from-gold/[.08] via-white/[.035] to-ember/[.07] hover:-translate-y-1 hover:border-gold/45"
+          : "border-gold/25 bg-gradient-to-br from-gold/[.08] via-white/[.035] to-ember/[.07] spot hover:-translate-y-1 hover:border-gold/45"
       }`}
     >
       <div className="flex flex-wrap items-center gap-3">

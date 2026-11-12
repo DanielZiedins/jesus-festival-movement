@@ -115,7 +115,7 @@ export default function NetworkPage() {
                         href={s.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group flex h-full flex-col rounded-2xl glass p-6 transition-all duration-300 hover:-translate-y-1 hover:border-gold/30 hover:bg-white/[0.06]"
+                        className="group flex h-full flex-col rounded-2xl glass p-6 transition-all duration-300 spot hover:-translate-y-1 hover:border-gold/30 hover:bg-white/[0.06]"
                       >
                         <div className="flex items-start justify-between gap-4">
                           <div className="min-w-0">

@@ -5631,6 +5631,432 @@ export const POSTS: Post[] = [
       },
     ],
   },
+  {
+    slug: "what-is-the-gospel",
+    title: "What Is the Gospel? The Good News of Jesus in Plain Words",
+    description:
+      "What the Gospel actually is, in plain words: who God is, what went wrong, what Jesus did, and how to respond — plus what the Gospel is not, and how to explain it in a minute.",
+    tldr: "The Gospel is the good news that God, who made us and loves us, sent His Son Jesus to rescue us. We have all turned away from God, and sin separates us from Him. Jesus lived the life we couldn't, died on the cross in our place, and rose again. Anyone who turns from sin and trusts Him as Lord is forgiven and given new, eternal life — as a gift.",
+    date: "2026-11-11",
+    category: "Evangelism",
+    eyebrow: "The basics",
+    keywords: [
+      "what is the gospel",
+      "gospel meaning",
+      "what is the gospel message",
+      "the gospel explained simply",
+      "good news of jesus",
+      "gospel in one sentence",
+      "how to explain the gospel",
+    ],
+    related: ["reborn", "jf-ca", "oikos"],
+    faq: [
+      {
+        q: "What is the Gospel in one sentence?",
+        a: "The Gospel is the good news that Jesus Christ, the Son of God, died for our sins and rose again, so that everyone who turns from sin and trusts Him as Lord is forgiven, made new and brought home to God — as a free gift.",
+      },
+      {
+        q: "What does the word gospel mean?",
+        a: "Gospel comes from the Old English godspel, meaning good news, a translation of the Greek euangelion. In the ancient world it was used for announcements like a victory or a new king. The Christian Gospel announces what Jesus has done, not advice about what we must do.",
+      },
+      {
+        q: "What are the four Gospels?",
+        a: "Matthew, Mark, Luke and John — the first four books of the New Testament. Each tells the story of Jesus' life, death and resurrection. They are called Gospels because they tell the good news. John is often recommended as the best place to start reading.",
+      },
+      {
+        q: "How do I respond to the Gospel?",
+        a: "By repenting and believing: turning from sin and trusting Jesus as your Lord and Saviour. You can tell God that in your own words, right now. Then tell someone, find a church that teaches the Bible, start reading the Gospel of John, and ask about baptism.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Christians use the word all the time — Gospel music, Gospel preaching, the Gospel of John, a Gospel festival. But ask ten people what the Gospel actually <em>is</em> and you might get ten different answers. Here it is in plain words.",
+      },
+
+      { t: "h2", text: "The short answer" },
+      {
+        t: "p",
+        text: "<strong>The Gospel is good news, not good advice.</strong> It isn't a list of things to do to get right with God. It's an announcement of what God has already done to bring us back to Himself, through Jesus.",
+      },
+      {
+        t: "scripture",
+        text: "For I delivered to you as of first importance what I also received: that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day in accordance with the Scriptures.",
+        ref: "1 Corinthians 15:3–4",
+      },
+      {
+        t: "p",
+        text: "Paul calls this <em>of first importance</em>. Everything else Christians believe and do flows from it.",
+      },
+
+      { t: "h2", text: "The four movements of the good news" },
+      {
+        t: "steps",
+        items: [
+          {
+            title: "God made us, and loves us",
+            text: "We aren't accidents. God created us to know Him and to enjoy life with Him — and He still loves the world He made (John 3:16).",
+          },
+          {
+            title: "We turned away",
+            text: "Every one of us has gone our own way instead of God's. The Bible calls this sin, and it separates us from God, who is holy and just (Romans 3:23).",
+          },
+          {
+            title: "Jesus came to rescue us",
+            text: "God the Son became a man. Jesus lived the perfect life we couldn't, died on the cross to take the penalty for our sin, and rose from the dead three days later, defeating death (Romans 5:8).",
+          },
+          {
+            title: "We respond by turning and trusting",
+            text: "Forgiveness and new life are a gift, received by repenting — turning from sin — and believing in Jesus as Lord. Anyone can receive it, whatever they have done (Romans 10:9).",
+          },
+        ],
+      },
+
+      { t: "h2", text: "What the Gospel is not" },
+      {
+        t: "list",
+        items: [
+          "<strong>Not \"be a good person.\"</strong> Nobody is good enough, and the Gospel never asks us to be. It offers grace to people who aren't.",
+          "<strong>Not just a ticket to heaven.</strong> It is about being reconciled to God now — forgiven, adopted into His family and changed by His Spirit — as well as forever.",
+          "<strong>Not a self-improvement plan.</strong> Change follows, but it is the fruit of the good news, not the price of it.",
+          "<strong>Not only for religious people.</strong> Jesus was famous for welcoming the people religion had written off (Luke 15:1–2).",
+        ],
+      },
+
+      { t: "h2", text: "Why it is good news" },
+      {
+        t: "p",
+        text: "Because it answers our deepest problems at their root. Guilt is met with forgiveness. Shame is met with welcome. Death is met with resurrection. And the God we ran from turns out to be the Father running to meet us (Luke 15:20).",
+      },
+      {
+        t: "scripture",
+        text: "For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.",
+        ref: "John 3:16",
+      },
+      {
+        t: "p",
+        text: "That is why Christians want to share it. Not to win an argument or fill a building, but because good news is meant to be told — which is the whole heart of a <a href=\"/blog/what-actually-happens-at-a-jesus-festival\">Jesus Festival</a>.",
+      },
+
+      { t: "h2", text: "How to explain it in a minute" },
+      {
+        t: "p",
+        text: "If someone asks you what Christians believe, you don't need a sermon. Try four short sentences, in your own words:",
+      },
+      {
+        t: "list",
+        ordered: true,
+        items: [
+          "God made us to know Him, and He loves us.",
+          "But we've all gone our own way, and that cuts us off from Him.",
+          "Jesus died in our place and rose again, so we can be forgiven and brought back.",
+          "Anyone who turns to Him and trusts Him receives that as a gift — would you like to?",
+        ],
+      },
+      {
+        t: "p",
+        text: "Then stop and listen. Add a sentence about what Jesus has done in your own life — see <a href=\"/blog/how-to-share-your-testimony\">how to share your testimony</a> — and if they want to respond, <a href=\"/blog/how-to-lead-someone-to-christ\">here is how to lead someone to Christ</a>.",
+      },
+
+      { t: "h2", text: "How to respond" },
+      {
+        t: "p",
+        text: "The Gospel always ends with an invitation. Jesus' first recorded message was simply this:",
+      },
+      {
+        t: "scripture",
+        text: "The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel.",
+        ref: "Mark 1:15",
+      },
+      {
+        t: "callout",
+        title: "Ready to respond?",
+        text: "You can talk to God right now, in your own words. Know Jesus walks through it simply and honestly — including a prayer you can pray and what to do next.",
+        href: "/know-jesus",
+        cta: "Know Jesus",
+      },
+    ],
+  },
+  {
+    slug: "the-true-meaning-of-christmas",
+    title: "What Is the True Meaning of Christmas?",
+    description:
+      "Beneath the lights and the shopping, Christmas is about one astonishing claim: God came near. The real meaning of Christmas, where its traditions point, and how to share it this year.",
+    tldr: "The true meaning of Christmas is that God came near. Christians celebrate the birth of Jesus — God the Son becoming a human being — who came to rescue the world from sin and bring people back to God. The Bible calls Him Immanuel, \"God with us.\" Gifts, lights and gatherings point to that greater gift: a Saviour, given in love.",
+    date: "2026-11-11",
+    category: "Outreach",
+    eyebrow: "Christmas",
+    keywords: [
+      "true meaning of christmas",
+      "what is the meaning of christmas",
+      "why do christians celebrate christmas",
+      "meaning of christmas bible",
+      "christmas is about jesus",
+      "immanuel meaning",
+    ],
+    related: ["lotw", "reborn", "kd"],
+    faq: [
+      {
+        q: "What is the true meaning of Christmas?",
+        a: "Christmas celebrates the birth of Jesus Christ — God the Son becoming human. The Bible calls Him Immanuel, which means God with us (Matthew 1:23). He came to save people from their sins and bring them back to God, which is why the angels called it good news of great joy for all people.",
+      },
+      {
+        q: "Was Jesus really born on December 25?",
+        a: "The Bible doesn't give a date. Christians have celebrated Jesus' birth on December 25 since at least the fourth century. The date isn't the point; the event is — Jesus' birth is a historical claim, and the reason for the celebration.",
+      },
+      {
+        q: "What does Immanuel mean?",
+        a: "Immanuel (or Emmanuel) is a Hebrew name meaning God with us. Isaiah promised it centuries before Jesus was born (Isaiah 7:14), and Matthew's Gospel applies it to Jesus (Matthew 1:23). It sums up Christmas: God didn't stay distant, He came to us.",
+      },
+      {
+        q: "How can I share the meaning of Christmas with others?",
+        a: "Invite someone to a Christmas service or carol event — many people are more open to an invitation at Christmas than at any other time of year. Include them at your table, give a Gospel of Luke with a card, and be ready to say simply why Jesus' birth matters to you.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Lights go up, playlists change, calendars fill. For many people Christmas is a lovely, exhausting blur. But underneath it all is a claim so big it is easy to miss: <strong>God came near.</strong>",
+      },
+
+      { t: "h2", text: "The short answer" },
+      {
+        t: "p",
+        text: "Christmas is the celebration of the birth of Jesus — and Christians believe He wasn't just a good teacher born in humble circumstances, but God the Son taking on human flesh. Theologians call this the <em>incarnation</em>, from the Latin for \"in flesh.\"",
+      },
+      {
+        t: "scripture",
+        text: "And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.",
+        ref: "John 1:14",
+      },
+
+      { t: "h2", text: "God with us" },
+      {
+        t: "p",
+        text: "Centuries before Bethlehem, the prophet Isaiah promised a child who would be called <em>Immanuel</em> — \"God with us.\" Matthew's Gospel says that promise was fulfilled in Jesus (Matthew 1:23).",
+      },
+      {
+        t: "p",
+        text: "That changes how we see God. He isn't an absent landlord or a distant idea. He entered our world at its most ordinary and vulnerable — a baby, a borrowed manger, a working family, an occupied country.",
+      },
+
+      { t: "h2", text: "Why He came" },
+      {
+        t: "p",
+        text: "The angel's message to Joseph gave Jesus' name and His mission in one sentence:",
+      },
+      {
+        t: "scripture",
+        text: "She will bear a son, and you shall call his name Jesus, for he will save his people from their sins.",
+        ref: "Matthew 1:21",
+      },
+      {
+        t: "p",
+        text: "The manger points to the cross. Jesus came to live the life we couldn't and to die the death we deserved, then rise again — so that anyone who trusts Him can be forgiven and brought home to God. That is <a href=\"/blog/what-is-the-gospel\">the Gospel</a>, and Christmas is where it begins.",
+      },
+
+      { t: "h2", text: "Good news for everyone" },
+      {
+        t: "p",
+        text: "The first people to hear about Jesus' birth weren't kings or priests. They were shepherds on a night shift — ordinary, overlooked workers.",
+      },
+      {
+        t: "scripture",
+        text: "Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord.",
+        ref: "Luke 2:10–11",
+      },
+      {
+        t: "p",
+        text: "<em>For all the people.</em> Christmas isn't for the religious, the put-together or the cheerful only. It is for the lonely, the grieving, the sceptical and the far away too.",
+      },
+
+      { t: "h2", text: "Where the traditions point" },
+      {
+        t: "p",
+        text: "Many Christmas customs grew up long after the Bible was written, but Christians have long used them as reminders of the story:",
+      },
+      {
+        t: "list",
+        items: [
+          "<strong>Gifts</strong> echo the wise men's gifts to Jesus (Matthew 2:11) — and the greater gift: \"Thanks be to God for his inexpressible gift!\" (2 Corinthians 9:15)",
+          "<strong>Lights</strong> recall Jesus as \"the light of the world\" (John 8:12), shining into a dark season",
+          "<strong>The star</strong> remembers the one that led the wise men to Him",
+          "<strong>Carols</strong> retell the story in song, often with remarkable theology — listen to the words of \"Hark! The Herald Angels Sing\"",
+          "<strong>A shared table</strong> reflects a God who welcomes outsiders in",
+        ],
+      },
+      {
+        t: "p",
+        text: "And the four weeks before Christmas — <a href=\"/blog/what-is-advent\">Advent</a> — are a season of preparing your heart for it all.",
+      },
+
+      { t: "h2", text: "How to keep Christ at the centre this year" },
+      {
+        t: "steps",
+        items: [
+          {
+            title: "Read the story",
+            text: "Read Luke 1–2 and Matthew 1–2 before the big day — alone, or aloud with family. It takes less than half an hour.",
+          },
+          {
+            title: "Pray through Advent",
+            text: "Use our free Advent prayer guide to pray for your city through Hope, Peace, Joy and Love.",
+          },
+          {
+            title: "Invite someone",
+            text: "Christmas is one of the easiest times of year to invite a friend to church or a carol service. Ask personally, and offer to go together.",
+          },
+          {
+            title: "Make room at your table",
+            text: "Think of someone who will be alone, and include them. It is the Christmas story in miniature.",
+          },
+        ],
+      },
+      {
+        t: "callout",
+        title: "A free Advent prayer guide",
+        text: "Four printable weeks of Scripture, prayers for your city and one simple action each week, leading to Christmas Day.",
+        href: "/resources/advent-prayer-guide",
+        cta: "Get the guide",
+      },
+      {
+        t: "p",
+        text: "Leading a church? See <a href=\"/blog/christmas-outreach-ideas-for-churches\">Christmas outreach ideas</a> and <a href=\"/blog/how-to-invite-someone-to-church-at-christmas\">how to invite someone to church at Christmas</a>. And if you are exploring faith yourself, the best Christmas gift there is can be received today — <a href=\"/know-jesus\">here's how</a>.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-answer-hard-questions-about-faith",
+    title: "How to Answer Hard Questions About Your Faith (Without Winning Arguments)",
+    description:
+      "Suffering, other religions, the Bible, hypocrisy in the church: how to respond to the hard questions people ask about Christianity — honestly, humbly and with the Gospel at the centre.",
+    tldr: "Listen first and ask what's behind the question. Answer honestly, admit what you don't know, and offer to find out. Point to Jesus — His life, death and resurrection — rather than trying to win the argument. Respond with gentleness and respect (1 Peter 3:15), and remember that people are rarely argued into faith but often loved and patiently helped towards it.",
+    date: "2026-11-11",
+    category: "Evangelism",
+    eyebrow: "Sharing your faith",
+    keywords: [
+      "how to answer questions about christianity",
+      "hard questions about faith",
+      "christian apologetics for beginners",
+      "why does god allow suffering",
+      "are all religions the same",
+      "can you trust the bible",
+      "1 peter 3:15",
+    ],
+    related: ["oikos", "kingdom-base", "reborn"],
+    faq: [
+      {
+        q: "What is apologetics?",
+        a: "Apologetics is giving reasons for the Christian faith. The word comes from the Greek apologia, a reasoned defence — the word Peter uses in 1 Peter 3:15. It isn't apologising; it's explaining why Christianity is true and makes sense, with gentleness and respect.",
+      },
+      {
+        q: "What should I say if I don't know the answer?",
+        a: "Say so. \"That's a great question — I don't know, but I'd love to find out and come back to you\" is honest and builds trust. Then actually follow up. Admitting the limits of your knowledge is far more persuasive than bluffing.",
+      },
+      {
+        q: "How do Christians answer why God allows suffering?",
+        a: "Carefully and humbly. Christians point out that God gave people real freedom, that the world is broken by sin, and that God hasn't stayed distant from pain — in Jesus He suffered alongside us and for us, and promises a day when He will wipe away every tear (Revelation 21:4). With someone who is hurting, listening and lament often matter more than explanations.",
+      },
+      {
+        q: "Do I need to be an expert to share my faith?",
+        a: "No. You need to know Jesus and be willing to tell what He has done for you. Your own story is something nobody can argue with. Learn a little over time, but don't wait until you have every answer — nobody ever does.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "You start sharing your faith and someone asks: <em>\"But why would a loving God allow suffering?\"</em> Your mind goes blank. Most Christians know the feeling — and it keeps many from talking about Jesus at all. The good news: you don't need to be a philosopher to answer well.",
+      },
+
+      { t: "h2", text: "Start with the right goal" },
+      {
+        t: "scripture",
+        text: "But in your hearts honor Christ the Lord as holy, always being prepared to make a defense to anyone who asks you for a reason for the hope that is in you; yet do it with gentleness and respect.",
+        ref: "1 Peter 3:15",
+      },
+      {
+        t: "p",
+        text: "Notice what Peter says. Be <em>prepared</em>, give a <em>reason for your hope</em>, and do it with <em>gentleness and respect</em>. The goal isn't to win. It's to help a person take a step closer to Jesus. You can win the argument and lose the person.",
+      },
+
+      { t: "h2", text: "Five habits that help with any question" },
+      {
+        t: "steps",
+        items: [
+          {
+            title: "Listen for the question behind the question",
+            text: "\"Why does God allow suffering?\" might be an academic puzzle — or it might mean \"My mum died last year.\" Ask gently: \"Is that something you've been through?\"",
+          },
+          {
+            title: "Ask before you answer",
+            text: "\"What makes you ask?\" or \"What do you think?\" Good questions show respect and help you answer what they're actually asking.",
+          },
+          {
+            title: "Be honest about what you don't know",
+            text: "\"I don't know — let me find out\" builds more trust than a confident guess. Then follow up.",
+          },
+          {
+            title: "Bring it back to Jesus",
+            text: "Most questions eventually lead to Him. Who He is, and whether He rose from the dead, is the question underneath all the others.",
+          },
+          {
+            title: "Keep the relationship",
+            text: "One conversation rarely settles it. Stay friends, keep praying for them, and be glad to pick it up again.",
+          },
+        ],
+      },
+
+      { t: "h2", text: "Common questions, and where to begin" },
+      {
+        t: "p",
+        text: "These aren't scripts. They are starting points — short, honest ways into questions people genuinely ask.",
+      },
+      { t: "h3", text: "\"Why does God allow suffering?\"" },
+      {
+        t: "p",
+        text: "It is the hardest question, and the Bible doesn't dodge it — whole books like Job and many of the Psalms wrestle with it. Christians point to a world broken by sin, to the real freedom God gave people, and above all to the cross: God didn't watch suffering from a distance but entered it in Jesus. He promises a day when \"he will wipe away every tear\" (Revelation 21:4). With someone in pain, listen and grieve with them first (Romans 12:15).",
+      },
+      { t: "h3", text: "\"Aren't all religions basically the same?\"" },
+      {
+        t: "p",
+        text: "Respectfully, they make very different claims — about who God is, what is wrong with us and how it is fixed. Most religions describe what we must do to reach God. The Gospel says God came to reach us, by grace (Ephesians 2:8–9). Jesus' claim was unique: \"I am the way, and the truth, and the life\" (John 14:6). Take people to what He said.",
+      },
+      { t: "h3", text: "\"Can I really trust the Bible?\"" },
+      {
+        t: "p",
+        text: "Invite them to read it for themselves, starting with one of the Gospels — Luke says he wrote his after carefully investigating eyewitness accounts (Luke 1:1–4). Many sceptics have started reading to disprove it and ended up meeting Jesus. A short read together often does more than a long debate.",
+      },
+      { t: "h3", text: "\"The church is full of hypocrites.\"" },
+      {
+        t: "p",
+        text: "Often it's fair to say: \"You're right, and I'm sorry for how Christians have hurt you.\" Then gently separate Jesus from His followers. The church isn't a museum for good people but a hospital for broken ones — and Jesus Himself had harsh words for religious hypocrisy (Matthew 23).",
+      },
+      { t: "h3", text: "\"Did Jesus really rise from the dead?\"" },
+      {
+        t: "p",
+        text: "This is the question that matters most, because Christianity stands or falls on it (1 Corinthians 15:14). Point to the empty tomb, the many people who said they saw Him alive (1 Corinthians 15:5–8), and the way frightened disciples became bold witnesses willing to suffer for what they had seen. Then ask: if it's true, what would it mean for you?",
+      },
+
+      { t: "h2", text: "When the question is really a wall" },
+      {
+        t: "p",
+        text: "Sometimes a question is a sincere search; sometimes it's a way to keep God at arm's length. You can kindly ask: \"If I could answer that to your satisfaction, would you be ready to follow Jesus?\" If not, the question may not be the real issue — and that is something only prayer and the Holy Spirit can reach.",
+      },
+
+      { t: "h2", text: "Your story still matters most" },
+      {
+        t: "p",
+        text: "Arguments can be debated. What Jesus has done in your life can't. Have a short version of <a href=\"/blog/how-to-share-your-testimony\">your testimony</a> ready, and know how to explain <a href=\"/blog/what-is-the-gospel\">the Gospel</a> simply. If you're quieter by nature, read <a href=\"/blog/evangelism-for-introverts\">evangelism for introverts</a> — thoughtful listeners are often the best at this.",
+      },
+      {
+        t: "callout",
+        title: "Practise together",
+        text: "Hard questions are much easier to answer the second time. Run a training night where your team practises them in pairs.",
+        href: "/blog/how-to-run-an-evangelism-training-night",
+        cta: "Run a training night",
+      },
+    ],
+  },
 ];
 
 export const POST_BY_SLUG = new Map(POSTS.map((p) => [p.slug, p]));
