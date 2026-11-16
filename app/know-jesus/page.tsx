@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import Icon from "@/components/ui/Icon";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import KnowJesus from "@/components/KnowJesus";
@@ -7,6 +9,13 @@ import Reveal from "@/components/ui/Reveal";
 import Share from "@/components/Share";
 import ScrollProgress from "@/components/ScrollProgress";
 import { SITE } from "@/lib/content";
+
+const DEEPER = [
+  { title: "Who is Jesus?", text: "The Jesus of history, and who He said He was.", href: "/blog/who-is-jesus" },
+  { title: "Why did Jesus die?", text: "The meaning of the cross, in plain words.", href: "/blog/why-did-jesus-die" },
+  { title: "What is the Gospel?", text: "The good news, and how to respond to it.", href: "/blog/what-is-the-gospel" },
+  { title: "What is grace?", text: "Why you can't earn it — and don't have to.", href: "/blog/what-is-grace" },
+] as const;
 
 export const metadata: Metadata = {
   title: "Know Jesus — How To Be Saved & Start Following Him Today",
@@ -309,6 +318,27 @@ export default function KnowJesusPage() {
                 </Reveal>
               ))}
             </div>
+            <nav aria-labelledby="deeper-heading" className="mx-auto mt-14 max-w-5xl">
+              <h3 id="deeper-heading" className="text-center text-xs font-bold uppercase tracking-[.25em] text-gold-400">
+                Go deeper
+              </h3>
+              <ul className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                {DEEPER.map((d) => (
+                  <li key={d.href}>
+                    <Link
+                      href={d.href}
+                      className="spot group flex h-full flex-col rounded-2xl border border-white/10 bg-white/[.035] p-5 transition duration-300 hover:-translate-y-1 hover:border-gold/30"
+                    >
+                      <span className="font-display text-lg font-bold leading-snug text-white">{d.title}</span>
+                      <span className="mt-1.5 flex-1 text-sm leading-relaxed text-white/70">{d.text}</span>
+                      <span className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-gold">
+                        Read <Icon name="arrow" className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
           </div>
         </section>
 

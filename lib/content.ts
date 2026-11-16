@@ -278,7 +278,7 @@ export const PAGE_UPDATED: Record<string, string> = {
   "/stories/kingdom-shop": "2026-09-24",
   "/answers": "2026-11-16",
   "/glossary": "2026-11-16",
-  "/know-jesus": "2026-10-26",
+  "/know-jesus": "2026-11-16",
   "/network": "2026-10-07",
   "/privacy": "2026-10-02",
 };
