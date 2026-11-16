@@ -4767,6 +4767,7 @@ export const POSTS: Post[] = [
       "Christmas is one of the easiest times of the year to invite someone to church. How to choose who to invite, what to actually say, how to make it easy to say yes, what to do on the day, and how to follow up — without pressure.",
     tldr: "Pray for a few names, then invite personally — face to face or by message — with a specific service, time and place. Keep it warm and simple: \"Would you like to come with me to our Christmas Eve service? I'd love to have you.\" Offer to pick them up and sit together, tell them what to expect, accept a no graciously, and follow up afterwards with a thank-you and one next step.",
     date: "2026-11-05",
+    updated: "2026-11-16",
     category: "Outreach",
     eyebrow: "Seasonal outreach",
     keywords: [
@@ -4865,7 +4866,7 @@ export const POSTS: Post[] = [
       { t: "h2", text: "For church leaders" },
       {
         t: "p",
-        text: "Help your people invite: print simple invitation cards, preach the Gospel clearly at Christmas services, train welcome teams to notice first-time guests, and plan the January next steps before December begins. Our guide to <a href=\"/blog/christmas-outreach-ideas-for-churches\">Christmas outreach ideas for churches</a> covers it all.",
+        text: "Help your people invite: print simple invitation cards (our free <a href=\"/resources/christmas-invitation\">Christmas invitation card maker</a> does four per page), preach the Gospel clearly at Christmas services, train welcome teams to notice first-time guests, and plan the January next steps before December begins. Our guide to <a href=\"/blog/christmas-outreach-ideas-for-churches\">Christmas outreach ideas for churches</a> covers it all.",
       },
       {
         t: "callout",
@@ -4873,6 +4874,13 @@ export const POSTS: Post[] = [
         text: "The free Advent prayer guide walks you through four weeks of praying for your city — and for the people you'll invite.",
         href: "/resources/advent-prayer-guide",
         cta: "Get the Advent guide",
+      },
+      {
+        t: "callout",
+        title: "Make your invitation cards",
+        text: "Add your church's details, preview it live, and print four Christmas invitation cards per page — free, with no sign-up.",
+        href: "/resources/christmas-invitation",
+        cta: "Open the card maker",
       },
     ],
   },
@@ -6054,6 +6062,267 @@ export const POSTS: Post[] = [
         text: "Hard questions are much easier to answer the second time. Run a training night where your team practises them in pairs.",
         href: "/blog/how-to-run-an-evangelism-training-night",
         cta: "Run a training night",
+      },
+    ],
+  },
+  {
+    slug: "who-is-jesus",
+    title: "Who Is Jesus? A Clear, Honest Introduction",
+    description:
+      "Who was Jesus of Nazareth — and who did He say He was? The historical Jesus, His claims, His death and resurrection, why He still matters, and how to know Him personally.",
+    tldr: "Jesus of Nazareth was a Jewish teacher from first-century Galilee, crucified under the Roman governor Pontius Pilate around AD 30–33. Christians believe He is far more: the Son of God, fully God and fully human, who died for the sins of the world and rose from the dead. He claimed to be the way to God, and He invites everyone to follow Him.",
+    date: "2026-11-16",
+    category: "Evangelism",
+    eyebrow: "The basics",
+    keywords: [
+      "who is jesus",
+      "who was jesus christ",
+      "is jesus god",
+      "was jesus a real person",
+      "who did jesus say he was",
+      "jesus son of god meaning",
+      "historical jesus",
+    ],
+    related: ["reborn", "jf-ca", "lotw"],
+    faq: [
+      {
+        q: "Was Jesus a real historical person?",
+        a: "Yes. Almost all historians, whatever their beliefs, accept that Jesus of Nazareth lived in first-century Judea and was crucified under Pontius Pilate. Besides the four Gospels and Paul's letters, the Jewish historian Josephus and the Roman historian Tacitus both refer to Him.",
+      },
+      {
+        q: "Did Jesus claim to be God?",
+        a: "Yes, in both words and actions. He forgave sins (Mark 2:5–7), accepted worship (John 20:28), said \"before Abraham was, I am\" (John 8:58) and \"I and the Father are one\" (John 10:30). His opponents understood the claim — it is why they accused Him of blasphemy.",
+      },
+      {
+        q: "What does Son of God mean?",
+        a: "It doesn't mean God had a child in a human way. It means Jesus shares God's own nature and has a unique, eternal relationship with the Father. Christians believe there is one God in three persons — Father, Son and Holy Spirit — and that the Son became human in Jesus.",
+      },
+      {
+        q: "How can I know Jesus personally?",
+        a: "By turning to Him and trusting Him. Read one of the Gospels — John is a good start — and talk to Him honestly in prayer. If you're ready to follow Him, tell Him so in your own words. Know Jesus explains it simply, including what to do next.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "More has been written, sung and argued about Jesus than about anyone else who has ever lived. Our calendars count from His birth. Billions of people follow Him today. But who <em>is</em> He? Here is a clear, honest introduction.",
+      },
+
+      { t: "h2", text: "The short answer" },
+      {
+        t: "p",
+        text: "<strong>Jesus of Nazareth</strong> was a Jewish teacher from Galilee, born around 4 BC and crucified in Jerusalem under the Roman governor Pontius Pilate around AD 30–33. <strong>Christians believe He is the Son of God</strong> — fully God and fully human — who died for the sins of the world and rose from the dead three days later.",
+      },
+
+      { t: "h2", text: "The Jesus of history" },
+      {
+        t: "p",
+        text: "Jesus isn't a legend from a vague and distant past. He lived in a known time and place, under named rulers. The four Gospels — Matthew, Mark, Luke and John — were written within living memory of the events, and Luke says he carefully investigated eyewitness accounts (Luke 1:1–4).",
+      },
+      {
+        t: "p",
+        text: "Writers outside the church mention Him too. The Jewish historian Josephus refers to Jesus and His brother James, and the Roman historian Tacitus records that \"Christus\" was executed by Pontius Pilate during the reign of Tiberius. That Jesus lived and was crucified is accepted by almost all historians, believers or not.",
+      },
+
+      { t: "h2", text: "What He taught" },
+      {
+        t: "list",
+        items: [
+          "<strong>The Kingdom of God has come near</strong> — God's reign arriving in Him (Mark 1:15). See <a href=\"/blog/what-is-the-kingdom-of-god\">what is the Kingdom of God?</a>",
+          "<strong>God is a Father</strong> who seeks the lost, like a shepherd searching for one sheep (Luke 15)",
+          "<strong>Love God with everything, and your neighbour as yourself</strong> — even your enemies (Matthew 22:37–39; 5:44)",
+          "<strong>You must be born again</strong> — a new start that only God can give (John 3:3)",
+          "<strong>He came to serve</strong>, \"and to give his life as a ransom for many\" (Mark 10:45)",
+        ],
+      },
+
+      { t: "h2", text: "Who He said He was" },
+      {
+        t: "p",
+        text: "Jesus didn't only teach about God. He made claims about Himself that no ordinary teacher makes:",
+      },
+      {
+        t: "list",
+        items: [
+          "\"I am the bread of life\" (John 6:35) and \"I am the light of the world\" (John 8:12)",
+          "\"Before Abraham was, I am\" (John 8:58) — using the name God gave Himself at the burning bush",
+          "\"I and the Father are one\" (John 10:30)",
+          "\"I am the resurrection and the life\" (John 11:25)",
+          "\"I am the way, and the truth, and the life. No one comes to the Father except through me\" (John 14:6)",
+        ],
+      },
+      {
+        t: "p",
+        text: "He also forgave sins (Mark 2:5–7) and accepted worship (John 20:28) — things only God can rightly do. His opponents understood exactly what He meant, which is why they accused Him of blasphemy.",
+      },
+
+      { t: "h2", text: "Liar, lunatic or Lord?" },
+      {
+        t: "p",
+        text: "C.S. Lewis famously argued that Jesus' claims leave us fewer options than we'd like. A man who said what Jesus said, if it weren't true, would hardly be a merely <em>good</em> teacher. Either He was deceiving people, or He was deceived about Himself — or He is who He said He is. Many people who set out to admire Jesus from a safe distance find that His claims won't let them.",
+      },
+
+      { t: "h2", text: "Why He died, and why the resurrection matters" },
+      {
+        t: "p",
+        text: "Jesus wasn't a victim caught by surprise. He said repeatedly that He would be handed over, killed and raised on the third day (Mark 8:31). Christians believe He died in our place, taking the penalty for our sin — read <a href=\"/blog/why-did-jesus-die\">why did Jesus die?</a> — and that God raised Him from the dead.",
+      },
+      {
+        t: "p",
+        text: "Everything rests on that resurrection. Paul writes that if Christ has not been raised, faith is futile (1 Corinthians 15:17). But he also lists hundreds of people who saw Jesus alive (1 Corinthians 15:3–8), many still living when he wrote — and the first followers went from hiding in fear to proclaiming it publicly at the cost of their lives.",
+      },
+
+      { t: "h2", text: "Why He still matters" },
+      {
+        t: "p",
+        text: "If Jesus is who He said He is, He is not just someone to learn about but Someone to know. He offers forgiveness, a new life, a family, and a hope that doesn't end at the grave — to anyone, whatever their past. That is <a href=\"/blog/what-is-the-gospel\">the Gospel</a>.",
+      },
+      {
+        t: "scripture",
+        text: "Come to me, all who labor and are heavy laden, and I will give you rest.",
+        ref: "Matthew 11:28",
+      },
+
+      { t: "h2", text: "How to find out for yourself" },
+      {
+        t: "steps",
+        items: [
+          { title: "Read a Gospel", text: "Start with John — 21 short chapters. It was written \"so that you may believe that Jesus is the Christ, the Son of God\" (John 20:31)." },
+          { title: "Ask Him honestly", text: "Something as simple as \"Jesus, if You're real, show me\" is a real prayer." },
+          { title: "Talk with a Christian you trust", text: "Ask your questions out loud. Good questions deserve good conversations." },
+          { title: "Visit a church", text: "See Jesus' followers up close — imperfect people learning to follow Him together." },
+        ],
+      },
+      {
+        t: "callout",
+        title: "Ready to know Him?",
+        text: "Know Jesus explains the good news simply, answers common doubts honestly, and includes a prayer you can pray today.",
+        href: "/know-jesus",
+        cta: "Know Jesus",
+      },
+    ],
+  },
+  {
+    slug: "why-did-jesus-die",
+    title: "Why Did Jesus Die? The Meaning of the Cross",
+    description:
+      "Why did Jesus have to die — and what does His death on the cross actually do? The meaning of the cross in plain words: sin, substitution, love, the resurrection, and what it means for you.",
+    tldr: "Jesus died to rescue us from sin and bring us back to God. The Bible teaches that sin separates us from a holy God and deserves judgement. On the cross Jesus took that judgement in our place — the innocent for the guilty — so that anyone who trusts Him is forgiven. His death shows God's love and justice together, and His resurrection proves it worked.",
+    date: "2026-11-16",
+    category: "Evangelism",
+    eyebrow: "The basics",
+    keywords: [
+      "why did jesus die",
+      "why did jesus have to die",
+      "meaning of the cross",
+      "why did jesus die on the cross",
+      "what did jesus death accomplish",
+      "jesus died for our sins meaning",
+    ],
+    related: ["reborn", "oikos", "kd"],
+    faq: [
+      {
+        q: "Why did Jesus have to die?",
+        a: "Because sin is serious and God is just. Sin separates us from God and deserves judgement, and God doesn't simply ignore wrong. In love, He took the judgement on Himself: Jesus, who had no sin, died in our place so that we could be forgiven (2 Corinthians 5:21; 1 Peter 3:18).",
+      },
+      {
+        q: "What does it mean that Jesus died for our sins?",
+        a: "It means He died as our substitute. The penalty our wrongdoing deserved fell on Him instead of us. Isaiah 53:5 says \"he was pierced for our transgressions\". Anyone who trusts Him receives forgiveness as a gift, not as something earned.",
+      },
+      {
+        q: "Who killed Jesus?",
+        a: "Historically, He was condemned by the Jewish religious leaders of the time and executed by the Roman authorities under Pontius Pilate. But the Bible's deeper answer is that Jesus laid down His life willingly (John 10:18), for the sins of all people — so no group can be blamed, and everyone is invited to be forgiven.",
+      },
+      {
+        q: "Did Jesus stay dead?",
+        a: "No. Christians believe God raised Him from the dead on the third day. He appeared to His followers many times, including to more than 500 people at once (1 Corinthians 15:6). The resurrection shows His death was accepted as payment for sin and that death itself has been defeated.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "The cross is the best-known symbol in the world. It hangs in churches, on necklaces and on hillsides. But it was a Roman instrument of execution — so why would Christians put it at the centre of their faith? Because they believe that on it, Jesus did something no one else could.",
+      },
+
+      { t: "h2", text: "The short answer" },
+      {
+        t: "p",
+        text: "<strong>Jesus died to rescue us from sin and bring us back to God.</strong> He took the judgement our sin deserved, in our place, so that anyone who trusts Him can be forgiven — completely and freely.",
+      },
+      {
+        t: "scripture",
+        text: "For Christ also suffered once for sins, the righteous for the unrighteous, that he might bring us to God.",
+        ref: "1 Peter 3:18",
+      },
+
+      { t: "h2", text: "The problem: sin" },
+      {
+        t: "p",
+        text: "We all know the world isn't as it should be — and if we're honest, neither are we. The Bible calls this sin: not just bad actions, but a heart turned away from God. \"All have sinned and fall short of the glory of God\" (Romans 3:23).",
+      },
+      {
+        t: "p",
+        text: "Sin isn't a small thing to a holy God, any more than injustice is a small thing to a good judge. It separates us from Him, and it deserves judgement. A God who simply shrugged at evil wouldn't be good.",
+      },
+
+      { t: "h2", text: "The solution: a substitute" },
+      {
+        t: "p",
+        text: "Here is the heart of it. God doesn't lower His standards, and He doesn't abandon us. He comes Himself to pay the debt. Seven hundred years before the cross, Isaiah described it:",
+      },
+      {
+        t: "scripture",
+        text: "But he was pierced for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his wounds we are healed.",
+        ref: "Isaiah 53:5",
+      },
+      {
+        t: "p",
+        text: "Jesus, who never sinned, stood in the place of sinners. \"For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God\" (2 Corinthians 5:21). He takes our guilt; we receive His goodness. Theologians call this substitution — the innocent for the guilty.",
+      },
+
+      { t: "h2", text: "What the cross shows us" },
+      {
+        t: "list",
+        items: [
+          "<strong>God's love.</strong> \"God shows his love for us in that while we were still sinners, Christ died for us\" (Romans 5:8). Not after we improved — while we were still far away.",
+          "<strong>God's justice.</strong> Sin is not ignored; it is paid for. At the cross, God is both \"just and the justifier\" of the one who has faith in Jesus (Romans 3:26).",
+          "<strong>The cost of forgiveness.</strong> Forgiveness is free to us because it was costly to Him.",
+          "<strong>Victory over evil.</strong> The cross disarmed the powers of darkness (Colossians 2:15). What looked like defeat was victory.",
+        ],
+      },
+
+      { t: "h2", text: "He chose it" },
+      {
+        t: "p",
+        text: "Jesus wasn't trapped. He predicted His death more than once and walked towards Jerusalem knowing what waited there. \"No one takes it from me, but I lay it down of my own accord\" (John 10:18). In Gethsemane He prayed, \"not my will, but yours, be done\" (Luke 22:42). The cross was love, chosen.",
+      },
+
+      { t: "h2", text: "Why the resurrection matters" },
+      {
+        t: "p",
+        text: "If the story ended at the tomb, the cross would be a tragedy. But on the third day God raised Jesus from the dead. The resurrection shows that His sacrifice was accepted, that He is who He said He was, and that death itself has been beaten. That is why Easter Sunday is the biggest day of the Christian year.",
+      },
+      {
+        t: "scripture",
+        text: "I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live.",
+        ref: "John 11:25",
+      },
+
+      { t: "h2", text: "What it means for you" },
+      {
+        t: "p",
+        text: "The cross means nothing you have done is beyond forgiveness, and nothing you could do would earn it. It's offered as a gift — received by turning from sin and trusting Jesus as Lord. That is <a href=\"/blog/what-is-grace\">grace</a>, and it is the heart of <a href=\"/blog/what-is-the-gospel\">the Gospel</a>.",
+      },
+      {
+        t: "p",
+        text: "Want to go deeper on who Jesus is? Read <a href=\"/blog/who-is-jesus\">who is Jesus?</a> — or if you're ready to respond, you can do it today.",
+      },
+      {
+        t: "callout",
+        title: "Respond to Jesus",
+        text: "Know Jesus walks through what the cross means for you, honestly and simply, with a prayer you can pray and next steps.",
+        href: "/know-jesus",
+        cta: "Know Jesus",
       },
     ],
   },

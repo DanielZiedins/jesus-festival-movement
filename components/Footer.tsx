@@ -10,6 +10,7 @@ const EXPLORE = [
   ["Prayer walk guide", "/resources/prayer-walk"],
   ["Response team card", "/resources/response-team"],
   ["Advent prayer guide", "/resources/advent-prayer-guide"],
+  ["Christmas invitation maker", "/resources/christmas-invitation"],
   ["All Jesus Festivals", "/festivals"],
   ["Jesus Festival Akuse, Ghana", "/akuse"],
   ["Answers", "/answers"],

@@ -926,3 +926,85 @@ input[type="search"]::-webkit-search-cancel-button {
 @keyframes vt-in {
   from { opacity: 0; transform: translate3d(0, 10px, 0); }
 }
+
+/* Christmas invitation builder: the four-up cut sheet exists only in print.
+   Everything else on that page is .no-print, so the sheet prints alone. */
+.invite-sheet {
+  display: none;
+}
+@media print {
+  .invite-sheet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5cm;
+  }
+  .invite-sheet .invite-card {
+    border: 1px dashed #888 !important;
+    border-radius: 0.4cm !important;
+    padding: 0.7cm 0.6cm !important;
+    min-height: 0;
+    height: 11.4cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .invite-sheet .invite-card p {
+    margin-top: 0.22cm !important;
+  }
+  .invite-sheet .invite-card p:first-child {
+    margin-top: 0 !important;
+  }
+  .invite-sheet .invite-card > div > span {
+    margin-top: 0.3cm !important;
+  }
+  .invite-sheet .invite-card p:nth-child(2) {
+    font-size: 20pt !important;
+  }
+  .invite-sheet .star-field {
+    display: none !important;
+  }
+  html:has(.invite-sheet) main {
+    padding: 0 !important;
+  }
+}
+
+/* Signature CTA panels: a thin band of gold light travels around the edge.
+   A registered angle animates a conic gradient masked to a 1px ring; static
+   (a soft gold edge) under reduced motion or without @property support. */
+@property --ring-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+.ring-glow {
+  position: relative;
+  isolation: isolate;
+}
+.ring-glow::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1.5px;
+  pointer-events: none;
+  background: conic-gradient(from var(--ring-angle), transparent 0deg, rgba(255, 224, 150, 0.95) 40deg, rgba(233, 95, 50, 0.7) 80deg, transparent 130deg, transparent 360deg);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  opacity: 0.85;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .ring-glow::before {
+    animation: ring-spin 7s linear infinite;
+  }
+}
+@keyframes ring-spin {
+  to { --ring-angle: 360deg; }
+}
+@media print {
+  .ring-glow::before {
+    display: none;
+  }
+}

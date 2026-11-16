@@ -23,6 +23,7 @@ const PAGES: Omit<SearchItem, "hay" | "kind">[] = [
   { title: "Prayer walk guide", text: "A short, practical guide to prayer walking your city.", href: "/resources/prayer-walk" },
   { title: "Free resources", text: "Every free printable, guide and tool in one place.", href: "/resources" },
   { title: "Advent prayer guide", text: "A printable four-week Advent prayer guide for your city: Hope, Peace, Joy and Love.", href: "/resources/advent-prayer-guide" },
+  { title: "Christmas invitation card maker", text: "Make a free printable Christmas invitation for your church or carol service — four cards per page.", href: "/resources/christmas-invitation" },
   { title: "Response team training card", text: "A printable card for altar call and prayer teams: steps, a simple prayer, safeguarding.", href: "/resources/response-team" },
   { title: "About the movement", text: "The story, the people behind it, and what Jesus Festival Movement exists to do.", href: "/about" },
   { title: "Glossary", text: "Plain-language definitions of evangelism and Gospel festival terms.", href: "/glossary" },

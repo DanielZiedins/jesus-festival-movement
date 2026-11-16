@@ -720,6 +720,36 @@ export const ANSWERS: Answer[] = [
       { label: "How to share your testimony", href: "/blog/how-to-share-your-testimony" },
     ],
   },
+  {
+    id: "who-is-jesus",
+    q: "Who is Jesus?",
+    topic: "faith",
+    short:
+      "Jesus of Nazareth was a Jewish teacher from first-century Galilee, crucified under the Roman governor Pontius Pilate around AD 30–33. Christians believe He is the Son of God — fully God and fully human — who died for the sins of the world, rose from the dead, and invites everyone to follow Him.",
+    detail: [
+      "Almost all historians accept that He lived and was crucified; the Roman historian Tacitus and the Jewish historian Josephus both mention Him.",
+      "He claimed to forgive sins, accepted worship and said &ldquo;I and the Father are one&rdquo; (John 10:30) — claims no ordinary teacher makes.",
+    ],
+    links: [
+      { label: "Who is Jesus? A clear introduction", href: "/blog/who-is-jesus" },
+      { label: "Know Jesus", href: "/know-jesus" },
+    ],
+  },
+  {
+    id: "why-did-jesus-die",
+    q: "Why did Jesus die on the cross?",
+    topic: "faith",
+    short:
+      "Jesus died to rescue people from sin and bring them back to God. The Bible teaches that sin separates us from a holy God and deserves judgement; on the cross Jesus took that judgement in our place, so anyone who trusts Him is forgiven. Christians believe God raised Him from the dead three days later.",
+    detail: [
+      "&ldquo;Christ also suffered once for sins, the righteous for the unrighteous, that he might bring us to God&rdquo; (1 Peter 3:18).",
+      "He chose it: &ldquo;No one takes it from me, but I lay it down of my own accord&rdquo; (John 10:18).",
+    ],
+    links: [
+      { label: "Why did Jesus die? The meaning of the cross", href: "/blog/why-did-jesus-die" },
+      { label: "What is the Gospel?", href: "/blog/what-is-the-gospel" },
+    ],
+  },
 ];
 
 export const ANSWER_BY_ID = new Map(ANSWERS.map((a) => [a.id, a]));

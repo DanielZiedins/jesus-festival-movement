@@ -428,7 +428,7 @@ export default function FestivalsPage() {
         {/* Your city */}
         <section className="section-pad !py-16 border-t border-white/5">
           <div className="container-x">
-            <div className="mx-auto max-w-4xl rounded-[2.2rem] border border-gold/20 bg-gradient-to-br from-gold/[.1] via-white/[.035] to-ember/[.09] p-8 text-center shadow-[0_35px_110px_rgba(0,0,0,.35)] sm:p-12">
+            <div className="mx-auto max-w-4xl ring-glow rounded-[2.2rem] border border-gold/20 bg-gradient-to-br from-gold/[.1] via-white/[.035] to-ember/[.09] p-8 text-center shadow-[0_35px_110px_rgba(0,0,0,.35)] sm:p-12">
               <Reveal>
                 <Icon name="spark" className="mx-auto h-9 w-9 text-gold" />
                 <p className="mt-6 text-xs font-bold uppercase tracking-[.28em] text-gold">

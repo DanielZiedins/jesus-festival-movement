@@ -190,6 +190,15 @@ export const GLOSSARY: Term[] = [
     linkLabel: "The response team card",
   },
   {
+    id: "resurrection",
+    term: "Resurrection",
+    definition:
+      "Jesus rising bodily from the dead on the third day after His crucifixion — the event Christianity stands or falls on. It shows His death paid for sin and that death is defeated, and it is the promise that everyone who belongs to Him will be raised too.",
+    ref: "1 Corinthians 15:3–4",
+    href: "/blog/why-did-jesus-die",
+    linkLabel: "Why did Jesus die?",
+  },
+  {
     id: "revival",
     term: "Revival",
     definition:

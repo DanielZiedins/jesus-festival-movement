@@ -246,7 +246,7 @@ export default function PlaybookPage() {
       {/* Close */}
       <section className="pb-20 sm:pb-28 no-print">
         <div className="container-x">
-          <div className="mx-auto max-w-4xl rounded-[2.2rem] border border-gold/20 bg-gradient-to-br from-gold/[.1] via-white/[.035] to-ember/[.09] p-8 text-center shadow-[0_35px_110px_rgba(0,0,0,.35)] sm:p-12">
+          <div className="mx-auto max-w-4xl ring-glow rounded-[2.2rem] border border-gold/20 bg-gradient-to-br from-gold/[.1] via-white/[.035] to-ember/[.09] p-8 text-center shadow-[0_35px_110px_rgba(0,0,0,.35)] sm:p-12">
             <Icon name="spark" className="mx-auto h-9 w-9 text-gold" />
             <p className="mt-6 text-xs font-bold uppercase tracking-[.28em] text-gold">
               You don&apos;t have to do this alone

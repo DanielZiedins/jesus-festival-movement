@@ -215,7 +215,7 @@ export default function AdventGuidePage() {
               </article>
             </div>
 
-            <div className="no-print mx-auto mt-14 max-w-4xl rounded-[2.2rem] border border-gold/20 bg-gradient-to-br from-gold/[.1] via-white/[.035] to-ember/[.09] p-8 text-center sm:p-12">
+            <div className="no-print mx-auto mt-14 max-w-4xl ring-glow rounded-[2.2rem] border border-gold/20 bg-gradient-to-br from-gold/[.1] via-white/[.035] to-ember/[.09] p-8 text-center sm:p-12">
               <Icon name="spark" className="mx-auto h-9 w-9 text-gold" />
               <h2 className="mt-5 font-display text-3xl font-bold uppercase tracking-[-.04em] text-white sm:text-5xl">Pray, then go.</h2>
               <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-white/70">

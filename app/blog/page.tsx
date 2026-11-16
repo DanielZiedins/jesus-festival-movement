@@ -127,8 +127,8 @@ export default function BlogIndex() {
                   This season: <span className="text-gradient-gold">Advent &amp; Christmas</span>
                 </h2>
                 <ul className="mt-5 grid gap-3 sm:grid-cols-2">
-                  {CHRISTMAS_SEASON.map((item, i) => (
-                    <li key={item.href} className={i === 0 ? "sm:col-span-2" : undefined}>
+                  {CHRISTMAS_SEASON.map((item) => (
+                    <li key={item.href}>
                       <a
                         href={item.href}
                         className="group flex h-full items-center justify-between gap-4 rounded-2xl border border-white/10 bg-black/20 p-4 transition hover:border-gold/40"

@@ -13,6 +13,7 @@ const RESOURCES: { group: string; items: Resource[] }[] = [
   {
     group: "Printables",
     items: [
+      { title: "Christmas invitation card maker", text: "Add your church's details, preview it live, and print four invitation cards per page — free, no sign-up.", href: "/resources/christmas-invitation" },
       { title: "Advent prayer guide for your city", text: "Four printable weeks of Hope, Peace, Joy and Love — Scripture, prayers for your city and one action each week.", href: "/resources/advent-prayer-guide" },
       { title: "Response team training card", text: "What your altar call and prayer team does when someone comes forward, on two printable pages.", href: "/resources/response-team" },
       { title: "Prayer walk guide", text: "A short, practical way to pray for your city one street at a time.", href: "/resources/prayer-walk" },
