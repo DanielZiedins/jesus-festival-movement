@@ -11,6 +11,7 @@ const EXPLORE = [
   ["Response team card", "/resources/response-team"],
   ["Advent prayer guide", "/resources/advent-prayer-guide"],
   ["Christmas invitation maker", "/resources/christmas-invitation"],
+  ["21 days in John", "/resources/gospel-of-john-reading-plan"],
   ["All Jesus Festivals", "/festivals"],
   ["Jesus Festival Akuse, Ghana", "/akuse"],
   ["Answers", "/answers"],

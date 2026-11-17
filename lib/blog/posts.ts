@@ -4140,6 +4140,7 @@ export const POSTS: Post[] = [
       "Just gave your life to Jesus? Welcome. A warm, simple guide to your first 30 days: what just happened, assurance when doubts come, reading the Bible, praying, finding a church, baptism, telling someone, and what to do when you mess up.",
     tldr: "Welcome to the family of God. When you trust Jesus, you are forgiven, made new and given His Spirit — and that rests on His promise, not your feelings. In your first 30 days: read the Gospel of John a chapter a day, talk to God honestly every day, find a local church that loves Jesus and teaches the Bible, tell someone what happened, and ask about baptism. When you stumble, come straight back to Him.",
     date: "2026-10-26",
+    updated: "2026-11-17",
     category: "Discipleship",
     eyebrow: "New to faith",
     keywords: [
@@ -4256,6 +4257,13 @@ export const POSTS: Post[] = [
         href: "/know-jesus",
         cta: "Open Know Jesus",
       },
+      {
+        t: "callout",
+        title: "21 days in the Gospel of John",
+        text: "A free reading plan: one chapter a day, a key verse and one question. Tick off your progress as you go, or print it.",
+        href: "/resources/gospel-of-john-reading-plan",
+        cta: "Start the plan",
+      },
     ],
   },
   {
@@ -4265,6 +4273,7 @@ export const POSTS: Post[] = [
       "Never read the Bible before? Where to start (hint: not page one), how the Bible is organised, choosing a translation, a simple daily method, a 30-day starter plan, and what to do when it's confusing.",
     tldr: "Don't start at page one. Begin with the Gospel of John, a chapter a day, in a readable translation. Before you read, ask God to help you understand; as you read, notice what it shows about God and about people; afterwards, choose one thing to do or remember. When parts are confusing, keep going and ask someone. Then read Mark, Acts and the Psalms.",
     date: "2026-10-26",
+    updated: "2026-11-17",
     category: "Discipleship",
     eyebrow: "New to faith",
     keywords: [
@@ -4381,6 +4390,13 @@ export const POSTS: Post[] = [
         text: "Know Jesus explains the heart of the Bible's message simply — and answers the honest questions people ask.",
         href: "/know-jesus",
         cta: "Open Know Jesus",
+      },
+      {
+        t: "callout",
+        title: "21 days in the Gospel of John",
+        text: "A free reading plan: one chapter a day, a key verse and one question. Tick off your progress as you go, or print it.",
+        href: "/resources/gospel-of-john-reading-plan",
+        cta: "Start the plan",
       },
     ],
   },
@@ -6323,6 +6339,249 @@ export const POSTS: Post[] = [
         text: "Know Jesus walks through what the cross means for you, honestly and simply, with a prayer you can pray and next steps.",
         href: "/know-jesus",
         cta: "Know Jesus",
+      },
+    ],
+  },
+  {
+    slug: "is-god-real",
+    title: "Is God Real? Honest Reasons People Believe",
+    description:
+      "Is there really a God? An honest look at the reasons many thoughtful people believe — the universe, its order, morality, the longing for meaning, and above all Jesus — plus the honest objections, and how to find out for yourself.",
+    tldr: "Christians believe God is real for several reasons that point the same way: a universe that had a beginning, laws finely suited to life, a moral sense we can't shake, a longing for meaning, and above all the life, death and resurrection of Jesus. None of these forces belief, but together they make faith reasonable — and God invites anyone who honestly seeks Him to find Him.",
+    date: "2026-11-17",
+    category: "Evangelism",
+    eyebrow: "Honest questions",
+    keywords: [
+      "is god real",
+      "does god exist",
+      "reasons to believe in god",
+      "evidence for god",
+      "how do i know god is real",
+      "is there a god",
+    ],
+    related: ["reborn", "oikos", "lotw"],
+    faq: [
+      {
+        q: "Can you prove God exists?",
+        a: "Not in the way you prove a maths equation — and most important things in life, like whether someone loves you, aren't proved that way either. Christians point to strong evidence and good reasons that together make belief in God reasonable, and to Jesus as the place where God has shown Himself most clearly.",
+      },
+      {
+        q: "Why doesn't God just show Himself?",
+        a: "Christians believe He has — most fully in Jesus, who lived in history and was seen, heard and touched by eyewitnesses (1 John 1:1). God also seems to value a relationship freely chosen rather than forced. He promises that those who seek Him with all their heart will find Him (Jeremiah 29:13).",
+      },
+      {
+        q: "Doesn't science disprove God?",
+        a: "No. Science explains how the natural world works; it can't by itself answer why there is a world at all or whether it has a purpose. Many leading scientists, past and present, have been committed Christians, and many see the order of the universe as pointing to a Creator.",
+      },
+      {
+        q: "How can I find out if God is real?",
+        a: "Read one of the Gospels with an open mind — John is a good start — and ask God honestly to show you if He is there. Talk with a Christian you trust and bring your real questions. Many people discover that God was looking for them long before they started looking for Him.",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "It might be the biggest question there is. If God is real, it changes everything — where we came from, how we should live, and what happens when we die. If He isn't, that changes everything too. It deserves an honest look.",
+      },
+
+      { t: "h2", text: "The short answer" },
+      {
+        t: "p",
+        text: "<strong>Christians believe God is real</strong>, not because of one knock-down proof, but because many lines of evidence point the same way — and because they believe God has shown Himself personally in Jesus. You don't have to switch off your mind to believe. You're invited to use it.",
+      },
+
+      { t: "h2", text: "1. Something rather than nothing" },
+      {
+        t: "p",
+        text: "Why is there anything at all? Most scientists agree the universe had a beginning. Things that begin to exist have a cause — so what caused the universe? The Bible's first sentence gives an answer: \"In the beginning, God created the heavens and the earth\" (Genesis 1:1).",
+      },
+
+      { t: "h2", text: "2. A universe set up for life" },
+      {
+        t: "p",
+        text: "Physicists have long noted that many of the basic constants of nature fall within narrow ranges that allow life to exist. Some explain this by chance or by countless unseen universes. Many others see it as what you'd expect if the universe was designed. \"The heavens declare the glory of God\" (Psalm 19:1).",
+      },
+
+      { t: "h2", text: "3. Right and wrong are real" },
+      {
+        t: "p",
+        text: "Almost everyone believes some things are truly wrong — cruelty to children, for example — not just unfashionable. But if there's no God, where does a real, binding moral law come from? Christians believe our sense of right and wrong points to a moral Lawgiver who made us in His image (Romans 2:15).",
+      },
+
+      { t: "h2", text: "4. The longing for more" },
+      {
+        t: "p",
+        text: "We long for meaning, love, justice and a home that lasts — and nothing in this world quite satisfies. C.S. Lewis observed that if we find in ourselves a desire no experience in this world can satisfy, the likeliest explanation is that we were made for another world. The Bible says God \"has put eternity into man's heart\" (Ecclesiastes 3:11).",
+      },
+
+      { t: "h2", text: "5. Jesus" },
+      {
+        t: "p",
+        text: "This is the centre of the Christian answer. Christianity doesn't only argue that a God exists; it claims that God stepped into history as a man. Jesus lived, taught, healed, was crucified under Pontius Pilate, and — His followers testified — rose from the dead. If the resurrection happened, the question of God is settled.",
+      },
+      {
+        t: "scripture",
+        text: "No one has ever seen God; the only God, who is at the Father's side, he has made him known.",
+        ref: "John 1:18",
+      },
+      {
+        t: "p",
+        text: "Read more in <a href=\"/blog/who-is-jesus\">who is Jesus?</a> and <a href=\"/blog/why-did-jesus-die\">why did Jesus die?</a>",
+      },
+
+      { t: "h2", text: "6. Changed lives" },
+      {
+        t: "p",
+        text: "Experience isn't proof on its own, but it matters. Across every culture and century, people have found that when they turned to Jesus, He met them: addictions broken, shame lifted, enemies reconciled, hope restored. Ask a Christian you trust for their story — see <a href=\"/blog/how-to-share-your-testimony\">why testimonies matter</a>.",
+      },
+
+      { t: "h2", text: "But what about…?" },
+      {
+        t: "p",
+        text: "Honest seekers have honest objections — suffering, other religions, the Bible, the failings of Christians. They deserve real answers, and you can read some of them in <a href=\"/blog/how-to-answer-hard-questions-about-faith\">answering hard questions about faith</a>. The Bible doesn't hide from doubt: whole psalms are honest complaints, and Thomas was invited to examine Jesus' wounds for himself (John 20:27).",
+      },
+
+      { t: "h2", text: "How to find out for yourself" },
+      {
+        t: "steps",
+        items: [
+          { title: "Ask Him", text: "Pray something honest, even if you aren't sure anyone is listening: \"God, if You're real, show me.\"" },
+          { title: "Read about Jesus", text: "Read the Gospel of John — one chapter a day for 21 days — and ask who this person is." },
+          { title: "Talk it through", text: "Bring your questions to a Christian you trust, or visit a church and ask." },
+          { title: "Be willing", text: "The most important question isn't only \"Is it true?\" but \"If it's true, will I follow?\"" },
+        ],
+      },
+      {
+        t: "scripture",
+        text: "You will seek me and find me, when you seek me with all your heart.",
+        ref: "Jeremiah 29:13",
+      },
+      {
+        t: "callout",
+        title: "21 days in the Gospel of John",
+        text: "A free reading plan for anyone exploring: one chapter a day, a key verse and one honest question.",
+        href: "/resources/gospel-of-john-reading-plan",
+        cta: "Start reading",
+      },
+    ],
+  },
+  {
+    slug: "who-is-the-holy-spirit",
+    title: "Who Is the Holy Spirit? A Simple Guide",
+    description:
+      "Who is the Holy Spirit, and what does He do? A simple, biblical guide to the third person of the Trinity — not a force but a person — and how He helps Christians pray, understand the Bible, change and share their faith.",
+    tldr: "The Holy Spirit is God — the third person of the Trinity, alongside the Father and the Son. He isn't an impersonal force but a person who comforts, teaches, guides and can be grieved. He brings people to new birth, lives in every Christian, helps them pray and understand Scripture, makes them more like Jesus and gives them courage to share the Gospel.",
+    date: "2026-11-17",
+    category: "Discipleship",
+    eyebrow: "The basics",
+    keywords: [
+      "who is the holy spirit",
+      "what does the holy spirit do",
+      "holy spirit meaning",
+      "is the holy spirit a person",
+      "how to be filled with the holy spirit",
+      "fruit of the spirit",
+    ],
+    related: ["reborn", "kd", "seekfirst"],
+    faq: [
+      {
+        q: "Is the Holy Spirit a person or a force?",
+        a: "A person. The Bible describes the Holy Spirit teaching (John 14:26), speaking (Acts 13:2), praying for us (Romans 8:26) and being grieved (Ephesians 4:30) — things only a person does. He is God, equal with the Father and the Son.",
+      },
+      {
+        q: "What does the Holy Spirit do?",
+        a: "He convicts people of sin and points them to Jesus (John 16:8), gives new birth (John 3:5–6), lives in every believer (1 Corinthians 6:19), helps us pray and understand Scripture, makes us more like Jesus (Galatians 5:22–23), gives gifts to serve the church, and gives courage to share the Gospel (Acts 1:8).",
+      },
+      {
+        q: "How do you receive the Holy Spirit?",
+        a: "Every person who turns from sin and trusts Jesus receives the Holy Spirit (Ephesians 1:13; Acts 2:38). The Bible also encourages believers to keep being filled with the Spirit (Ephesians 5:18) — by asking God, staying close to Jesus, and following where He leads.",
+      },
+      {
+        q: "What is the fruit of the Spirit?",
+        a: "The character the Holy Spirit grows in a Christian over time: love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self-control (Galatians 5:22–23). It isn't produced by trying harder, but by staying connected to Jesus like a branch on a vine (John 15:5).",
+      },
+    ],
+    body: [
+      {
+        t: "p",
+        text: "Many Christians can tell you plenty about God the Father and about Jesus — but go quiet when it comes to the Holy Spirit. Yet Jesus said it was good for His followers that He would go away, so that the Spirit would come (John 16:7). Who is He?",
+      },
+
+      { t: "h2", text: "The short answer" },
+      {
+        t: "p",
+        text: "<strong>The Holy Spirit is God.</strong> Christians believe in one God in three persons — Father, Son and Holy Spirit — each fully God, together one God. The Spirit is not a lesser being, a feeling or an energy. He is God present with and in His people.",
+      },
+      {
+        t: "scripture",
+        text: "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit.",
+        ref: "Matthew 28:19",
+      },
+
+      { t: "h2", text: "A person, not a force" },
+      {
+        t: "p",
+        text: "The Bible speaks of the Spirit as \"He,\" not \"it.\" He teaches and reminds (John 14:26), speaks (Acts 13:2), prays for us \"with groanings too deep for words\" (Romans 8:26), and can be grieved (Ephesians 4:30). You can't grieve electricity. You can grieve a friend.",
+      },
+
+      { t: "h2", text: "What He does" },
+      {
+        t: "list",
+        items: [
+          "<strong>Points people to Jesus.</strong> He convicts the world of sin and of the need for a Saviour (John 16:8–14)",
+          "<strong>Gives new life.</strong> Being <a href=\"/glossary#born-again\">born again</a> is His work (John 3:5–6)",
+          "<strong>Lives in every believer.</strong> \"Your body is a temple of the Holy Spirit within you\" (1 Corinthians 6:19)",
+          "<strong>Assures us we belong.</strong> \"The Spirit himself bears witness with our spirit that we are children of God\" (Romans 8:16)",
+          "<strong>Helps us pray</strong> when we don't know what to say (Romans 8:26)",
+          "<strong>Opens the Bible to us</strong> and guides us into truth (John 16:13)",
+          "<strong>Makes us like Jesus</strong> over time (2 Corinthians 3:18)",
+          "<strong>Gives gifts</strong> to every believer to serve others (1 Corinthians 12:7)",
+          "<strong>Gives courage to witness</strong> — the reason the first disciples went from hiding to preaching (Acts 1:8)",
+        ],
+      },
+
+      { t: "h2", text: "The fruit of the Spirit" },
+      {
+        t: "scripture",
+        text: "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law.",
+        ref: "Galatians 5:22–23",
+      },
+      {
+        t: "p",
+        text: "Notice it's <em>fruit</em>, not a list of achievements. Fruit grows when a branch stays connected to the vine (John 15:5). The Christian life isn't white-knuckled self-improvement; it's staying close to Jesus while His Spirit changes us from the inside.",
+      },
+
+      { t: "h2", text: "The Spirit and sharing your faith" },
+      {
+        t: "p",
+        text: "Jesus' last promise before His ascension tied the Spirit directly to mission:",
+      },
+      {
+        t: "scripture",
+        text: "But you will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth.",
+        ref: "Acts 1:8",
+      },
+      {
+        t: "p",
+        text: "That's good news if you find <a href=\"/blog/what-is-evangelism\">evangelism</a> daunting. You aren't on your own. It is the Spirit who opens hearts; your part is to be faithful, pray, and speak. It's why every <a href=\"/blog/what-is-revival\">revival</a> in history has been marked by fresh dependence on Him.",
+      },
+
+      { t: "h2", text: "How to walk with the Spirit" },
+      {
+        t: "steps",
+        items: [
+          { title: "Ask", text: "Jesus said the Father gives the Holy Spirit to those who ask Him (Luke 11:13). Ask daily to be filled." },
+          { title: "Read and listen", text: "The Spirit speaks through the Scriptures He inspired. Read slowly and ask Him to help you understand." },
+          { title: "Obey promptly", text: "When He nudges you to forgive, to serve, or to speak to someone, say yes." },
+          { title: "Keep in step with others", text: "The Spirit builds a church, not lone individuals. Pray and serve alongside other believers." },
+        ],
+      },
+      {
+        t: "callout",
+        title: "New to following Jesus?",
+        text: "Your first 30 days as a Christian: simple, practical next steps for the start of your new life — including prayer, the Bible and finding a church.",
+        href: "/blog/i-just-became-a-christian-what-now",
+        cta: "Read the guide",
       },
     ],
   },

@@ -750,6 +750,35 @@ export const ANSWERS: Answer[] = [
       { label: "What is the Gospel?", href: "/blog/what-is-the-gospel" },
     ],
   },
+  {
+    id: "is-god-real",
+    q: "Is God real?",
+    topic: "faith",
+    short:
+      "Christians believe God is real because many lines of evidence point the same way: a universe that had a beginning, physical laws suited to life, a moral sense we can't shake, a longing for meaning, and above all the life, death and resurrection of Jesus. None forces belief, but together they make faith reasonable.",
+    detail: [
+      "God promises that those who seek Him with all their heart will find Him (Jeremiah 29:13).",
+      "A good way to find out for yourself is to read the Gospel of John with an open mind and ask God honestly to show you if He is there.",
+    ],
+    links: [
+      { label: "Is God real? Honest reasons people believe", href: "/blog/is-god-real" },
+      { label: "21 days in the Gospel of John", href: "/resources/gospel-of-john-reading-plan" },
+    ],
+  },
+  {
+    id: "who-is-the-holy-spirit",
+    q: "Who is the Holy Spirit?",
+    topic: "faith",
+    short:
+      "The Holy Spirit is God — the third person of the Trinity with the Father and the Son. He is a person, not a force: He gives new birth, lives in every Christian, helps them pray and understand the Bible, makes them more like Jesus, and gives courage to share the Gospel (Acts 1:8).",
+    detail: [
+      "The Bible describes Him teaching, speaking, praying for believers and being grieved — things only a person does.",
+      "His character grown in a Christian is called the fruit of the Spirit: love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self-control (Galatians 5:22–23).",
+    ],
+    links: [
+      { label: "Who is the Holy Spirit? A simple guide", href: "/blog/who-is-the-holy-spirit" },
+    ],
+  },
 ];
 
 export const ANSWER_BY_ID = new Map(ANSWERS.map((a) => [a.id, a]));

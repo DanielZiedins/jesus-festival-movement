@@ -39,6 +39,7 @@ const RESOURCES: { group: string; items: Resource[] }[] = [
   {
     group: "For someone exploring faith",
     items: [
+      { title: "21 days in the Gospel of John", text: "One chapter a day, a key verse and one question. Tick off your progress or print it.", href: "/resources/gospel-of-john-reading-plan" },
       { title: "Know Jesus", text: "The good news explained simply, honest answers to common doubts, and a prayer anyone can pray.", href: "/know-jesus" },
       { title: "Your first 30 days as a Christian", text: "A warm, simple guide for new believers.", href: "/blog/i-just-became-a-christian-what-now" },
       { title: "How to read the Bible for the first time", text: "Where to start, and a simple 30-day plan.", href: "/blog/how-to-read-the-bible-for-the-first-time" },

@@ -24,6 +24,7 @@ const PAGES: Omit<SearchItem, "hay" | "kind">[] = [
   { title: "Free resources", text: "Every free printable, guide and tool in one place.", href: "/resources" },
   { title: "Advent prayer guide", text: "A printable four-week Advent prayer guide for your city: Hope, Peace, Joy and Love.", href: "/resources/advent-prayer-guide" },
   { title: "Christmas invitation card maker", text: "Make a free printable Christmas invitation for your church or carol service — four cards per page.", href: "/resources/christmas-invitation" },
+  { title: "21 days in the Gospel of John", text: "A free reading plan: one chapter of John a day, with a key verse and one question. Tick it off or print it.", href: "/resources/gospel-of-john-reading-plan" },
   { title: "Response team training card", text: "A printable card for altar call and prayer teams: steps, a simple prayer, safeguarding.", href: "/resources/response-team" },
   { title: "About the movement", text: "The story, the people behind it, and what Jesus Festival Movement exists to do.", href: "/about" },
   { title: "Glossary", text: "Plain-language definitions of evangelism and Gospel festival terms.", href: "/glossary" },

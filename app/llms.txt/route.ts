@@ -57,6 +57,7 @@ ${SITE.tagline}
 - Printable altar call response team training card: ${u}/resources/response-team
 - Printable four-week Advent prayer guide for your city: ${u}/resources/advent-prayer-guide
 - Free Christmas church invitation card maker (prints four per page): ${u}/resources/christmas-invitation
+- 21-day Gospel of John reading plan (one chapter a day, key verse and question): ${u}/resources/gospel-of-john-reading-plan
 - Free starter guide PDF: ${u}/resources/basics-how-to-start-a-jesus-festival.pdf
 - Answers to common questions: ${u}/answers
 - Glossary of evangelism and festival terms: ${u}/glossary

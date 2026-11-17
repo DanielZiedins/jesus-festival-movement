@@ -122,6 +122,15 @@ export const GLOSSARY: Term[] = [
     linkLabel: "The Great Commission today",
   },
   {
+    id: "holy-spirit",
+    term: "Holy Spirit",
+    definition:
+      "God Himself — the third person of the Trinity with the Father and the Son. Not an impersonal force but a person who gives new birth, lives in every Christian, helps them pray and understand the Bible, makes them more like Jesus and gives courage to share the Gospel.",
+    ref: "Acts 1:8",
+    href: "/blog/who-is-the-holy-spirit",
+    linkLabel: "Who is the Holy Spirit?",
+  },
+  {
     id: "incarnation",
     term: "Incarnation",
     definition:

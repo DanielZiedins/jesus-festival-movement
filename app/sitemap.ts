@@ -46,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.url}/resources/response-team`, lastModified: at("/resources/response-team"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/resources/advent-prayer-guide`, lastModified: at("/resources/advent-prayer-guide"), changeFrequency: "yearly", priority: 0.8 },
     { url: `${SITE.url}/resources/christmas-invitation`, lastModified: at("/resources/christmas-invitation"), changeFrequency: "yearly", priority: 0.8 },
+    { url: `${SITE.url}/resources/gospel-of-john-reading-plan`, lastModified: at("/resources/gospel-of-john-reading-plan"), changeFrequency: "yearly", priority: 0.8 },
     { url: `${SITE.url}/shop`, lastModified: at("/shop"), changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE.url}/stories/kingdom-shop`, lastModified: at("/stories/kingdom-shop"), changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.url}/answers`, lastModified: at("/answers"), changeFrequency: "monthly", priority: 0.9 },
